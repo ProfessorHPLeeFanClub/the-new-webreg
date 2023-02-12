@@ -37,4 +37,4 @@ UI Elements:
 
 - Tab Card (Pure UI)
   - a card with 3 tabs (Enroll, Plan of Study, ZotPick)
-  - no content yet
+  - body should fit content
