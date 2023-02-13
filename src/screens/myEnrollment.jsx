@@ -1,8 +1,17 @@
-const api_peter = "https://api.peterportal.org/rest/v0/";
-var XMLHttpRequest = require("xhr2");
-const request = new XMLHttpRequest();
+//By Sam
+/*
+    How to query
+    "field" = "serch terms" where space is replaced with % (e.g. 2022 Fall -> 2022%Fall)
+    subseqeuntly add more fields with & (see sample below);
+    
+*/ 
+query = 'term=2023%20Winter&departmnet=COMPSCI'
 
-request.open("GET", api_peter);
-request.send();
+const API_PETER = "https://api.peterportal.org/rest/v0/schedule/soc?{query}";
 
-//console.log(JSON.stringify(data, null, 2));
+async function getData() {
+    const data = await fetch(API_PETER);
+    console.log(await data.json());
+}
+
+getData();
