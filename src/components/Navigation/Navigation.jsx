@@ -21,9 +21,22 @@ function Navigation() {
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="ms-auto">
-						<Nav.Link href="/">Home</Nav.Link>
-						<Nav.Link href="/enrollment">My Enrollment</Nav.Link>
-						<Nav.Link href="/">Logout</Nav.Link>
+						<div className="">
+							<Nav.Link href="/" className="navLink">Home</Nav.Link>
+						</div>
+						<div>
+							<Nav.Link href="/enrollment" className="navLink">My Enrollment</Nav.Link>
+						</div>
+						<div>
+							<Nav.Link href="/calendar" className="navLink">My Calendar</Nav.Link>
+						</div>
+						<div>
+							<Nav.Link href="/" className="navLink logoutLink">Logout</Nav.Link>
+						</div>
+						
+						
+						
+						
 					</Nav>
 				</Navbar.Collapse>
 			</Container>
