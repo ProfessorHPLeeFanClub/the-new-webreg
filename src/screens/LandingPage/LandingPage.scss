@@ -1,0 +1,32 @@
+@import "/src/styles/theme";
+
+.landing {
+	a {
+		text-decoration: none;
+	}
+	p {
+		margin: 0;
+	}
+	.card {
+		background-color: $nav-blue;
+		color: white;
+		transition: background-color 0.1s ease;
+
+		&:hover {
+			background-color: #004088;
+		}
+	}
+	.enrollment {
+		.card {
+			border: 3px solid $enrollment-window-blue;
+			border-radius: 5px;
+		}
+		.header {
+			background-color: $enrollment-window-blue;
+		}
+		.body {
+			background-color: $soft-blue;
+			color: black;
+		}
+	}
+}
