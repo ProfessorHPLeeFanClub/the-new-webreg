@@ -18,6 +18,7 @@
 		"react/no-unstable-nested-components": "error",
 		"react/self-closing-comp": "warn",
 		"react/react-in-jsx-scope": "off",
+		"react/prop-types": "off",
 		"indent": ["error", "tab"],
 		"quotes": ["error", "double"],
 		"semi": ["error", "always"],

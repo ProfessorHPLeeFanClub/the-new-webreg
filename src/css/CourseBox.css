@@ -1,0 +1,172 @@
+.courseAccordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .courseAccordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  
+  
+}
+
+.accordion-button {
+    border: none;
+}
+
+.accordion-button {
+    background-color: #444;
+}
+
+.accordion-button {
+    background-color: #eeeeee;
+    border: 3px;
+    box-shadow: none;
+    
+}
+
+.panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
+    border: none;
+    
+}
+
+.courseBox {
+  box-sizing: border-box;
+
+  
+  width: 900px;
+  /* height: 211px; */
+  
+  background-color: #EEEEEE;
+
+  border: 6px solid #EEEEEE;
+  border-radius: 5px;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  
+  
+}
+.courseTitleBox {
+  width: 100%;
+  height: 65px;
+  background-color: #EEEEEE;
+  display: flex;
+}
+
+.courseTitle {
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 15px;
+  padding-bottom: 7px;
+}
+
+.vr {
+  line-height: 33px;
+  height: 30px;
+  align-items: center;
+  margin: 15px;
+}
+
+.courseTitleInfo {
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 7px;
+}
+.finalInfo {
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.courseContentBox {
+  /* padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 0; */
+  padding-top: 5px;
+  padding-bottom: 10px;
+  justify-content: center;
+  justify-items: center;
+  padding-left: 25px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+
+}
+
+.dropButton {
+  color: #FFFFFF;
+  width: 90px;
+  height: 30px;
+  border: none;
+  padding-bottom: 3px;
+  background: #D80000;
+  border-radius: 5px;
+  transition: 0.2s;
+
+}
+
+.dropButton:hover {
+  background: #be0000;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.changeButton {
+  width: 90px;
+  height: 30px;
+  border: none;
+  padding-bottom: 3px;
+  background: #F78D2D;
+  color: #FFFFFF;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.changeButton:hover {
+  background: #e47f21;
+  
+}
+
+
+.courseTableTitles {
+  font-family: "candara";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* identical to box height */
+  color: #8F8F8F;
+}
+
