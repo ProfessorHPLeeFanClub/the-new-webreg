@@ -1,23 +1,14 @@
-import { Tab, Tabs } from "react-bootstrap";
+import "./PlanOfStudy.scss";
 
-function PlanOfStudy() {
-    return (
-        <Tabs
-            defaultActiveKey="enroll"
-            id="pos-tabs"
-            className=""
-        >
-            <Tab eventKey="enroll" title="Enroll">
-                <p>Search</p>
-            </Tab>
-            <Tab eventKey="planofstudy" title="Plan of Study">
-                <p>Suggested Classes</p>
-            </Tab>
-            <Tab eventKey="zotpick" title="ZotPick">
-                <p>Pick a class for me!</p>
-            </Tab>
-        </Tabs>
-    );
+import BioSci from "../majors";
+
+function SampleClasses() {
+	return (
+		<div>
+			<div className="section-header">SCHOOL REQUIRED CLASSES</div>
+			<BioSci />
+		</div>
+	);
 }
 
-export default PlanOfStudy;
+export default SampleClasses;

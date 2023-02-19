@@ -1,0 +1,33 @@
+@import "/src/styles/theme";
+
+.popup {
+	.keep-working {
+		background-color: $footer-blue;
+		color: $white;
+		border: 1px solid $footer-blue;
+	}
+	.log-out {
+		background-color: $white;
+		color: $gray;
+		border: 1px solid $gray;
+	}
+
+	.popup-header {
+		border-right: 4px solid $help-blue;
+		border-bottom: none;
+		border-left: 4px solid $help-blue;
+		border-top: 4px solid $help-blue;
+	}
+	#popup-body {
+		border-right: 4px solid $help-blue;
+		border-bottom: none;
+		border-left: 4px solid $help-blue;
+		border-top: none;
+	}
+	.popup-footer {
+		border-right: 4px solid $help-blue;
+		border-bottom: 4px solid $help-blue;
+		border-left: 4px solid $help-blue;
+		border-top: none;
+	}
+}
