@@ -1,6 +1,6 @@
 import "./PlanOfStudy.scss";
 
-import { BioSci, BioSciSample } from "../../majors";
+import { BioSciPOS, MechEngSample } from "../../majors";
 import { Container, Row, Accordion } from "react-bootstrap";
 
 function PlanOfStudy() {
@@ -15,15 +15,15 @@ function PlanOfStudy() {
 							</div>
 						</Accordion.Header>
 						<Accordion.Body>
-							<BioSciSample />
+							<MechEngSample />
 						</Accordion.Body>
 					</Accordion.Item>
 					<Accordion.Item eventKey="1">
 						<Accordion.Header>
-							<div className="section-header">SCHOOL REQUIREMENTS</div>
+							<div className="section-header">MAJOR REQUIREMENTS</div>
 						</Accordion.Header>
 						<Accordion.Body>
-							<BioSci />
+							<BioSciPOS />
 						</Accordion.Body>
 					</Accordion.Item>
 				</Accordion>
