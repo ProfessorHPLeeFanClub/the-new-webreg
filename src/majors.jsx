@@ -22,28 +22,14 @@ function BioSci() {
 				</tr>
 				<tr className="odd">
 					<td className="codecol">
-						<a
-							href="/search/?P=BIO%20SCI%2093"
-							title="BIO&nbsp;SCI&nbsp;93"
-							className="bubblelink code"
-							onClick="return showCourse(this, 'BIO SCI 93');"
-						>
-							BIO&nbsp;SCI&nbsp;93
-						</a>
+						<a className="class">BIO&nbsp;SCI&nbsp;93</a>
 					</td>{" "}
 					<td>From DNA to Organisms </td>{" "}
 				</tr>{" "}
 				<tr className="odd orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a
-							href="/search/?P=BIO%20SCI%20H93"
-							title="BIO&nbsp;SCI&nbsp;H93"
-							className="bubblelink code"
-							onClick="return showCourse(this, 'BIO SCI H93');"
-						>
-							BIO&nbsp;SCI&nbsp;H93
-						</a>
+						<a className="class">BIO&nbsp;SCI&nbsp;H93</a>
 					</td>{" "}
 					<td colSpan="1"> Honors From DNA to Organisms</td>{" "}
 				</tr>{" "}
@@ -51,14 +37,7 @@ function BioSci() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							href="/search/?P=BIO%20SCI%2094"
-							title="BIO&nbsp;SCI&nbsp;94"
-							className="bubblelink code"
-							onClick="return showCourse(this, 'BIO SCI 94');"
-						>
-							BIO&nbsp;SCI&nbsp;94
-						</a>
+						<a className="class">BIO&nbsp;SCI&nbsp;94</a>
 					</td>{" "}
 					<td>From Organisms to Ecosystems </td>{" "}
 				</tr>{" "}
@@ -66,28 +45,14 @@ function BioSci() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							href="/search/?P=BIO%20SCI%2097"
-							title="BIO&nbsp;SCI&nbsp;97"
-							className="bubblelink code"
-							onClick="return showCourse(this, 'BIO SCI 97');"
-						>
-							BIO&nbsp;SCI&nbsp;97
-						</a>
+						<a className="class">BIO&nbsp;SCI&nbsp;97</a>
 					</td>{" "}
 					<td>Genetics </td>{" "}
 				</tr>{" "}
 				<tr className="odd orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a
-							href="/search/?P=BIO%20SCI%20H97"
-							title="BIO&nbsp;SCI&nbsp;H97"
-							className="bubblelink code"
-							onClick="return showCourse(this, 'BIO SCI H97');"
-						>
-							BIO&nbsp;SCI&nbsp;H97
-						</a>
+						<a className="class">BIO&nbsp;SCI&nbsp;H97</a>
 					</td>{" "}
 					<td colSpan="1"> Honors Genetics</td>{" "}
 				</tr>{" "}
@@ -95,14 +60,7 @@ function BioSci() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							href="/search/?P=BIO%20SCI%2098"
-							title="BIO&nbsp;SCI&nbsp;98"
-							className="bubblelink code"
-							onClick="return showCourse(this, 'BIO SCI 98');"
-						>
-							BIO&nbsp;SCI&nbsp;98
-						</a>
+						<a className="class">BIO&nbsp;SCI&nbsp;98</a>
 					</td>{" "}
 					<td>Biochemistry </td>{" "}
 				</tr>{" "}
@@ -111,9 +69,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%2099"
 							title="BIO&nbsp;SCI&nbsp;99"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI 99');"
 						>
 							BIO&nbsp;SCI&nbsp;99
@@ -126,9 +83,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20100"
 							title="BIO&nbsp;SCI&nbsp;100"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI 100');"
 						>
 							BIO&nbsp;SCI&nbsp;100
@@ -151,18 +107,16 @@ function BioSci() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<a
-								href="/search/?P=CHEM%201A"
 								title="CHEM&nbsp;1A"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM 1A');"
 							>
 								CHEM&nbsp;1A
 							</a>
 							-
 							<a
-								href="/search/?P=CHEM%201B"
 								title="CHEM&nbsp;1B"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM 1B');"
 							>
 								{" "}
@@ -170,9 +124,8 @@ function BioSci() {
 							</a>
 							-
 							<a
-								href="/search/?P=CHEM%201C"
 								title="CHEM&nbsp;1C"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM 1C');"
 							>
 								{" "}
@@ -209,18 +162,16 @@ function BioSci() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<a
-								href="/search/?P=CHEM%201LC"
 								title="CHEM&nbsp;1LC"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM 1LC');"
 							>
 								CHEM&nbsp;1LC
 							</a>
 							-
 							<a
-								href="/search/?P=CHEM%201LD"
 								title="CHEM&nbsp;1LD"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM 1LD');"
 							>
 								{" "}
@@ -251,18 +202,16 @@ function BioSci() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<a
-								href="/search/?P=CHEM%20H2A"
 								title="CHEM&nbsp;H2A"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM H2A');"
 							>
 								CHEM&nbsp;H2A
 							</a>
 							-
 							<a
-								href="/search/?P=CHEM%20H2B"
 								title="CHEM&nbsp;H2B"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM H2B');"
 							>
 								{" "}
@@ -270,9 +219,8 @@ function BioSci() {
 							</a>
 							-
 							<a
-								href="/search/?P=CHEM%20H2C"
 								title="CHEM&nbsp;H2C"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM H2C');"
 							>
 								{" "}
@@ -309,18 +257,16 @@ function BioSci() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<a
-								href="/search/?P=CHEM%20H2LA"
 								title="CHEM&nbsp;H2LA"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM H2LA');"
 							>
 								CHEM&nbsp;H2LA
 							</a>
 							-
 							<a
-								href="/search/?P=CHEM%20H2LB"
 								title="CHEM&nbsp;H2LB"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM H2LB');"
 							>
 								{" "}
@@ -351,18 +297,16 @@ function BioSci() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<a
-								href="/search/?P=CHEM%2051A"
 								title="CHEM&nbsp;51A"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM 51A');"
 							>
 								CHEM&nbsp;51A
 							</a>
 							-
 							<a
-								href="/search/?P=CHEM%2051B"
 								title="CHEM&nbsp;51B"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM 51B');"
 							>
 								{" "}
@@ -370,9 +314,8 @@ function BioSci() {
 							</a>
 							-
 							<a
-								href="/search/?P=CHEM%2051C"
 								title="CHEM&nbsp;51C"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM 51C');"
 							>
 								{" "}
@@ -409,18 +352,16 @@ function BioSci() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<a
-								href="/search/?P=CHEM%2051LB"
 								title="CHEM&nbsp;51LB"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM 51LB');"
 							>
 								CHEM&nbsp;51LB
 							</a>
 							-
 							<a
-								href="/search/?P=CHEM%2051LC"
 								title="CHEM&nbsp;51LC"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM 51LC');"
 							>
 								{" "}
@@ -442,18 +383,16 @@ function BioSci() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<a
-								href="/search/?P=CHEM%20H52LA"
 								title="CHEM&nbsp;H52LA"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM H52LA');"
 							>
 								CHEM&nbsp;H52LA
 							</a>
 							-
 							<a
-								href="/search/?P=CHEM%20H52LB"
 								title="CHEM&nbsp;H52LB"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'CHEM H52LB');"
 							>
 								{" "}
@@ -481,9 +420,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=MATH%205A"
 							title="MATH&nbsp;5A"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'MATH 5A');"
 						>
 							MATH&nbsp;5A
@@ -496,9 +434,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=MATH%205B"
 							title="MATH&nbsp;5B"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'MATH 5B');"
 						>
 							MATH&nbsp;5B
@@ -521,9 +458,8 @@ function BioSci() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<a
-								href="/search/?P=STATS%207"
 								title="STATS&nbsp;7"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'STATS 7');"
 							>
 								STATS&nbsp;7
@@ -538,9 +474,8 @@ function BioSci() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<a
-								href="/search/?P=STATS%208"
 								title="STATS&nbsp;8"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'STATS 8');"
 							>
 								STATS&nbsp;8
@@ -555,9 +490,8 @@ function BioSci() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<a
-								href="/search/?P=MATH%202D"
 								title="MATH&nbsp;2D"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'MATH 2D');"
 							>
 								MATH&nbsp;2D
@@ -572,9 +506,8 @@ function BioSci() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<a
-								href="/search/?P=MATH%203A"
 								title="MATH&nbsp;3A"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'MATH 3A');"
 							>
 								MATH&nbsp;3A
@@ -609,18 +542,16 @@ function BioSci() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<a
-								href="/search/?P=PHYSICS%203A"
 								title="PHYSICS&nbsp;3A"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'PHYSICS 3A');"
 							>
 								PHYSICS&nbsp;3A
 							</a>
 							-
 							<a
-								href="/search/?P=PHYSICS%203B"
 								title="PHYSICS&nbsp;3B"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'PHYSICS 3B');"
 							>
 								{" "}
@@ -628,9 +559,8 @@ function BioSci() {
 							</a>
 							-
 							<a
-								href="/search/?P=PHYSICS%203C"
 								title="PHYSICS&nbsp;3C"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'PHYSICS 3C');"
 							>
 								{" "}
@@ -655,18 +585,16 @@ function BioSci() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<a
-								href="/search/?P=PHYSICS%203LB"
 								title="PHYSICS&nbsp;3LB"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'PHYSICS 3LB');"
 							>
 								PHYSICS&nbsp;3LB
 							</a>
 							-
 							<a
-								href="/search/?P=PHYSICS%203LC"
 								title="PHYSICS&nbsp;3LC"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'PHYSICS 3LC');"
 							>
 								{" "}
@@ -699,18 +627,16 @@ function BioSci() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<a
-								href="/search/?P=PHYSICS%207C"
 								title="PHYSICS&nbsp;7C"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'PHYSICS 7C');"
 							>
 								PHYSICS&nbsp;7C
 							</a>
 							-
 							<a
-								href="/search/?P=PHYSICS%207D"
 								title="PHYSICS&nbsp;7D"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'PHYSICS 7D');"
 							>
 								{" "}
@@ -718,9 +644,8 @@ function BioSci() {
 							</a>
 							-
 							<a
-								href="/search/?P=PHYSICS%207E"
 								title="PHYSICS&nbsp;7E"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'PHYSICS 7E');"
 							>
 								{" "}
@@ -746,18 +671,16 @@ function BioSci() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<a
-								href="/search/?P=PHYSICS%207LC"
 								title="PHYSICS&nbsp;7LC"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'PHYSICS 7LC');"
 							>
 								PHYSICS&nbsp;7LC
 							</a>
 							-
 							<a
-								href="/search/?P=PHYSICS%207LD"
 								title="PHYSICS&nbsp;7LD"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'PHYSICS 7LD');"
 							>
 								{" "}
@@ -803,9 +726,8 @@ function BioSci() {
 							Students in the School of Biological Sciences have the option to
 							satisfy the upper-division writing requirement by completing{" "}
 							<a
-								href="/search/?P=BIO%20SCI%20100"
 								title="BIO&nbsp;SCI&nbsp;100"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'BIO SCI 100');"
 							>
 								BIO&nbsp;SCI&nbsp;100
@@ -820,9 +742,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20D111L"
 							title="BIO&nbsp;SCI&nbsp;D111L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI D111L');"
 						>
 							BIO&nbsp;SCI&nbsp;D111L
@@ -835,9 +756,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20E106L"
 							title="BIO&nbsp;SCI&nbsp;E106L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI E106L');"
 						>
 							BIO&nbsp;SCI&nbsp;E106L
@@ -850,9 +770,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20E112L"
 							title="BIO&nbsp;SCI&nbsp;E112L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI E112L');"
 						>
 							BIO&nbsp;SCI&nbsp;E112L
@@ -865,9 +784,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20E115L"
 							title="BIO&nbsp;SCI&nbsp;E115L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI E115L');"
 						>
 							BIO&nbsp;SCI&nbsp;E115L
@@ -880,9 +798,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20E131L"
 							title="BIO&nbsp;SCI&nbsp;E131L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI E131L');"
 						>
 							BIO&nbsp;SCI&nbsp;E131L
@@ -895,9 +812,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20E140L"
 							title="BIO&nbsp;SCI&nbsp;E140L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI E140L');"
 						>
 							BIO&nbsp;SCI&nbsp;E140L
@@ -910,9 +826,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20E160L"
 							title="BIO&nbsp;SCI&nbsp;E160L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI E160L');"
 						>
 							BIO&nbsp;SCI&nbsp;E160L
@@ -925,9 +840,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20E166L"
 							title="BIO&nbsp;SCI&nbsp;E166L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI E166L');"
 						>
 							BIO&nbsp;SCI&nbsp;E166L
@@ -940,9 +854,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20E179L"
 							title="BIO&nbsp;SCI&nbsp;E179L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI E179L');"
 						>
 							BIO&nbsp;SCI&nbsp;E179L
@@ -955,9 +868,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20E186L"
 							title="BIO&nbsp;SCI&nbsp;E186L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI E186L');"
 						>
 							BIO&nbsp;SCI&nbsp;E186L
@@ -970,9 +882,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20M114L"
 							title="BIO&nbsp;SCI&nbsp;M114L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI M114L');"
 						>
 							BIO&nbsp;SCI&nbsp;M114L
@@ -985,9 +896,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20M116L"
 							title="BIO&nbsp;SCI&nbsp;M116L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI M116L');"
 						>
 							BIO&nbsp;SCI&nbsp;M116L
@@ -1000,9 +910,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20M118L"
 							title="BIO&nbsp;SCI&nbsp;M118L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI M118L');"
 						>
 							BIO&nbsp;SCI&nbsp;M118L
@@ -1015,9 +924,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20M121L"
 							title="BIO&nbsp;SCI&nbsp;M121L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI M121L');"
 						>
 							BIO&nbsp;SCI&nbsp;M121L
@@ -1030,9 +938,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20N123L"
 							title="BIO&nbsp;SCI&nbsp;N123L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI N123L');"
 						>
 							BIO&nbsp;SCI&nbsp;N123L
@@ -1045,9 +952,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20M130L"
 							title="BIO&nbsp;SCI&nbsp;M130L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI M130L');"
 						>
 							BIO&nbsp;SCI&nbsp;M130L
@@ -1060,9 +966,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20N113L"
 							title="BIO&nbsp;SCI&nbsp;N113L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI N113L');"
 						>
 							BIO&nbsp;SCI&nbsp;N113L
@@ -1075,9 +980,8 @@ function BioSci() {
 					<td className="codecol">
 						{" "}
 						<a
-							href="/search/?P=BIO%20SCI%20N123L"
 							title="BIO&nbsp;SCI&nbsp;N123L"
-							className="bubblelink code"
+							className="class"
 							onClick="return showCourse(this, 'BIO SCI N123L');"
 						>
 							BIO&nbsp;SCI&nbsp;N123L
@@ -1093,9 +997,8 @@ function BioSci() {
 							Students must earn a grade of C or better in each of the two
 							laboratories selected. Completion of{" "}
 							<a
-								href="/search/?P=BIO%20SCI%20199W"
 								title="BIO&nbsp;SCI&nbsp;199W"
-								className="bubblelink code"
+								className="class"
 								onClick="return showCourse(this, 'BIO SCI 199W');"
 							>
 								BIO&nbsp;SCI&nbsp;199W
@@ -1136,4 +1039,30 @@ function BioSci() {
 	);
 }
 
-export default BioSci;
+function BioSciSample() {
+	return (
+		<table width="100%">
+			<tbody>
+				<tr className="odd">
+					<td>
+						<a className="class">BIO SCI 99</a>
+					</td>
+				</tr>
+				<tr className="even">
+					<td>
+						<a className="class">CHEM 51C</a>- <a className="class">51LC</a>
+					</td>
+				</tr>
+				<tr className="odd">
+					<td>
+						<a className="class">STATS 7</a>, <a className="class">8</a>,{" "}
+						<a className="class">MATH 2D</a>, or{" "}
+						<a className="class">MATH 3A</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	);
+}
+
+export { BioSci, BioSciSample };

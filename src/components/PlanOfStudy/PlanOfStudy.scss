@@ -1,0 +1,39 @@
+@import "/src/styles/theme";
+
+#list-view {
+	margin-top: 20px;
+}
+
+td {
+	padding: 0.5rem;
+	padding-left: 1.25rem;
+}
+
+.section-header {
+	font-weight: bold;
+	color: $black;
+}
+
+.accordion-button.collapsed {
+	background: $study-header-gray;
+}
+.accordion-button:not(.collapsed) {
+	background: $study-header-gray;
+}
+
+.accordion {
+	--bs-accordion-body-padding-x: 0rem;
+	--bs-accordion-body-padding-y: 0rem;
+}
+
+.odd {
+	background-color: $tr-gray;
+}
+
+.even {
+	background-color: $white;
+}
+
+.class {
+	color: $orange;
+}
