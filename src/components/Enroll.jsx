@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
 import "../css/Enroll.css";
@@ -13,21 +13,19 @@ function Enrollment(props) {
 			<div className="enrollmentWindowText">
 				Enrollment Window: March 13, 2023
 			</div>
-			<hr class="hr-text" data-content="Course Code Enrollment"></hr>
-			<EnrollCourseCodeForm></EnrollCourseCodeForm>
-			<hr class="hr-text" data-content="Search Courses"></hr>
-			<EnrollSearchForm
-				departmentList={props.departmentList}
-			></EnrollSearchForm>
+			<hr className="hr-text" data-content="Course Code Enrollment" />
+			<EnrollCourseCodeForm />
+			<hr className="hr-text" data-content="Search Courses" />
+			<EnrollSearchForm departmentList={props.departmentList} />
 		</>
 	);
 }
 
 function EnrollCourseCodeForm(props) {
-	const [courseCode, setCourseCode] = useState();
-	const [authCode, setAuthCode] = useState();
-	const [gradingOption, setGradingOption] = useState();
-	const [units, setUnits] = useState();
+	// const [courseCode, setCourseCode] = useState();
+	// const [authCode, setAuthCode] = useState();
+	// const [gradingOption, setGradingOption] = useState();
+	// const [units, setUnits] = useState();
 
 	var handleSubmit = props.handleCourseCodeSubmit;
 
@@ -40,20 +38,20 @@ function EnrollCourseCodeForm(props) {
 					<div className="form-floating mb-3 courseCodeInput">
 						<input
 							type="text"
-							class="form-control"
+							className="form-control"
 							id="floatingInput"
 							placeholder=""
 						/>
-						<label for="floatingInput">Course Code</label>
+						<label htmlFor="floatingInput">Course Code</label>
 					</div>
 					<div className="form-floating mb-3 authCodeInput">
 						<input
 							type="text"
-							class="form-control"
+							className="form-control"
 							id="floatingInput"
 							placeholder=""
 						/>
-						<label for="floatingInput">Auth Code (Optional)</label>
+						<label htmlFor="floatingInput">Auth Code (Optional)</label>
 					</div>
 					{/* <select className="form-select form-select-lg gradingOption" aria-label="Default select example">
                 <option selected value="GR">GR</option>
@@ -73,11 +71,11 @@ function EnrollCourseCodeForm(props) {
 					<div className="form-floating mb-3 unitsInput">
 						<input
 							type="text"
-							class="form-control"
+							className="form-control"
 							id="floatingInput"
 							placeholder=""
 						/>
-						<label for="floatingInput">Units (Optional)</label>
+						<label htmlFor="floatingInput">Units (Optional)</label>
 					</div>
 					<div className="submitButton">
 						<input type="submit" className="enrollButton" value="Enroll" />
@@ -122,9 +120,9 @@ function EnrollSearchForm(props) {
 						//defaultSelected={props.departmentList.slice(0, 1)}
 						id="selections-example"
 						labelKey="searchCourse"
-						onInputChange={(text, e) => {
-							// setFilterDepartmentText(text)
-						}}
+						// onInputChange={(text, e) => {
+						// setFilterDepartmentText(text)
+						// }}
 						ref={filterDepartmentText}
 						//onChange={setFilterDepartmentText}
 						options={[]}
@@ -140,97 +138,97 @@ function EnrollSearchForm(props) {
 					<div className="filterGEs">
 						<h5 className="geCol filter">Filter: </h5>
 						<div className="geCol ">
-							<div class="form-check">
+							<div className="form-check">
 								<input
-									class="form-check-input"
+									className="form-check-input"
 									type="checkbox"
 									value=""
 									id="flexCheckDefault"
 								/>
-								<label class="form-check-label" for="flexCheckDefault">
+								<label className="form-check-label" htmlFor="flexCheckDefault">
 									GE I
 								</label>
 							</div>
-							<div class="form-check">
+							<div className="form-check">
 								<input
-									class="form-check-input"
+									className="form-check-input"
 									type="checkbox"
 									value=""
 									id="flexCheckChecked"
 								/>
-								<label class="form-check-label" for="flexCheckChecked">
+								<label className="form-check-label" htmlFor="flexCheckChecked">
 									GE V
 								</label>
 							</div>
 						</div>
 						<div className="geCol">
-							<div class="form-check">
+							<div className="form-check">
 								<input
-									class="form-check-input"
+									className="form-check-input"
 									type="checkbox"
 									value=""
 									id="flexCheckDefault"
 								/>
-								<label class="form-check-label" for="flexCheckDefault">
+								<label className="form-check-label" htmlFor="flexCheckDefault">
 									GE II
 								</label>
 							</div>
-							<div class="form-check">
+							<div className="form-check">
 								<input
-									class="form-check-input"
+									className="form-check-input"
 									type="checkbox"
 									value=""
 									id="flexCheckChecked"
 								/>
-								<label class="form-check-label" for="flexCheckChecked">
+								<label className="form-check-label" htmlFor="flexCheckChecked">
 									GE VI
 								</label>
 							</div>
 						</div>
 						<div className="geCol">
-							<div class="form-check">
+							<div className="form-check">
 								<input
-									class="form-check-input"
+									className="form-check-input"
 									type="checkbox"
 									value=""
 									id="flexCheckDefault"
 								/>
-								<label class="form-check-label" for="flexCheckDefault">
+								<label className="form-check-label" htmlFor="flexCheckDefault">
 									GE III
 								</label>
 							</div>
-							<div class="form-check">
+							<div className="form-check">
 								<input
-									class="form-check-input"
+									className="form-check-input"
 									type="checkbox"
 									value=""
 									id="flexCheckChecked"
 								/>
-								<label class="form-check-label" for="flexCheckChecked">
+								<label className="form-check-label" htmlFor="flexCheckChecked">
 									GE VII
 								</label>
 							</div>
 						</div>
 						<div className="geCol">
-							<div class="form-check">
+							<div className="form-check">
 								<input
-									class="form-check-input"
+									className="form-check-input"
 									type="checkbox"
 									value=""
 									id="flexCheckDefault"
 								/>
-								<label class="form-check-label" for="flexCheckDefault">
+								<label className="form-check-label" htmlFor="flexCheckDefault">
 									GE IV
 								</label>
 							</div>
-							<div class="form-check">
+							<div className="form-check">
 								<input
-									class="form-check-input"
+									className="form-check-input"
 									type="checkbox"
 									value=""
 									id="flexCheckChecked"
 								/>
-								<label class="form-check-label" for="flexCheckChecked">
+								<label className="form-check-label" htmlFor="flexCheckChecked">
 									GE VIII
 								</label>
 							</div>
@@ -242,9 +240,9 @@ function EnrollSearchForm(props) {
 							//defaultSelected={props.departmentList.slice(0, 1)}
 							id="selections-example"
 							labelKey="departmentName"
-							onInputChange={(text, e) => {
-								// setFilterDepartmentText(text)
-							}}
+							// onInputChange={(text, e) => {
+							// setFilterDepartmentText(text)
+							// }}
 							ref={filterDepartmentText}
 							//onChange={setFilterDepartmentText}
 							options={props.departmentList}
