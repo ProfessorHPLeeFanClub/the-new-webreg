@@ -1,0 +1,25 @@
+@import "/src/styles/_theme";
+
+.pos-tabs {
+	button.nav-link {
+		color: black;
+		background-color: #eee;
+	}
+
+	button.nav-link.active {
+		font-weight: bold;
+		background-color: $study-header-gray;
+	}
+
+	button[role="tab"] {
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		border-bottom: 0;
+	}
+}
+
+.tab-content {
+	border: 2px solid #eee;
+	background-color: $tr-gray;
+	padding: 3rem;
+}

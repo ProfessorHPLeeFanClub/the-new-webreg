@@ -5,14 +5,27 @@ import "../css/Enroll.css";
 //import Typeahead from "react-bootstrap-typeahead/types/core/Typeahead";
 import { Typeahead } from "react-bootstrap-typeahead";
 import "react-bootstrap-typeahead/css/Typeahead.css";
-import React from "react";
+import React, { useState } from "react";
+import { Button, Col, FloatingLabel, Form, Row } from "react-bootstrap";
+
+const GE_CHECKBOXES = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii"].map(
+	(category, index) => (
+		<Form.Check
+			inline
+			key={index}
+			type="checkbox"
+			id={`ge-${category}`}
+			label={`GE ${category.toUpperCase()}`}
+		/>
+	)
+);
 
 function Enrollment(props) {
 	return (
 		<>
-			<div className="enrollmentWindowText">
+			<h2 className="enrollmentWindowText">
 				Enrollment Window: March 13, 2023
-			</div>
+			</h2>
 			<hr className="hr-text" data-content="Course Code Enrollment" />
 			<EnrollCourseCodeForm />
 			<hr className="hr-text" data-content="Search Courses" />
@@ -21,67 +34,73 @@ function Enrollment(props) {
 	);
 }
 
-function EnrollCourseCodeForm(props) {
-	// const [courseCode, setCourseCode] = useState();
-	// const [authCode, setAuthCode] = useState();
-	// const [gradingOption, setGradingOption] = useState();
-	// const [units, setUnits] = useState();
+function EnrollCourseCodeForm() {
+	const [courseCode, setCourseCode] = useState("");
+	const [authCode, setAuthCode] = useState("");
+	const [gradingOption, setGradingOption] = useState("GR");
+	const [units, setUnits] = useState("");
 
-	var handleSubmit = props.handleCourseCodeSubmit;
+	function handleSubmit(e) {
+		e.preventDefault();
+		console.log(courseCode);
+		console.log(authCode);
+		console.log(gradingOption);
+		console.log(units);
+	}
 
 	return (
 		<>
-			<div onSubmit={handleSubmit} className="enrollCourseCodeForm">
-				<form className="hstack gap-3 ">
-					{" "}
-					{/* courseCodeForm */}
-					<div className="form-floating mb-3 courseCodeInput">
-						<input
-							type="text"
-							className="form-control"
-							id="floatingInput"
-							placeholder=""
-						/>
-						<label htmlFor="floatingInput">Course Code</label>
-					</div>
-					<div className="form-floating mb-3 authCodeInput">
-						<input
-							type="text"
-							className="form-control"
-							id="floatingInput"
-							placeholder=""
-						/>
-						<label htmlFor="floatingInput">Auth Code (Optional)</label>
-					</div>
-					{/* <select className="form-select form-select-lg gradingOption" aria-label="Default select example">
-                <option selected value="GR">GR</option>
-                
-                <option value="P/NP">P/NP</option>
-            </select> */}
-					<select
-						className="form-select form-select-lg mb-3 gradingOption"
-						aria-label="example"
-					>
-						<option selected value="GR">
-							GR
-						</option>
-
-						<option value="P/NP">P/NP</option>
-					</select>
-					<div className="form-floating mb-3 unitsInput">
-						<input
-							type="text"
-							className="form-control"
-							id="floatingInput"
-							placeholder=""
-						/>
-						<label htmlFor="floatingInput">Units (Optional)</label>
-					</div>
-					<div className="submitButton">
-						<input type="submit" className="enrollButton" value="Enroll" />
-					</div>
-				</form>
-			</div>
+			<Form onSubmit={handleSubmit}>
+				<Row className="justify-content-center align-items-center">
+					<Col lg className="my-3">
+						<FloatingLabel controlId="course-code" label="Course Code">
+							<Form.Control
+								type="text"
+								placeholder="12345"
+								onChange={(e) => setCourseCode(e.target.value)}
+								value={courseCode}
+							/>
+						</FloatingLabel>
+					</Col>
+					<Col lg className="my-3">
+						<FloatingLabel controlId="auth-code" label="Auth Code (Optional)">
+							<Form.Control
+								type="text"
+								placeholder="1234"
+								onChange={(e) => setAuthCode(e.target.value)}
+								value={authCode}
+							/>
+						</FloatingLabel>
+					</Col>
+					<Col lg className="my-3">
+						<FloatingLabel controlId="grading-option" label="Grading Option">
+							<Form.Select
+								aria-label="Grading option select menu"
+								value={gradingOption}
+								onChange={(e) => setGradingOption(e.target.value)}
+							>
+								<option value="GR">GR</option>
+								<option value="P/NP">P/NP</option>
+							</Form.Select>
+						</FloatingLabel>
+					</Col>
+					<Col lg className="my-3">
+						<FloatingLabel controlId="units" label="Units (Optional)">
+							<Form.Control
+								type="number"
+								placeholder="1234"
+								onChange={(e) => setUnits(e.target.value)}
+								value={units}
+							/>
+						</FloatingLabel>
+					</Col>
+					<Col lg={1} className="my-3">
+						<Button type="submit" variant="success">
+							Enroll
+						</Button>
+					</Col>
+				</Row>
+			</Form>
 		</>
 	);
 }
@@ -96,9 +115,8 @@ function EnrollSearchForm(props) {
 
 	return (
 		<>
-			<form className="courseSearchForm">
-				<div className="courseSearchGroup">
-					{/* <div className="dropdown ">
+			<Form>
+				{/* <div className="dropdown ">
                 <div className="form-floating mb-3 courseSearchBox">
                     <input type="text" className="jAuto form-control" id="floatingInput" placeholder="" />
                     <label for="floatingInput">Search Course</label>
@@ -115,8 +133,8 @@ function EnrollSearchForm(props) {
                     <button type="button" className="btn-extra">Custom button</button>
                 </div>
             </div>  */}
+				<Row className="mb-3 justify-content-center align-items-center">
 					<Typeahead
-						className="courseSearchBox"
 						//defaultSelected={props.departmentList.slice(0, 1)}
 						id="selections-example"
 						labelKey="searchCourse"
@@ -130,111 +148,14 @@ function EnrollSearchForm(props) {
 						// value={filterDepartmentText}
 						//selected={filterDepartmentText}
 					/>
+				</Row>
 
-					<input type="submit" className="searchButton" value="Search" />
-				</div>
-
-				<div className="filterSpacing">
-					<div className="filterGEs">
-						<h5 className="geCol filter">Filter: </h5>
-						<div className="geCol ">
-							<div className="form-check">
-								<input
-									className="form-check-input"
-									type="checkbox"
-									value=""
-									id="flexCheckDefault"
-								/>
-								<label className="form-check-label" htmlFor="flexCheckDefault">
-									GE I
-								</label>
-							</div>
-							<div className="form-check">
-								<input
-									className="form-check-input"
-									type="checkbox"
-									value=""
-									id="flexCheckChecked"
-								/>
-								<label className="form-check-label" htmlFor="flexCheckChecked">
-									GE V
-								</label>
-							</div>
-						</div>
-						<div className="geCol">
-							<div className="form-check">
-								<input
-									className="form-check-input"
-									type="checkbox"
-									value=""
-									id="flexCheckDefault"
-								/>
-								<label className="form-check-label" htmlFor="flexCheckDefault">
-									GE II
-								</label>
-							</div>
-							<div className="form-check">
-								<input
-									className="form-check-input"
-									type="checkbox"
-									value=""
-									id="flexCheckChecked"
-								/>
-								<label className="form-check-label" htmlFor="flexCheckChecked">
-									GE VI
-								</label>
-							</div>
-						</div>
-						<div className="geCol">
-							<div className="form-check">
-								<input
-									className="form-check-input"
-									type="checkbox"
-									value=""
-									id="flexCheckDefault"
-								/>
-								<label className="form-check-label" htmlFor="flexCheckDefault">
-									GE III
-								</label>
-							</div>
-							<div className="form-check">
-								<input
-									className="form-check-input"
-									type="checkbox"
-									value=""
-									id="flexCheckChecked"
-								/>
-								<label className="form-check-label" htmlFor="flexCheckChecked">
-									GE VII
-								</label>
-							</div>
-						</div>
-						<div className="geCol">
-							<div className="form-check">
-								<input
-									className="form-check-input"
-									type="checkbox"
-									value=""
-									id="flexCheckDefault"
-								/>
-								<label className="form-check-label" htmlFor="flexCheckDefault">
-									GE IV
-								</label>
-							</div>
-							<div className="form-check">
-								<input
-									className="form-check-input"
-									type="checkbox"
-									value=""
-									id="flexCheckChecked"
-								/>
-								<label className="form-check-label" htmlFor="flexCheckChecked">
-									GE VIII
-								</label>
-							</div>
-						</div>
-					</div>
-					<div className="departmentFilterGroup">
+				<Row>
+					<Col lg={8}>
+						<h5>Filter:</h5>
+						{GE_CHECKBOXES}
+					</Col>
+					<Col lg={4}>
 						<Typeahead
 							className="departmentFilter"
 							//defaultSelected={props.departmentList.slice(0, 1)}
@@ -259,10 +180,9 @@ function EnrollSearchForm(props) {
 							type="button"
 							value="🗙"
 						/>
-						{/* <input onClick={clearfilterDepartmentText} type="button"></input> */}
-					</div>
-				</div>
-			</form>
+					</Col>
+				</Row>
+			</Form>
 		</>
 	);
 }
