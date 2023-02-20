@@ -1,8 +1,9 @@
-
+import "../css/LandingPage.css"
 
 function LandingPage(props) {
-    return <><div>
-        LANDING PAGE</div></>
+    return <><div className="landingPageText">
+        LANDING PAGE
+    </div></>
 }
 
 export default LandingPage;

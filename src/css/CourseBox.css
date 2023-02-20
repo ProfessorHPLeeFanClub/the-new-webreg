@@ -107,6 +107,10 @@
   margin-right: 15px;
 }
 
+.finalDate {
+  font-size: 16px;
+}
+
 .courseContentBox {
   /* padding-left: 10px;
   padding-right: 5px;
@@ -163,10 +167,10 @@
   font-family: "candara";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 13px;
   line-height: 22px;
 
   /* identical to box height */
-  color: #8F8F8F;
+  color: #535353;
 }
 

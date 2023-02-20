@@ -2,6 +2,11 @@ import Schedule from "../components/Schedule"
 import {EnrollCourseCodeForm} from "../components/Enroll"
 import MainTabs from "../components/MainTabs";
 import "../css/MyEnrollment.css"
+import PreEnrolledWarning from "../components/PreEnrolledWarning";
+import { fetchCourseCodeData, parseCourseData, combineParsedCourses } from "../api/fetchData";
+import { useEffect, useState } from "react";
+import "../css/Overlay.css";
+import { ErrorOverlay } from "../components/Overlay";
 
 function MyEnrollment() {
 
@@ -15,73 +20,6 @@ function MyEnrollment() {
 
 //console.log(JSON.stringify(data, null, 2));
 
-
-    const dummyScheduleData = [
-        {
-            title: "CSE 112",
-            units: "4",
-            grading: "GR",
-            finalDate: "March 23, 2023 at 8:00-10:00am",
-            classes: [
-                {
-                    courseCode: "29462",
-                    classType: "Lec",
-                    section: "A",
-                    units: "4",
-                    instructor: "HP Lee",
-                    time: "MWF 4:00-5:00pm",
-                    location: "DBH 1600",
-                    enrolled: "121",
-                    max: "121",
-                    waitlist: "5"
-                },
-                {
-                    courseCode: "29463",
-                    classType: "Dis",
-                    section: "B",
-                    units: "0",
-                    instructor: "STAFF",
-                    time: "F 1:00-2:00pm",
-                    location: "MSTB 224",
-                    enrolled: "32",
-                    max: "32",
-                    waitlist: "0"
-                }
-            ]
-        },
-        {
-            title: "EECS 70A",
-            units: "4",
-            grading: "P/NP",
-            finalDate: "March 23, 2023 at 10:00-12:00pm",
-            classes: [
-                {
-                    courseCode: "56372",
-                    classType: "Lec",
-                    section: "A",
-                    units: "4",
-                    instructor: "Aghasi",
-                    time: "TTh 10:00-11:50am",
-                    location: "ELH 100",
-                    enrolled: "78",
-                    max: "67",
-                    waitlist: "0"
-                },
-                {
-                    courseCode: "56376",
-                    classType: "Dis",
-                    section: "B",
-                    units: "0",
-                    instructor: "STAFF",
-                    time: "Th 12:00-1:00pm",
-                    location: "ICS 189",
-                    enrolled: "28",
-                    max: "18",
-                    waitlist: "0"
-                }
-            ]
-        },
-    ];
 
     const departmentList = [
         "AC ENG - Academic English",
@@ -232,13 +170,197 @@ function MyEnrollment() {
         "WRITING - Writing",
     ];
 
+    const seededSavedCourses = [
+        {
+            title: "SOCIOL 1",
+            titleDesc: "INTRO TO SOCIOLOGY",
+            units: "4",
+            grading: "GR",
+            finalDate: "TBA",
+            classes: [
+                {
+                    courseCode: "69000",
+                    classType: "Lec",
+                    section: "A",
+                    units: "4",
+                    instructor: "WOSICK, K.",
+                    time: " TBA",
+                    meetingDay: "",
+                    meetingTime: "TBA",
+                    location: "ON LINE",
+                    enrolled: "0",
+                    max: "200",
+                    waitlist: "0",
+                    status: "OPEN"
+                },
+                {
+                    courseCode: "69004",
+                    classType: "Dis",
+                    section: "4",
+                    units: "0",
+                    instructor: "STAFF\nWOSICK, K.",
+                    time: "F  9:00- 9:50 ",
+                    meetingDay: "F",
+                    meetingTime: " 9:00- 9:50 ",
+                    location: "ON LINE",
+                    enrolled: "0",
+                    max: "33",
+                    waitlist: "0",
+                    status: "OPEN"
+                }
+            ]
+        },
+        {
+            title: "ECON 13",
+            titleDesc: "GLOBAL ECONOMY",
+            units: "4",
+            grading: "P/NP",
+            finalDate: "TBA",
+            classes: [
+                {
+                    name: "ECON 13",
+                    courseCode: "62000",
+                    classType: "Lec",
+                    section: "A",
+                    units: "4",
+                    instructor: "SARRAF, G.",
+                    time: " TBA",
+                    meetingDay: "",
+                    meetingTime: "TBA",
+                    location: "ON LINE",
+                    enrolled: "0",
+                    max: "448",
+                    waitlist: "0",
+                    status: "OPEN"
+                },
+                {
+                    courseCode: "62002",
+                    classType: "Dis",
+                    section: "A2",
+                    units: "0",
+                    instructor: "STAFF\nSARRAF, G.",
+                    time: "Tu  8:00- 8:50p",
+                    location: "SST 220A",
+                    enrolled: "0",
+                    max: "50",
+                    waitlist: "0",
+                    status: "OPEN"
+                }
+            ]
+        },
+    ];
+
+    //initializes courseList with localStorage value
+    const getStartingCourseList = () => {
+        const courses = JSON.parse(localStorage.getItem("courses"));
+        if (courses == null) {
+            return []
+        }
+        return courses
+    }
+    const getStartingSavedCourseList = () => {
+        const savedCourses = JSON.parse(localStorage.getItem("savedCourses"));
+        if (savedCourses == null) {
+            return seededSavedCourses;
+        }
+        return savedCourses
+    }
+
+    const [courseList, setCourseList] = useState(getStartingCourseList);
+    const [savedCourseList, setSavedCourseList] = useState(getStartingSavedCourseList);
+
+    const [courseCodeData, setCourseCodeData] = useState("");
+    const [highlightCourseCodeData, setHighlightCourseCodeData] = useState(false);
+    const [invalidCourseCodeError, setCourseCodeError] = useState(false);
+
+    
+    //updates localstorage
+    useEffect(() => {
+        //setCourseList(getStartingCourseList();
+        localStorage.setItem("courses", JSON.stringify(courseList));
+        localStorage.setItem("savedCourses", JSON.stringify(savedCourseList));
+        console.log(courseCodeData)
+    }, [courseList, savedCourseList, courseCodeData]);
+
+    const closeError = () => {
+        setCourseCodeError(false);
+        
+    }
+
+    //fetches class from api and updates courseList
+    const courseCodeEnroll = async (courseCode, gradingOption) => {
+        try {
+            const rawData = await fetchCourseCodeData(courseCode);
+            setCourseCodeError(false);
+
+            const data = parseCourseData(rawData);
+            data.grading = gradingOption;
+            //console.log(data)
+            const newCourseList = combineParsedCourses(courseList, data);
+            //console.log(newCourseList)
+            setCourseList([...newCourseList]);
+        } catch (error) {
+            setCourseCodeError(true);
+        }
+        
+        //console.log("Enrolled in " + data.title)
+    }
+
+    const dropCourse = (courseCode) => {
+        var tempList = [...courseList]
+        for (var i = 0; i < tempList.length; i++) {
+            var classes = [...(tempList[i].classes)];
+            classes = classes.filter((classInfo) => 
+                classInfo.courseCode !== courseCode
+            );
+            tempList[i].classes = classes;
+        }
+
+        tempList = tempList.filter((courses) => 
+            courses.classes.length !== 0
+        );
+        setCourseList([...tempList]);
+    }
+
+    const fillCourseCode = (courseCode) => {
+        //console.log(courseCode);
+        setCourseCodeData(courseCode)
+    }
+
     return <>
         <div className="content">
             
-            <MainTabs className="mainTabs" departmentList={departmentList}/>
+            {savedCourseList.length ? <PreEnrolledWarning courseList={courseList} 
+                                                             handleEnroll={courseCodeEnroll}>
+
+                                         </PreEnrolledWarning> : undefined}
+
+            <MainTabs courseCodeEnroll={courseCodeEnroll} 
+                      courseCodeError={invalidCourseCodeError} 
+                      className="mainTabs" 
+                      departmentList={departmentList} 
+                      fillCourseCode={fillCourseCode}
+                      courseCodeData={courseCodeData}
+                      highlightCourseCodeData={highlightCourseCodeData}
+                      setHighlightCourseCodeData={setHighlightCourseCodeData} />
 
             <h2 className="myScheduleText">My Schedule</h2>
-            <Schedule className="schedule" courseList={dummyScheduleData}></Schedule>
+            <div key={courseList}>
+
+                <Schedule className="schedule" 
+                          courseList={courseList}
+                          dropCourse={dropCourse} 
+                          allowButtons={true} />
+
+            </div>
+
+            {invalidCourseCodeError ? <ErrorOverlay
+                errorTitle={"Error! "}
+                desc={" Invalid Course Code"}
+                handleError={closeError} /> : ""}
+
+            
+
             
         </div>
     </>

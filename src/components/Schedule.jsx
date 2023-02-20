@@ -12,27 +12,41 @@ function Schedule(props) {
     // function addCourse(courseInfo) {
     //     setCourseList(courseList.push(courseInfo));
     // }
-    console.log("schedule courseList length:")
-    console.log(props.courseList.length);
+    const [courseList , setCourseList] = useState(props.courseList)
+
+   useEffect(() => {
+        //console.log("in use effect!");
+        //console.log(courseList);
+        setCourseList(props.courseList);
+
+
+   }, [props.courseList]) //JSON.stringify(props.courseList), 
+
+    //console.log(JSON.stringify(courseList))
     
 
     return <>
         <div className="scheduleList">
 
-        
-            {props.courseList.map((courseInfo) => {
-                // console.log("in schedule map")
-                // console.log(courseInfo);
+            {courseList.length == 0 ? (<div className="emptySchedule">No Courses</div>) : courseList.map((courseInfo) => {
+                //console.log("in schedule map")
+                
                 return (<div className="scheduleItem">
                 <CustomCourseBox 
+                    allowButtons={props.allowButtons}
                     title={courseInfo.title}
                     units={courseInfo.units}
+                    titleDesc={courseInfo.titleDesc}
                     grading={courseInfo.grading}
                     finalDate={courseInfo.finalDate}
-                    classes={courseInfo.classes}>
+                    classes={courseInfo.classes}
+                    dropCourse={props.dropCourse}>
                 </CustomCourseBox>
                 </div>)
-            })}
+            })
+            
+            }
+            
         </div>
     </>
 

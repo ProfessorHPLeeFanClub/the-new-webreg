@@ -1,21 +1,52 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap';
+import { useEffect, useState } from 'react';
 
 // import "../css/CourseBox";
 import "../css/CourseBox.css";
 //import "../../public/js/CourseBox"
 function CustomCourseBox(props) {
 
-    var title = props.title;
-    var units = props.units;
-    var grading = props.grading;
-    var finalDate = props.finalDate;
-    var classes = props.classes
+    const [title, setTitle] = useState(props.title);
+    const [units, setUnits] = useState(props.units);
+    const [titleDesc, setTitleDesc] = useState(props.titleDesc);
+    const [grading, setGrading] = useState(props.grading);
+    const [finalDate, setFinalDate] = useState(props.finalDate);
+    const [classes, setClasses] = useState(props.classes);
+    // var title = props.title;
+    // var units = props.units;
+    // var grading = props.grading;
+    // var finalDate = props.finalDate;
+    // var classes = props.classes
+    useEffect(() => {
+        // console.log(props.title);
+        // console.log(props.units);
+        // console.log(props.grading);
+        // console.log(props.finalDate);
+        // console.log(props.classes)
+        setTitle(props.title);
+        setUnits(props.units);
+        setTitleDesc(props.titleDesc);
+        setGrading(props.grading);
+        setFinalDate(props.finalDate);
+        setClasses(props.classes)
+    }, [props.title,
+        props.units,
+        props.titleDesc,
+        props.grading,
+        props.finalDate,
+        props.classes]);
 
-    console.log("in custom ")
-    console.log(props);
+    const handleDrop = (courseCode) => {
+        console.log("dropping: " +  courseCode);
+        props.dropCourse(courseCode);
+    }
+
+    const handleEnroll = (courseCode) => {
+        console.log("enrolling from saved: " + courseCode);
+        props.courseCodeEnroll(courseCode);
+    }
     
-
 
     return (<>
         <div className='courseBox justify-content-between'>
@@ -23,11 +54,11 @@ function CustomCourseBox(props) {
                 <div className='courseTitle'>
                     {title}
                 </div>
-                <div class="vr"></div>
+                <div className="vr"></div>
                 <div className='courseTitleInfo'>
-                    {units} units
+                    {titleDesc}
                 </div>
-                <div class="vr"></div>
+                <div className="vr"></div>
                 <div className='courseTitleInfo'>
                     {grading}
                 </div>
@@ -36,7 +67,7 @@ function CustomCourseBox(props) {
                 </div>
             </div>
             <div className='courseContentBox justify-content-center'>
-            <table class="table table-sm align-middle table-borderless">
+            <table className="table table-sm align-middle table-borderless">
                         <thead>
                             <tr>
                             <th scope="col" className='courseTableTitles'>Code</th>
@@ -64,17 +95,32 @@ function CustomCourseBox(props) {
                                     <td>{classInfo.instructor}</td>
                                     <td>{classInfo.time}</td>
                                     <td>{classInfo.location}</td>
-                                    <td>{classInfo.enrolled}</td>
                                     <td>{classInfo.max}</td>
+                                    <td>{classInfo.enrolled}</td>
                                     <td>{classInfo.waitlist}</td>
+                                    {props.allowButtons ? (
                                     <td className='d-flex justify-content-center'>
+
                                         <div className='hstack gap-2'>
-                                            <button class="dropButton" ><b>Drop</b></button>
-                                            <button class="changeButton" ><b>Change</b></button>
-                                        
+                                            <button className="dropButton"
+                                                    onClick={() => handleDrop(classInfo.courseCode)}
+                                                    ><b>Drop</b></button>
+                                            <button className="changeButton" ><b>Change</b></button>
+
                                         </div>
                                             
-                                    </td>
+                                    </td>) : ""}
+                                    {props.allowEnroll ? (
+                                            <td className='d-flex justify-content-center'>
+
+                                            <div className='hstack gap-2'>
+                                                <button className="enrollButton"
+                                                        onClick={() => handleEnroll(classInfo.courseCode)}
+                                                        ><b>Enroll</b></button>
+                                            </div>
+                                            
+                                        </td>
+                                    ) : "" }
                                     
                                 </tr>);
                             })}

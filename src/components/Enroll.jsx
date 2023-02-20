@@ -1,27 +1,38 @@
-import { Component, useState } from "react";
+import { Component, useRef, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap';
 import "../css/Enroll.css"
 import $ from "jquery";
 import { useEffect } from "react";
 //import Typeahead from "react-bootstrap-typeahead/types/core/Typeahead";
-import { Typeahead } from "react-bootstrap-typeahead";
+import { AsyncTypeahead, Typeahead } from "react-bootstrap-typeahead";
 import 'react-bootstrap-typeahead/css/Typeahead.css';
 import { clear } from "@testing-library/user-event/dist/clear";
 import React from "react";
+import {fetchCourseSearchData} from "../api/fetchData"
+import SoCTable from "./SoCTable";
+//  import { fetchCourseSearchData } from "../api/fetchData";
 
 function Enrollment(props) {
 
-
+        
 
         return (<>
         <div className="enrollmentWindowText">
             Enrollment Window: March 13, 2023
         </div>
-        <hr class="hr-text" data-content="Course Code Enrollment"></hr>
-        <EnrollCourseCodeForm></EnrollCourseCodeForm>
-        <hr class="hr-text" data-content="Search Courses"></hr>
-        <EnrollSearchForm departmentList={props.departmentList}></EnrollSearchForm>
+        <hr className="hr-text" data-content="Course Code Enrollment"></hr>
+        <EnrollCourseCodeForm courseCodeEnroll={props.courseCodeEnroll} 
+                              courseCodeError={props.courseCodeError}
+                              fillCourseCode={props.fillCourseCode}
+                              courseCodeData={props.courseCodeData}
+                              highlightCourseCodeData={props.highlightCourseCodeData}
+                              setHighlightCourseCodeData={props.setHighlightCourseCodeData}></EnrollCourseCodeForm>
+        <hr className="hr-text" data-content="Search Courses"></hr>
+        <EnrollSearchForm departmentList={props.departmentList}
+                          courseCodeEnroll={props.courseCodeEnroll}
+                          fillCourseCode={props.fillCourseCode}
+                          setHighlightCourseCodeData={props.setHighlightCourseCodeData}></EnrollSearchForm>
 
         </>)
 
@@ -30,12 +41,24 @@ function Enrollment(props) {
 
 function EnrollCourseCodeForm(props) {
 
-    const [courseCode, setCourseCode] = useState();
-    const [authCode, setAuthCode] = useState();
-    const [gradingOption, setGradingOption] = useState();
-    const [units, setUnits] = useState();
+    const [courseCode, setCourseCode] = useState(props.courseCodeData);
+    const [authCode, setAuthCode] = useState("");
+    const [gradingOption, setGradingOption] = useState("GR");
+    const [units, setUnits] = useState("");
+    const [courseCodeError, setCourseCodeError] = useState(props.courseCodeError);
+    const handleSubmit = (e) => {
 
-    var handleSubmit = props.handleCourseCodeSubmit;
+        e.preventDefault();
+        //console.log("form clicked:"+courseCode+" and "+gradingOption)
+        setCourseCode("");
+        const formData = courseCode;
+        props.courseCodeEnroll(formData, gradingOption);
+    }
+    useEffect(() => {
+        setCourseCodeError(props.courseCodeError);
+        setCourseCode(props.courseCodeData);
+        console.log("set course code to " + props.courseCodeData);
+    }, [props.courseCodeError, props.courseCodeData]);
 
     
 
@@ -45,12 +68,17 @@ function EnrollCourseCodeForm(props) {
         <form className="hstack gap-3 "> {/* courseCodeForm */}
             
             <div className="form-floating mb-3 courseCodeInput">
-                <input type="text" class="form-control" id="floatingInput" placeholder="" />
-                <label for="floatingInput">Course Code</label>
+                <input value={courseCode} onChange={(e) => setCourseCode(e.target.value)} type="text" className="form-control" id="floatingInput" placeholder="" />
+                <label htmlFor="floatingInput">Course Code</label>
+                {courseCodeError ? <>
+                    <div id="validationServer03Feedback" className="invalid-feedback">
+                        Invalid Course Code
+                    </div> </>
+                    : ""}
             </div>
             <div className="form-floating mb-3 authCodeInput">
-                <input type="text" class="form-control" id="floatingInput" placeholder="" />
-                <label for="floatingInput">Auth Code (Optional)</label>
+                <input type="text" className="form-control" id="floatingInput" placeholder="" />
+                <label htmlFor="floatingInput">Auth Code (Optional)</label>
             </div>
             {/* <select className="form-select form-select-lg gradingOption" aria-label="Default select example">
                 <option selected value="GR">GR</option>
@@ -58,8 +86,8 @@ function EnrollCourseCodeForm(props) {
                 <option value="P/NP">P/NP</option>
             </select> */}
 
-            <select className="form-select form-select-lg mb-3 gradingOption" aria-label="example" >
-                <option selected value="GR">GR</option>
+            <select defaultValue={"GR"} className="form-select form-select-lg mb-3 gradingOption" aria-label="example" >
+                <option  value="GR">GR</option>
                 
                 <option value="P/NP">P/NP</option>
             </select>
@@ -67,8 +95,8 @@ function EnrollCourseCodeForm(props) {
             
 
             <div className="form-floating mb-3 unitsInput">
-                <input type="text" class="form-control" id="floatingInput" placeholder="" />
-                <label for="floatingInput">Units (Optional)</label>
+                <input type="text" className="form-control" id="floatingInput" placeholder="" />
+                <label htmlFor="floatingInput">Units (Optional)</label>
             </div>
             
             <div className="submitButton">
@@ -88,10 +116,77 @@ function EnrollSearchForm(props) {
     // const clearfilterDepartmentText = () => {
     //     setFilterDepartmentText("");
     // }
-    const filterDepartmentText = React.createRef();
+    const [departmentName, setDepartmentName] = useState("");
+    const [departmentList, setDepartmentList] = useState(props.departmentList);
+    const [courseNum, setCourseNum] = useState("");
+    const [geList, setGeList] = useState([]);
+    const [isLoading, setIsLoading] = useState(false);
+    const [options, setOptions] = useState([]);
+    const [searchResult, setSearchResult] = useState([]);
+    const [resultData, setResultData] = useState([]);
+    const [searchCourse, setSearchCourse] = useState("");
+
+  const handleInputSearch = (input) => {
+    setIsLoading(true);
+    const splitQuery = input.split(" ");
+    const potentialDepartments = departmentList.filter((dept) => 
+        dept.startsWith(splitQuery[0].toUpperCase())
+    );
+    if (potentialDepartments.length === 0) {
+        setOptions([]);
+        return
+    }
+    const firstPotentialDepartment = potentialDepartments[0].split(" - ")[0];
+    console.log(firstPotentialDepartment)
+    const url = "https://api.peterportal.org/rest/v0/schedule/soc?term=2023%20Spring&department=" + firstPotentialDepartment;
+    if (splitQuery.length === 2) {
+        url += "&courseNumber=" + splitQuery[1];
+    }
 
 
+    fetch(url)
+      .then((resp) => resp.json())
+      .then((res) => {
+        // const data = items.filter(() => {
 
+        setSearchResult(res.schools);
+        // })
+        //console.log(items)
+        const data = res.schools[0].departments[0].courses;
+        //console.log(data);
+        setOptions(data);
+        setIsLoading(false);
+      });
+  };
+
+    const handleSearch = () => {
+        
+        setResultData(searchResult)
+    }
+
+    useEffect(() => {
+
+    }, [searchResult, resultData]);
+
+
+    const addGe = (geName) => {
+        setGeList(geList.push(geName));
+    }
+    const removeGe = (geName) => {
+        const newList = geList.filter((ge) => ge != geName)
+        setGeList(newList);
+    }
+    const handleDepartmentName = (name) => {
+        //console.log(name);
+        setDepartmentName(name);
+    }
+    
+    
+
+    const filterDepartmentText = React.useRef(""); //React.createRef();
+
+
+    const filterBy = () => true;
     return <>
     
     <form className="courseSearchForm">
@@ -101,7 +196,7 @@ function EnrollSearchForm(props) {
             {/* <div className="dropdown ">
                 <div className="form-floating mb-3 courseSearchBox">
                     <input type="text" className="jAuto form-control" id="floatingInput" placeholder="" />
-                    <label for="floatingInput">Search Course</label>
+                    <label htmlFor="floatingInput">Search Course</label>
                     
                 </div>
                 <div className="dropdown-menu">
@@ -115,18 +210,25 @@ function EnrollSearchForm(props) {
                     <button type="button" className="btn-extra">Custom button</button>
                 </div>
             </div>  */}
-            <Typeahead
+            
+            <AsyncTypeahead
                     className="courseSearchBox"
-                    
+                    filterBy={filterBy}
+                    isLoading={isLoading}
+                    minLength={1}
+                    onSearch={handleInputSearch}
+                    options={options}
+                    caseSensitive={false}
+                    labelKey={option => `${option.deptCode} ${option.courseNumber}: ${option.courseTitle}`}
                     //defaultSelected={props.departmentList.slice(0, 1)}
                     id="selections-example"
-                    labelKey="searchCourse"
+                    // labelKey="searchCourse"
                     onInputChange={(text, e) => {
-                        // setFilterDepartmentText(text)
+                        //setSearchCourse(text)
                     }}
-                    ref={filterDepartmentText}
+                    //ref={filterDepartmentText}
                     //onChange={setFilterDepartmentText}
-                    options={[]}
+                    
                     placeholder="Search Course"
                     // value={filterDepartmentText}
                     //selected={filterDepartmentText}
@@ -134,7 +236,7 @@ function EnrollSearchForm(props) {
                 />
 
             
-            <input type="submit" className="searchButton" value="Search" />
+            <button type="submit" onClick={(e) => {e.preventDefault(); handleSearch()}} className="searchButton">Search</button>
             
         </div>
 
@@ -142,57 +244,57 @@ function EnrollSearchForm(props) {
             <div className="filterGEs">
                 <h5 className="geCol filter">Filter: </h5>
                 <div className="geCol ">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                        <label class="form-check-label" for="flexCheckDefault">
+                    <div className="form-check">
+                        <input className="form-check-input" type="checkbox" name="ge" value="" id="flexCheckDefault1" />
+                        <label className="form-check-label" htmlFor="flexCheckDefault1">
                             GE I
                         </label>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
-                        <label class="form-check-label" for="flexCheckChecked">
+                    <div className="form-check">
+                        <input className="form-check-input" type="checkbox" name="ge" value="" id="flexCheckChecked5" />
+                        <label className="form-check-label" htmlFor="flexCheckChecked5">
                             GE V
                         </label>
                     </div>
                 </div>
                 <div className="geCol">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                        <label class="form-check-label" for="flexCheckDefault">
+                    <div className="form-check">
+                        <input className="form-check-input" type="checkbox" name="ge" value="" id="flexCheckDefault2" />
+                        <label className="form-check-label" htmlFor="flexCheckDefault2">
                             GE II
                         </label>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
-                        <label class="form-check-label" for="flexCheckChecked">
+                    <div className="form-check">
+                        <input className="form-check-input" type="checkbox" name="ge" value="" id="flexCheckChecked6" />
+                        <label className="form-check-label" htmlFor="flexCheckChecked6">
                             GE VI
                         </label>
                     </div>
                 </div>
                 <div className="geCol">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                        <label class="form-check-label" for="flexCheckDefault">
+                    <div className="form-check">
+                        <input className="form-check-input" type="checkbox" name="ge" value="" id="flexCheckDefault3" />
+                        <label className="form-check-label" htmlFor="flexCheckDefault3">
                             GE III
                         </label>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
-                        <label class="form-check-label" for="flexCheckChecked">
+                    <div className="form-check">
+                        <input className="form-check-input" type="checkbox" name="ge" value="" id="flexCheckChecked7" />
+                        <label className="form-check-label" htmlFor="flexCheckChecked7">
                             GE VII
                         </label>
                     </div>
                 </div>
                 <div className="geCol">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                        <label class="form-check-label" for="flexCheckDefault">
+                    <div className="form-check">
+                        <input className="form-check-input" type="checkbox" name="ge" value="" id="flexCheckDefault4" />
+                        <label className="form-check-label" htmlFor="flexCheckDefault4">
                             GE IV
                         </label>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
-                        <label class="form-check-label" for="flexCheckChecked">
+                    <div className="form-check">
+                        <input className="form-check-input" type="checkbox" name="ge" value="" id="flexCheckChecked8" />
+                        <label className="form-check-label" htmlFor="flexCheckChecked8">
                             GE VIII
                         </label>
                     </div>
@@ -204,25 +306,27 @@ function EnrollSearchForm(props) {
             <div className="departmentFilterGroup">
                 <Typeahead
                     className="departmentFilter"
-                    
+                    clearButton={true}
                     //defaultSelected={props.departmentList.slice(0, 1)}
                     id="selections-example"
                     labelKey="departmentName"
-                    onInputChange={(text, e) => {
-                        // setFilterDepartmentText(text)
-                    }}
-                    ref={filterDepartmentText}
-                    //onChange={setFilterDepartmentText}
+                    // onInputChange={(text, e) => {
+                    //     handleDepartmentName(text)
+                    // }}
+                    //ref={departmentName}
+                    onChange={handleDepartmentName}
                     options={props.departmentList}
                     placeholder="Department"
                     // value={filterDepartmentText}
                     //selected={filterDepartmentText}
                     
-                />
+                 >     
+                {/* <input className="departmentFilterClearButton" onClick={() => filterDepartmentText.clear()} type="button" value="🗙"/> */}
+                </Typeahead>
                 {/* <button onClick={() => filterDepartmentText.current.clear()}>
                     Clear
                 </button> */}
-                <input className="departmentFilterClearButton" onClick={() => filterDepartmentText.current.clear()} type="button" value="🗙"/>
+                {/* <input className="departmentFilterClearButton" onClick={() => filterDepartmentText.current.clear()} type="button" value="🗙"/> */}
                 {/* <input onClick={clearfilterDepartmentText} type="button"></input> */}
             </div>
         </div>
@@ -231,6 +335,89 @@ function EnrollSearchForm(props) {
 
 
     </form>
+
+    {resultData.length > 0 ? (
+        <SoCTable data={resultData} 
+              fillCourseCode={props.fillCourseCode} 
+              setHighlightCourseCodeData={props.setHighlightCourseCodeData}></SoCTable>) 
+    : ""}
+    
+    {/* <div className="tableBackground">
+        <table className="table table-sm align-middle table-borderless">
+            <thead>
+                <tr>
+                <th scope="col" className='courseTableTitles'>Code</th>
+                <th scope="col" className='courseTableTitles'>Type</th>
+                <th scope="col" className='courseTableTitles'>Sec</th>
+                <th scope="col" className='courseTableTitles'>Unit</th>
+                <th scope="col" className='courseTableTitles'>Instructor</th>
+                <th scope="col" className='courseTableTitles'>Time</th>
+                <th scope="col" className='courseTableTitles'>Location</th>
+                <th scope="col" className='courseTableTitles'>Max</th>
+                <th scope="col" className='courseTableTitles'>Enr</th>
+                <th scope="col" className='courseTableTitles'>WL</th>
+                <th scope="col" className='courseTableTitles'>Req</th>
+                <th scope="col" className='courseTableTitles'>Rstr</th>
+                <th scope="col" className='courseTableTitles'>Status</th>
+                 <th scope="col">ENROLL</th>
+                </tr>
+            </thead>
+            <tbody>
+                {/* {classes.map((classInfo) => {
+                    return (
+                    <tr>
+                        <th scope="row">{classInfo.courseCode}</th>
+                        <td>{classInfo.classType}</td>
+                        <td>{classInfo.section}</td>
+                        <td>{classInfo.units}</td>
+                        <td>{classInfo.instructor}</td>
+                        <td>{classInfo.time}</td>
+                        <td>{classInfo.location}</td>
+                        <td>{classInfo.enrolled}</td>
+                        <td>{classInfo.max}</td>
+                        <td>{classInfo.waitlist}</td>
+                        <td className='d-flex justify-content-center'>
+                            <div className='hstack gap-2'>
+                                <button class="dropButton" ><b>Drop</b></button>
+                                <button class="changeButton" ><b>Change</b></button>
+                            
+                            </div>
+                                
+                        </td>
+                        
+                    </tr>);
+                })} 
+                <tr>
+                    <th scope="row">49209</th>
+                    <td>Lec</td>
+                    <td>A</td>
+                    <td>4</td>
+                    <td>HP Lee</td>
+                    <td>MWF 4:00-4:50pm</td>
+                    <td>DBH 1600</td>
+                    <td>112</td>
+                    <td>112</td>
+                    <td>5</td>
+                    
+                    
+                </tr>
+                <tr>
+                    <th scope="row">49210</th>
+                    <td>Dis</td>
+                    <td>A</td>
+                    <td>0</td>
+                    <td>STAFF</td>
+                    <td>F 1:00-1:50pm</td>
+                    <td>MSTB 124</td>
+                    <td>31</td>
+                    <td>31</td>
+                    <td>5</td>
+                    
+                                                
+                </tr>
+            </tbody>
+        </table>
+    </div> */}
     
     </>
 }

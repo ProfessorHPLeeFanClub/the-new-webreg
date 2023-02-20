@@ -1,0 +1,13 @@
+.scheduleListSaved {
+    display: flex;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.savedCoursesTitle{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 30px;
+}
