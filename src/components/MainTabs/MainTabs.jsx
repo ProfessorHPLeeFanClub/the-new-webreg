@@ -1,16 +1,17 @@
 import { Tab, Tabs } from "react-bootstrap";
 import { Enrollment } from "../Enroll";
+import PlanOfStudy from "../PlanOfStudy/PlanOfStudy";
 import ZotPick from "../ZotPick";
 import "./MainTabs.scss";
 
-function PlanOfStudy() {
+function MainTabs() {
 	return (
 		<Tabs defaultActiveKey="enroll" className="pos-tabs">
 			<Tab eventKey="enroll" title="Enroll">
 				<Enrollment />
 			</Tab>
 			<Tab eventKey="planofstudy" title="Plan of Study">
-				<p>Suggested Classes</p>
+				<PlanOfStudy />
 			</Tab>
 			<Tab eventKey="zotpick" title="ZotPick">
 				<ZotPick />
@@ -19,4 +20,4 @@ function PlanOfStudy() {
 	);
 }
 
-export default PlanOfStudy;
+export default MainTabs;

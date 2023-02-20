@@ -1334,7 +1334,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;131A"
 								className="class"
@@ -1359,7 +1359,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;131B"
 								className="class"
@@ -1375,7 +1375,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;131C"
 								className="class"
@@ -1391,7 +1391,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;132A"
 								className="class"
@@ -1407,7 +1407,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;133"
 								className="class"
@@ -1423,7 +1423,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;134"
 								className="class"
@@ -1439,7 +1439,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;137"
 								className="class"
@@ -1455,7 +1455,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;138"
 								className="class"
@@ -1471,7 +1471,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;194"
 								className="class"
@@ -1494,7 +1494,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;141"
 								className="class"
@@ -1510,7 +1510,7 @@ function BusinessPOS() {
 					{" "}
 					<td colSpan="2">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								and select two of the following:
 							</span>{" "}
@@ -1521,7 +1521,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;144"
 								className="class"
@@ -1537,7 +1537,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;147"
 								className="class"
@@ -1553,7 +1553,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;149"
 								className="class"
@@ -1587,7 +1587,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;171"
 								className="class"
@@ -1603,7 +1603,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;173"
 								className="class"
@@ -1619,7 +1619,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;174"
 								className="class"
@@ -1635,7 +1635,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;178"
 								className="class"
@@ -1669,7 +1669,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;150"
 								className="class"
@@ -1685,7 +1685,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;151"
 								className="class"
@@ -1701,7 +1701,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;154"
 								className="class"
@@ -1717,7 +1717,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;155"
 								className="class"
@@ -1742,7 +1742,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;189"
 								className="class"
@@ -1767,7 +1767,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;182"
 								className="class"
@@ -1783,7 +1783,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;196"
 								className="class"
@@ -1817,7 +1817,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;125"
 								className="class"
@@ -1833,7 +1833,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;126"
 								className="class"
@@ -1849,7 +1849,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;128"
 								className="class"
@@ -1865,7 +1865,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;129"
 								className="class"
@@ -1891,7 +1891,7 @@ function BusinessPOS() {
 					{" "}
 					<td colSpan="2">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								1. Selecting one of the following (which may also be used for
 								specified category C requirements above):
@@ -1902,7 +1902,7 @@ function BusinessPOS() {
 				</tr>
 				<tr className="even">
 					<td className="codecol">
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;128"
 								className="class"
@@ -1918,7 +1918,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;144"
 								className="class"
@@ -1934,7 +1934,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="MGMT&nbsp;154"
 								className="class"
@@ -1950,7 +1950,7 @@ function BusinessPOS() {
 					{" "}
 					<td colSpan="2">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								2. or, participating in select UC Education Abroad Program
 								options, with prior approval of the Associate Dean.
@@ -2035,7 +2035,7 @@ function MechEngPOS() {
 					</td>{" "}
 					<td>
 						Single-Variable Calculus I<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Single-Variable Calculus II
 						</span>{" "}
 					</td>{" "}
@@ -2148,7 +2148,7 @@ function MechEngPOS() {
 					<td>
 						Classical Physics
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Classical Physics
 						</span>{" "}
 					</td>{" "}
@@ -2205,7 +2205,7 @@ function MechEngPOS() {
 					{" "}
 					<td colSpan="2">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								Students must complete a minimum of 24 units of engineering
 								design.
@@ -2217,7 +2217,7 @@ function MechEngPOS() {
 					{" "}
 					<td colSpan="2">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment areaheader commentindent">
 								Core Courses:
 							</span>{" "}
@@ -2228,7 +2228,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGR&nbsp;54"
 								className="class"
@@ -2244,7 +2244,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;10"
 								className="class"
@@ -2260,7 +2260,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;30"
 								className="class"
@@ -2276,7 +2276,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;52"
 								className="class"
@@ -2292,7 +2292,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;60"
 								className="class"
@@ -2306,7 +2306,7 @@ function MechEngPOS() {
 				</tr>{" "}
 				<tr className="odd orclass">
 					<td className="codecol orclass">
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							or&nbsp;
 							<a
 								title="EECS&nbsp;70A"
@@ -2323,7 +2323,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;80"
 								className="class"
@@ -2339,7 +2339,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;91"
 								className="class"
@@ -2355,7 +2355,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;106"
 								className="class"
@@ -2371,7 +2371,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;107"
 								className="class"
@@ -2387,7 +2387,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;112"
 								className="class"
@@ -2401,7 +2401,7 @@ function MechEngPOS() {
 				</tr>{" "}
 				<tr className="even orclass">
 					<td className="codecol orclass">
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							or&nbsp;
 							<a
 								title="ENGRMAE&nbsp;115"
@@ -2418,7 +2418,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;120"
 								className="class"
@@ -2434,7 +2434,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;130A"
 								className="class"
@@ -2450,7 +2450,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;130B"
 								className="class"
@@ -2466,7 +2466,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;145"
 								className="class"
@@ -2482,7 +2482,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;147"
 								className="class"
@@ -2498,7 +2498,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;150"
 								className="class"
@@ -2514,7 +2514,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;150L"
 								className="class"
@@ -2530,7 +2530,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;151"
 								className="class"
@@ -2546,7 +2546,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;155"
 								className="class"
@@ -2560,7 +2560,7 @@ function MechEngPOS() {
 				</tr>{" "}
 				<tr className="odd orclass">
 					<td className="codecol orclass">
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							or&nbsp;
 							<a
 								title="ENGRMAE&nbsp;156"
@@ -2575,7 +2575,7 @@ function MechEngPOS() {
 				</tr>{" "}
 				<tr className="odd orclass orclass">
 					<td className="codecol orclass">
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							or&nbsp;
 							<a
 								title="ENGRMAE&nbsp;157"
@@ -2592,7 +2592,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;170"
 								className="class"
@@ -2608,7 +2608,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGRMAE&nbsp;189"
 								className="class"
@@ -2633,7 +2633,7 @@ function MechEngPOS() {
 					{" "}
 					<td colSpan="2">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								Students select a minimum of 16 units of technical electives.
 								For students majoring in both Aerospace Engineering and
@@ -2808,11 +2808,11 @@ function PsychPOS() {
 					<td>
 						Psychology Fundamentals
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Psychology Fundamentals
 						</span>
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Psychology Fundamentals
 						</span>{" "}
 					</td>{" "}
@@ -2831,7 +2831,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ANTHRO&nbsp;2A"
 								className="class"
@@ -2847,7 +2847,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ANTHRO&nbsp;2B"
 								className="class"
@@ -2863,7 +2863,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ANTHRO&nbsp;2D"
 								className="class"
@@ -2879,7 +2879,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ECON&nbsp;1"
 								className="class"
@@ -2895,7 +2895,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="LSCI&nbsp;3"
 								className="class"
@@ -2911,7 +2911,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="POL&nbsp;SCI&nbsp;11C"
 								className="class"
@@ -2927,7 +2927,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="SOC&nbsp;SCI&nbsp;5A"
 								className="class"
@@ -2943,7 +2943,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="SOCIOL&nbsp;1"
 								className="class"
@@ -2959,7 +2959,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="SOCIOL&nbsp;2"
 								className="class"
@@ -2975,7 +2975,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="SOCIOL&nbsp;3"
 								className="class"
@@ -2991,7 +2991,7 @@ function PsychPOS() {
 					{" "}
 					<td colSpan="2">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								or one or two quarters of the following when topic is not
 								psychology:
@@ -3003,7 +3003,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="SOC&nbsp;SCI&nbsp;H1E"
 								className="class"
@@ -3034,11 +3034,11 @@ function PsychPOS() {
 					<td>
 						Honors: Critical Issues on the Social Sciences
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Honors: Critical Issues on the Social Sciences
 						</span>
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Honors: Critical Issues on the Social Sciences
 						</span>{" "}
 					</td>{" "}
@@ -3057,7 +3057,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="PSYCH&nbsp;112A"
 								className="class"
@@ -3079,7 +3079,7 @@ function PsychPOS() {
 					<td>
 						Experimental Psychology
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Experimental Psychology Laboratory
 						</span>{" "}
 					</td>{" "}
@@ -3088,7 +3088,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="PSYCH&nbsp;112M"
 								className="class"
@@ -3110,7 +3110,7 @@ function PsychPOS() {
 					<td>
 						Research Methods in Psychology
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Research Methods in Psychology Laboratory
 						</span>{" "}
 					</td>{" "}
@@ -3119,7 +3119,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="PSYCH&nbsp;112R"
 								className="class"
@@ -3141,7 +3141,7 @@ function PsychPOS() {
 					<td>
 						Cognitive Robotics
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Cognitive Robotics Laboratory
 						</span>{" "}
 					</td>{" "}
@@ -3150,7 +3150,7 @@ function PsychPOS() {
 					{" "}
 					<td colSpan="2">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								NOTE: These courses have as prerequisites{" "}
 								<a
@@ -3251,7 +3251,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="PSYCH&nbsp;120A"
 								className="class"
@@ -3267,7 +3267,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="PSYCH&nbsp;120D"
 								className="class"
@@ -3283,7 +3283,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="PSYCH&nbsp;120H"
 								className="class"
@@ -3299,7 +3299,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="PSYCH&nbsp;120P"
 								className="class"
@@ -3315,7 +3315,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="PSYCH&nbsp;130A"
 								className="class"
@@ -3331,7 +3331,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="PSYCH&nbsp;140C"
 								className="class"
@@ -3347,7 +3347,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="PSYCH&nbsp;140L"
 								className="class"
@@ -3363,7 +3363,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="PSYCH&nbsp;140M"
 								className="class"
@@ -3379,7 +3379,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="PSYCH&nbsp;150"
 								className="class"
@@ -3395,7 +3395,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="PSYCH&nbsp;160A"
 								className="class"
@@ -3411,7 +3411,7 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="PSYCH&nbsp;160D"
 								className="class"
@@ -3437,7 +3437,7 @@ function PsychPOS() {
 					{" "}
 					<td colSpan="2">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								1. No more than one of the seven may be lower-division.{" "}
 								<a
@@ -3456,7 +3456,7 @@ function PsychPOS() {
 					{" "}
 					<td colSpan="2">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								2. Three of the upper-division courses used to satisfy
 								requirements D and E must be taken from one of the following
@@ -3473,7 +3473,7 @@ function PsychPOS() {
 					{" "}
 					<td colSpan="2">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								3. Certain courses offered in the School of Biological Sciences
 								and the School of Social Ecology may be used in partial
@@ -3488,7 +3488,7 @@ function PsychPOS() {
 					{" "}
 					<td colSpan="2">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								Psychology and Social Behavior courses that do not overlap with
 								Psychology courses may be used along with PSY BEH 193E (same as{" "}
@@ -3524,7 +3524,7 @@ function PsychPOS() {
 					{" "}
 					<td colSpan="2">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								4. No more than three of the courses (each of four or more
 								units) may be numbered 190–199.
@@ -3547,19 +3547,13 @@ function PsychSample() {
 					</td>
 				</tr>
 				<tr className="even">
-					<td>
-						<p>Psych. Core course</p>
-					</td>
+					<td>Psych. Core course</td>
 				</tr>
 				<tr className="odd">
-					<td>
-						<p>General Education</p>
-					</td>
+					<td>General Education</td>
 				</tr>
 				<tr className="even">
-					<td>
-						<p>General Education</p>
-					</td>
+					<td>General Education</td>
 				</tr>
 			</tbody>
 		</table>
@@ -3594,7 +3588,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="I&amp;C&nbsp;SCI&nbsp;31"
 								className="class"
@@ -3625,11 +3619,11 @@ function CompSciPOS() {
 					<td>
 						Introduction to Programming
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Programming with Software Libraries
 						</span>
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Intermediate Programming
 						</span>{" "}
 					</td>{" "}
@@ -3638,7 +3632,7 @@ function CompSciPOS() {
 					{" "}
 					<td colSpan="2">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">or</span>{" "}
 						</div>{" "}
 					</td>{" "}
@@ -3647,7 +3641,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="I&amp;C&nbsp;SCI&nbsp;32A"
 								className="class"
@@ -3669,7 +3663,7 @@ function CompSciPOS() {
 					<td>
 						Python Programming and Libraries (Accelerated)
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Intermediate Programming
 						</span>{" "}
 					</td>{" "}
@@ -3774,7 +3768,7 @@ function CompSciPOS() {
 					</td>{" "}
 					<td>
 						Single-Variable Calculus I<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Single-Variable Calculus II
 						</span>{" "}
 					</td>{" "}
@@ -3921,7 +3915,7 @@ function CompSciPOS() {
 					{" "}
 					<td colSpan="2">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								<a
 									title="COMPSCI&nbsp;103"
@@ -3939,7 +3933,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="IN4MATX&nbsp;102"
 								className="class"
@@ -3955,7 +3949,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="IN4MATX&nbsp;113"
 								className="class"
@@ -3971,7 +3965,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="IN4MATX&nbsp;115"
 								className="class"
@@ -3987,7 +3981,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="IN4MATX&nbsp;117"
 								className="class"
@@ -4003,7 +3997,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="IN4MATX&nbsp;121"
 								className="class"
@@ -4019,7 +4013,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="IN4MATX&nbsp;122"
 								className="class"
@@ -4035,7 +4029,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="IN4MATX&nbsp;124"
 								className="class"
@@ -4051,7 +4045,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="IN4MATX&nbsp;131"
 								className="class"
@@ -4067,7 +4061,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="IN4MATX&nbsp;133"
 								className="class"
@@ -4083,7 +4077,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="IN4MATX&nbsp;134"
 								className="class"
@@ -4099,7 +4093,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="I&amp;C&nbsp;SCI&nbsp;161"
 								className="class"
@@ -4115,7 +4109,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="I&amp;C&nbsp;SCI&nbsp;162"
 								className="class"
@@ -4141,7 +4135,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;113"
 								className="class"
@@ -4157,7 +4151,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;114"
 								className="class"
@@ -4173,7 +4167,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;117"
 								className="class"
@@ -4189,7 +4183,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;118"
 								className="class"
@@ -4205,7 +4199,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;122B"
 								className="class"
@@ -4221,7 +4215,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;122C"
 								className="class"
@@ -4237,7 +4231,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;122D"
 								className="class"
@@ -4253,7 +4247,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;125"
 								className="class"
@@ -4269,7 +4263,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;133"
 								className="class"
@@ -4285,7 +4279,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;142B"
 								className="class"
@@ -4301,7 +4295,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;143B"
 								className="class"
@@ -4317,7 +4311,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;145"
 								className="class"
@@ -4333,7 +4327,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;147"
 								className="class"
@@ -4349,7 +4343,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;153"
 								className="class"
@@ -4365,7 +4359,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;154"
 								className="class"
@@ -4381,7 +4375,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;165"
 								className="class"
@@ -4397,7 +4391,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="COMPSCI&nbsp;175"
 								className="class"
@@ -4413,7 +4407,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="IN4MATX&nbsp;117"
 								className="class"
@@ -4429,7 +4423,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="IN4MATX&nbsp;134"
 								className="class"
@@ -5583,9 +5577,7 @@ function CompSciSample() {
 					</td>
 				</tr>
 				<tr className="odd">
-					<td>
-						<p>Computer Science Spec./Elective</p>
-					</td>
+					<td>Computer Science Spec./Elective</td>
 				</tr>
 			</tbody>
 		</table>
@@ -5639,7 +5631,7 @@ function MathPOS() {
 					</td>{" "}
 					<td>
 						Single-Variable Calculus I<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Single-Variable Calculus II
 						</span>{" "}
 					</td>{" "}
@@ -5735,7 +5727,7 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="CHEM&nbsp;1A"
 								className="class"
@@ -5766,11 +5758,11 @@ function MathPOS() {
 					<td>
 						General Chemistry
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and General Chemistry
 						</span>
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and General Chemistry{" "}
 						</span>{" "}
 					</td>{" "}
@@ -5779,7 +5771,7 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="PHYSICS&nbsp;7C"
 								className="class"
@@ -5810,11 +5802,11 @@ function MathPOS() {
 					<td>
 						Classical Physics
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Classical Physics
 						</span>
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Classical Physics
 						</span>{" "}
 					</td>{" "}
@@ -5823,7 +5815,7 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="STATS&nbsp;7"
 								className="class"
@@ -5852,11 +5844,11 @@ function MathPOS() {
 					<td>
 						Basic Statistics
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Introduction to Programming for Data Science
 						</span>
 						<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Classical Physics
 						</span>{" "}
 					</td>{" "}
@@ -5942,7 +5934,7 @@ function MathPOS() {
 					</td>{" "}
 					<td>
 						Elementary Analysis I<br />
-						<span style="margin-left:20px;" className="blockindent">
+						<span style={{ marginLeft: "20px" }} className="blockindent">
 							and Elementary Analysis II
 						</span>{" "}
 					</td>{" "}
@@ -6134,7 +6126,7 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGLISH&nbsp;8"
 								className="class"
@@ -6150,7 +6142,7 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGLISH&nbsp;9"
 								className="class"
@@ -6166,7 +6158,7 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGLISH&nbsp;10"
 								className="class"
@@ -6182,7 +6174,7 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGLISH&nbsp;11"
 								className="class"
@@ -6198,7 +6190,7 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGLISH&nbsp;12"
 								className="class"
@@ -6214,7 +6206,7 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGLISH&nbsp;15"
 								className="class"
@@ -6230,7 +6222,7 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGLISH&nbsp;16"
 								className="class"
@@ -6246,7 +6238,7 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<div style="margin-left: 20px;">
+						<div style={{ marginLeft: "20px" }}>
 							<a
 								title="ENGLISH&nbsp;17"
 								className="class"
