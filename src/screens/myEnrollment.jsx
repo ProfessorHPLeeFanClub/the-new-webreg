@@ -8,18 +8,19 @@ import { useEffect, useState } from "react";
 import "../css/Overlay.css";
 import { ErrorOverlay } from "../components/Overlay";
 
-function MyEnrollment() {
+const API_PETER =
+	"https://api.peterportal.org/rest/v0/schedule/soc?term=2023%20Winter";
 
-    // const api_peter = 'https://api.peterportal.org/rest/v0/';
-    // var XMLHttpRequest = require('xhr2');
-    // const request = new XMLHttpRequest();
+// function create_website_code(section_code) {
+// 	return API_PETER + `&sectionCodes=${section_code}`;
+// }
 
     // request.open("GET", api_peter);
     // request.send();
 
 
 //console.log(JSON.stringify(data, null, 2));
-
+function Enrollment() {
 
     const departmentList = [
         "AC ENG - Academic English",
@@ -327,7 +328,7 @@ function MyEnrollment() {
         setCourseCodeData(courseCode)
     }
 
-    return <>
+    return (<>
         <div className="content">
             
             {savedCourseList.length ? <PreEnrolledWarning courseList={courseList} 
@@ -363,8 +364,8 @@ function MyEnrollment() {
 
             
         </div>
-    </>
+    </>)
 
 }
 
-export default MyEnrollment;
+export default Enrollment;

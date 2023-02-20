@@ -40,6 +40,10 @@ function Enrollment(props) {
 }
 
 function EnrollCourseCodeForm(props) {
+	// const [courseCode, setCourseCode] = useState();
+	// const [authCode, setAuthCode] = useState();
+	// const [gradingOption, setGradingOption] = useState();
+	// const [units, setUnits] = useState();
 
     const [courseCode, setCourseCode] = useState(props.courseCodeData);
     const [authCode, setAuthCode] = useState("");
@@ -62,7 +66,7 @@ function EnrollCourseCodeForm(props) {
 
     
 
-    return <>
+    return (<>
     
     <div onSubmit={handleSubmit} className="enrollCourseCodeForm">
         <form className="hstack gap-3 "> {/* courseCodeForm */}
@@ -85,31 +89,38 @@ function EnrollCourseCodeForm(props) {
                 
                 <option value="P/NP">P/NP</option>
             </select> */}
+					<select
+						className="form-select form-select-lg mb-3 gradingOption"
+						aria-label="example"
+                        defaultValue="GR"
+					>
+						<option value="GR">
+							GR
+						</option>
 
-            <select defaultValue={"GR"} className="form-select form-select-lg mb-3 gradingOption" aria-label="example" >
-                <option  value="GR">GR</option>
-                
-                <option value="P/NP">P/NP</option>
-            </select>
-
-            
-
-            <div className="form-floating mb-3 unitsInput">
-                <input type="text" className="form-control" id="floatingInput" placeholder="" />
-                <label htmlFor="floatingInput">Units (Optional)</label>
-            </div>
-            
-            <div className="submitButton">
-                <input type="submit" className="enrollButton" value="Enroll" />
-            </div>
-        </form>
-    </div>
-    </>;
-
+						<option value="P/NP">P/NP</option>
+					</select>
+					<div className="form-floating mb-3 unitsInput">
+						<input
+							type="text"
+							className="form-control"
+							id="floatingInput"
+							placeholder=""
+						/>
+						<label htmlFor="floatingInput">Units (Optional)</label>
+					</div>
+					<div className="submitButton">
+						<input type="submit" className="enrollButton" value="Enroll" />
+					</div>
+				</form>
+			</div>
+		</>
+	);
 }
 
 
 function EnrollSearchForm(props) {
+	// const [filterDepartmentText, setFilterDepartmentText] = useState("");
 
     // const [filterDepartmentText, setFilterDepartmentText] = useState("");
     
@@ -321,13 +332,8 @@ function EnrollSearchForm(props) {
                     //selected={filterDepartmentText}
                     
                  >     
-                {/* <input className="departmentFilterClearButton" onClick={() => filterDepartmentText.clear()} type="button" value="🗙"/> */}
                 </Typeahead>
-                {/* <button onClick={() => filterDepartmentText.current.clear()}>
-                    Clear
-                </button> */}
-                {/* <input className="departmentFilterClearButton" onClick={() => filterDepartmentText.current.clear()} type="button" value="🗙"/> */}
-                {/* <input onClick={clearfilterDepartmentText} type="button"></input> */}
+
             </div>
         </div>
 
@@ -342,84 +348,9 @@ function EnrollSearchForm(props) {
               setHighlightCourseCodeData={props.setHighlightCourseCodeData}></SoCTable>) 
     : ""}
     
-    {/* <div className="tableBackground">
-        <table className="table table-sm align-middle table-borderless">
-            <thead>
-                <tr>
-                <th scope="col" className='courseTableTitles'>Code</th>
-                <th scope="col" className='courseTableTitles'>Type</th>
-                <th scope="col" className='courseTableTitles'>Sec</th>
-                <th scope="col" className='courseTableTitles'>Unit</th>
-                <th scope="col" className='courseTableTitles'>Instructor</th>
-                <th scope="col" className='courseTableTitles'>Time</th>
-                <th scope="col" className='courseTableTitles'>Location</th>
-                <th scope="col" className='courseTableTitles'>Max</th>
-                <th scope="col" className='courseTableTitles'>Enr</th>
-                <th scope="col" className='courseTableTitles'>WL</th>
-                <th scope="col" className='courseTableTitles'>Req</th>
-                <th scope="col" className='courseTableTitles'>Rstr</th>
-                <th scope="col" className='courseTableTitles'>Status</th>
-                 <th scope="col">ENROLL</th>
-                </tr>
-            </thead>
-            <tbody>
-                {/* {classes.map((classInfo) => {
-                    return (
-                    <tr>
-                        <th scope="row">{classInfo.courseCode}</th>
-                        <td>{classInfo.classType}</td>
-                        <td>{classInfo.section}</td>
-                        <td>{classInfo.units}</td>
-                        <td>{classInfo.instructor}</td>
-                        <td>{classInfo.time}</td>
-                        <td>{classInfo.location}</td>
-                        <td>{classInfo.enrolled}</td>
-                        <td>{classInfo.max}</td>
-                        <td>{classInfo.waitlist}</td>
-                        <td className='d-flex justify-content-center'>
-                            <div className='hstack gap-2'>
-                                <button class="dropButton" ><b>Drop</b></button>
-                                <button class="changeButton" ><b>Change</b></button>
-                            
-                            </div>
-                                
-                        </td>
-                        
-                    </tr>);
-                })} 
-                <tr>
-                    <th scope="row">49209</th>
-                    <td>Lec</td>
-                    <td>A</td>
-                    <td>4</td>
-                    <td>HP Lee</td>
-                    <td>MWF 4:00-4:50pm</td>
-                    <td>DBH 1600</td>
-                    <td>112</td>
-                    <td>112</td>
-                    <td>5</td>
-                    
-                    
-                </tr>
-                <tr>
-                    <th scope="row">49210</th>
-                    <td>Dis</td>
-                    <td>A</td>
-                    <td>0</td>
-                    <td>STAFF</td>
-                    <td>F 1:00-1:50pm</td>
-                    <td>MSTB 124</td>
-                    <td>31</td>
-                    <td>31</td>
-                    <td>5</td>
-                    
-                                                
-                </tr>
-            </tbody>
-        </table>
-    </div> */}
+    
     
     </>
 }
 
-export {Enrollment, EnrollCourseCodeForm, EnrollSearchForm};
+export { Enrollment, EnrollCourseCodeForm, EnrollSearchForm };
