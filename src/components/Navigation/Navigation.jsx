@@ -22,21 +22,30 @@ function Navigation() {
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="ms-auto">
 						<div className="">
-							<Nav.Link href="/" className="navLink">Home</Nav.Link>
+							<Nav.Link href="/" className="navLink">
+								Home
+							</Nav.Link>
 						</div>
 						<div>
-							<Nav.Link href="/enrollment" className="navLink">My Enrollment</Nav.Link>
+							<Nav.Link href="/enrollment" className="navLink">
+								My Enrollment
+							</Nav.Link>
 						</div>
 						<div>
-							<Nav.Link href="/calendar" className="navLink">My Calendar</Nav.Link>
+							<Nav.Link href="/schedule" className="navLink">
+								My Schedule
+							</Nav.Link>
 						</div>
 						<div>
-							<Nav.Link href="/" className="navLink logoutLink">Logout</Nav.Link>
+							<Nav.Link href="/calendar" className="navLink">
+								My Calendar
+							</Nav.Link>
 						</div>
-						
-						
-						
-						
+						<div>
+							<Nav.Link href="/" className="navLink logoutLink">
+								Logout
+							</Nav.Link>
+						</div>
 					</Nav>
 				</Navbar.Collapse>
 			</Container>

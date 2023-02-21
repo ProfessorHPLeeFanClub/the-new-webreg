@@ -1,13 +1,18 @@
 .scheduleListSaved {
-    display: flex;
-    align-content: center;
-    align-self: center;
-    justify-content: center;
-    margin-top: 20px;
+	margin: auto;
+	align-content: center;
+	align-self: center;
+	justify-content: center;
+	margin-top: 20px;
+	max-width: 1300px;
 }
-.savedCoursesTitle{
-    text-align: center;
-    margin-top: 30px;
-    font-weight: 600;
-    font-size: 30px;
+.savedCoursesTitle {
+	text-align: center;
+	margin-top: 30px;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.savedScheduleItem {
+	display: block;
 }

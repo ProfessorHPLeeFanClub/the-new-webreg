@@ -54,6 +54,8 @@
 
 .courseTitleBox {
 	background-color: #eeeeee;
+	margin-left: 15px;
+	margin-bottom: 5px;
 }
 
 .courseTitle {
@@ -61,6 +63,16 @@
 	display: flex;
 	align-items: center;
 	text-align: center;
+}
+
+.accordionTitleContent {
+	display: flex;
+}
+
+.titleDesc {
+	font-size: 18px;
+	margin-left: 20px;
+	margin-top: 5px;
 }
 
 .vr {

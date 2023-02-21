@@ -22,25 +22,27 @@ const GE_CHECKBOXES = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii"].map(
 function Enrollment(props) {
 	return (
 		<>
-			<div className="enrollmentWindowText">
-				Enrollment Window: March 13, 2023
+			<div className="">
+				<div className="enrollmentWindowText">
+					Enrollment Window: March 13, 2023
+				</div>
+				<hr className="hr-text" data-content="Course Code Enrollment"></hr>
+				<EnrollCourseCodeForm
+					courseCodeEnroll={props.courseCodeEnroll}
+					courseCodeError={props.courseCodeError}
+					fillCourseCode={props.fillCourseCode}
+					courseCodeData={props.courseCodeData}
+					highlightCourseCodeData={props.highlightCourseCodeData}
+					setHighlightCourseCodeData={props.setHighlightCourseCodeData}
+				></EnrollCourseCodeForm>
+				<hr className="hr-text" data-content="Search Courses"></hr>
+				<EnrollSearchForm
+					departmentList={props.departmentList}
+					courseCodeEnroll={props.courseCodeEnroll}
+					fillCourseCode={props.fillCourseCode}
+					setHighlightCourseCodeData={props.setHighlightCourseCodeData}
+				></EnrollSearchForm>
 			</div>
-			<hr className="hr-text" data-content="Course Code Enrollment"></hr>
-			<EnrollCourseCodeForm
-				courseCodeEnroll={props.courseCodeEnroll}
-				courseCodeError={props.courseCodeError}
-				fillCourseCode={props.fillCourseCode}
-				courseCodeData={props.courseCodeData}
-				highlightCourseCodeData={props.highlightCourseCodeData}
-				setHighlightCourseCodeData={props.setHighlightCourseCodeData}
-			></EnrollCourseCodeForm>
-			<hr className="hr-text" data-content="Search Courses"></hr>
-			<EnrollSearchForm
-				departmentList={props.departmentList}
-				courseCodeEnroll={props.courseCodeEnroll}
-				fillCourseCode={props.fillCourseCode}
-				setHighlightCourseCodeData={props.setHighlightCourseCodeData}
-			></EnrollSearchForm>
 		</>
 	);
 }
@@ -139,9 +141,9 @@ function EnrollCourseCodeForm(props) {
 						</FloatingLabel>
 					</Col>
 					<Col lg={1}>
-						<Button type="submit" variant="success" className="my-3">
+						<button type="submit" className="my-3 enrollButton">
 							Enroll
-						</Button>
+						</button>
 					</Col>
 				</Row>
 			</Form>

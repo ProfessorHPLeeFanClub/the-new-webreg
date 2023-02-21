@@ -1,75 +1,76 @@
 .socTableContainer {
-    background-color: #e9f3ff;
-    margin: 0;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 600px;
-    overflow: auto;
-    box-shadow: 
+	background-color: #e9f3ff;
+	margin: 0;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 600px;
+	overflow: auto;
+	/* box-shadow: 
         inset 0px 11px 30px -10px #EEEEEE,
-        inset 0px -11px 30px -10px #EEEEEE; 
-    border-top: 6px solid #EEEEEE;
-    }
+        inset 0px -11px 30px -10px #EEEEEE;  */
+	border-width: 3px;
+	border-color: rgb(194, 194, 194);
+	border-style: solid;
+	border-radius: 6px;
+}
 
 .socTitleContainer {
-    padding: 5px;
-    padding-top: 10px;
+	padding: 5px;
+	padding-top: 10px;
 }
 
 .socTitle {
-    font-size: 20px;
-    font-weight: 600;
-    
+	font-size: 20px;
+	font-weight: 600;
 }
 
 .schoolComment {
-    font-size: 14px;
-    line-height: 14px;
-    text-align: center;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
 }
 
-p { 
-    margin: 10px;
+p {
+	margin: 10px;
 }
 
 .departmentName {
-    font-weight: 600;
+	font-weight: 600;
 }
 
 .className {
-    font-weight: 600;
-    text-align: left;
-    font-size: 18px;
+	font-weight: 600;
+	text-align: left;
+	font-size: 18px;
 }
 
 .tableContainer {
-    margin-top: 30px;
-    font-size: 14px;
+	margin-top: 30px;
+	font-size: 14px;
 }
 
 hr {
-    margin: 5px;
+	margin: 5px;
 }
 
 th {
-    font-size: 12px;
+	font-size: 12px;
 }
 
 .enrollButton {
-    color: #FFFFFF;
-    width: 90px;
-    height: 25px;
-    border: none;
-    padding-bottom: 2px;
-    background: #1bc029;
-    border-radius: 5px;
-    transition: 0.15s;
-    font-weight: 600;
-    border-width: 2px;
+	color: #ffffff;
+	width: 90px;
+	height: 25px;
+	border: none;
+	padding-bottom: 2px;
+	background: #1bc029;
+	border-radius: 5px;
+	transition: 0.15s;
+	font-weight: 600;
+	border-width: 2px;
 }
-  
 
-  .enrollButton:hover {
-    background: #12911c;
-  }
+.enrollButton:hover {
+	background: #12911c;
+}

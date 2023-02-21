@@ -11,10 +11,10 @@ const TABLE_COLS = [
 	"Code",
 	"Type",
 	"Sec",
-	"Unit",
+	"Units",
 	"Instr",
 	"Time",
-	"Lec",
+	"Loc",
 	"Max",
 	"Enr",
 	"WL",
@@ -73,14 +73,19 @@ function CustomCourseBox(props) {
 
 	return (
 		<>
-			<div className="class-header w-100">
+			<div className="class-header w-100 courseBox">
 				{window.innerWidth < 992 ? (
 					<Accordion defaultActiveKey="0" style={{ borderRadius: 0 }}>
 						<Accordion.Item>
-							<Accordion.Header>{title}</Accordion.Header>
+							<Accordion.Header>
+								<div className="accordionTitleContent">
+									{title}
+									<div className="titleDesc">{titleDesc}</div>
+								</div>
+							</Accordion.Header>
 							<Accordion.Body>
 								<p>
-									<strong>Units:</strong> {units}
+									<strong> {titleDesc} </strong>
 								</p>
 								<p>
 									<strong>Grading: </strong> {grading}
@@ -158,7 +163,7 @@ function CustomCourseBox(props) {
 													className="enrollButton"
 													onClick={() => handleEnroll(classInfo.courseCode)}
 												>
-													<b>Enroll</b>
+													Enroll
 												</button>
 											</div>
 										</td>

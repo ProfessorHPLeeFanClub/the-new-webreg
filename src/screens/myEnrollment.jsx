@@ -23,7 +23,7 @@ import { Container } from "react-bootstrap";
 // request.send();
 
 //console.log(JSON.stringify(data, null, 2));
-function Enrollment() {
+function Enrollment(props) {
 	const departmentList = [
 		"AC ENG - Academic English",
 		"AFAM - African American Studies",
@@ -336,17 +336,20 @@ function Enrollment() {
 					handleEnroll={courseCodeEnroll}
 				></PreEnrolledWarning>
 			) : undefined}
-
-			<MainTabs
-				courseCodeEnroll={courseCodeEnroll}
-				courseCodeError={invalidCourseCodeError}
-				className="mainTabs"
-				departmentList={departmentList}
-				fillCourseCode={fillCourseCode}
-				courseCodeData={courseCodeData}
-				highlightCourseCodeData={highlightCourseCodeData}
-				setHighlightCourseCodeData={setHighlightCourseCodeData}
-			/>
+			{props.isSchedulePage ? (
+				""
+			) : (
+				<MainTabs
+					courseCodeEnroll={courseCodeEnroll}
+					courseCodeError={invalidCourseCodeError}
+					className="mainTabs"
+					departmentList={departmentList}
+					fillCourseCode={fillCourseCode}
+					courseCodeData={courseCodeData}
+					highlightCourseCodeData={highlightCourseCodeData}
+					setHighlightCourseCodeData={setHighlightCourseCodeData}
+				/>
+			)}
 
 			<h2 className="mt-5 mb-3 text-center">My Schedule</h2>
 			<div key={courseList}>

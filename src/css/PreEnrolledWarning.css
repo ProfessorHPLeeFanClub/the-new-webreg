@@ -1,45 +1,53 @@
 .warningBox {
-    width: 900px;
-    height: 65px;
-    margin: auto;
-    margin-top: 20px;
-    background: #FFE2AA;
-    border-radius: 5px;
-    display: flex;
+	max-width: 660px;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background: #ffe2aa;
+	border-radius: 5px;
+	display: flex;
+	text-decoration: none;
+	padding: 15px;
+	transition: 0.15s;
+}
+
+.warningBoxContent {
+	display: flex;
+	margin: auto;
+}
+
+.warningBox:hover {
+	filter: brightness(95%);
 }
 
 .iconBox {
-    width: 45px;
-    background-color: #FF9900;
-    margin: 10px
+	background-color: #ffffff;
 }
 
 .warningText {
-    margin: auto;
-    margin-left: 5px;
-    font-size: 20px;
-    font-weight: 600;
+	font-size: 20px;
+	font-weight: 600;
+	color: #8b4809;
 }
 
 .viewButton {
-    width: 137px;
-    height: 35px;
-    float: right;
-    margin: 15px;
-    background: #FF9900;
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 600;
-    transition: .15s;
+	width: 137px;
+	height: 35px;
+	background: #ff9900;
+	border-radius: 5px;
+	margin-left: 20px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	transition: 0.15s;
+	text-align: center;
 }
 
 .viewButton:hover {
-    background: #e47f21;
-    color: white;
+	/* background: #e47f21; */
+	color: white;
 }
 
 .preEnrolledTooltip {
-    
 }
