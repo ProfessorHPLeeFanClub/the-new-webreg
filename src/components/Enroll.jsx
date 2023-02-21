@@ -1,12 +1,11 @@
-// import { useState } from "react";
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap";
-import "../css/Enroll.css";
-//import Typeahead from "react-bootstrap-typeahead/types/core/Typeahead";
-import { Typeahead } from "react-bootstrap-typeahead";
+import { useState, useEffect, useRef } from "react";
+import Form from "react-bootstrap/Form";
+import { AsyncTypeahead, Typeahead } from "react-bootstrap-typeahead";
+import SoCTable from "./SoCTable";
 import "react-bootstrap-typeahead/css/Typeahead.css";
-import React, { useState } from "react";
-import { Button, Col, FloatingLabel, Form, Row } from "react-bootstrap";
+import "../css/Enroll.css";
+import { Col, FloatingLabel, Row } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 const GE_CHECKBOXES = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii"].map(
 	(category, index) => (
@@ -23,59 +22,101 @@ const GE_CHECKBOXES = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii"].map(
 function Enrollment(props) {
 	return (
 		<>
-			<h2 className="enrollmentWindowText">
+			<div className="enrollmentWindowText">
 				Enrollment Window: March 13, 2023
-			</h2>
-			<hr className="hr-text" data-content="Course Code Enrollment" />
-			<EnrollCourseCodeForm />
-			<hr className="hr-text" data-content="Search Courses" />
-			<EnrollSearchForm departmentList={props.departmentList} />
+			</div>
+			<hr className="hr-text" data-content="Course Code Enrollment"></hr>
+			<EnrollCourseCodeForm
+				courseCodeEnroll={props.courseCodeEnroll}
+				courseCodeError={props.courseCodeError}
+				fillCourseCode={props.fillCourseCode}
+				courseCodeData={props.courseCodeData}
+				highlightCourseCodeData={props.highlightCourseCodeData}
+				setHighlightCourseCodeData={props.setHighlightCourseCodeData}
+			></EnrollCourseCodeForm>
+			<hr className="hr-text" data-content="Search Courses"></hr>
+			<EnrollSearchForm
+				departmentList={props.departmentList}
+				courseCodeEnroll={props.courseCodeEnroll}
+				fillCourseCode={props.fillCourseCode}
+				setHighlightCourseCodeData={props.setHighlightCourseCodeData}
+			></EnrollSearchForm>
 		</>
 	);
 }
 
-function EnrollCourseCodeForm() {
-	const [courseCode, setCourseCode] = useState("");
+function EnrollCourseCodeForm(props) {
+	const [courseCode, setCourseCode] = useState(props.courseCodeData);
 	const [authCode, setAuthCode] = useState("");
 	const [gradingOption, setGradingOption] = useState("GR");
 	const [units, setUnits] = useState("");
+	const [courseCodeError, setCourseCodeError] = useState(props.courseCodeError);
 
-	function handleSubmit(e) {
+	const handleSubmit = (e) => {
 		e.preventDefault();
-		console.log(courseCode);
-		console.log(authCode);
-		console.log(gradingOption);
-		console.log(units);
-	}
+		//console.log("form clicked:"+courseCode+" and "+gradingOption)
+		setCourseCode("");
+		const formData = courseCode;
+		props.courseCodeEnroll(formData, gradingOption);
+	};
+
+	useEffect(() => {
+		setCourseCodeError(props.courseCodeError);
+		setCourseCode(props.courseCodeData);
+		console.log("set course code to " + props.courseCodeData);
+	}, [props.courseCodeError, props.courseCodeData]);
 
 	return (
 		<>
 			<Form onSubmit={handleSubmit}>
-				<Row className="justify-content-center align-items-center">
-					<Col lg className="my-3">
-						<FloatingLabel controlId="course-code" label="Course Code">
+				<Row className="align-items-center">
+					<Col lg>
+						<FloatingLabel
+							controlId="course-code"
+							label="Course Code"
+							className="my-3"
+						>
 							<Form.Control
-								type="text"
-								placeholder="12345"
-								onChange={(e) => setCourseCode(e.target.value)}
+								placeholder="Course Code"
 								value={courseCode}
+								onChange={(e) => setCourseCode(e.target.value)}
 							/>
+							{courseCodeError ? (
+								<>
+									<div
+										id="validationServer03Feedback"
+										className="invalid-feedback"
+									>
+										Invalid Course Code
+									</div>{" "}
+								</>
+							) : (
+								""
+							)}
 						</FloatingLabel>
 					</Col>
-					<Col lg className="my-3">
-						<FloatingLabel controlId="auth-code" label="Auth Code (Optional)">
+
+					<Col lg>
+						<FloatingLabel
+							controlId="auth-code"
+							label="Auth Code (Optional)"
+							className="my-3"
+						>
 							<Form.Control
-								type="text"
-								placeholder="1234"
-								onChange={(e) => setAuthCode(e.target.value)}
+								placeholder="Auth Code (Optional)"
 								value={authCode}
+								onChange={(e) => setAuthCode(e.target.value)}
 							/>
 						</FloatingLabel>
 					</Col>
-					<Col lg className="my-3">
-						<FloatingLabel controlId="grading-option" label="Grading Option">
+					<Col lg>
+						<FloatingLabel
+							controlId="grading-option"
+							label="Grading Option"
+							className="my-3"
+						>
 							<Form.Select
-								aria-label="Grading option select menu"
+								aria-label="Grading option select"
 								value={gradingOption}
 								onChange={(e) => setGradingOption(e.target.value)}
 							>
@@ -84,18 +125,21 @@ function EnrollCourseCodeForm() {
 							</Form.Select>
 						</FloatingLabel>
 					</Col>
-					<Col lg className="my-3">
-						<FloatingLabel controlId="units" label="Units (Optional)">
+					<Col lg>
+						<FloatingLabel
+							controlId="units"
+							label="Units (Optional)"
+							className="my-3"
+						>
 							<Form.Control
-								type="number"
-								placeholder="1234"
-								onChange={(e) => setUnits(e.target.value)}
+								placeholder="Units (Optional)"
 								value={units}
+								onChange={(e) => setUnits(e.target.value)}
 							/>
 						</FloatingLabel>
 					</Col>
-					<Col lg={1} className="my-3">
-						<Button type="submit" variant="success">
+					<Col lg={1}>
+						<Button type="submit" variant="success" className="my-3">
 							Enroll
 						</Button>
 					</Col>
@@ -108,81 +152,152 @@ function EnrollCourseCodeForm() {
 function EnrollSearchForm(props) {
 	// const [filterDepartmentText, setFilterDepartmentText] = useState("");
 
+	// const [filterDepartmentText, setFilterDepartmentText] = useState("");
+
 	// const clearfilterDepartmentText = () => {
 	//     setFilterDepartmentText("");
 	// }
-	const filterDepartmentText = React.createRef();
+	const [departmentName, setDepartmentName] = useState("");
+	const [departmentList, setDepartmentList] = useState(props.departmentList);
+	const [courseNum, setCourseNum] = useState("");
+	const [geList, setGeList] = useState([]);
+	const [isLoading, setIsLoading] = useState(false);
+	const [options, setOptions] = useState([]);
+	const [searchResult, setSearchResult] = useState([]);
+	const [resultData, setResultData] = useState([]);
+	const [searchCourse, setSearchCourse] = useState("");
 
+	const handleInputSearch = (input) => {
+		setIsLoading(true);
+		const splitQuery = input.split(" ");
+		const potentialDepartments = departmentList.filter((dept) =>
+			dept.startsWith(splitQuery[0].toUpperCase())
+		);
+		if (potentialDepartments.length === 0) {
+			setOptions([]);
+			return;
+		}
+		const firstPotentialDepartment = potentialDepartments[0].split(" - ")[0];
+		console.log(firstPotentialDepartment);
+		const url =
+			"https://api.peterportal.org/rest/v0/schedule/soc?term=2023%20Spring&department=" +
+			firstPotentialDepartment;
+		if (splitQuery.length === 2) {
+			url += "&courseNumber=" + splitQuery[1];
+		}
+
+		fetch(url)
+			.then((resp) => resp.json())
+			.then((res) => {
+				// const data = items.filter(() => {
+
+				setSearchResult(res.schools);
+				// })
+				//console.log(items)
+				const data = res.schools[0].departments[0].courses;
+				//console.log(data);
+				setOptions(data);
+				setIsLoading(false);
+			});
+	};
+
+	const handleSearch = () => {
+		setResultData(searchResult);
+	};
+
+	useEffect(() => {}, [searchResult, resultData]);
+
+	const addGe = (geName) => {
+		setGeList(geList.push(geName));
+	};
+	const removeGe = (geName) => {
+		const newList = geList.filter((ge) => ge != geName);
+		setGeList(newList);
+	};
+	const handleDepartmentName = (name) => {
+		//console.log(name);
+		setDepartmentName(name);
+	};
+
+	const filterDepartmentText = useRef(""); //React.createRef();
+
+	const filterBy = () => true;
 	return (
 		<>
-			<Form>
-				{/* <div className="dropdown ">
-                <div className="form-floating mb-3 courseSearchBox">
-                    <input type="text" className="jAuto form-control" id="floatingInput" placeholder="" />
-                    <label for="floatingInput">Search Course</label>
-                    
-                </div>
-                <div className="dropdown-menu">
-                    <i className="hasNoResults">No matching results</i>
-                    <div className="list-autocomplete">
-                        <button type="button" className="dropdown-item">01 - Alpha  Barbuda</button>
-                        <button type="button" className="dropdown-item">02 - Charlie Alpha</button>
-                        <button type="button" className="dropdown-item">03 - Bravo Alpha</button>
-                        <button type="button" className="dropdown-item">04 - Delta</button>
-                    </div>
-                    <button type="button" className="btn-extra">Custom button</button>
-                </div>
-            </div>  */}
-				<Row className="mb-3 justify-content-center align-items-center">
-					<Typeahead
+			<form className="courseSearchForm">
+				<div className="courseSearchGroup">
+					<AsyncTypeahead
+						className="courseSearchBox"
+						filterBy={filterBy}
+						isLoading={isLoading}
+						minLength={1}
+						onSearch={handleInputSearch}
+						options={options}
+						caseSensitive={false}
+						labelKey={(option) =>
+							`${option.deptCode} ${option.courseNumber}: ${option.courseTitle}`
+						}
 						//defaultSelected={props.departmentList.slice(0, 1)}
 						id="selections-example"
-						labelKey="searchCourse"
-						// onInputChange={(text, e) => {
-						// setFilterDepartmentText(text)
-						// }}
-						ref={filterDepartmentText}
+						// labelKey="searchCourse"
+						onInputChange={(text, e) => {
+							//setSearchCourse(text)
+						}}
+						//ref={filterDepartmentText}
 						//onChange={setFilterDepartmentText}
-						options={[]}
+
 						placeholder="Search Course"
 						// value={filterDepartmentText}
 						//selected={filterDepartmentText}
 					/>
-				</Row>
 
-				<Row>
-					<Col lg={8}>
+					<button
+						type="submit"
+						onClick={(e) => {
+							e.preventDefault();
+							handleSearch();
+						}}
+						className="searchButton"
+					>
+						Search
+					</button>
+				</div>
+
+				<Row className="align-items-end">
+					<Col lg={7}>
 						<h5>Filter:</h5>
 						{GE_CHECKBOXES}
 					</Col>
-					<Col lg={4}>
+					<Col lg={5}>
 						<Typeahead
 							className="departmentFilter"
+							clearButton={true}
 							//defaultSelected={props.departmentList.slice(0, 1)}
 							id="selections-example"
 							labelKey="departmentName"
 							// onInputChange={(text, e) => {
-							// setFilterDepartmentText(text)
+							//     handleDepartmentName(text)
 							// }}
-							ref={filterDepartmentText}
-							//onChange={setFilterDepartmentText}
+							//ref={departmentName}
+							onChange={handleDepartmentName}
 							options={props.departmentList}
 							placeholder="Department"
 							// value={filterDepartmentText}
 							//selected={filterDepartmentText}
-						/>
-						{/* <button onClick={() => filterDepartmentText.current.clear()}>
-                    Clear
-                </button> */}
-						<input
-							className="departmentFilterClearButton"
-							onClick={() => filterDepartmentText.current.clear()}
-							type="button"
-							value="🗙"
-						/>
+						></Typeahead>
 					</Col>
 				</Row>
-			</Form>
+			</form>
+
+			{resultData.length > 0 ? (
+				<SoCTable
+					data={resultData}
+					fillCourseCode={props.fillCourseCode}
+					setHighlightCourseCodeData={props.setHighlightCourseCodeData}
+				></SoCTable>
+			) : (
+				""
+			)}
 		</>
 	);
 }

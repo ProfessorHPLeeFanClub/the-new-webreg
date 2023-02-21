@@ -23,12 +23,48 @@ const TABLE_COLS = [
 ];
 
 function CustomCourseBox(props) {
-	const { title, units, grading, finalDate, classes } = props;
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+	const [title, setTitle] = useState(props.title);
+	const [units, setUnits] = useState(props.units);
+	const [titleDesc, setTitleDesc] = useState(props.titleDesc);
+	const [grading, setGrading] = useState(props.grading);
+	const [finalDate, setFinalDate] = useState(props.finalDate);
+	const [classes, setClasses] = useState(props.classes);
+	// var title = props.title;
+	// var units = props.units;
+	// var grading = props.grading;
+	// var finalDate = props.finalDate;
+	// var classes = props.classes
+	useEffect(() => {
+		// console.log(props.title);
+		// console.log(props.units);
+		// console.log(props.grading);
+		// console.log(props.finalDate);
+		// console.log(props.classes)
+		setTitle(props.title);
+		setUnits(props.units);
+		setTitleDesc(props.titleDesc);
+		setGrading(props.grading);
+		setFinalDate(props.finalDate);
+		setClasses(props.classes);
+	}, [
+		props.title,
+		props.units,
+		props.titleDesc,
+		props.grading,
+		props.finalDate,
+		props.classes,
+	]);
 
-	console.log("in custom ");
-	console.log(props);
+	const handleDrop = (courseCode) => {
+		console.log("dropping: " + courseCode);
+		props.dropCourse(courseCode);
+	};
 
+	const handleEnroll = (courseCode) => {
+		console.log("enrolling from saved: " + courseCode);
+		props.courseCodeEnroll(courseCode);
+	};
 	useEffect(() => {
 		window.addEventListener("resize", () => {
 			setWindowWidth(window.innerWidth);
@@ -57,13 +93,13 @@ function CustomCourseBox(props) {
 						</Accordion.Item>
 					</Accordion>
 				) : (
-					<div className="courseTitleBox d-flex align-items-center px-2">
+					<div className="courseTitleBox">
 						<div className="courseTitle">{title}</div>
-						<div className="vr" />
-						<div className="">{units} units</div>
-						<div className="vr" />
-						<div className="me-auto">{grading}</div>
-						<div className="">Final: {finalDate}</div>
+						<div className="vr"></div>
+						<div className="courseTitleInfo">{titleDesc}</div>
+						<div className="vr"></div>
+						<div className="courseTitleInfo">{grading}</div>
+						<div className="courseTitleInfo finalInfo">Final: {finalDate}</div>
 					</div>
 				)}
 				<div className="courseContentBox justify-content-center">
@@ -97,16 +133,39 @@ function CustomCourseBox(props) {
 									<td>{classInfo.enrolled}</td>
 									<td>{classInfo.max}</td>
 									<td>{classInfo.waitlist}</td>
-									<td>
-										<button type="button" className="dropButton">
-											<b>Drop</b>
-										</button>
-									</td>
-									<td>
-										<button type="button" className="changeButton">
-											<b>Change</b>
-										</button>
-									</td>
+									{props.allowButtons ? (
+										<>
+											<td>
+												<button
+													type="button"
+													className="dropButton"
+													onClick={() => handleDrop(classInfo.courseCode)}
+												>
+													<b>Drop</b>
+												</button>
+											</td>
+											<td>
+												<button type="button" className="changeButton">
+													<b>Change</b>
+												</button>
+											</td>
+										</>
+									) : null}
+
+									{props.allowEnroll ? (
+										<td className="d-flex justify-content-center">
+											<div className="hstack gap-2">
+												<button
+													className="enrollButton"
+													onClick={() => handleEnroll(classInfo.courseCode)}
+												>
+													<b>Enroll</b>
+												</button>
+											</div>
+										</td>
+									) : (
+										""
+									)}
 								</tr>
 							))}
 						</tbody>
