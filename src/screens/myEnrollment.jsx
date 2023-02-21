@@ -10,6 +10,7 @@ import {
 import { useEffect, useState } from "react";
 import "../css/Overlay.css";
 import { ErrorOverlay } from "../components/Overlay";
+import { Container } from "react-bootstrap";
 
 // const API_PETER =
 // 	"https://api.peterportal.org/rest/v0/schedule/soc?term=2023%20Winter";
@@ -328,47 +329,45 @@ function Enrollment() {
 	};
 
 	return (
-		<>
-			<div className="content">
-				{savedCourseList.length ? (
-					<PreEnrolledWarning
-						courseList={courseList}
-						handleEnroll={courseCodeEnroll}
-					></PreEnrolledWarning>
-				) : undefined}
+		<Container>
+			{savedCourseList.length ? (
+				<PreEnrolledWarning
+					courseList={courseList}
+					handleEnroll={courseCodeEnroll}
+				></PreEnrolledWarning>
+			) : undefined}
 
-				<MainTabs
-					courseCodeEnroll={courseCodeEnroll}
-					courseCodeError={invalidCourseCodeError}
-					className="mainTabs"
-					departmentList={departmentList}
-					fillCourseCode={fillCourseCode}
-					courseCodeData={courseCodeData}
-					highlightCourseCodeData={highlightCourseCodeData}
-					setHighlightCourseCodeData={setHighlightCourseCodeData}
+			<MainTabs
+				courseCodeEnroll={courseCodeEnroll}
+				courseCodeError={invalidCourseCodeError}
+				className="mainTabs"
+				departmentList={departmentList}
+				fillCourseCode={fillCourseCode}
+				courseCodeData={courseCodeData}
+				highlightCourseCodeData={highlightCourseCodeData}
+				setHighlightCourseCodeData={setHighlightCourseCodeData}
+			/>
+
+			<h2 className="mt-5 mb-3 text-center">My Schedule</h2>
+			<div key={courseList}>
+				<Schedule
+					className="schedule"
+					courseList={courseList}
+					dropCourse={dropCourse}
+					allowButtons={true}
 				/>
-
-				<h2 className="myScheduleText">My Schedule</h2>
-				<div key={courseList}>
-					<Schedule
-						className="schedule"
-						courseList={courseList}
-						dropCourse={dropCourse}
-						allowButtons={true}
-					/>
-				</div>
-
-				{invalidCourseCodeError ? (
-					<ErrorOverlay
-						errorTitle={"Error! "}
-						desc={" Invalid Course Code"}
-						handleError={closeError}
-					/>
-				) : (
-					""
-				)}
 			</div>
-		</>
+
+			{invalidCourseCodeError ? (
+				<ErrorOverlay
+					errorTitle={"Error! "}
+					desc={" Invalid Course Code"}
+					handleError={closeError}
+				/>
+			) : (
+				""
+			)}
+		</Container>
 	);
 }
 

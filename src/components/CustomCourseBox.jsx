@@ -73,7 +73,6 @@ function CustomCourseBox(props) {
 
 	return (
 		<>
-			<h2 className="mt-5 mb-3 text-center">My Schedule</h2>
 			<div className="class-header w-100">
 				{window.innerWidth < 992 ? (
 					<Accordion defaultActiveKey="0" style={{ borderRadius: 0 }}>
@@ -93,13 +92,13 @@ function CustomCourseBox(props) {
 						</Accordion.Item>
 					</Accordion>
 				) : (
-					<div className="courseTitleBox">
+					<div className="courseTitleBox d-flex align-items-center">
 						<div className="courseTitle">{title}</div>
 						<div className="vr"></div>
-						<div className="courseTitleInfo">{titleDesc}</div>
+						<div>{titleDesc}</div>
 						<div className="vr"></div>
-						<div className="courseTitleInfo">{grading}</div>
-						<div className="courseTitleInfo finalInfo">Final: {finalDate}</div>
+						<div>{grading}</div>
+						<div className="finalInfo">Final: {finalDate}</div>
 					</div>
 				)}
 				<div className="courseContentBox justify-content-center">

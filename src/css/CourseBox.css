@@ -47,22 +47,13 @@
 }
 
 .courseBox {
-	box-sizing: border-box;
-
-	width: 900px;
-	/* height: 211px; */
-
 	background-color: #eeeeee;
-
 	border: 6px solid #eeeeee;
 	border-radius: 5px;
-	/* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
 }
+
 .courseTitleBox {
-	width: 100%;
-	height: 65px;
 	background-color: #eeeeee;
-	display: flex;
 }
 
 .courseTitle {
@@ -79,17 +70,6 @@
 	margin: 15px;
 }
 
-.courseTitleInfo {
-	/* font-family: 'Inter'; */
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 24px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	padding-bottom: 7px;
-}
 .finalInfo {
 	margin-left: auto;
 	margin-right: 15px;

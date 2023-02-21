@@ -10586,17 +10586,12 @@ fieldset:disabled .btn {
 	border: none;
 }
 .courseBox {
-	background-color: #eee;
 	border: 6px solid #eee;
 	border-radius: 5px;
-	box-sizing: border-box;
-	width: 900px;
 }
+.courseBox,
 .courseTitleBox {
 	background-color: #eee;
-	display: flex;
-	height: 65px;
-	width: 100%;
 }
 .courseTitle {
 	display: flex;
@@ -10611,16 +10606,6 @@ fieldset:disabled .btn {
 	height: 30px;
 	line-height: 33px;
 	margin: 15px;
-}
-.courseTitleInfo {
-	align-items: center;
-	display: flex;
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 24px;
-	padding-bottom: 7px;
-	text-align: center;
 }
 .finalInfo {
 	margin-left: auto;
@@ -11148,19 +11133,6 @@ td {
 .viewButton:hover {
 	background: #e47f21;
 	color: #fff;
-}
-.scheduleListSaved {
-	align-content: center;
-	align-self: center;
-	display: flex;
-	justify-content: center;
-	margin-top: 20px;
-}
-.savedCoursesTitle {
-	font-size: 30px;
-	font-weight: 600;
-	margin-top: 30px;
-	text-align: center;
 }
 .errorAlert {
 	background-color: #ffbdbd;
@@ -11911,4 +11883,17 @@ button.rbc-input::-moz-focus-inner {
 	background-color: #dceeff;
 	color: #000;
 }
-/*# sourceMappingURL=main.0b5fc514.css.map*/
+.scheduleListSaved {
+	align-content: center;
+	align-self: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.savedCoursesTitle {
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 30px;
+	text-align: center;
+}
+/*# sourceMappingURL=main.b6a08712.css.map*/

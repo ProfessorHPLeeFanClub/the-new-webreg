@@ -179,7 +179,7 @@ function EnrollSearchForm(props) {
 		}
 		const firstPotentialDepartment = potentialDepartments[0].split(" - ")[0];
 		console.log(firstPotentialDepartment);
-		const url =
+		let url =
 			"https://api.peterportal.org/rest/v0/schedule/soc?term=2023%20Spring&department=" +
 			firstPotentialDepartment;
 		if (splitQuery.length === 2) {
@@ -294,7 +294,7 @@ function EnrollSearchForm(props) {
 					data={resultData}
 					fillCourseCode={props.fillCourseCode}
 					setHighlightCourseCodeData={props.setHighlightCourseCodeData}
-				></SoCTable>
+				/>
 			) : (
 				""
 			)}

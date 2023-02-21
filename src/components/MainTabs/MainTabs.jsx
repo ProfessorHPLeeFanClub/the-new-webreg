@@ -4,11 +4,19 @@ import PlanOfStudy from "../PlanOfStudy/PlanOfStudy";
 import ZotPick from "../ZotPick";
 import "./MainTabs.scss";
 
-function MainTabs() {
+function MainTabs(props) {
 	return (
 		<Tabs defaultActiveKey="enroll" className="pos-tabs">
 			<Tab eventKey="enroll" title="Enroll">
-				<Enrollment />
+				<Enrollment
+					courseCodeEnroll={props.courseCodeEnroll}
+					courseCodeError={props.courseCodeError}
+					departmentList={props.departmentList}
+					fillCourseCode={props.fillCourseCode}
+					courseCodeData={props.courseCodeData}
+					highlightCourseCodeData={props.highlightCourseCodeData}
+					setHighlightCourseCodeData={props.setHighlightCourseCodeData}
+				/>
 			</Tab>
 			<Tab eventKey="planofstudy" title="Plan of Study">
 				<PlanOfStudy />
