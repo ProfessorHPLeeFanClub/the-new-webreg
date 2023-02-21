@@ -1,6 +1,8 @@
+import { Table } from "react-bootstrap";
+
 function BioSciPOS() {
 	return (
-		<table className="sc_courselist">
+		<Table responsive borderless className="sc_courselist">
 			<tbody>
 				<tr className="odd">
 					<td className="codecol">
@@ -68,11 +70,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;99"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI 99');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;99" className="class">
 							BIO&nbsp;SCI&nbsp;99
 						</a>
 					</td>{" "}
@@ -82,11 +80,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;100"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI 100');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;100" className="class">
 							BIO&nbsp;SCI&nbsp;100
 						</a>
 					</td>{" "}
@@ -106,28 +100,16 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="CHEM&nbsp;1A"
-								className="class"
-								onClick="return showCourse(this, 'CHEM 1A');"
-							>
+							<a title="CHEM&nbsp;1A" className="class">
 								CHEM&nbsp;1A
 							</a>
 							-
-							<a
-								title="CHEM&nbsp;1B"
-								className="class"
-								onClick="return showCourse(this, 'CHEM 1B');"
-							>
+							<a title="CHEM&nbsp;1B" className="class">
 								{" "}
 								1B
 							</a>
 							-
-							<a
-								title="CHEM&nbsp;1C"
-								className="class"
-								onClick="return showCourse(this, 'CHEM 1C');"
-							>
+							<a title="CHEM&nbsp;1C" className="class">
 								{" "}
 								1C
 							</a>
@@ -161,19 +143,11 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="CHEM&nbsp;1LC"
-								className="class"
-								onClick="return showCourse(this, 'CHEM 1LC');"
-							>
+							<a title="CHEM&nbsp;1LC" className="class">
 								CHEM&nbsp;1LC
 							</a>
 							-
-							<a
-								title="CHEM&nbsp;1LD"
-								className="class"
-								onClick="return showCourse(this, 'CHEM 1LD');"
-							>
+							<a title="CHEM&nbsp;1LD" className="class">
 								{" "}
 								1LD
 							</a>
@@ -201,28 +175,16 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="CHEM&nbsp;H2A"
-								className="class"
-								onClick="return showCourse(this, 'CHEM H2A');"
-							>
+							<a title="CHEM&nbsp;H2A" className="class">
 								CHEM&nbsp;H2A
 							</a>
 							-
-							<a
-								title="CHEM&nbsp;H2B"
-								className="class"
-								onClick="return showCourse(this, 'CHEM H2B');"
-							>
+							<a title="CHEM&nbsp;H2B" className="class">
 								{" "}
 								H2B
 							</a>
 							-
-							<a
-								title="CHEM&nbsp;H2C"
-								className="class"
-								onClick="return showCourse(this, 'CHEM H2C');"
-							>
+							<a title="CHEM&nbsp;H2C" className="class">
 								{" "}
 								H2C
 							</a>
@@ -256,19 +218,11 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="CHEM&nbsp;H2LA"
-								className="class"
-								onClick="return showCourse(this, 'CHEM H2LA');"
-							>
+							<a title="CHEM&nbsp;H2LA" className="class">
 								CHEM&nbsp;H2LA
 							</a>
 							-
-							<a
-								title="CHEM&nbsp;H2LB"
-								className="class"
-								onClick="return showCourse(this, 'CHEM H2LB');"
-							>
+							<a title="CHEM&nbsp;H2LB" className="class">
 								{" "}
 								H2LB
 							</a>
@@ -296,28 +250,16 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="CHEM&nbsp;51A"
-								className="class"
-								onClick="return showCourse(this, 'CHEM 51A');"
-							>
+							<a title="CHEM&nbsp;51A" className="class">
 								CHEM&nbsp;51A
 							</a>
 							-
-							<a
-								title="CHEM&nbsp;51B"
-								className="class"
-								onClick="return showCourse(this, 'CHEM 51B');"
-							>
+							<a title="CHEM&nbsp;51B" className="class">
 								{" "}
 								51B
 							</a>
 							-
-							<a
-								title="CHEM&nbsp;51C"
-								className="class"
-								onClick="return showCourse(this, 'CHEM 51C');"
-							>
+							<a title="CHEM&nbsp;51C" className="class">
 								{" "}
 								51C
 							</a>
@@ -351,19 +293,11 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="CHEM&nbsp;51LB"
-								className="class"
-								onClick="return showCourse(this, 'CHEM 51LB');"
-							>
+							<a title="CHEM&nbsp;51LB" className="class">
 								CHEM&nbsp;51LB
 							</a>
 							-
-							<a
-								title="CHEM&nbsp;51LC"
-								className="class"
-								onClick="return showCourse(this, 'CHEM 51LC');"
-							>
+							<a title="CHEM&nbsp;51LC" className="class">
 								{" "}
 								51LC
 							</a>
@@ -382,19 +316,11 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="CHEM&nbsp;H52LA"
-								className="class"
-								onClick="return showCourse(this, 'CHEM H52LA');"
-							>
+							<a title="CHEM&nbsp;H52LA" className="class">
 								CHEM&nbsp;H52LA
 							</a>
 							-
-							<a
-								title="CHEM&nbsp;H52LB"
-								className="class"
-								onClick="return showCourse(this, 'CHEM H52LB');"
-							>
+							<a title="CHEM&nbsp;H52LB" className="class">
 								{" "}
 								H52LB
 							</a>
@@ -419,11 +345,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;5A"
-							className="class"
-							onClick="return showCourse(this, 'MATH 5A');"
-						>
+						<a title="MATH&nbsp;5A" className="class">
 							MATH&nbsp;5A
 						</a>
 					</td>{" "}
@@ -433,11 +355,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;5B"
-							className="class"
-							onClick="return showCourse(this, 'MATH 5B');"
-						>
+						<a title="MATH&nbsp;5B" className="class">
 							MATH&nbsp;5B
 						</a>
 					</td>{" "}
@@ -457,11 +375,7 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="STATS&nbsp;7"
-								className="class"
-								onClick="return showCourse(this, 'STATS 7');"
-							>
+							<a title="STATS&nbsp;7" className="class">
 								STATS&nbsp;7
 							</a>
 						</div>
@@ -473,11 +387,7 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="STATS&nbsp;8"
-								className="class"
-								onClick="return showCourse(this, 'STATS 8');"
-							>
+							<a title="STATS&nbsp;8" className="class">
 								STATS&nbsp;8
 							</a>
 						</div>
@@ -489,11 +399,7 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MATH&nbsp;2D"
-								className="class"
-								onClick="return showCourse(this, 'MATH 2D');"
-							>
+							<a title="MATH&nbsp;2D" className="class">
 								MATH&nbsp;2D
 							</a>
 						</div>
@@ -505,11 +411,7 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MATH&nbsp;3A"
-								className="class"
-								onClick="return showCourse(this, 'MATH 3A');"
-							>
+							<a title="MATH&nbsp;3A" className="class">
 								MATH&nbsp;3A
 							</a>
 						</div>
@@ -541,28 +443,16 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PHYSICS&nbsp;3A"
-								className="class"
-								onClick="return showCourse(this, 'PHYSICS 3A');"
-							>
+							<a title="PHYSICS&nbsp;3A" className="class">
 								PHYSICS&nbsp;3A
 							</a>
 							-
-							<a
-								title="PHYSICS&nbsp;3B"
-								className="class"
-								onClick="return showCourse(this, 'PHYSICS 3B');"
-							>
+							<a title="PHYSICS&nbsp;3B" className="class">
 								{" "}
 								3B
 							</a>
 							-
-							<a
-								title="PHYSICS&nbsp;3C"
-								className="class"
-								onClick="return showCourse(this, 'PHYSICS 3C');"
-							>
+							<a title="PHYSICS&nbsp;3C" className="class">
 								{" "}
 								3C
 							</a>
@@ -584,19 +474,11 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PHYSICS&nbsp;3LB"
-								className="class"
-								onClick="return showCourse(this, 'PHYSICS 3LB');"
-							>
+							<a title="PHYSICS&nbsp;3LB" className="class">
 								PHYSICS&nbsp;3LB
 							</a>
 							-
-							<a
-								title="PHYSICS&nbsp;3LC"
-								className="class"
-								onClick="return showCourse(this, 'PHYSICS 3LC');"
-							>
+							<a title="PHYSICS&nbsp;3LC" className="class">
 								{" "}
 								3LC
 							</a>
@@ -626,28 +508,16 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PHYSICS&nbsp;7C"
-								className="class"
-								onClick="return showCourse(this, 'PHYSICS 7C');"
-							>
+							<a title="PHYSICS&nbsp;7C" className="class">
 								PHYSICS&nbsp;7C
 							</a>
 							-
-							<a
-								title="PHYSICS&nbsp;7D"
-								className="class"
-								onClick="return showCourse(this, 'PHYSICS 7D');"
-							>
+							<a title="PHYSICS&nbsp;7D" className="class">
 								{" "}
 								7D
 							</a>
 							-
-							<a
-								title="PHYSICS&nbsp;7E"
-								className="class"
-								onClick="return showCourse(this, 'PHYSICS 7E');"
-							>
+							<a title="PHYSICS&nbsp;7E" className="class">
 								{" "}
 								7E
 							</a>
@@ -670,19 +540,11 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PHYSICS&nbsp;7LC"
-								className="class"
-								onClick="return showCourse(this, 'PHYSICS 7LC');"
-							>
+							<a title="PHYSICS&nbsp;7LC" className="class">
 								PHYSICS&nbsp;7LC
 							</a>
 							-
-							<a
-								title="PHYSICS&nbsp;7LD"
-								className="class"
-								onClick="return showCourse(this, 'PHYSICS 7LD');"
-							>
+							<a title="PHYSICS&nbsp;7LD" className="class">
 								{" "}
 								7LD
 							</a>
@@ -725,11 +587,7 @@ function BioSciPOS() {
 						<span className="courselistcomment">
 							Students in the School of Biological Sciences have the option to
 							satisfy the upper-division writing requirement by completing{" "}
-							<a
-								title="BIO&nbsp;SCI&nbsp;100"
-								className="class"
-								onClick="return showCourse(this, 'BIO SCI 100');"
-							>
+							<a title="BIO&nbsp;SCI&nbsp;100" className="class">
 								BIO&nbsp;SCI&nbsp;100
 							</a>{" "}
 							with a minimum grade of C, followed by the completion of two
@@ -741,11 +599,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;D111L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI D111L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;D111L" className="class">
 							BIO&nbsp;SCI&nbsp;D111L
 						</a>
 					</td>{" "}
@@ -755,11 +609,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;E106L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI E106L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;E106L" className="class">
 							BIO&nbsp;SCI&nbsp;E106L
 						</a>
 					</td>{" "}
@@ -769,11 +619,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;E112L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI E112L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;E112L" className="class">
 							BIO&nbsp;SCI&nbsp;E112L
 						</a>
 					</td>{" "}
@@ -783,11 +629,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;E115L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI E115L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;E115L" className="class">
 							BIO&nbsp;SCI&nbsp;E115L
 						</a>
 					</td>{" "}
@@ -797,11 +639,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;E131L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI E131L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;E131L" className="class">
 							BIO&nbsp;SCI&nbsp;E131L
 						</a>
 					</td>{" "}
@@ -811,11 +649,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;E140L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI E140L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;E140L" className="class">
 							BIO&nbsp;SCI&nbsp;E140L
 						</a>
 					</td>{" "}
@@ -825,11 +659,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;E160L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI E160L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;E160L" className="class">
 							BIO&nbsp;SCI&nbsp;E160L
 						</a>
 					</td>{" "}
@@ -839,11 +669,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;E166L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI E166L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;E166L" className="class">
 							BIO&nbsp;SCI&nbsp;E166L
 						</a>
 					</td>{" "}
@@ -853,11 +679,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;E179L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI E179L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;E179L" className="class">
 							BIO&nbsp;SCI&nbsp;E179L
 						</a>
 					</td>{" "}
@@ -867,11 +689,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;E186L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI E186L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;E186L" className="class">
 							BIO&nbsp;SCI&nbsp;E186L
 						</a>
 					</td>{" "}
@@ -881,11 +699,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;M114L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI M114L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;M114L" className="class">
 							BIO&nbsp;SCI&nbsp;M114L
 						</a>
 					</td>{" "}
@@ -895,11 +709,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;M116L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI M116L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;M116L" className="class">
 							BIO&nbsp;SCI&nbsp;M116L
 						</a>
 					</td>{" "}
@@ -909,11 +719,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;M118L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI M118L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;M118L" className="class">
 							BIO&nbsp;SCI&nbsp;M118L
 						</a>
 					</td>{" "}
@@ -923,11 +729,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;M121L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI M121L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;M121L" className="class">
 							BIO&nbsp;SCI&nbsp;M121L
 						</a>
 					</td>{" "}
@@ -937,11 +739,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;N123L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI N123L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;N123L" className="class">
 							BIO&nbsp;SCI&nbsp;N123L
 						</a>
 					</td>{" "}
@@ -951,11 +749,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;M130L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI M130L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;M130L" className="class">
 							BIO&nbsp;SCI&nbsp;M130L
 						</a>
 					</td>{" "}
@@ -965,11 +759,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;N113L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI N113L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;N113L" className="class">
 							BIO&nbsp;SCI&nbsp;N113L
 						</a>
 					</td>{" "}
@@ -979,11 +769,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="BIO&nbsp;SCI&nbsp;N123L"
-							className="class"
-							onClick="return showCourse(this, 'BIO SCI N123L');"
-						>
+						<a title="BIO&nbsp;SCI&nbsp;N123L" className="class">
 							BIO&nbsp;SCI&nbsp;N123L
 						</a>
 					</td>{" "}
@@ -996,11 +782,7 @@ function BioSciPOS() {
 						<span className="courselistcomment">
 							Students must earn a grade of C or better in each of the two
 							laboratories selected. Completion of{" "}
-							<a
-								title="BIO&nbsp;SCI&nbsp;199W"
-								className="class"
-								onClick="return showCourse(this, 'BIO SCI 199W');"
-							>
+							<a title="BIO&nbsp;SCI&nbsp;199W" className="class">
 								BIO&nbsp;SCI&nbsp;199W
 							</a>{" "}
 							or Excellence in Research in Biological Sciences program may count
@@ -1035,13 +817,13 @@ function BioSciPOS() {
 					</td>
 				</tr>
 			</tbody>
-		</table>
+		</Table>
 	);
 }
 
 function BioSciSample() {
 	return (
-		<table width="100%">
+		<Table responsive borderless width="100%">
 			<tbody>
 				<tr className="odd">
 					<td>
@@ -1061,13 +843,13 @@ function BioSciSample() {
 					</td>
 				</tr>
 			</tbody>
-		</table>
+		</Table>
 	);
 }
 
 function BusinessPOS() {
 	return (
-		<table className="sc_courselist">
+		<Table responsive borderless className="sc_courselist">
 			<tbody>
 				<tr className="even firstrow">
 					<td colSpan="2">
@@ -1076,11 +858,7 @@ function BusinessPOS() {
 				</tr>{" "}
 				<tr className="odd">
 					<td className="codecol">
-						<a
-							title="MATH&nbsp;2A"
-							className="class"
-							onClick="return showCourse(this, 'MATH 2A');"
-						>
+						<a title="MATH&nbsp;2A" className="class">
 							MATH&nbsp;2A
 						</a>
 					</td>
@@ -1088,11 +866,7 @@ function BusinessPOS() {
 				</tr>
 				<tr className="even">
 					<td className="codecol">
-						<a
-							title="MATH&nbsp;2B"
-							className="class"
-							onClick="return showCourse(this, 'MATH 2B');"
-						>
+						<a title="MATH&nbsp;2B" className="class">
 							MATH&nbsp;2B
 						</a>
 					</td>
@@ -1100,11 +874,7 @@ function BusinessPOS() {
 				</tr>
 				<tr className="odd">
 					<td className="codecol">
-						<a
-							title="MGMT&nbsp;1"
-							className="class"
-							onClick="return showCourse(this, 'MGMT 1');"
-						>
+						<a title="MGMT&nbsp;1" className="class">
 							MGMT&nbsp;1
 						</a>
 					</td>
@@ -1112,11 +882,7 @@ function BusinessPOS() {
 				</tr>
 				<tr className="even">
 					<td className="codecol">
-						<a
-							title="MGMT&nbsp;4A"
-							className="class"
-							onClick="return showCourse(this, 'MGMT 4A');"
-						>
+						<a title="MGMT&nbsp;4A" className="class">
 							MGMT&nbsp;4A
 						</a>
 					</td>
@@ -1125,11 +891,7 @@ function BusinessPOS() {
 				<tr className="even orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a
-							title="ECON&nbsp;20A"
-							className="class"
-							onClick="return showCourse(this, 'ECON 20A');"
-						>
+						<a title="ECON&nbsp;20A" className="class">
 							ECON&nbsp;20A
 						</a>
 					</td>{" "}
@@ -1137,11 +899,7 @@ function BusinessPOS() {
 				</tr>{" "}
 				<tr className="odd">
 					<td className="codecol">
-						<a
-							title="MGMT&nbsp;4B"
-							className="class"
-							onClick="return showCourse(this, 'MGMT 4B');"
-						>
+						<a title="MGMT&nbsp;4B" className="class">
 							MGMT&nbsp;4B
 						</a>
 					</td>
@@ -1150,11 +908,7 @@ function BusinessPOS() {
 				<tr className="odd orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a
-							title="ECON&nbsp;20B"
-							className="class"
-							onClick="return showCourse(this, 'ECON 20B');"
-						>
+						<a title="ECON&nbsp;20B" className="class">
 							ECON&nbsp;20B
 						</a>
 					</td>{" "}
@@ -1164,11 +918,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MGMT&nbsp;7"
-							className="class"
-							onClick="return showCourse(this, 'MGMT 7');"
-						>
+						<a title="MGMT&nbsp;7" className="class">
 							MGMT&nbsp;7
 						</a>
 					</td>{" "}
@@ -1178,11 +928,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MGMT&nbsp;30A"
-							className="class"
-							onClick="return showCourse(this, 'MGMT 30A');"
-						>
+						<a title="MGMT&nbsp;30A" className="class">
 							MGMT&nbsp;30A
 						</a>
 					</td>{" "}
@@ -1192,11 +938,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MGMT&nbsp;30B"
-							className="class"
-							onClick="return showCourse(this, 'MGMT 30B');"
-						>
+						<a title="MGMT&nbsp;30B" className="class">
 							MGMT&nbsp;30B
 						</a>
 					</td>{" "}
@@ -1215,11 +957,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MGMT&nbsp;101"
-							className="class"
-							onClick="return showCourse(this, 'MGMT 101');"
-						>
+						<a title="MGMT&nbsp;101" className="class">
 							MGMT&nbsp;101
 						</a>
 					</td>{" "}
@@ -1229,11 +967,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MGMT&nbsp;102"
-							className="class"
-							onClick="return showCourse(this, 'MGMT 102');"
-						>
+						<a title="MGMT&nbsp;102" className="class">
 							MGMT&nbsp;102
 						</a>
 					</td>{" "}
@@ -1243,11 +977,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MGMT&nbsp;105"
-							className="class"
-							onClick="return showCourse(this, 'MGMT 105');"
-						>
+						<a title="MGMT&nbsp;105" className="class">
 							MGMT&nbsp;105
 						</a>
 					</td>{" "}
@@ -1257,11 +987,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MGMT&nbsp;107"
-							className="class"
-							onClick="return showCourse(this, 'MGMT 107');"
-						>
+						<a title="MGMT&nbsp;107" className="class">
 							MGMT&nbsp;107
 						</a>
 					</td>{" "}
@@ -1271,11 +997,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MGMT&nbsp;109"
-							className="class"
-							onClick="return showCourse(this, 'MGMT 109');"
-						>
+						<a title="MGMT&nbsp;109" className="class">
 							MGMT&nbsp;109
 						</a>
 					</td>{" "}
@@ -1285,11 +1007,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MGMT&nbsp;110"
-							className="class"
-							onClick="return showCourse(this, 'MGMT 110');"
-						>
+						<a title="MGMT&nbsp;110" className="class">
 							MGMT&nbsp;110
 						</a>
 					</td>{" "}
@@ -1299,11 +1017,7 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MGMT&nbsp;191W"
-							className="class"
-							onClick="return showCourse(this, 'MGMT 191W');"
-						>
+						<a title="MGMT&nbsp;191W" className="class">
 							MGMT&nbsp;191W
 						</a>
 					</td>{" "}
@@ -1335,11 +1049,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;131A"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 131A');"
-							>
+							<a title="MGMT&nbsp;131A" className="class">
 								MGMT&nbsp;131A
 							</a>
 						</div>
@@ -1360,11 +1070,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;131B"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 131B');"
-							>
+							<a title="MGMT&nbsp;131B" className="class">
 								MGMT&nbsp;131B
 							</a>
 						</div>
@@ -1376,11 +1082,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;131C"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 131C');"
-							>
+							<a title="MGMT&nbsp;131C" className="class">
 								MGMT&nbsp;131C
 							</a>
 						</div>
@@ -1392,11 +1094,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;132A"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 132A');"
-							>
+							<a title="MGMT&nbsp;132A" className="class">
 								MGMT&nbsp;132A
 							</a>
 						</div>
@@ -1408,11 +1106,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;133"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 133');"
-							>
+							<a title="MGMT&nbsp;133" className="class">
 								MGMT&nbsp;133
 							</a>
 						</div>
@@ -1424,11 +1118,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;134"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 134');"
-							>
+							<a title="MGMT&nbsp;134" className="class">
 								MGMT&nbsp;134
 							</a>
 						</div>
@@ -1440,11 +1130,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;137"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 137');"
-							>
+							<a title="MGMT&nbsp;137" className="class">
 								MGMT&nbsp;137
 							</a>
 						</div>
@@ -1456,11 +1142,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;138"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 138');"
-							>
+							<a title="MGMT&nbsp;138" className="class">
 								MGMT&nbsp;138
 							</a>
 						</div>
@@ -1472,11 +1154,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;194"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 194');"
-							>
+							<a title="MGMT&nbsp;194" className="class">
 								MGMT&nbsp;194
 							</a>
 						</div>
@@ -1495,11 +1173,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;141"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 141');"
-							>
+							<a title="MGMT&nbsp;141" className="class">
 								MGMT&nbsp;141
 							</a>
 						</div>
@@ -1522,11 +1196,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;144"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 144');"
-							>
+							<a title="MGMT&nbsp;144" className="class">
 								MGMT&nbsp;144
 							</a>
 						</div>
@@ -1538,11 +1208,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;147"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 147');"
-							>
+							<a title="MGMT&nbsp;147" className="class">
 								MGMT&nbsp;147
 							</a>
 						</div>
@@ -1554,11 +1220,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;149"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 149');"
-							>
+							<a title="MGMT&nbsp;149" className="class">
 								MGMT&nbsp;149
 							</a>
 						</div>
@@ -1588,11 +1250,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;171"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 171');"
-							>
+							<a title="MGMT&nbsp;171" className="class">
 								MGMT&nbsp;171
 							</a>
 						</div>
@@ -1604,11 +1262,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;173"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 173');"
-							>
+							<a title="MGMT&nbsp;173" className="class">
 								MGMT&nbsp;173
 							</a>
 						</div>
@@ -1620,11 +1274,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;174"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 174');"
-							>
+							<a title="MGMT&nbsp;174" className="class">
 								MGMT&nbsp;174
 							</a>
 						</div>
@@ -1636,11 +1286,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;178"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 178');"
-							>
+							<a title="MGMT&nbsp;178" className="class">
 								MGMT&nbsp;178
 							</a>
 						</div>
@@ -1670,11 +1316,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;150"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 150');"
-							>
+							<a title="MGMT&nbsp;150" className="class">
 								MGMT&nbsp;150
 							</a>
 						</div>
@@ -1686,11 +1328,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;151"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 151');"
-							>
+							<a title="MGMT&nbsp;151" className="class">
 								MGMT&nbsp;151
 							</a>
 						</div>
@@ -1702,11 +1340,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;154"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 154');"
-							>
+							<a title="MGMT&nbsp;154" className="class">
 								MGMT&nbsp;154
 							</a>
 						</div>
@@ -1718,11 +1352,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;155"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 155');"
-							>
+							<a title="MGMT&nbsp;155" className="class">
 								MGMT&nbsp;155
 							</a>
 						</div>
@@ -1743,11 +1373,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;189"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 189');"
-							>
+							<a title="MGMT&nbsp;189" className="class">
 								MGMT&nbsp;189
 							</a>
 						</div>
@@ -1768,11 +1394,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;182"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 182');"
-							>
+							<a title="MGMT&nbsp;182" className="class">
 								MGMT&nbsp;182
 							</a>
 						</div>
@@ -1784,11 +1406,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;196"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 196');"
-							>
+							<a title="MGMT&nbsp;196" className="class">
 								MGMT&nbsp;196
 							</a>
 						</div>
@@ -1818,11 +1436,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;125"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 125');"
-							>
+							<a title="MGMT&nbsp;125" className="class">
 								MGMT&nbsp;125
 							</a>
 						</div>
@@ -1834,11 +1448,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;126"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 126');"
-							>
+							<a title="MGMT&nbsp;126" className="class">
 								MGMT&nbsp;126
 							</a>
 						</div>
@@ -1850,11 +1460,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;128"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 128');"
-							>
+							<a title="MGMT&nbsp;128" className="class">
 								MGMT&nbsp;128
 							</a>
 						</div>
@@ -1866,11 +1472,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;129"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 129');"
-							>
+							<a title="MGMT&nbsp;129" className="class">
 								MGMT&nbsp;129
 							</a>
 						</div>
@@ -1903,11 +1505,7 @@ function BusinessPOS() {
 				<tr className="even">
 					<td className="codecol">
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;128"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 128');"
-							>
+							<a title="MGMT&nbsp;128" className="class">
 								MGMT&nbsp;128
 							</a>
 						</div>
@@ -1919,11 +1517,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;144"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 144');"
-							>
+							<a title="MGMT&nbsp;144" className="class">
 								MGMT&nbsp;144
 							</a>
 						</div>
@@ -1935,11 +1529,7 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="MGMT&nbsp;154"
-								className="class"
-								onClick="return showCourse(this, 'MGMT 154');"
-							>
+							<a title="MGMT&nbsp;154" className="class">
 								MGMT&nbsp;154
 							</a>
 						</div>
@@ -1959,13 +1549,17 @@ function BusinessPOS() {
 					</td>
 				</tr>
 			</tbody>
-		</table>
+		</Table>
 	);
+}
+
+function BusinessSample() {
+	return;
 }
 
 function MechEngPOS() {
 	return (
-		<table className="sc_courselist">
+		<Table responsive borderless className="sc_courselist">
 			<tbody>
 				<tr className="even areaheader firstrow">
 					<td colSpan="2">
@@ -1976,11 +1570,7 @@ function MechEngPOS() {
 				</tr>{" "}
 				<tr className="odd">
 					<td className="codecol">
-						<a
-							title="CHEM&nbsp;1A"
-							className="class"
-							onClick="return showCourse(this, 'CHEM 1A');"
-						>
+						<a title="CHEM&nbsp;1A" className="class">
 							CHEM&nbsp;1A
 						</a>
 					</td>
@@ -1989,11 +1579,7 @@ function MechEngPOS() {
 				<tr className="odd orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a
-							title="ENGR&nbsp;1A"
-							className="class"
-							onClick="return showCourse(this, 'ENGR 1A');"
-						>
+						<a title="ENGR&nbsp;1A" className="class">
 							ENGR&nbsp;1A
 						</a>
 					</td>
@@ -2002,11 +1588,7 @@ function MechEngPOS() {
 				<tr className="even">
 					<td className="codecol">
 						{" "}
-						<a
-							title="CHEM&nbsp;1LE"
-							className="class"
-							onClick="return showCourse(this, 'CHEM 1LE');"
-						>
+						<a title="CHEM&nbsp;1LE" className="class">
 							CHEM&nbsp;1LE
 						</a>
 					</td>{" "}
@@ -2016,19 +1598,11 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;2A"
-							className="class"
-							onClick="return showCourse(this, 'MATH 2A');"
-						>
+						<a title="MATH&nbsp;2A" className="class">
 							MATH&nbsp;2A
 						</a>
 						-
-						<a
-							title="MATH&nbsp;2B"
-							className="class"
-							onClick="return showCourse(this, 'MATH 2B');"
-						>
+						<a title="MATH&nbsp;2B" className="class">
 							{" "}
 							2B
 						</a>
@@ -2044,11 +1618,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;2D"
-							className="class"
-							onClick="return showCourse(this, 'MATH 2D');"
-						>
+						<a title="MATH&nbsp;2D" className="class">
 							MATH&nbsp;2D
 						</a>
 					</td>{" "}
@@ -2058,11 +1628,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;2E"
-							className="class"
-							onClick="return showCourse(this, 'MATH 2E');"
-						>
+						<a title="MATH&nbsp;2E" className="class">
 							MATH&nbsp;2E
 						</a>
 					</td>{" "}
@@ -2072,11 +1638,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;3A"
-							className="class"
-							onClick="return showCourse(this, 'MATH 3A');"
-						>
+						<a title="MATH&nbsp;3A" className="class">
 							MATH&nbsp;3A
 						</a>
 					</td>{" "}
@@ -2086,11 +1648,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;3D"
-							className="class"
-							onClick="return showCourse(this, 'MATH 3D');"
-						>
+						<a title="MATH&nbsp;3D" className="class">
 							MATH&nbsp;3D
 						</a>
 					</td>{" "}
@@ -2100,11 +1658,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="PHYSICS&nbsp;7C"
-							className="class"
-							onClick="return showCourse(this, 'PHYSICS 7C');"
-						>
+						<a title="PHYSICS&nbsp;7C" className="class">
 							PHYSICS&nbsp;7C
 						</a>
 					</td>{" "}
@@ -2114,11 +1668,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="PHYSICS&nbsp;7LC"
-							className="class"
-							onClick="return showCourse(this, 'PHYSICS 7LC');"
-						>
+						<a title="PHYSICS&nbsp;7LC" className="class">
 							PHYSICS&nbsp;7LC
 						</a>
 					</td>{" "}
@@ -2128,19 +1678,11 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="PHYSICS&nbsp;7D"
-							className="class"
-							onClick="return showCourse(this, 'PHYSICS 7D');"
-						>
+						<a title="PHYSICS&nbsp;7D" className="class">
 							PHYSICS&nbsp;7D
 						</a>
 						-
-						<a
-							title="PHYSICS&nbsp;7E"
-							className="class"
-							onClick="return showCourse(this, 'PHYSICS 7E');"
-						>
+						<a title="PHYSICS&nbsp;7E" className="class">
 							{" "}
 							7E
 						</a>
@@ -2157,11 +1699,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="PHYSICS&nbsp;7LD"
-							className="class"
-							onClick="return showCourse(this, 'PHYSICS 7LD');"
-						>
+						<a title="PHYSICS&nbsp;7LD" className="class">
 							PHYSICS&nbsp;7LD
 						</a>
 					</td>{" "}
@@ -2171,11 +1709,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="PHYSICS&nbsp;52A"
-							className="class"
-							onClick="return showCourse(this, 'PHYSICS 52A');"
-						>
+						<a title="PHYSICS&nbsp;52A" className="class">
 							PHYSICS&nbsp;52A
 						</a>
 					</td>{" "}
@@ -2229,11 +1763,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGR&nbsp;54"
-								className="class"
-								onClick="return showCourse(this, 'ENGR 54');"
-							>
+							<a title="ENGR&nbsp;54" className="class">
 								ENGR&nbsp;54
 							</a>
 						</div>
@@ -2245,11 +1775,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;10"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 10');"
-							>
+							<a title="ENGRMAE&nbsp;10" className="class">
 								ENGRMAE&nbsp;10
 							</a>
 						</div>
@@ -2261,11 +1787,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;30"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 30');"
-							>
+							<a title="ENGRMAE&nbsp;30" className="class">
 								ENGRMAE&nbsp;30
 							</a>
 						</div>
@@ -2277,11 +1799,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;52"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 52');"
-							>
+							<a title="ENGRMAE&nbsp;52" className="class">
 								ENGRMAE&nbsp;52
 							</a>
 						</div>
@@ -2293,11 +1811,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;60"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 60');"
-							>
+							<a title="ENGRMAE&nbsp;60" className="class">
 								ENGRMAE&nbsp;60
 							</a>
 						</div>
@@ -2308,11 +1822,7 @@ function MechEngPOS() {
 					<td className="codecol orclass">
 						<div style={{ marginLeft: "20px" }}>
 							or&nbsp;
-							<a
-								title="EECS&nbsp;70A"
-								className="class"
-								onClick="return showCourse(this, 'EECS 70A');"
-							>
+							<a title="EECS&nbsp;70A" className="class">
 								EECS&nbsp;70A
 							</a>
 						</div>
@@ -2324,11 +1834,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;80"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 80');"
-							>
+							<a title="ENGRMAE&nbsp;80" className="class">
 								ENGRMAE&nbsp;80
 							</a>
 						</div>
@@ -2340,11 +1846,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;91"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 91');"
-							>
+							<a title="ENGRMAE&nbsp;91" className="class">
 								ENGRMAE&nbsp;91
 							</a>
 						</div>
@@ -2356,11 +1858,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;106"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 106');"
-							>
+							<a title="ENGRMAE&nbsp;106" className="class">
 								ENGRMAE&nbsp;106
 							</a>
 						</div>
@@ -2372,11 +1870,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;107"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 107');"
-							>
+							<a title="ENGRMAE&nbsp;107" className="class">
 								ENGRMAE&nbsp;107
 							</a>
 						</div>
@@ -2388,11 +1882,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;112"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 112');"
-							>
+							<a title="ENGRMAE&nbsp;112" className="class">
 								ENGRMAE&nbsp;112
 							</a>
 						</div>
@@ -2403,11 +1893,7 @@ function MechEngPOS() {
 					<td className="codecol orclass">
 						<div style={{ marginLeft: "20px" }}>
 							or&nbsp;
-							<a
-								title="ENGRMAE&nbsp;115"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 115');"
-							>
+							<a title="ENGRMAE&nbsp;115" className="class">
 								ENGRMAE&nbsp;115
 							</a>
 						</div>
@@ -2419,11 +1905,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;120"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 120');"
-							>
+							<a title="ENGRMAE&nbsp;120" className="class">
 								ENGRMAE&nbsp;120
 							</a>
 						</div>
@@ -2435,11 +1917,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;130A"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 130A');"
-							>
+							<a title="ENGRMAE&nbsp;130A" className="class">
 								ENGRMAE&nbsp;130A
 							</a>
 						</div>
@@ -2451,11 +1929,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;130B"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 130B');"
-							>
+							<a title="ENGRMAE&nbsp;130B" className="class">
 								ENGRMAE&nbsp;130B
 							</a>
 						</div>
@@ -2467,11 +1941,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;145"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 145');"
-							>
+							<a title="ENGRMAE&nbsp;145" className="class">
 								ENGRMAE&nbsp;145
 							</a>
 						</div>
@@ -2483,11 +1953,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;147"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 147');"
-							>
+							<a title="ENGRMAE&nbsp;147" className="class">
 								ENGRMAE&nbsp;147
 							</a>
 						</div>
@@ -2499,11 +1965,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;150"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 150');"
-							>
+							<a title="ENGRMAE&nbsp;150" className="class">
 								ENGRMAE&nbsp;150
 							</a>
 						</div>
@@ -2515,11 +1977,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;150L"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 150L');"
-							>
+							<a title="ENGRMAE&nbsp;150L" className="class">
 								ENGRMAE&nbsp;150L
 							</a>
 						</div>
@@ -2531,11 +1989,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;151"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 151');"
-							>
+							<a title="ENGRMAE&nbsp;151" className="class">
 								ENGRMAE&nbsp;151
 							</a>
 						</div>
@@ -2547,11 +2001,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;155"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 155');"
-							>
+							<a title="ENGRMAE&nbsp;155" className="class">
 								ENGRMAE&nbsp;155
 							</a>
 						</div>
@@ -2562,11 +2012,7 @@ function MechEngPOS() {
 					<td className="codecol orclass">
 						<div style={{ marginLeft: "20px" }}>
 							or&nbsp;
-							<a
-								title="ENGRMAE&nbsp;156"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 156');"
-							>
+							<a title="ENGRMAE&nbsp;156" className="class">
 								ENGRMAE&nbsp;156
 							</a>
 						</div>
@@ -2577,11 +2023,7 @@ function MechEngPOS() {
 					<td className="codecol orclass">
 						<div style={{ marginLeft: "20px" }}>
 							or&nbsp;
-							<a
-								title="ENGRMAE&nbsp;157"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 157');"
-							>
+							<a title="ENGRMAE&nbsp;157" className="class">
 								ENGRMAE&nbsp;157
 							</a>
 						</div>
@@ -2593,11 +2035,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;170"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 170');"
-							>
+							<a title="ENGRMAE&nbsp;170" className="class">
 								ENGRMAE&nbsp;170
 							</a>
 						</div>
@@ -2609,11 +2047,7 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGRMAE&nbsp;189"
-								className="class"
-								onClick="return showCourse(this, 'ENGRMAE 189');"
-							>
+							<a title="ENGRMAE&nbsp;189" className="class">
 								ENGRMAE&nbsp;189
 							</a>
 						</div>
@@ -2643,27 +2077,15 @@ function MechEngPOS() {
 								may be used as a technical elective. At least 8 units of the
 								technical electives must come from ENGRMAE upper-division
 								courses other than project-based courses{" "}
-								<a
-									title="ENGRMAE&nbsp;188"
-									className="class"
-									onClick="return showCourse(this, 'ENGRMAE 188');"
-								>
+								<a title="ENGRMAE&nbsp;188" className="class">
 									ENGRMAE&nbsp;188
 								</a>
 								,{" "}
-								<a
-									title="ENGRMAE&nbsp;189"
-									className="class"
-									onClick="return showCourse(this, 'ENGRMAE 189');"
-								>
+								<a title="ENGRMAE&nbsp;189" className="class">
 									ENGRMAE&nbsp;189
 								</a>
 								, and{" "}
-								<a
-									title="ENGRMAE&nbsp;199"
-									className="class"
-									onClick="return showCourse(this, 'ENGRMAE 199');"
-								>
+								<a title="ENGRMAE&nbsp;199" className="class">
 									ENGRMAE&nbsp;199
 								</a>
 								. With approval of the Undergraduate Advisor, students may
@@ -2689,11 +2111,7 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="ECON&nbsp;20A"
-							className="class"
-							onClick="return showCourse(this, 'ECON 20A');"
-						>
+						<a title="ECON&nbsp;20A" className="class">
 							ECON&nbsp;20A
 						</a>
 					</td>{" "}
@@ -2702,11 +2120,7 @@ function MechEngPOS() {
 				<tr className="odd orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a
-							title="ECON&nbsp;23"
-							className="class"
-							onClick="return showCourse(this, 'ECON 23');"
-						>
+						<a title="ECON&nbsp;23" className="class">
 							ECON&nbsp;23
 						</a>
 					</td>{" "}
@@ -2716,24 +2130,20 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="ENGR&nbsp;190W"
-							className="class"
-							onClick="return showCourse(this, 'ENGR 190W');"
-						>
+						<a title="ENGR&nbsp;190W" className="class">
 							ENGR&nbsp;190W
 						</a>
 					</td>
 					<td>Communications in the Professional World </td>
 				</tr>
 			</tbody>
-		</table>
+		</Table>
 	);
 }
 
 function MechEngSample() {
 	return (
-		<table width="100%">
+		<Table responsive borderless width="100%">
 			<tbody>
 				<tr className="odd">
 					<td>
@@ -2756,13 +2166,13 @@ function MechEngSample() {
 					</td>
 				</tr>
 			</tbody>
-		</table>
+		</Table>
 	);
 }
 
 function PsychPOS() {
 	return (
-		<table className="sc_courselist">
+		<Table responsive borderless className="sc_courselist">
 			{" "}
 			<tbody>
 				{" "}
@@ -2779,28 +2189,16 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="PSYCH&nbsp;9A"
-							className="class"
-							onClick="return showCourse(this, 'PSYCH 9A');"
-						>
+						<a title="PSYCH&nbsp;9A" className="class">
 							PSYCH&nbsp;9A
 						</a>
 						-
-						<a
-							title="PSYCH&nbsp;9B"
-							className="class"
-							onClick="return showCourse(this, 'PSYCH 9B');"
-						>
+						<a title="PSYCH&nbsp;9B" className="class">
 							{" "}
 							9B
 						</a>
 						-
-						<a
-							title="PSYCH&nbsp;9C"
-							className="class"
-							onClick="return showCourse(this, 'PSYCH 9C');"
-						>
+						<a title="PSYCH&nbsp;9C" className="class">
 							{" "}
 							9C
 						</a>
@@ -2832,11 +2230,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ANTHRO&nbsp;2A"
-								className="class"
-								onClick="return showCourse(this, 'ANTHRO 2A');"
-							>
+							<a title="ANTHRO&nbsp;2A" className="class">
 								ANTHRO&nbsp;2A
 							</a>
 						</div>
@@ -2848,11 +2242,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ANTHRO&nbsp;2B"
-								className="class"
-								onClick="return showCourse(this, 'ANTHRO 2B');"
-							>
+							<a title="ANTHRO&nbsp;2B" className="class">
 								ANTHRO&nbsp;2B
 							</a>
 						</div>
@@ -2864,11 +2254,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ANTHRO&nbsp;2D"
-								className="class"
-								onClick="return showCourse(this, 'ANTHRO 2D');"
-							>
+							<a title="ANTHRO&nbsp;2D" className="class">
 								ANTHRO&nbsp;2D
 							</a>
 						</div>
@@ -2880,11 +2266,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ECON&nbsp;1"
-								className="class"
-								onClick="return showCourse(this, 'ECON 1');"
-							>
+							<a title="ECON&nbsp;1" className="class">
 								ECON&nbsp;1
 							</a>
 						</div>
@@ -2896,11 +2278,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="LSCI&nbsp;3"
-								className="class"
-								onClick="return showCourse(this, 'LSCI 3');"
-							>
+							<a title="LSCI&nbsp;3" className="class">
 								LSCI&nbsp;3
 							</a>
 						</div>
@@ -2912,11 +2290,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="POL&nbsp;SCI&nbsp;11C"
-								className="class"
-								onClick="return showCourse(this, 'POL SCI 11C');"
-							>
+							<a title="POL&nbsp;SCI&nbsp;11C" className="class">
 								POL&nbsp;SCI&nbsp;11C
 							</a>
 						</div>
@@ -2928,11 +2302,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="SOC&nbsp;SCI&nbsp;5A"
-								className="class"
-								onClick="return showCourse(this, 'SOC SCI 5A');"
-							>
+							<a title="SOC&nbsp;SCI&nbsp;5A" className="class">
 								SOC&nbsp;SCI&nbsp;5A
 							</a>
 						</div>
@@ -2944,11 +2314,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="SOCIOL&nbsp;1"
-								className="class"
-								onClick="return showCourse(this, 'SOCIOL 1');"
-							>
+							<a title="SOCIOL&nbsp;1" className="class">
 								SOCIOL&nbsp;1
 							</a>
 						</div>
@@ -2960,11 +2326,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="SOCIOL&nbsp;2"
-								className="class"
-								onClick="return showCourse(this, 'SOCIOL 2');"
-							>
+							<a title="SOCIOL&nbsp;2" className="class">
 								SOCIOL&nbsp;2
 							</a>
 						</div>
@@ -2976,11 +2338,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="SOCIOL&nbsp;3"
-								className="class"
-								onClick="return showCourse(this, 'SOCIOL 3');"
-							>
+							<a title="SOCIOL&nbsp;3" className="class">
 								SOCIOL&nbsp;3
 							</a>
 						</div>
@@ -3004,28 +2362,16 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="SOC&nbsp;SCI&nbsp;H1E"
-								className="class"
-								onClick="return showCourse(this, 'SOC SCI H1E');"
-							>
+							<a title="SOC&nbsp;SCI&nbsp;H1E" className="class">
 								SOC&nbsp;SCI&nbsp;H1E
 							</a>
 							-
-							<a
-								title="SOC&nbsp;SCI&nbsp;H1F"
-								className="class"
-								onClick="return showCourse(this, 'SOC SCI H1F');"
-							>
+							<a title="SOC&nbsp;SCI&nbsp;H1F" className="class">
 								{" "}
 								H1F
 							</a>
 							-
-							<a
-								title="SOC&nbsp;SCI&nbsp;H1G"
-								className="class"
-								onClick="return showCourse(this, 'SOC SCI H1G');"
-							>
+							<a title="SOC&nbsp;SCI&nbsp;H1G" className="class">
 								{" "}
 								H1G
 							</a>
@@ -3058,19 +2404,11 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PSYCH&nbsp;112A"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 112A');"
-							>
+							<a title="PSYCH&nbsp;112A" className="class">
 								PSYCH&nbsp;112A
 							</a>
 							-
-							<a
-								title="PSYCH&nbsp;112LA"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 112LA');"
-							>
+							<a title="PSYCH&nbsp;112LA" className="class">
 								{" "}
 								112LA
 							</a>
@@ -3089,19 +2427,11 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PSYCH&nbsp;112M"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 112M');"
-							>
+							<a title="PSYCH&nbsp;112M" className="class">
 								PSYCH&nbsp;112M
 							</a>
 							-
-							<a
-								title="PSYCH&nbsp;112LM"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 112LM');"
-							>
+							<a title="PSYCH&nbsp;112LM" className="class">
 								{" "}
 								112LM
 							</a>
@@ -3120,19 +2450,11 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PSYCH&nbsp;112R"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 112R');"
-							>
+							<a title="PSYCH&nbsp;112R" className="class">
 								PSYCH&nbsp;112R
 							</a>
 							-
-							<a
-								title="PSYCH&nbsp;112LR"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 112LR');"
-							>
+							<a title="PSYCH&nbsp;112LR" className="class">
 								{" "}
 								112LR
 							</a>
@@ -3153,44 +2475,24 @@ function PsychPOS() {
 						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								NOTE: These courses have as prerequisites{" "}
-								<a
-									title="PSYCH&nbsp;9A"
-									className="class"
-									onClick="return showCourse(this, 'PSYCH 9A');"
-								>
+								<a title="PSYCH&nbsp;9A" className="class">
 									PSYCH&nbsp;9A
 								</a>
 								,{" "}
-								<a
-									title="PSYCH&nbsp;9B"
-									className="class"
-									onClick="return showCourse(this, 'PSYCH 9B');"
-								>
+								<a title="PSYCH&nbsp;9B" className="class">
 									PSYCH&nbsp;9B
 								</a>
 								,{" "}
-								<a
-									title="PSYCH&nbsp;9C"
-									className="class"
-									onClick="return showCourse(this, 'PSYCH 9C');"
-								>
+								<a title="PSYCH&nbsp;9C" className="class">
 									PSYCH&nbsp;9C
 								</a>{" "}
 								and one year of mathematics/statistics (see course listings).
 								These prerequisites are strictly enforced.{" "}
-								<a
-									title="PSYCH&nbsp;112A"
-									className="class"
-									onClick="return showCourse(this, 'PSYCH 112A');"
-								>
+								<a title="PSYCH&nbsp;112A" className="class">
 									PSYCH&nbsp;112A
 								</a>
 								,{" "}
-								<a
-									title="PSYCH&nbsp;112LA"
-									className="class"
-									onClick="return showCourse(this, 'PSYCH 112LA');"
-								>
+								<a title="PSYCH&nbsp;112LA" className="class">
 									PSYCH&nbsp;112LA
 								</a>{" "}
 								are the first quarter of a multi-quarter sequence that satisfies
@@ -3200,35 +2502,19 @@ function PsychPOS() {
 								second quarter. Students who intend to fulfill the
 								upper-division writing requirement in some other way should
 								consider taking PSYCH 112D and PSYCH 112LD,{" "}
-								<a
-									title="PSYCH&nbsp;112M"
-									className="class"
-									onClick="return showCourse(this, 'PSYCH 112M');"
-								>
+								<a title="PSYCH&nbsp;112M" className="class">
 									PSYCH&nbsp;112M
 								</a>{" "}
 								and{" "}
-								<a
-									title="PSYCH&nbsp;112LM"
-									className="class"
-									onClick="return showCourse(this, 'PSYCH 112LM');"
-								>
+								<a title="PSYCH&nbsp;112LM" className="class">
 									PSYCH&nbsp;112LM
 								</a>
 								, or{" "}
-								<a
-									title="PSYCH&nbsp;112R"
-									className="class"
-									onClick="return showCourse(this, 'PSYCH 112R');"
-								>
+								<a title="PSYCH&nbsp;112R" className="class">
 									PSYCH&nbsp;112R
 								</a>{" "}
 								and{" "}
-								<a
-									title="PSYCH&nbsp;112LR"
-									className="class"
-									onClick="return showCourse(this, 'PSYCH 112LR');"
-								>
+								<a title="PSYCH&nbsp;112LR" className="class">
 									PSYCH&nbsp;112LR
 								</a>{" "}
 								to fulfill the laboratory requirement.
@@ -3252,11 +2538,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PSYCH&nbsp;120A"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 120A');"
-							>
+							<a title="PSYCH&nbsp;120A" className="class">
 								PSYCH&nbsp;120A
 							</a>
 						</div>
@@ -3268,11 +2550,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PSYCH&nbsp;120D"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 120D');"
-							>
+							<a title="PSYCH&nbsp;120D" className="class">
 								PSYCH&nbsp;120D
 							</a>
 						</div>
@@ -3284,11 +2562,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PSYCH&nbsp;120H"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 120H');"
-							>
+							<a title="PSYCH&nbsp;120H" className="class">
 								PSYCH&nbsp;120H
 							</a>
 						</div>
@@ -3300,11 +2574,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PSYCH&nbsp;120P"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 120P');"
-							>
+							<a title="PSYCH&nbsp;120P" className="class">
 								PSYCH&nbsp;120P
 							</a>
 						</div>
@@ -3316,11 +2586,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PSYCH&nbsp;130A"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 130A');"
-							>
+							<a title="PSYCH&nbsp;130A" className="class">
 								PSYCH&nbsp;130A
 							</a>
 						</div>
@@ -3332,11 +2598,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PSYCH&nbsp;140C"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 140C');"
-							>
+							<a title="PSYCH&nbsp;140C" className="class">
 								PSYCH&nbsp;140C
 							</a>
 						</div>
@@ -3348,11 +2610,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PSYCH&nbsp;140L"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 140L');"
-							>
+							<a title="PSYCH&nbsp;140L" className="class">
 								PSYCH&nbsp;140L
 							</a>
 						</div>
@@ -3364,11 +2622,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PSYCH&nbsp;140M"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 140M');"
-							>
+							<a title="PSYCH&nbsp;140M" className="class">
 								PSYCH&nbsp;140M
 							</a>
 						</div>
@@ -3380,11 +2634,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PSYCH&nbsp;150"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 150');"
-							>
+							<a title="PSYCH&nbsp;150" className="class">
 								PSYCH&nbsp;150
 							</a>
 						</div>
@@ -3396,11 +2646,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PSYCH&nbsp;160A"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 160A');"
-							>
+							<a title="PSYCH&nbsp;160A" className="class">
 								PSYCH&nbsp;160A
 							</a>
 						</div>
@@ -3412,11 +2658,7 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PSYCH&nbsp;160D"
-								className="class"
-								onClick="return showCourse(this, 'PSYCH 160D');"
-							>
+							<a title="PSYCH&nbsp;160D" className="class">
 								PSYCH&nbsp;160D
 							</a>
 						</div>
@@ -3440,11 +2682,7 @@ function PsychPOS() {
 						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								1. No more than one of the seven may be lower-division.{" "}
-								<a
-									title="PSYCH&nbsp;7A"
-									className="class"
-									onClick="return showCourse(this, 'PSYCH 7A');"
-								>
+								<a title="PSYCH&nbsp;7A" className="class">
 									PSYCH&nbsp;7A
 								</a>{" "}
 								may not be used to fulfill this requirement.
@@ -3492,27 +2730,15 @@ function PsychPOS() {
 							<span className="courselistcomment commentindent">
 								Psychology and Social Behavior courses that do not overlap with
 								Psychology courses may be used along with PSY BEH 193E (same as{" "}
-								<a
-									title="CRM/LAW&nbsp;C105"
-									className="class"
-									onClick="return showCourse(this, 'CRM/LAW C105');"
-								>
+								<a title="CRM/LAW&nbsp;C105" className="class">
 									CRM/LAW&nbsp;C105
 								</a>
 								) and{" "}
-								<a
-									title="BIO&nbsp;SCI&nbsp;D137"
-									className="class"
-									onClick="return showCourse(this, 'BIO SCI D137');"
-								>
+								<a title="BIO&nbsp;SCI&nbsp;D137" className="class">
 									BIO&nbsp;SCI&nbsp;D137
 								</a>
 								, BIO SCI E174,{" "}
-								<a
-									title="BIO&nbsp;SCI&nbsp;N110"
-									className="class"
-									onClick="return showCourse(this, 'BIO SCI N110');"
-								>
+								<a title="BIO&nbsp;SCI&nbsp;N110" className="class">
 									BIO&nbsp;SCI&nbsp;N110
 								</a>
 								, and BIO SCI N159.
@@ -3533,13 +2759,13 @@ function PsychPOS() {
 					</td>{" "}
 				</tr>{" "}
 			</tbody>{" "}
-		</table>
+		</Table>
 	);
 }
 
 function PsychSample() {
 	return (
-		<table width="100%">
+		<Table responsive borderless width="100%">
 			<tbody>
 				<tr className="odd">
 					<td>
@@ -3556,13 +2782,13 @@ function PsychSample() {
 					<td>General Education</td>
 				</tr>
 			</tbody>
-		</table>
+		</Table>
 	);
 }
 
 function CompSciPOS() {
 	return (
-		<table className="sc_courselist">
+		<Table responsive borderless className="sc_courselist">
 			{" "}
 			<tbody>
 				{" "}
@@ -3589,28 +2815,16 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="I&amp;C&nbsp;SCI&nbsp;31"
-								className="class"
-								onClick="return showCourse(this, 'I&amp;C SCI 31');"
-							>
+							<a title="I&amp;C&nbsp;SCI&nbsp;31" className="class">
 								I&amp;C&nbsp;SCI&nbsp;31
 							</a>
 							-
-							<a
-								title="I&amp;C&nbsp;SCI&nbsp;32"
-								className="class"
-								onClick="return showCourse(this, 'I&amp;C SCI 32');"
-							>
+							<a title="I&amp;C&nbsp;SCI&nbsp;32" className="class">
 								{" "}
 								32
 							</a>
 							-
-							<a
-								title="I&amp;C&nbsp;SCI&nbsp;33"
-								className="class"
-								onClick="return showCourse(this, 'I&amp;C SCI 33');"
-							>
+							<a title="I&amp;C&nbsp;SCI&nbsp;33" className="class">
 								{" "}
 								33
 							</a>
@@ -3642,19 +2856,11 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="I&amp;C&nbsp;SCI&nbsp;32A"
-								className="class"
-								onClick="return showCourse(this, 'I&amp;C SCI 32A');"
-							>
+							<a title="I&amp;C&nbsp;SCI&nbsp;32A" className="class">
 								I&amp;C&nbsp;SCI&nbsp;32A
 							</a>
 							-
-							<a
-								title="I&amp;C&nbsp;SCI&nbsp;33"
-								className="class"
-								onClick="return showCourse(this, 'I&amp;C SCI 33');"
-							>
+							<a title="I&amp;C&nbsp;SCI&nbsp;33" className="class">
 								{" "}
 								33
 							</a>
@@ -3679,11 +2885,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="I&amp;C&nbsp;SCI&nbsp;45C"
-							className="class"
-							onClick="return showCourse(this, 'I&amp;C SCI 45C');"
-						>
+						<a title="I&amp;C&nbsp;SCI&nbsp;45C" className="class">
 							I&amp;C&nbsp;SCI&nbsp;45C
 						</a>
 					</td>{" "}
@@ -3693,11 +2895,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="I&amp;C&nbsp;SCI&nbsp;46"
-							className="class"
-							onClick="return showCourse(this, 'I&amp;C SCI 46');"
-						>
+						<a title="I&amp;C&nbsp;SCI&nbsp;46" className="class">
 							I&amp;C&nbsp;SCI&nbsp;46
 						</a>
 					</td>{" "}
@@ -3707,11 +2905,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="I&amp;C&nbsp;SCI&nbsp;51"
-							className="class"
-							onClick="return showCourse(this, 'I&amp;C SCI 51');"
-						>
+						<a title="I&amp;C&nbsp;SCI&nbsp;51" className="class">
 							I&amp;C&nbsp;SCI&nbsp;51
 						</a>
 					</td>{" "}
@@ -3721,11 +2915,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="I&amp;C&nbsp;SCI&nbsp;53"
-							className="class"
-							onClick="return showCourse(this, 'I&amp;C SCI 53');"
-						>
+						<a title="I&amp;C&nbsp;SCI&nbsp;53" className="class">
 							I&amp;C&nbsp;SCI&nbsp;53
 						</a>
 					</td>{" "}
@@ -3735,11 +2925,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="IN4MATX&nbsp;43"
-							className="class"
-							onClick="return showCourse(this, 'IN4MATX 43');"
-						>
+						<a title="IN4MATX&nbsp;43" className="class">
 							IN4MATX&nbsp;43
 						</a>
 					</td>{" "}
@@ -3749,19 +2935,11 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;2A"
-							className="class"
-							onClick="return showCourse(this, 'MATH 2A');"
-						>
+						<a title="MATH&nbsp;2A" className="class">
 							MATH&nbsp;2A
 						</a>
 						-
-						<a
-							title="MATH&nbsp;2B"
-							className="class"
-							onClick="return showCourse(this, 'MATH 2B');"
-						>
+						<a title="MATH&nbsp;2B" className="class">
 							{" "}
 							2B
 						</a>
@@ -3777,11 +2955,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="I&amp;C&nbsp;SCI&nbsp;6B"
-							className="class"
-							onClick="return showCourse(this, 'I&amp;C SCI 6B');"
-						>
+						<a title="I&amp;C&nbsp;SCI&nbsp;6B" className="class">
 							I&amp;C&nbsp;SCI&nbsp;6B
 						</a>
 					</td>{" "}
@@ -3791,11 +2965,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="I&amp;C&nbsp;SCI&nbsp;6D"
-							className="class"
-							onClick="return showCourse(this, 'I&amp;C SCI 6D');"
-						>
+						<a title="I&amp;C&nbsp;SCI&nbsp;6D" className="class">
 							I&amp;C&nbsp;SCI&nbsp;6D
 						</a>
 					</td>{" "}
@@ -3805,11 +2975,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="I&amp;C&nbsp;SCI&nbsp;6N"
-							className="class"
-							onClick="return showCourse(this, 'I&amp;C SCI 6N');"
-						>
+						<a title="I&amp;C&nbsp;SCI&nbsp;6N" className="class">
 							I&amp;C&nbsp;SCI&nbsp;6N
 						</a>
 					</td>{" "}
@@ -3818,11 +2984,7 @@ function CompSciPOS() {
 				<tr className="even orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a
-							title="MATH&nbsp;3A"
-							className="class"
-							onClick="return showCourse(this, 'MATH 3A');"
-						>
+						<a title="MATH&nbsp;3A" className="class">
 							MATH&nbsp;3A
 						</a>
 					</td>{" "}
@@ -3832,11 +2994,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="STATS&nbsp;67"
-							className="class"
-							onClick="return showCourse(this, 'STATS 67');"
-						>
+						<a title="STATS&nbsp;67" className="class">
 							STATS&nbsp;67
 						</a>
 					</td>{" "}
@@ -3876,11 +3034,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;161"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 161');"
-						>
+						<a title="COMPSCI&nbsp;161" className="class">
 							COMPSCI&nbsp;161
 						</a>
 					</td>{" "}
@@ -3890,11 +3044,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="I&amp;C&nbsp;SCI&nbsp;139W"
-							className="class"
-							onClick="return showCourse(this, 'I&amp;C SCI 139W');"
-						>
+						<a title="I&amp;C&nbsp;SCI&nbsp;139W" className="class">
 							I&amp;C&nbsp;SCI&nbsp;139W
 						</a>
 					</td>{" "}
@@ -3917,11 +3067,7 @@ function CompSciPOS() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
-								<a
-									title="COMPSCI&nbsp;103"
-									className="class"
-									onClick="return showCourse(this, 'COMPSCI 103');"
-								>
+								<a title="COMPSCI&nbsp;103" className="class">
 									COMPSCI&nbsp;103
 								</a>
 								–160, 162-189
@@ -3934,11 +3080,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="IN4MATX&nbsp;102"
-								className="class"
-								onClick="return showCourse(this, 'IN4MATX 102');"
-							>
+							<a title="IN4MATX&nbsp;102" className="class">
 								IN4MATX&nbsp;102
 							</a>
 						</div>
@@ -3950,11 +3092,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="IN4MATX&nbsp;113"
-								className="class"
-								onClick="return showCourse(this, 'IN4MATX 113');"
-							>
+							<a title="IN4MATX&nbsp;113" className="class">
 								IN4MATX&nbsp;113
 							</a>
 						</div>
@@ -3966,11 +3104,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="IN4MATX&nbsp;115"
-								className="class"
-								onClick="return showCourse(this, 'IN4MATX 115');"
-							>
+							<a title="IN4MATX&nbsp;115" className="class">
 								IN4MATX&nbsp;115
 							</a>
 						</div>
@@ -3982,11 +3116,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="IN4MATX&nbsp;117"
-								className="class"
-								onClick="return showCourse(this, 'IN4MATX 117');"
-							>
+							<a title="IN4MATX&nbsp;117" className="class">
 								IN4MATX&nbsp;117
 							</a>
 						</div>
@@ -3998,11 +3128,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="IN4MATX&nbsp;121"
-								className="class"
-								onClick="return showCourse(this, 'IN4MATX 121');"
-							>
+							<a title="IN4MATX&nbsp;121" className="class">
 								IN4MATX&nbsp;121
 							</a>
 						</div>
@@ -4014,11 +3140,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="IN4MATX&nbsp;122"
-								className="class"
-								onClick="return showCourse(this, 'IN4MATX 122');"
-							>
+							<a title="IN4MATX&nbsp;122" className="class">
 								IN4MATX&nbsp;122
 							</a>
 						</div>
@@ -4030,11 +3152,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="IN4MATX&nbsp;124"
-								className="class"
-								onClick="return showCourse(this, 'IN4MATX 124');"
-							>
+							<a title="IN4MATX&nbsp;124" className="class">
 								IN4MATX&nbsp;124
 							</a>
 						</div>
@@ -4046,11 +3164,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="IN4MATX&nbsp;131"
-								className="class"
-								onClick="return showCourse(this, 'IN4MATX 131');"
-							>
+							<a title="IN4MATX&nbsp;131" className="class">
 								IN4MATX&nbsp;131
 							</a>
 						</div>
@@ -4062,11 +3176,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="IN4MATX&nbsp;133"
-								className="class"
-								onClick="return showCourse(this, 'IN4MATX 133');"
-							>
+							<a title="IN4MATX&nbsp;133" className="class">
 								IN4MATX&nbsp;133
 							</a>
 						</div>
@@ -4078,11 +3188,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="IN4MATX&nbsp;134"
-								className="class"
-								onClick="return showCourse(this, 'IN4MATX 134');"
-							>
+							<a title="IN4MATX&nbsp;134" className="class">
 								IN4MATX&nbsp;134
 							</a>
 						</div>
@@ -4094,11 +3200,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="I&amp;C&nbsp;SCI&nbsp;161"
-								className="class"
-								onClick="return showCourse(this, 'I&amp;C SCI 161');"
-							>
+							<a title="I&amp;C&nbsp;SCI&nbsp;161" className="class">
 								I&amp;C&nbsp;SCI&nbsp;161
 							</a>
 						</div>
@@ -4110,11 +3212,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="I&amp;C&nbsp;SCI&nbsp;162"
-								className="class"
-								onClick="return showCourse(this, 'I&amp;C SCI 162');"
-							>
+							<a title="I&amp;C&nbsp;SCI&nbsp;162" className="class">
 								I&amp;C&nbsp;SCI&nbsp;162
 							</a>
 						</div>
@@ -4136,11 +3234,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;113"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 113');"
-							>
+							<a title="COMPSCI&nbsp;113" className="class">
 								COMPSCI&nbsp;113
 							</a>
 						</div>
@@ -4152,11 +3246,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;114"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 114');"
-							>
+							<a title="COMPSCI&nbsp;114" className="class">
 								COMPSCI&nbsp;114
 							</a>
 						</div>
@@ -4168,11 +3258,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;117"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 117');"
-							>
+							<a title="COMPSCI&nbsp;117" className="class">
 								COMPSCI&nbsp;117
 							</a>
 						</div>
@@ -4184,11 +3270,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;118"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 118');"
-							>
+							<a title="COMPSCI&nbsp;118" className="class">
 								COMPSCI&nbsp;118
 							</a>
 						</div>
@@ -4200,11 +3282,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;122B"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 122B');"
-							>
+							<a title="COMPSCI&nbsp;122B" className="class">
 								COMPSCI&nbsp;122B
 							</a>
 						</div>
@@ -4216,11 +3294,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;122C"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 122C');"
-							>
+							<a title="COMPSCI&nbsp;122C" className="class">
 								COMPSCI&nbsp;122C
 							</a>
 						</div>
@@ -4232,11 +3306,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;122D"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 122D');"
-							>
+							<a title="COMPSCI&nbsp;122D" className="class">
 								COMPSCI&nbsp;122D
 							</a>
 						</div>
@@ -4248,11 +3318,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;125"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 125');"
-							>
+							<a title="COMPSCI&nbsp;125" className="class">
 								COMPSCI&nbsp;125
 							</a>
 						</div>
@@ -4264,11 +3330,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;133"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 133');"
-							>
+							<a title="COMPSCI&nbsp;133" className="class">
 								COMPSCI&nbsp;133
 							</a>
 						</div>
@@ -4280,11 +3342,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;142B"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 142B');"
-							>
+							<a title="COMPSCI&nbsp;142B" className="class">
 								COMPSCI&nbsp;142B
 							</a>
 						</div>
@@ -4296,11 +3354,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;143B"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 143B');"
-							>
+							<a title="COMPSCI&nbsp;143B" className="class">
 								COMPSCI&nbsp;143B
 							</a>
 						</div>
@@ -4312,11 +3366,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;145"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 145');"
-							>
+							<a title="COMPSCI&nbsp;145" className="class">
 								COMPSCI&nbsp;145
 							</a>
 						</div>
@@ -4328,11 +3378,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;147"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 147');"
-							>
+							<a title="COMPSCI&nbsp;147" className="class">
 								COMPSCI&nbsp;147
 							</a>
 						</div>
@@ -4344,11 +3390,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;153"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 153');"
-							>
+							<a title="COMPSCI&nbsp;153" className="class">
 								COMPSCI&nbsp;153
 							</a>
 						</div>
@@ -4360,11 +3402,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;154"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 154');"
-							>
+							<a title="COMPSCI&nbsp;154" className="class">
 								COMPSCI&nbsp;154
 							</a>
 						</div>
@@ -4376,11 +3414,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;165"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 165');"
-							>
+							<a title="COMPSCI&nbsp;165" className="class">
 								COMPSCI&nbsp;165
 							</a>
 						</div>
@@ -4392,11 +3426,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="COMPSCI&nbsp;175"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 175');"
-							>
+							<a title="COMPSCI&nbsp;175" className="class">
 								COMPSCI&nbsp;175
 							</a>
 						</div>
@@ -4408,11 +3438,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="IN4MATX&nbsp;117"
-								className="class"
-								onClick="return showCourse(this, 'IN4MATX 117');"
-							>
+							<a title="IN4MATX&nbsp;117" className="class">
 								IN4MATX&nbsp;117
 							</a>
 						</div>
@@ -4424,11 +3450,7 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="IN4MATX&nbsp;134"
-								className="class"
-								onClick="return showCourse(this, 'IN4MATX 134');"
-							>
+							<a title="IN4MATX&nbsp;134" className="class">
 								IN4MATX&nbsp;134
 							</a>
 						</div>
@@ -4471,11 +3493,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;162"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 162');"
-						>
+						<a title="COMPSCI&nbsp;162" className="class">
 							COMPSCI&nbsp;162
 						</a>
 					</td>{" "}
@@ -4485,11 +3503,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;163"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 163');"
-						>
+						<a title="COMPSCI&nbsp;163" className="class">
 							COMPSCI&nbsp;163
 						</a>
 					</td>{" "}
@@ -4499,11 +3513,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;164"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 164');"
-						>
+						<a title="COMPSCI&nbsp;164" className="class">
 							COMPSCI&nbsp;164
 						</a>
 					</td>{" "}
@@ -4513,11 +3523,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;165"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 165');"
-						>
+						<a title="COMPSCI&nbsp;165" className="class">
 							COMPSCI&nbsp;165
 						</a>
 					</td>{" "}
@@ -4527,11 +3533,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;166"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 166');"
-						>
+						<a title="COMPSCI&nbsp;166" className="class">
 							COMPSCI&nbsp;166
 						</a>
 					</td>{" "}
@@ -4541,11 +3543,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;167"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 167');"
-						>
+						<a title="COMPSCI&nbsp;167" className="class">
 							COMPSCI&nbsp;167
 						</a>
 					</td>{" "}
@@ -4555,11 +3553,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;169"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 169');"
-						>
+						<a title="COMPSCI&nbsp;169" className="class">
 							COMPSCI&nbsp;169
 						</a>
 					</td>{" "}
@@ -4579,11 +3573,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;145"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 145');"
-						>
+						<a title="COMPSCI&nbsp;145" className="class">
 							COMPSCI&nbsp;145
 						</a>
 					</td>{" "}
@@ -4593,11 +3583,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;147"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 147');"
-						>
+						<a title="COMPSCI&nbsp;147" className="class">
 							COMPSCI&nbsp;147
 						</a>
 					</td>{" "}
@@ -4607,11 +3593,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;151"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 151');"
-						>
+						<a title="COMPSCI&nbsp;151" className="class">
 							COMPSCI&nbsp;151
 						</a>
 					</td>{" "}
@@ -4621,11 +3603,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;152"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 152');"
-						>
+						<a title="COMPSCI&nbsp;152" className="class">
 							COMPSCI&nbsp;152
 						</a>
 					</td>{" "}
@@ -4635,11 +3613,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;153"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 153');"
-						>
+						<a title="COMPSCI&nbsp;153" className="class">
 							COMPSCI&nbsp;153
 						</a>
 					</td>{" "}
@@ -4649,11 +3623,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;154"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 154');"
-						>
+						<a title="COMPSCI&nbsp;154" className="class">
 							COMPSCI&nbsp;154
 						</a>
 					</td>{" "}
@@ -4672,11 +3642,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;184A"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 184A');"
-						>
+						<a title="COMPSCI&nbsp;184A" className="class">
 							COMPSCI&nbsp;184A
 						</a>
 					</td>{" "}
@@ -4693,11 +3659,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;172B"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 172B');"
-						>
+						<a title="COMPSCI&nbsp;172B" className="class">
 							COMPSCI&nbsp;172B
 						</a>
 					</td>{" "}
@@ -4707,11 +3669,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;172C"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 172C');"
-						>
+						<a title="COMPSCI&nbsp;172C" className="class">
 							COMPSCI&nbsp;172C
 						</a>
 					</td>{" "}
@@ -4723,11 +3681,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;184C"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 184C');"
-						>
+						<a title="COMPSCI&nbsp;184C" className="class">
 							COMPSCI&nbsp;184C
 						</a>
 					</td>{" "}
@@ -4747,19 +3701,11 @@ function CompSciPOS() {
 					<td colSpan="2">
 						{" "}
 						<span className="courselistcomment">
-							<a
-								title="COMPSCI&nbsp;103"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 103');"
-							>
+							<a title="COMPSCI&nbsp;103" className="class">
 								COMPSCI&nbsp;103
 							</a>
 							-189, except{" "}
-							<a
-								title="COMPSCI&nbsp;161"
-								className="class"
-								onClick="return showCourse(this, 'COMPSCI 161');"
-							>
+							<a title="COMPSCI&nbsp;161" className="class">
 								COMPSCI&nbsp;161
 							</a>
 						</span>{" "}
@@ -4778,11 +3724,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;121"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 121');"
-						>
+						<a title="COMPSCI&nbsp;121" className="class">
 							COMPSCI&nbsp;121
 						</a>
 					</td>{" "}
@@ -4792,11 +3734,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;122A"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 122A');"
-						>
+						<a title="COMPSCI&nbsp;122A" className="class">
 							COMPSCI&nbsp;122A
 						</a>
 					</td>{" "}
@@ -4806,11 +3744,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;178"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 178');"
-						>
+						<a title="COMPSCI&nbsp;178" className="class">
 							COMPSCI&nbsp;178
 						</a>
 					</td>{" "}
@@ -4829,11 +3763,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="I&amp;C&nbsp;SCI&nbsp;45J"
-							className="class"
-							onClick="return showCourse(this, 'I&amp;C SCI 45J');"
-						>
+						<a title="I&amp;C&nbsp;SCI&nbsp;45J" className="class">
 							I&amp;C&nbsp;SCI&nbsp;45J
 						</a>
 					</td>{" "}
@@ -4843,11 +3773,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;122B"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 122B');"
-						>
+						<a title="COMPSCI&nbsp;122B" className="class">
 							COMPSCI&nbsp;122B
 						</a>
 					</td>{" "}
@@ -4857,11 +3783,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;122C"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 122C');"
-						>
+						<a title="COMPSCI&nbsp;122C" className="class">
 							COMPSCI&nbsp;122C
 						</a>
 					</td>{" "}
@@ -4871,11 +3793,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;122D"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 122D');"
-						>
+						<a title="COMPSCI&nbsp;122D" className="class">
 							COMPSCI&nbsp;122D
 						</a>
 					</td>{" "}
@@ -4885,11 +3803,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;125"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 125');"
-						>
+						<a title="COMPSCI&nbsp;125" className="class">
 							COMPSCI&nbsp;125
 						</a>
 					</td>{" "}
@@ -4899,11 +3813,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;132"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 132');"
-						>
+						<a title="COMPSCI&nbsp;132" className="class">
 							COMPSCI&nbsp;132
 						</a>
 					</td>{" "}
@@ -4913,11 +3823,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;134"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 134');"
-						>
+						<a title="COMPSCI&nbsp;134" className="class">
 							COMPSCI&nbsp;134
 						</a>
 					</td>{" "}
@@ -4927,11 +3833,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;141"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 141');"
-						>
+						<a title="COMPSCI&nbsp;141" className="class">
 							COMPSCI&nbsp;141
 						</a>
 					</td>{" "}
@@ -4941,11 +3843,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;142A"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 142A');"
-						>
+						<a title="COMPSCI&nbsp;142A" className="class">
 							COMPSCI&nbsp;142A
 						</a>
 					</td>{" "}
@@ -4955,11 +3853,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;143A"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 143A');"
-						>
+						<a title="COMPSCI&nbsp;143A" className="class">
 							COMPSCI&nbsp;143A
 						</a>
 					</td>{" "}
@@ -4969,11 +3863,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;163"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 163');"
-						>
+						<a title="COMPSCI&nbsp;163" className="class">
 							COMPSCI&nbsp;163
 						</a>
 					</td>{" "}
@@ -4983,11 +3873,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;165"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 165');"
-						>
+						<a title="COMPSCI&nbsp;165" className="class">
 							COMPSCI&nbsp;165
 						</a>
 					</td>{" "}
@@ -4997,11 +3883,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;167"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 167');"
-						>
+						<a title="COMPSCI&nbsp;167" className="class">
 							COMPSCI&nbsp;167
 						</a>
 					</td>{" "}
@@ -5011,11 +3893,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;179"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 179');"
-						>
+						<a title="COMPSCI&nbsp;179" className="class">
 							COMPSCI&nbsp;179
 						</a>
 					</td>{" "}
@@ -5036,11 +3914,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;122B"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 122B');"
-						>
+						<a title="COMPSCI&nbsp;122B" className="class">
 							COMPSCI&nbsp;122B
 						</a>
 					</td>{" "}
@@ -5050,11 +3924,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;122C"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 122C');"
-						>
+						<a title="COMPSCI&nbsp;122C" className="class">
 							COMPSCI&nbsp;122C
 						</a>
 					</td>{" "}
@@ -5064,11 +3934,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;122D"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 122D');"
-						>
+						<a title="COMPSCI&nbsp;122D" className="class">
 							COMPSCI&nbsp;122D
 						</a>
 					</td>{" "}
@@ -5078,11 +3944,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;125"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 125');"
-						>
+						<a title="COMPSCI&nbsp;125" className="class">
 							COMPSCI&nbsp;125
 						</a>
 					</td>{" "}
@@ -5092,11 +3954,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;179"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 179');"
-						>
+						<a title="COMPSCI&nbsp;179" className="class">
 							COMPSCI&nbsp;179
 						</a>
 					</td>{" "}
@@ -5117,11 +3975,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;171"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 171');"
-						>
+						<a title="COMPSCI&nbsp;171" className="class">
 							COMPSCI&nbsp;171
 						</a>
 					</td>{" "}
@@ -5131,11 +3985,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;175"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 175');"
-						>
+						<a title="COMPSCI&nbsp;175" className="class">
 							COMPSCI&nbsp;175
 						</a>
 					</td>{" "}
@@ -5145,11 +3995,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;178"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 178');"
-						>
+						<a title="COMPSCI&nbsp;178" className="class">
 							COMPSCI&nbsp;178
 						</a>
 					</td>{" "}
@@ -5168,11 +4014,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;116"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 116');"
-						>
+						<a title="COMPSCI&nbsp;116" className="class">
 							COMPSCI&nbsp;116
 						</a>
 					</td>{" "}
@@ -5182,11 +4024,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;121"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 121');"
-						>
+						<a title="COMPSCI&nbsp;121" className="class">
 							COMPSCI&nbsp;121
 						</a>
 					</td>{" "}
@@ -5196,11 +4034,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;125"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 125');"
-						>
+						<a title="COMPSCI&nbsp;125" className="class">
 							COMPSCI&nbsp;125
 						</a>
 					</td>{" "}
@@ -5210,11 +4044,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;162"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 162');"
-						>
+						<a title="COMPSCI&nbsp;162" className="class">
 							COMPSCI&nbsp;162
 						</a>
 					</td>{" "}
@@ -5224,11 +4054,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;163"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 163');"
-						>
+						<a title="COMPSCI&nbsp;163" className="class">
 							COMPSCI&nbsp;163
 						</a>
 					</td>{" "}
@@ -5238,11 +4064,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;164"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 164');"
-						>
+						<a title="COMPSCI&nbsp;164" className="class">
 							COMPSCI&nbsp;164
 						</a>
 					</td>{" "}
@@ -5252,11 +4074,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;169"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 169');"
-						>
+						<a title="COMPSCI&nbsp;169" className="class">
 							COMPSCI&nbsp;169
 						</a>
 					</td>{" "}
@@ -5266,11 +4084,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;177"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 177');"
-						>
+						<a title="COMPSCI&nbsp;177" className="class">
 							COMPSCI&nbsp;177
 						</a>
 					</td>{" "}
@@ -5280,11 +4094,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;179"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 179');"
-						>
+						<a title="COMPSCI&nbsp;179" className="class">
 							COMPSCI&nbsp;179
 						</a>
 					</td>{" "}
@@ -5305,11 +4115,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;132"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 132');"
-						>
+						<a title="COMPSCI&nbsp;132" className="class">
 							COMPSCI&nbsp;132
 						</a>
 					</td>{" "}
@@ -5319,11 +4125,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;133"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 133');"
-						>
+						<a title="COMPSCI&nbsp;133" className="class">
 							COMPSCI&nbsp;133
 						</a>
 					</td>{" "}
@@ -5333,11 +4135,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;134"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 134');"
-						>
+						<a title="COMPSCI&nbsp;134" className="class">
 							COMPSCI&nbsp;134
 						</a>
 					</td>{" "}
@@ -5347,11 +4145,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;143A"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 143A');"
-						>
+						<a title="COMPSCI&nbsp;143A" className="class">
 							COMPSCI&nbsp;143A
 						</a>
 					</td>{" "}
@@ -5370,11 +4164,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;131"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 131');"
-						>
+						<a title="COMPSCI&nbsp;131" className="class">
 							COMPSCI&nbsp;131
 						</a>
 					</td>{" "}
@@ -5384,11 +4174,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;141"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 141');"
-						>
+						<a title="COMPSCI&nbsp;141" className="class">
 							COMPSCI&nbsp;141
 						</a>
 					</td>{" "}
@@ -5398,11 +4184,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;142A"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 142A');"
-						>
+						<a title="COMPSCI&nbsp;142A" className="class">
 							COMPSCI&nbsp;142A
 						</a>
 					</td>{" "}
@@ -5412,11 +4194,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;142B"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 142B');"
-						>
+						<a title="COMPSCI&nbsp;142B" className="class">
 							COMPSCI&nbsp;142B
 						</a>
 					</td>{" "}
@@ -5426,11 +4204,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;143A"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 143A');"
-						>
+						<a title="COMPSCI&nbsp;143A" className="class">
 							COMPSCI&nbsp;143A
 						</a>
 					</td>{" "}
@@ -5440,11 +4214,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;143B"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 143B');"
-						>
+						<a title="COMPSCI&nbsp;143B" className="class">
 							COMPSCI&nbsp;143B
 						</a>
 					</td>{" "}
@@ -5463,11 +4233,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;111"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 111');"
-						>
+						<a title="COMPSCI&nbsp;111" className="class">
 							COMPSCI&nbsp;111
 						</a>
 					</td>{" "}
@@ -5477,11 +4243,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;112"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 112');"
-						>
+						<a title="COMPSCI&nbsp;112" className="class">
 							COMPSCI&nbsp;112
 						</a>
 					</td>{" "}
@@ -5491,11 +4253,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;114"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 114');"
-						>
+						<a title="COMPSCI&nbsp;114" className="class">
 							COMPSCI&nbsp;114
 						</a>
 					</td>{" "}
@@ -5505,11 +4263,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;116"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 116');"
-						>
+						<a title="COMPSCI&nbsp;116" className="class">
 							COMPSCI&nbsp;116
 						</a>
 					</td>{" "}
@@ -5519,11 +4273,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;117"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 117');"
-						>
+						<a title="COMPSCI&nbsp;117" className="class">
 							COMPSCI&nbsp;117
 						</a>
 					</td>{" "}
@@ -5533,11 +4283,7 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="COMPSCI&nbsp;118"
-							className="class"
-							onClick="return showCourse(this, 'COMPSCI 118');"
-						>
+						<a title="COMPSCI&nbsp;118" className="class">
 							COMPSCI&nbsp;118
 						</a>
 					</td>{" "}
@@ -5547,24 +4293,20 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="I&amp;C&nbsp;SCI&nbsp;162"
-							className="class"
-							onClick="return showCourse(this, 'I&amp;C SCI 162');"
-						>
+						<a title="I&amp;C&nbsp;SCI&nbsp;162" className="class">
 							I&amp;C&nbsp;SCI&nbsp;162
 						</a>
 					</td>{" "}
 					<td>Modeling and World Building </td>{" "}
 				</tr>{" "}
 			</tbody>{" "}
-		</table>
+		</Table>
 	);
 }
 
 function CompSciSample() {
 	return (
-		<table width="100%">
+		<Table responsive borderless width="100%">
 			<tbody>
 				<tr className="odd">
 					<td>
@@ -5580,13 +4322,13 @@ function CompSciSample() {
 					<td>Computer Science Spec./Elective</td>
 				</tr>
 			</tbody>
-		</table>
+		</Table>
 	);
 }
 
 function MathPOS() {
 	return (
-		<table className="sc_courselist">
+		<Table responsive borderless className="sc_courselist">
 			{" "}
 			<tbody>
 				{" "}
@@ -5612,19 +4354,11 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;2A"
-							className="class"
-							onClick="return showCourse(this, 'MATH 2A');"
-						>
+						<a title="MATH&nbsp;2A" className="class">
 							MATH&nbsp;2A
 						</a>
 						-
-						<a
-							title="MATH&nbsp;2B"
-							className="class"
-							onClick="return showCourse(this, 'MATH 2B');"
-						>
+						<a title="MATH&nbsp;2B" className="class">
 							{" "}
 							2B
 						</a>
@@ -5640,11 +4374,7 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;2D"
-							className="class"
-							onClick="return showCourse(this, 'MATH 2D');"
-						>
+						<a title="MATH&nbsp;2D" className="class">
 							MATH&nbsp;2D
 						</a>
 					</td>{" "}
@@ -5654,11 +4384,7 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;3A"
-							className="class"
-							onClick="return showCourse(this, 'MATH 3A');"
-						>
+						<a title="MATH&nbsp;3A" className="class">
 							MATH&nbsp;3A
 						</a>
 					</td>{" "}
@@ -5668,11 +4394,7 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;3D"
-							className="class"
-							onClick="return showCourse(this, 'MATH 3D');"
-						>
+						<a title="MATH&nbsp;3D" className="class">
 							MATH&nbsp;3D
 						</a>
 					</td>{" "}
@@ -5682,11 +4404,7 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;13"
-							className="class"
-							onClick="return showCourse(this, 'MATH 13');"
-						>
+						<a title="MATH&nbsp;13" className="class">
 							MATH&nbsp;13
 						</a>
 					</td>{" "}
@@ -5703,11 +4421,7 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;9"
-							className="class"
-							onClick="return showCourse(this, 'MATH 9');"
-						>
+						<a title="MATH&nbsp;9" className="class">
 							MATH&nbsp;9
 						</a>
 					</td>{" "}
@@ -5728,28 +4442,16 @@ function MathPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="CHEM&nbsp;1A"
-								className="class"
-								onClick="return showCourse(this, 'CHEM 1A');"
-							>
+							<a title="CHEM&nbsp;1A" className="class">
 								CHEM&nbsp;1A
 							</a>
 							-
-							<a
-								title="CHEM&nbsp;1B"
-								className="class"
-								onClick="return showCourse(this, 'CHEM 1B');"
-							>
+							<a title="CHEM&nbsp;1B" className="class">
 								{" "}
 								1B
 							</a>
 							-
-							<a
-								title="CHEM&nbsp;1C"
-								className="class"
-								onClick="return showCourse(this, 'CHEM 1C');"
-							>
+							<a title="CHEM&nbsp;1C" className="class">
 								{" "}
 								1C
 							</a>
@@ -5772,28 +4474,16 @@ function MathPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="PHYSICS&nbsp;7C"
-								className="class"
-								onClick="return showCourse(this, 'PHYSICS 7C');"
-							>
+							<a title="PHYSICS&nbsp;7C" className="class">
 								PHYSICS&nbsp;7C
 							</a>
 							-
-							<a
-								title="PHYSICS&nbsp;7D"
-								className="class"
-								onClick="return showCourse(this, 'PHYSICS 7D');"
-							>
+							<a title="PHYSICS&nbsp;7D" className="class">
 								{" "}
 								7D
 							</a>
 							-
-							<a
-								title="PHYSICS&nbsp;7E"
-								className="class"
-								onClick="return showCourse(this, 'PHYSICS 7E');"
-							>
+							<a title="PHYSICS&nbsp;7E" className="class">
 								{" "}
 								7E
 							</a>
@@ -5816,27 +4506,15 @@ function MathPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="STATS&nbsp;7"
-								className="class"
-								onClick="return showCourse(this, 'STATS 7');"
-							>
+							<a title="STATS&nbsp;7" className="class">
 								STATS&nbsp;7
 							</a>
 							-
-							<a
-								title="MATH&nbsp;10"
-								className="class"
-								onClick="return showCourse(this, 'MATH 10');"
-							>
+							<a title="MATH&nbsp;10" className="class">
 								MATH&nbsp;10
 							</a>
 							-
-							<a
-								title="PHYSICS&nbsp;7C"
-								className="class"
-								onClick="return showCourse(this, 'PHYSICS 7C');"
-							>
+							<a title="PHYSICS&nbsp;7C" className="class">
 								PHYSICS&nbsp;7C
 							</a>
 						</div>
@@ -5873,11 +4551,7 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;120A"
-							className="class"
-							onClick="return showCourse(this, 'MATH 120A');"
-						>
+						<a title="MATH&nbsp;120A" className="class">
 							MATH&nbsp;120A
 						</a>
 					</td>{" "}
@@ -5887,11 +4561,7 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;121A"
-							className="class"
-							onClick="return showCourse(this, 'MATH 121A');"
-						>
+						<a title="MATH&nbsp;121A" className="class">
 							MATH&nbsp;121A
 						</a>
 					</td>{" "}
@@ -5901,11 +4571,7 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;130A"
-							className="class"
-							onClick="return showCourse(this, 'MATH 130A');"
-						>
+						<a title="MATH&nbsp;130A" className="class">
 							MATH&nbsp;130A
 						</a>
 					</td>{" "}
@@ -5915,19 +4581,11 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="MATH&nbsp;140A"
-							className="class"
-							onClick="return showCourse(this, 'MATH 140A');"
-						>
+						<a title="MATH&nbsp;140A" className="class">
 							MATH&nbsp;140A
 						</a>
 						-
-						<a
-							title="MATH&nbsp;140B"
-							className="class"
-							onClick="return showCourse(this, 'MATH 140B');"
-						>
+						<a title="MATH&nbsp;140B" className="class">
 							{" "}
 							140B
 						</a>
@@ -5940,13 +4598,13 @@ function MathPOS() {
 					</td>{" "}
 				</tr>{" "}
 			</tbody>{" "}
-		</table>
+		</Table>
 	);
 }
 
 function MathSample() {
 	return (
-		<table width="100%">
+		<Table responsive borderless width="100%">
 			<tbody>
 				<tr className="odd">
 					<td>
@@ -5954,13 +4612,13 @@ function MathSample() {
 					</td>
 				</tr>
 			</tbody>
-		</table>
+		</Table>
 	);
 }
 
 function SociologyPOS() {
 	return (
-		<table className="sc_courselist">
+		<Table responsive borderless className="sc_courselist">
 			{" "}
 			<tbody>
 				{" "}
@@ -5977,11 +4635,7 @@ function SociologyPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="SOCIOL&nbsp;1"
-							className="class"
-							onClick="return showCourse(this, 'SOCIOL 1');"
-						>
+						<a title="SOCIOL&nbsp;1" className="class">
 							SOCIOL&nbsp;1
 						</a>
 					</td>{" "}
@@ -5991,11 +4645,7 @@ function SociologyPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="SOCIOL&nbsp;2"
-							className="class"
-							onClick="return showCourse(this, 'SOCIOLtbody 2');"
-						>
+						<a title="SOCIOL&nbsp;2" className="class">
 							SOCIOL&nbsp;2
 						</a>
 					</td>{" "}
@@ -6004,11 +4654,7 @@ function SociologyPOS() {
 				<tr className="even orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a
-							title="SOCIOL&nbsp;3"
-							className="class"
-							onClick="return showCourse(this, 'SOCIOL 3');"
-						>
+						<a title="SOCIOL&nbsp;3" className="class">
 							SOCIOL&nbsp;3
 						</a>
 					</td>{" "}
@@ -6027,11 +4673,7 @@ function SociologyPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="SOCIOL&nbsp;110"
-							className="class"
-							onClick="return showCourse(this, 'SOCIOL 110');"
-						>
+						<a title="SOCIOL&nbsp;110" className="class">
 							SOCIOL&nbsp;110
 						</a>
 					</td>{" "}
@@ -6041,11 +4683,7 @@ function SociologyPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="SOCIOL&nbsp;120"
-							className="class"
-							onClick="return showCourse(this, 'SOCIOL 120');"
-						>
+						<a title="SOCIOL&nbsp;120" className="class">
 							SOCIOL&nbsp;120
 						</a>
 					</td>{" "}
@@ -6064,11 +4702,7 @@ function SociologyPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="SOCIOL&nbsp;180A"
-							className="class"
-							onClick="return showCourse(this, 'SOCIOL 180A');"
-						>
+						<a title="SOCIOL&nbsp;180A" className="class">
 							SOCIOL&nbsp;180A
 						</a>
 					</td>{" "}
@@ -6095,13 +4729,17 @@ function SociologyPOS() {
 					</td>{" "}
 				</tr>{" "}
 			</tbody>{" "}
-		</table>
+		</Table>
 	);
+}
+
+function SociologySample() {
+	return;
 }
 
 function EnglishPOS() {
 	return (
-		<table className="sc_courselist">
+		<Table responsive borderless className="sc_courselist">
 			{" "}
 			<tbody>
 				{" "}
@@ -6111,11 +4749,7 @@ function EnglishPOS() {
 						{" "}
 						<span className="courselistcomment">
 							A. Select three of the following, at least one of which must be{" "}
-							<a
-								title="ENGLISH&nbsp;15"
-								className="class"
-								onClick="return showCourse(this, 'ENGLISH 15');"
-							>
+							<a title="ENGLISH&nbsp;15" className="class">
 								ENGLISH&nbsp;15
 							</a>
 						</span>{" "}
@@ -6127,11 +4761,7 @@ function EnglishPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGLISH&nbsp;8"
-								className="class"
-								onClick="return showCourse(this, 'ENGLISH 8');"
-							>
+							<a title="ENGLISH&nbsp;8" className="class">
 								ENGLISH&nbsp;8
 							</a>
 						</div>
@@ -6143,11 +4773,7 @@ function EnglishPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGLISH&nbsp;9"
-								className="class"
-								onClick="return showCourse(this, 'ENGLISH 9');"
-							>
+							<a title="ENGLISH&nbsp;9" className="class">
 								ENGLISH&nbsp;9
 							</a>
 						</div>
@@ -6159,11 +4785,7 @@ function EnglishPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGLISH&nbsp;10"
-								className="class"
-								onClick="return showCourse(this, 'ENGLISH 10');"
-							>
+							<a title="ENGLISH&nbsp;10" className="class">
 								ENGLISH&nbsp;10
 							</a>
 						</div>
@@ -6175,11 +4797,7 @@ function EnglishPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGLISH&nbsp;11"
-								className="class"
-								onClick="return showCourse(this, 'ENGLISH 11');"
-							>
+							<a title="ENGLISH&nbsp;11" className="class">
 								ENGLISH&nbsp;11
 							</a>
 						</div>
@@ -6191,11 +4809,7 @@ function EnglishPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGLISH&nbsp;12"
-								className="class"
-								onClick="return showCourse(this, 'ENGLISH 12');"
-							>
+							<a title="ENGLISH&nbsp;12" className="class">
 								ENGLISH&nbsp;12
 							</a>
 						</div>
@@ -6207,11 +4821,7 @@ function EnglishPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGLISH&nbsp;15"
-								className="class"
-								onClick="return showCourse(this, 'ENGLISH 15');"
-							>
+							<a title="ENGLISH&nbsp;15" className="class">
 								ENGLISH&nbsp;15
 							</a>
 						</div>
@@ -6223,11 +4833,7 @@ function EnglishPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGLISH&nbsp;16"
-								className="class"
-								onClick="return showCourse(this, 'ENGLISH 16');"
-							>
+							<a title="ENGLISH&nbsp;16" className="class">
 								ENGLISH&nbsp;16
 							</a>
 						</div>
@@ -6239,11 +4845,7 @@ function EnglishPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a
-								title="ENGLISH&nbsp;17"
-								className="class"
-								onClick="return showCourse(this, 'ENGLISH 17');"
-							>
+							<a title="ENGLISH&nbsp;17" className="class">
 								ENGLISH&nbsp;17
 							</a>
 						</div>
@@ -6263,11 +4865,7 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="ENGLISH&nbsp;100"
-							className="class"
-							onClick="return showCourse(this, 'ENGLISH 100');"
-						>
+						<a title="ENGLISH&nbsp;100" className="class">
 							ENGLISH&nbsp;100
 						</a>
 					</td>{" "}
@@ -6277,11 +4875,7 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="ENGLISH&nbsp;101W"
-							className="class"
-							onClick="return showCourse(this, 'ENGLISH 101W');"
-						>
+						<a title="ENGLISH&nbsp;101W" className="class">
 							ENGLISH&nbsp;101W
 						</a>
 					</td>{" "}
@@ -6303,11 +4897,7 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="ENGLISH&nbsp;102A"
-							className="class"
-							onClick="return showCourse(this, 'ENGLISH 102A');"
-						>
+						<a title="ENGLISH&nbsp;102A" className="class">
 							ENGLISH&nbsp;102A
 						</a>
 					</td>{" "}
@@ -6317,11 +4907,7 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="ENGLISH&nbsp;102B"
-							className="class"
-							onClick="return showCourse(this, 'ENGLISH 102B');"
-						>
+						<a title="ENGLISH&nbsp;102B" className="class">
 							ENGLISH&nbsp;102B
 						</a>
 					</td>{" "}
@@ -6331,11 +4917,7 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="ENGLISH&nbsp;102C"
-							className="class"
-							onClick="return showCourse(this, 'ENGLISH 102C');"
-						>
+						<a title="ENGLISH&nbsp;102C" className="class">
 							ENGLISH&nbsp;102C
 						</a>
 					</td>{" "}
@@ -6345,11 +4927,7 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="ENGLISH&nbsp;102D"
-							className="class"
-							onClick="return showCourse(this, 'ENGLISH 102D');"
-						>
+						<a title="ENGLISH&nbsp;102D" className="class">
 							ENGLISH&nbsp;102D
 						</a>
 					</td>{" "}
@@ -6359,11 +4937,7 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="ENGLISH&nbsp;105"
-							className="class"
-							onClick="return showCourse(this, 'ENGLISH 105');"
-						>
+						<a title="ENGLISH&nbsp;105" className="class">
 							ENGLISH&nbsp;105
 						</a>
 					</td>{" "}
@@ -6373,11 +4947,7 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a
-							title="ENGLISH&nbsp;106"
-							className="class"
-							onClick="return showCourse(this, 'ENGLISH 106');"
-						>
+						<a title="ENGLISH&nbsp;106" className="class">
 							ENGLISH&nbsp;106
 						</a>
 					</td>{" "}
@@ -6390,51 +4960,27 @@ function EnglishPOS() {
 						<span className="courselistcomment">
 							D. Select at least three more Departmental (English, Literary
 							Journalism, Writing) courses numbered 102 or above, excluding{" "}
-							<a
-								title="ENGLISH&nbsp;150"
-								className="class"
-								onClick="return showCourse(this, 'ENGLISH 150');"
-							>
+							<a title="ENGLISH&nbsp;150" className="class">
 								ENGLISH&nbsp;150
 							</a>
 							,{" "}
-							<a
-								title="LIT&nbsp;JRN&nbsp;197"
-								className="class"
-								onClick="return showCourse(this, 'LIT JRN 197');"
-							>
+							<a title="LIT&nbsp;JRN&nbsp;197" className="class">
 								LIT&nbsp;JRN&nbsp;197
 							</a>
 							,{" "}
-							<a
-								title="LIT&nbsp;JRN&nbsp;198"
-								className="class"
-								onClick="return showCourse(this, 'LIT JRN 198');"
-							>
+							<a title="LIT&nbsp;JRN&nbsp;198" className="class">
 								LIT&nbsp;JRN&nbsp;198
 							</a>
 							,{" "}
-							<a
-								title="LIT&nbsp;JRN&nbsp;199"
-								className="class"
-								onClick="return showCourse(this, 'LIT JRN 199');"
-							>
+							<a title="LIT&nbsp;JRN&nbsp;199" className="class">
 								LIT&nbsp;JRN&nbsp;199
 							</a>
 							,{" "}
-							<a
-								title="WRITING&nbsp;139W"
-								className="class"
-								onClick="return showCourse(this, 'WRITING 139W');"
-							>
+							<a title="WRITING&nbsp;139W" className="class">
 								WRITING&nbsp;139W
 							</a>
 							, and{" "}
-							<a
-								title="WRITING&nbsp;197"
-								className="class"
-								onClick="return showCourse(this, 'WRITING 197');"
-							>
+							<a title="WRITING&nbsp;197" className="class">
 								WRITING&nbsp;197
 							</a>
 							. An upper-division course in a foreign literature in the original
@@ -6444,14 +4990,19 @@ function EnglishPOS() {
 					</td>{" "}
 				</tr>{" "}
 			</tbody>{" "}
-		</table>
+		</Table>
 	);
+}
+
+function EnglishSample() {
+	return;
 }
 
 export {
 	BioSciPOS,
 	BioSciSample,
 	BusinessPOS,
+	BusinessSample,
 	MechEngPOS,
 	MechEngSample,
 	PsychPOS,
@@ -6461,5 +5012,7 @@ export {
 	MathPOS,
 	MathSample,
 	SociologyPOS,
+	SociologySample,
 	EnglishPOS,
+	EnglishSample,
 };
