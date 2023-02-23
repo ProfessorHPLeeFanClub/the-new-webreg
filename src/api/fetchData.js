@@ -97,9 +97,9 @@ function combineParsedCourses(currentClasses, newClass) {
 		waitlist: newClass.waitlist,
 	};
 	const sameCourses = currentClasses.filter(
-		(courseData) => courseData.title == newClass.title
+		(courseData) => courseData.title === newClass.title
 	);
-	if (sameCourses.length == 0) {
+	if (sameCourses.length === 0) {
 		let newCourseList = currentClasses;
 		const newCourse = {
 			title: newClass.title,
@@ -117,7 +117,7 @@ function combineParsedCourses(currentClasses, newClass) {
 		updatedCourse.classes.push(newContent);
 		let newCourseList = currentClasses;
 		for (let i = 0; i < newCourseList.length; i++) {
-			if (newCourseList[i].title == updatedCourse.title) {
+			if (newCourseList[i].title === updatedCourse.title) {
 				newCourseList[i] = updatedCourse;
 			}
 		}

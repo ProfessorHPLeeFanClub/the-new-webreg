@@ -6,14 +6,14 @@ function BioSciPOS() {
 			<tbody>
 				<tr className="odd">
 					<td className="codecol">
-						<a className="class">BIO&nbsp;SCI&nbsp;2A</a>
+						<p className="class">BIO&nbsp;SCI&nbsp;2A</p>
 					</td>
 					<td>Freshman Seminar </td>
 				</tr>
 				<tr className="odd orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a className="class">BIO&nbsp;SCI&nbsp;190</a>
+						<p className="class">BIO&nbsp;SCI&nbsp;190</p>
 					</td>
 					<td colSpan="1"> Transfer Student Seminar</td>
 				</tr>
@@ -24,14 +24,14 @@ function BioSciPOS() {
 				</tr>
 				<tr className="odd">
 					<td className="codecol">
-						<a className="class">BIO&nbsp;SCI&nbsp;93</a>
+						<p className="class">BIO&nbsp;SCI&nbsp;93</p>
 					</td>{" "}
 					<td>From DNA to Organisms </td>{" "}
 				</tr>{" "}
 				<tr className="odd orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a className="class">BIO&nbsp;SCI&nbsp;H93</a>
+						<p className="class">BIO&nbsp;SCI&nbsp;H93</p>
 					</td>{" "}
 					<td colSpan="1"> Honors From DNA to Organisms</td>{" "}
 				</tr>{" "}
@@ -39,7 +39,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a className="class">BIO&nbsp;SCI&nbsp;94</a>
+						<p className="class">BIO&nbsp;SCI&nbsp;94</p>
 					</td>{" "}
 					<td>From Organisms to Ecosystems </td>{" "}
 				</tr>{" "}
@@ -47,14 +47,14 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a className="class">BIO&nbsp;SCI&nbsp;97</a>
+						<p className="class">BIO&nbsp;SCI&nbsp;97</p>
 					</td>{" "}
 					<td>Genetics </td>{" "}
 				</tr>{" "}
 				<tr className="odd orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a className="class">BIO&nbsp;SCI&nbsp;H97</a>
+						<p className="class">BIO&nbsp;SCI&nbsp;H97</p>
 					</td>{" "}
 					<td colSpan="1"> Honors Genetics</td>{" "}
 				</tr>{" "}
@@ -62,7 +62,7 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a className="class">BIO&nbsp;SCI&nbsp;98</a>
+						<p className="class">BIO&nbsp;SCI&nbsp;98</p>
 					</td>{" "}
 					<td>Biochemistry </td>{" "}
 				</tr>{" "}
@@ -70,9 +70,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;99" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;99" className="class">
 							BIO&nbsp;SCI&nbsp;99
-						</a>
+						</p>
 					</td>{" "}
 					<td>Molecular Biology </td>{" "}
 				</tr>{" "}
@@ -80,9 +80,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;100" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;100" className="class">
 							BIO&nbsp;SCI&nbsp;100
-						</a>
+						</p>
 					</td>{" "}
 					<td>Scientific Writing </td>{" "}
 				</tr>{" "}
@@ -100,19 +100,19 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="CHEM&nbsp;1A" className="class">
+							<p title="CHEM&nbsp;1A" className="class">
 								CHEM&nbsp;1A
-							</a>
+							</p>
 							-
-							<a title="CHEM&nbsp;1B" className="class">
+							<p title="CHEM&nbsp;1B" className="class">
 								{" "}
 								1B
-							</a>
+							</p>
 							-
-							<a title="CHEM&nbsp;1C" className="class">
+							<p title="CHEM&nbsp;1C" className="class">
 								{" "}
 								1C
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -143,14 +143,14 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="CHEM&nbsp;1LC" className="class">
+							<p title="CHEM&nbsp;1LC" className="class">
 								CHEM&nbsp;1LC
-							</a>
+							</p>
 							-
-							<a title="CHEM&nbsp;1LD" className="class">
+							<p title="CHEM&nbsp;1LD" className="class">
 								{" "}
 								1LD
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -175,19 +175,19 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="CHEM&nbsp;H2A" className="class">
+							<p title="CHEM&nbsp;H2A" className="class">
 								CHEM&nbsp;H2A
-							</a>
+							</p>
 							-
-							<a title="CHEM&nbsp;H2B" className="class">
+							<p title="CHEM&nbsp;H2B" className="class">
 								{" "}
 								H2B
-							</a>
+							</p>
 							-
-							<a title="CHEM&nbsp;H2C" className="class">
+							<p title="CHEM&nbsp;H2C" className="class">
 								{" "}
 								H2C
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -218,14 +218,14 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="CHEM&nbsp;H2LA" className="class">
+							<p title="CHEM&nbsp;H2LA" className="class">
 								CHEM&nbsp;H2LA
-							</a>
+							</p>
 							-
-							<a title="CHEM&nbsp;H2LB" className="class">
+							<p title="CHEM&nbsp;H2LB" className="class">
 								{" "}
 								H2LB
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -250,19 +250,19 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="CHEM&nbsp;51A" className="class">
+							<p title="CHEM&nbsp;51A" className="class">
 								CHEM&nbsp;51A
-							</a>
+							</p>
 							-
-							<a title="CHEM&nbsp;51B" className="class">
+							<p title="CHEM&nbsp;51B" className="class">
 								{" "}
 								51B
-							</a>
+							</p>
 							-
-							<a title="CHEM&nbsp;51C" className="class">
+							<p title="CHEM&nbsp;51C" className="class">
 								{" "}
 								51C
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -293,14 +293,14 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="CHEM&nbsp;51LB" className="class">
+							<p title="CHEM&nbsp;51LB" className="class">
 								CHEM&nbsp;51LB
-							</a>
+							</p>
 							-
-							<a title="CHEM&nbsp;51LC" className="class">
+							<p title="CHEM&nbsp;51LC" className="class">
 								{" "}
 								51LC
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -316,14 +316,14 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="CHEM&nbsp;H52LA" className="class">
+							<p title="CHEM&nbsp;H52LA" className="class">
 								CHEM&nbsp;H52LA
-							</a>
+							</p>
 							-
-							<a title="CHEM&nbsp;H52LB" className="class">
+							<p title="CHEM&nbsp;H52LB" className="class">
 								{" "}
 								H52LB
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -345,9 +345,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;5A" className="class">
+						<p title="MATH&nbsp;5A" className="class">
 							MATH&nbsp;5A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Calculus for Life Sciences I </td>{" "}
 				</tr>{" "}
@@ -355,9 +355,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;5B" className="class">
+						<p title="MATH&nbsp;5B" className="class">
 							MATH&nbsp;5B
-						</a>
+						</p>
 					</td>{" "}
 					<td>Calculus for Life Sciences II </td>{" "}
 				</tr>{" "}
@@ -375,9 +375,9 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="STATS&nbsp;7" className="class">
+							<p title="STATS&nbsp;7" className="class">
 								STATS&nbsp;7
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Basic Statistics </td>{" "}
@@ -387,9 +387,9 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="STATS&nbsp;8" className="class">
+							<p title="STATS&nbsp;8" className="class">
 								STATS&nbsp;8
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Introduction to Biological Statistics </td>{" "}
@@ -399,9 +399,9 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MATH&nbsp;2D" className="class">
+							<p title="MATH&nbsp;2D" className="class">
 								MATH&nbsp;2D
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Multivariable Calculus I </td>{" "}
@@ -411,9 +411,9 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MATH&nbsp;3A" className="class">
+							<p title="MATH&nbsp;3A" className="class">
 								MATH&nbsp;3A
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Introduction to Linear Algebra </td>{" "}
@@ -443,19 +443,19 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PHYSICS&nbsp;3A" className="class">
+							<p title="PHYSICS&nbsp;3A" className="class">
 								PHYSICS&nbsp;3A
-							</a>
+							</p>
 							-
-							<a title="PHYSICS&nbsp;3B" className="class">
+							<p title="PHYSICS&nbsp;3B" className="class">
 								{" "}
 								3B
-							</a>
+							</p>
 							-
-							<a title="PHYSICS&nbsp;3C" className="class">
+							<p title="PHYSICS&nbsp;3C" className="class">
 								{" "}
 								3C
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -474,14 +474,14 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PHYSICS&nbsp;3LB" className="class">
+							<p title="PHYSICS&nbsp;3LB" className="class">
 								PHYSICS&nbsp;3LB
-							</a>
+							</p>
 							-
-							<a title="PHYSICS&nbsp;3LC" className="class">
+							<p title="PHYSICS&nbsp;3LC" className="class">
 								{" "}
 								3LC
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -508,19 +508,19 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PHYSICS&nbsp;7C" className="class">
+							<p title="PHYSICS&nbsp;7C" className="class">
 								PHYSICS&nbsp;7C
-							</a>
+							</p>
 							-
-							<a title="PHYSICS&nbsp;7D" className="class">
+							<p title="PHYSICS&nbsp;7D" className="class">
 								{" "}
 								7D
-							</a>
+							</p>
 							-
-							<a title="PHYSICS&nbsp;7E" className="class">
+							<p title="PHYSICS&nbsp;7E" className="class">
 								{" "}
 								7E
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -540,14 +540,14 @@ function BioSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PHYSICS&nbsp;7LC" className="class">
+							<p title="PHYSICS&nbsp;7LC" className="class">
 								PHYSICS&nbsp;7LC
-							</a>
+							</p>
 							-
-							<a title="PHYSICS&nbsp;7LD" className="class">
+							<p title="PHYSICS&nbsp;7LD" className="class">
 								{" "}
 								7LD
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -587,9 +587,9 @@ function BioSciPOS() {
 						<span className="courselistcomment">
 							Students in the School of Biological Sciences have the option to
 							satisfy the upper-division writing requirement by completing{" "}
-							<a title="BIO&nbsp;SCI&nbsp;100" className="class">
+							<p title="BIO&nbsp;SCI&nbsp;100" className="class">
 								BIO&nbsp;SCI&nbsp;100
-							</a>{" "}
+							</p>{" "}
 							with a minimum grade of C, followed by the completion of two
 							upper-division laboratories selected from the following:
 						</span>{" "}
@@ -599,9 +599,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;D111L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;D111L" className="class">
 							BIO&nbsp;SCI&nbsp;D111L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Developmental and Cell Biology Laboratory </td>{" "}
 				</tr>{" "}
@@ -609,9 +609,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;E106L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;E106L" className="class">
 							BIO&nbsp;SCI&nbsp;E106L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Habitats and Organisms </td>{" "}
 				</tr>{" "}
@@ -619,9 +619,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;E112L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;E112L" className="class">
 							BIO&nbsp;SCI&nbsp;E112L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Physiology Laboratory </td>{" "}
 				</tr>{" "}
@@ -629,9 +629,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;E115L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;E115L" className="class">
 							BIO&nbsp;SCI&nbsp;E115L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Evolution Laboratory </td>{" "}
 				</tr>{" "}
@@ -639,9 +639,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;E131L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;E131L" className="class">
 							BIO&nbsp;SCI&nbsp;E131L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Image Analysis in Biological Research </td>{" "}
 				</tr>{" "}
@@ -649,9 +649,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;E140L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;E140L" className="class">
 							BIO&nbsp;SCI&nbsp;E140L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Evolution and the Environment Laboratory </td>{" "}
 				</tr>{" "}
@@ -659,9 +659,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;E160L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;E160L" className="class">
 							BIO&nbsp;SCI&nbsp;E160L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Biology of Birds Lab </td>{" "}
 				</tr>{" "}
@@ -669,9 +669,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;E166L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;E166L" className="class">
 							BIO&nbsp;SCI&nbsp;E166L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Field Biology </td>{" "}
 				</tr>{" "}
@@ -679,9 +679,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;E179L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;E179L" className="class">
 							BIO&nbsp;SCI&nbsp;E179L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Field Freshwater Ecology </td>{" "}
 				</tr>{" "}
@@ -689,9 +689,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;E186L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;E186L" className="class">
 							BIO&nbsp;SCI&nbsp;E186L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Population and Community Ecology Lab </td>{" "}
 				</tr>{" "}
@@ -699,9 +699,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;M114L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;M114L" className="class">
 							BIO&nbsp;SCI&nbsp;M114L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Biochemistry Laboratory </td>{" "}
 				</tr>{" "}
@@ -709,9 +709,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;M116L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;M116L" className="class">
 							BIO&nbsp;SCI&nbsp;M116L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Molecular Biology Laboratory </td>{" "}
 				</tr>{" "}
@@ -719,9 +719,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;M118L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;M118L" className="class">
 							BIO&nbsp;SCI&nbsp;M118L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Experimental Microbiology Laboratory </td>{" "}
 				</tr>{" "}
@@ -729,9 +729,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;M121L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;M121L" className="class">
 							BIO&nbsp;SCI&nbsp;M121L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Advanced Immunology Laboratory </td>{" "}
 				</tr>{" "}
@@ -739,9 +739,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;N123L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;N123L" className="class">
 							BIO&nbsp;SCI&nbsp;N123L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Human Neuroimaging Lab </td>{" "}
 				</tr>{" "}
@@ -749,9 +749,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;M130L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;M130L" className="class">
 							BIO&nbsp;SCI&nbsp;M130L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Advanced Molecular Lab Techniques </td>{" "}
 				</tr>{" "}
@@ -759,9 +759,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;N113L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;N113L" className="class">
 							BIO&nbsp;SCI&nbsp;N113L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Neurobiology Laboratory </td>{" "}
 				</tr>{" "}
@@ -769,9 +769,9 @@ function BioSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="BIO&nbsp;SCI&nbsp;N123L" className="class">
+						<p title="BIO&nbsp;SCI&nbsp;N123L" className="class">
 							BIO&nbsp;SCI&nbsp;N123L
-						</a>
+						</p>
 					</td>{" "}
 					<td>Human Neuroimaging Lab </td>{" "}
 				</tr>{" "}
@@ -782,9 +782,9 @@ function BioSciPOS() {
 						<span className="courselistcomment">
 							Students must earn a grade of C or better in each of the two
 							laboratories selected. Completion of{" "}
-							<a title="BIO&nbsp;SCI&nbsp;199W" className="class">
+							<p title="BIO&nbsp;SCI&nbsp;199W" className="class">
 								BIO&nbsp;SCI&nbsp;199W
-							</a>{" "}
+							</p>{" "}
 							or Excellence in Research in Biological Sciences program may count
 							as one of the two upper-division labs.
 						</span>{" "}
@@ -827,19 +827,19 @@ function BioSciSample() {
 			<tbody>
 				<tr className="odd">
 					<td>
-						<a className="class">BIO SCI 99</a>
+						<p className="class">BIO SCI 99</p>
 					</td>
 				</tr>
 				<tr className="even">
 					<td>
-						<a className="class">CHEM 51C</a>- <a className="class">51LC</a>
+						<p className="class">CHEM 51C</p>- <p className="class">51LC</p>
 					</td>
 				</tr>
 				<tr className="odd">
 					<td>
-						<a className="class">STATS 7</a>, <a className="class">8</a>,{" "}
-						<a className="class">MATH 2D</a>, or{" "}
-						<a className="class">MATH 3A</a>
+						<p className="class">STATS 7</p>, <p className="class">8</p>,{" "}
+						<p className="class">MATH 2D</p>, or{" "}
+						<p className="class">MATH 3A</p>
 					</td>
 				</tr>
 			</tbody>
@@ -858,59 +858,59 @@ function BusinessPOS() {
 				</tr>{" "}
 				<tr className="odd">
 					<td className="codecol">
-						<a title="MATH&nbsp;2A" className="class">
+						<p title="MATH&nbsp;2A" className="class">
 							MATH&nbsp;2A
-						</a>
+						</p>
 					</td>
 					<td>Single-Variable Calculus I </td>
 				</tr>
 				<tr className="even">
 					<td className="codecol">
-						<a title="MATH&nbsp;2B" className="class">
+						<p title="MATH&nbsp;2B" className="class">
 							MATH&nbsp;2B
-						</a>
+						</p>
 					</td>
 					<td>Single-Variable Calculus II </td>
 				</tr>
 				<tr className="odd">
 					<td className="codecol">
-						<a title="MGMT&nbsp;1" className="class">
+						<p title="MGMT&nbsp;1" className="class">
 							MGMT&nbsp;1
-						</a>
+						</p>
 					</td>
 					<td>Introduction to Business and Management </td>
 				</tr>
 				<tr className="even">
 					<td className="codecol">
-						<a title="MGMT&nbsp;4A" className="class">
+						<p title="MGMT&nbsp;4A" className="class">
 							MGMT&nbsp;4A
-						</a>
+						</p>
 					</td>
 					<td>Basic Economics for Managers I </td>
 				</tr>
 				<tr className="even orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a title="ECON&nbsp;20A" className="class">
+						<p title="ECON&nbsp;20A" className="class">
 							ECON&nbsp;20A
-						</a>
+						</p>
 					</td>{" "}
 					<td colSpan="1"> Basic Economics I</td>
 				</tr>{" "}
 				<tr className="odd">
 					<td className="codecol">
-						<a title="MGMT&nbsp;4B" className="class">
+						<p title="MGMT&nbsp;4B" className="class">
 							MGMT&nbsp;4B
-						</a>
+						</p>
 					</td>
 					<td>Basic Economics for Managers II </td>{" "}
 				</tr>{" "}
 				<tr className="odd orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a title="ECON&nbsp;20B" className="class">
+						<p title="ECON&nbsp;20B" className="class">
 							ECON&nbsp;20B
-						</a>
+						</p>
 					</td>{" "}
 					<td colSpan="1"> Basic Economics II</td>{" "}
 				</tr>{" "}
@@ -918,9 +918,9 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MGMT&nbsp;7" className="class">
+						<p title="MGMT&nbsp;7" className="class">
 							MGMT&nbsp;7
-						</a>
+						</p>
 					</td>{" "}
 					<td>Statistics for Business Decision Making </td>{" "}
 				</tr>{" "}
@@ -928,9 +928,9 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MGMT&nbsp;30A" className="class">
+						<p title="MGMT&nbsp;30A" className="class">
 							MGMT&nbsp;30A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Principles of Accounting I </td>{" "}
 				</tr>{" "}
@@ -938,9 +938,9 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MGMT&nbsp;30B" className="class">
+						<p title="MGMT&nbsp;30B" className="class">
 							MGMT&nbsp;30B
-						</a>
+						</p>
 					</td>{" "}
 					<td>Principles of Accounting II </td>{" "}
 				</tr>{" "}
@@ -957,9 +957,9 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MGMT&nbsp;101" className="class">
+						<p title="MGMT&nbsp;101" className="class">
 							MGMT&nbsp;101
-						</a>
+						</p>
 					</td>{" "}
 					<td>Management Science </td>{" "}
 				</tr>{" "}
@@ -967,9 +967,9 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MGMT&nbsp;102" className="class">
+						<p title="MGMT&nbsp;102" className="class">
 							MGMT&nbsp;102
-						</a>
+						</p>
 					</td>{" "}
 					<td>Managing Organizational Behavior </td>{" "}
 				</tr>{" "}
@@ -977,9 +977,9 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MGMT&nbsp;105" className="class">
+						<p title="MGMT&nbsp;105" className="class">
 							MGMT&nbsp;105
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Marketing </td>{" "}
 				</tr>{" "}
@@ -987,9 +987,9 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MGMT&nbsp;107" className="class">
+						<p title="MGMT&nbsp;107" className="class">
 							MGMT&nbsp;107
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Management Information Systems </td>{" "}
 				</tr>{" "}
@@ -997,9 +997,9 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MGMT&nbsp;109" className="class">
+						<p title="MGMT&nbsp;109" className="class">
 							MGMT&nbsp;109
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Managerial Finance </td>{" "}
 				</tr>{" "}
@@ -1007,9 +1007,9 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MGMT&nbsp;110" className="class">
+						<p title="MGMT&nbsp;110" className="class">
 							MGMT&nbsp;110
-						</a>
+						</p>
 					</td>{" "}
 					<td>Strategic Management </td>{" "}
 				</tr>{" "}
@@ -1017,9 +1017,9 @@ function BusinessPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MGMT&nbsp;191W" className="class">
+						<p title="MGMT&nbsp;191W" className="class">
 							MGMT&nbsp;191W
-						</a>
+						</p>
 					</td>{" "}
 					<td>Business Communication </td>{" "}
 				</tr>{" "}
@@ -1049,9 +1049,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;131A" className="class">
+							<p title="MGMT&nbsp;131A" className="class">
 								MGMT&nbsp;131A
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Intermediate Accounting I </td>{" "}
@@ -1070,9 +1070,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;131B" className="class">
+							<p title="MGMT&nbsp;131B" className="class">
 								MGMT&nbsp;131B
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Intermediate Accounting II </td>{" "}
@@ -1082,9 +1082,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;131C" className="class">
+							<p title="MGMT&nbsp;131C" className="class">
 								MGMT&nbsp;131C
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Intermediate Accounting III </td>{" "}
@@ -1094,9 +1094,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;132A" className="class">
+							<p title="MGMT&nbsp;132A" className="class">
 								MGMT&nbsp;132A
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Individual Taxation </td>{" "}
@@ -1106,9 +1106,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;133" className="class">
+							<p title="MGMT&nbsp;133" className="class">
 								MGMT&nbsp;133
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Corporate and Partnership Taxation </td>{" "}
@@ -1118,9 +1118,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;134" className="class">
+							<p title="MGMT&nbsp;134" className="class">
 								MGMT&nbsp;134
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Data Analytics in Accounting </td>{" "}
@@ -1130,9 +1130,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;137" className="class">
+							<p title="MGMT&nbsp;137" className="class">
 								MGMT&nbsp;137
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Advanced Accounting </td>{" "}
@@ -1142,9 +1142,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;138" className="class">
+							<p title="MGMT&nbsp;138" className="class">
 								MGMT&nbsp;138
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Auditing </td>{" "}
@@ -1154,9 +1154,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;194" className="class">
+							<p title="MGMT&nbsp;194" className="class">
 								MGMT&nbsp;194
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Financial Statement Analysis </td>{" "}
@@ -1173,9 +1173,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;141" className="class">
+							<p title="MGMT&nbsp;141" className="class">
 								MGMT&nbsp;141
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Investments </td>{" "}
@@ -1196,9 +1196,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;144" className="class">
+							<p title="MGMT&nbsp;144" className="class">
 								MGMT&nbsp;144
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Multinational Finance </td>{" "}
@@ -1208,9 +1208,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;147" className="class">
+							<p title="MGMT&nbsp;147" className="class">
 								MGMT&nbsp;147
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Applied Financial Valuation </td>{" "}
@@ -1220,9 +1220,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;149" className="class">
+							<p title="MGMT&nbsp;149" className="class">
 								MGMT&nbsp;149
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Derivatives </td>{" "}
@@ -1250,9 +1250,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;171" className="class">
+							<p title="MGMT&nbsp;171" className="class">
 								MGMT&nbsp;171
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Social Media </td>{" "}
@@ -1262,9 +1262,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;173" className="class">
+							<p title="MGMT&nbsp;173" className="class">
 								MGMT&nbsp;173
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Business Intelligence for Analytical Decisions </td>{" "}
@@ -1274,9 +1274,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;174" className="class">
+							<p title="MGMT&nbsp;174" className="class">
 								MGMT&nbsp;174
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Business Data Management </td>{" "}
@@ -1286,9 +1286,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;178" className="class">
+							<p title="MGMT&nbsp;178" className="class">
 								MGMT&nbsp;178
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Management of Information Technology </td>{" "}
@@ -1316,9 +1316,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;150" className="class">
+							<p title="MGMT&nbsp;150" className="class">
 								MGMT&nbsp;150
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Consumer Behavior </td>{" "}
@@ -1328,9 +1328,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;151" className="class">
+							<p title="MGMT&nbsp;151" className="class">
 								MGMT&nbsp;151
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Marketing Research </td>{" "}
@@ -1340,9 +1340,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;154" className="class">
+							<p title="MGMT&nbsp;154" className="class">
 								MGMT&nbsp;154
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Global Marketing </td>{" "}
@@ -1352,9 +1352,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;155" className="class">
+							<p title="MGMT&nbsp;155" className="class">
 								MGMT&nbsp;155
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Brand Management </td>{" "}
@@ -1373,9 +1373,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;189" className="class">
+							<p title="MGMT&nbsp;189" className="class">
 								MGMT&nbsp;189
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Operations Management </td>{" "}
@@ -1394,9 +1394,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;182" className="class">
+							<p title="MGMT&nbsp;182" className="class">
 								MGMT&nbsp;182
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Supply Chain Management </td>{" "}
@@ -1406,9 +1406,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;196" className="class">
+							<p title="MGMT&nbsp;196" className="class">
 								MGMT&nbsp;196
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Decision Analysis </td>{" "}
@@ -1436,9 +1436,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;125" className="class">
+							<p title="MGMT&nbsp;125" className="class">
 								MGMT&nbsp;125
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Negotiations </td>{" "}
@@ -1448,9 +1448,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;126" className="class">
+							<p title="MGMT&nbsp;126" className="class">
 								MGMT&nbsp;126
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Foundations of Teams </td>{" "}
@@ -1460,9 +1460,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;128" className="class">
+							<p title="MGMT&nbsp;128" className="class">
 								MGMT&nbsp;128
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>International Management </td>{" "}
@@ -1472,9 +1472,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;129" className="class">
+							<p title="MGMT&nbsp;129" className="class">
 								MGMT&nbsp;129
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Leadership </td>{" "}
@@ -1505,9 +1505,9 @@ function BusinessPOS() {
 				<tr className="even">
 					<td className="codecol">
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;128" className="class">
+							<p title="MGMT&nbsp;128" className="class">
 								MGMT&nbsp;128
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>International Management </td>{" "}
@@ -1517,9 +1517,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;144" className="class">
+							<p title="MGMT&nbsp;144" className="class">
 								MGMT&nbsp;144
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Multinational Finance </td>{" "}
@@ -1529,9 +1529,9 @@ function BusinessPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="MGMT&nbsp;154" className="class">
+							<p title="MGMT&nbsp;154" className="class">
 								MGMT&nbsp;154
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Global Marketing </td>{" "}
@@ -1570,27 +1570,27 @@ function MechEngPOS() {
 				</tr>{" "}
 				<tr className="odd">
 					<td className="codecol">
-						<a title="CHEM&nbsp;1A" className="class">
+						<p title="CHEM&nbsp;1A" className="class">
 							CHEM&nbsp;1A
-						</a>
+						</p>
 					</td>
 					<td>General Chemistry </td>
 				</tr>
 				<tr className="odd orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a title="ENGR&nbsp;1A" className="class">
+						<p title="ENGR&nbsp;1A" className="class">
 							ENGR&nbsp;1A
-						</a>
+						</p>
 					</td>
 					<td colSpan="1"> General Chemistry for Engineers</td>
 				</tr>
 				<tr className="even">
 					<td className="codecol">
 						{" "}
-						<a title="CHEM&nbsp;1LE" className="class">
+						<p title="CHEM&nbsp;1LE" className="class">
 							CHEM&nbsp;1LE
-						</a>
+						</p>
 					</td>{" "}
 					<td>Accelerated General Chemistry Lab </td>{" "}
 				</tr>{" "}
@@ -1598,14 +1598,14 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;2A" className="class">
+						<p title="MATH&nbsp;2A" className="class">
 							MATH&nbsp;2A
-						</a>
+						</p>
 						-
-						<a title="MATH&nbsp;2B" className="class">
+						<p title="MATH&nbsp;2B" className="class">
 							{" "}
 							2B
-						</a>
+						</p>
 					</td>{" "}
 					<td>
 						Single-Variable Calculus I<br />
@@ -1618,9 +1618,9 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;2D" className="class">
+						<p title="MATH&nbsp;2D" className="class">
 							MATH&nbsp;2D
-						</a>
+						</p>
 					</td>{" "}
 					<td>Multivariable Calculus I </td>{" "}
 				</tr>{" "}
@@ -1628,9 +1628,9 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;2E" className="class">
+						<p title="MATH&nbsp;2E" className="class">
 							MATH&nbsp;2E
-						</a>
+						</p>
 					</td>{" "}
 					<td>Multivariable Calculus II </td>{" "}
 				</tr>{" "}
@@ -1638,9 +1638,9 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;3A" className="class">
+						<p title="MATH&nbsp;3A" className="class">
 							MATH&nbsp;3A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Linear Algebra </td>{" "}
 				</tr>{" "}
@@ -1648,9 +1648,9 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;3D" className="class">
+						<p title="MATH&nbsp;3D" className="class">
 							MATH&nbsp;3D
-						</a>
+						</p>
 					</td>{" "}
 					<td>Elementary Differential Equations </td>{" "}
 				</tr>{" "}
@@ -1658,9 +1658,9 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="PHYSICS&nbsp;7C" className="class">
+						<p title="PHYSICS&nbsp;7C" className="class">
 							PHYSICS&nbsp;7C
-						</a>
+						</p>
 					</td>{" "}
 					<td>Classical Physics </td>{" "}
 				</tr>{" "}
@@ -1668,9 +1668,9 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="PHYSICS&nbsp;7LC" className="class">
+						<p title="PHYSICS&nbsp;7LC" className="class">
 							PHYSICS&nbsp;7LC
-						</a>
+						</p>
 					</td>{" "}
 					<td>Classical Physics Laboratory </td>{" "}
 				</tr>{" "}
@@ -1678,14 +1678,14 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="PHYSICS&nbsp;7D" className="class">
+						<p title="PHYSICS&nbsp;7D" className="class">
 							PHYSICS&nbsp;7D
-						</a>
+						</p>
 						-
-						<a title="PHYSICS&nbsp;7E" className="class">
+						<p title="PHYSICS&nbsp;7E" className="class">
 							{" "}
 							7E
-						</a>
+						</p>
 					</td>{" "}
 					<td>
 						Classical Physics
@@ -1699,9 +1699,9 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="PHYSICS&nbsp;7LD" className="class">
+						<p title="PHYSICS&nbsp;7LD" className="class">
 							PHYSICS&nbsp;7LD
-						</a>
+						</p>
 					</td>{" "}
 					<td>Classical Physics Laboratory </td>{" "}
 				</tr>{" "}
@@ -1709,9 +1709,9 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="PHYSICS&nbsp;52A" className="class">
+						<p title="PHYSICS&nbsp;52A" className="class">
 							PHYSICS&nbsp;52A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Fundamentals of Experimental Physics </td>{" "}
 				</tr>{" "}
@@ -1763,9 +1763,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGR&nbsp;54" className="class">
+							<p title="ENGR&nbsp;54" className="class">
 								ENGR&nbsp;54
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Principles of Materials Science and Engineering </td>{" "}
@@ -1775,9 +1775,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;10" className="class">
+							<p title="ENGRMAE&nbsp;10" className="class">
 								ENGRMAE&nbsp;10
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Introduction to Engineering Computations </td>{" "}
@@ -1787,9 +1787,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;30" className="class">
+							<p title="ENGRMAE&nbsp;30" className="class">
 								ENGRMAE&nbsp;30
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Statics </td>{" "}
@@ -1799,9 +1799,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;52" className="class">
+							<p title="ENGRMAE&nbsp;52" className="class">
 								ENGRMAE&nbsp;52
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Computer-Aided Design </td>{" "}
@@ -1811,9 +1811,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;60" className="class">
+							<p title="ENGRMAE&nbsp;60" className="class">
 								ENGRMAE&nbsp;60
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Electric Circuits </td>{" "}
@@ -1822,9 +1822,9 @@ function MechEngPOS() {
 					<td className="codecol orclass">
 						<div style={{ marginLeft: "20px" }}>
 							or&nbsp;
-							<a title="EECS&nbsp;70A" className="class">
+							<p title="EECS&nbsp;70A" className="class">
 								EECS&nbsp;70A
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td colSpan="1"> Network Analysis I</td>{" "}
@@ -1834,9 +1834,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;80" className="class">
+							<p title="ENGRMAE&nbsp;80" className="class">
 								ENGRMAE&nbsp;80
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Dynamics </td>{" "}
@@ -1846,9 +1846,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;91" className="class">
+							<p title="ENGRMAE&nbsp;91" className="class">
 								ENGRMAE&nbsp;91
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Introduction to Thermodynamics </td>{" "}
@@ -1858,9 +1858,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;106" className="class">
+							<p title="ENGRMAE&nbsp;106" className="class">
 								ENGRMAE&nbsp;106
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Mechanical Systems Laboratory </td>{" "}
@@ -1870,9 +1870,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;107" className="class">
+							<p title="ENGRMAE&nbsp;107" className="class">
 								ENGRMAE&nbsp;107
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Fluid Thermal Science Laboratory </td>{" "}
@@ -1882,9 +1882,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;112" className="class">
+							<p title="ENGRMAE&nbsp;112" className="class">
 								ENGRMAE&nbsp;112
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Propulsion </td>{" "}
@@ -1893,9 +1893,9 @@ function MechEngPOS() {
 					<td className="codecol orclass">
 						<div style={{ marginLeft: "20px" }}>
 							or&nbsp;
-							<a title="ENGRMAE&nbsp;115" className="class">
+							<p title="ENGRMAE&nbsp;115" className="class">
 								ENGRMAE&nbsp;115
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td colSpan="1"> Applied Engineering Thermodynamics</td>{" "}
@@ -1905,9 +1905,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;120" className="class">
+							<p title="ENGRMAE&nbsp;120" className="class">
 								ENGRMAE&nbsp;120
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Heat and Mass Transfer </td>{" "}
@@ -1917,9 +1917,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;130A" className="class">
+							<p title="ENGRMAE&nbsp;130A" className="class">
 								ENGRMAE&nbsp;130A
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Fluid Dynamics I </td>{" "}
@@ -1929,9 +1929,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;130B" className="class">
+							<p title="ENGRMAE&nbsp;130B" className="class">
 								ENGRMAE&nbsp;130B
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Fluid Dynamics II </td>{" "}
@@ -1941,9 +1941,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;145" className="class">
+							<p title="ENGRMAE&nbsp;145" className="class">
 								ENGRMAE&nbsp;145
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Theory of Machines and Mechanisms </td>{" "}
@@ -1953,9 +1953,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;147" className="class">
+							<p title="ENGRMAE&nbsp;147" className="class">
 								ENGRMAE&nbsp;147
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Vibrations </td>{" "}
@@ -1965,9 +1965,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;150" className="class">
+							<p title="ENGRMAE&nbsp;150" className="class">
 								ENGRMAE&nbsp;150
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Mechanics of Structures </td>{" "}
@@ -1977,9 +1977,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;150L" className="class">
+							<p title="ENGRMAE&nbsp;150L" className="class">
 								ENGRMAE&nbsp;150L
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Mechanics of Structures Laboratory </td>{" "}
@@ -1989,9 +1989,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;151" className="class">
+							<p title="ENGRMAE&nbsp;151" className="class">
 								ENGRMAE&nbsp;151
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Mechanical Engineering Design </td>{" "}
@@ -2001,9 +2001,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;155" className="class">
+							<p title="ENGRMAE&nbsp;155" className="class">
 								ENGRMAE&nbsp;155
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Composite Materials and Structures </td>{" "}
@@ -2012,9 +2012,9 @@ function MechEngPOS() {
 					<td className="codecol orclass">
 						<div style={{ marginLeft: "20px" }}>
 							or&nbsp;
-							<a title="ENGRMAE&nbsp;156" className="class">
+							<p title="ENGRMAE&nbsp;156" className="class">
 								ENGRMAE&nbsp;156
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td colSpan="1"> Mechanical Behavior and Design Principles</td>{" "}
@@ -2023,9 +2023,9 @@ function MechEngPOS() {
 					<td className="codecol orclass">
 						<div style={{ marginLeft: "20px" }}>
 							or&nbsp;
-							<a title="ENGRMAE&nbsp;157" className="class">
+							<p title="ENGRMAE&nbsp;157" className="class">
 								ENGRMAE&nbsp;157
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td colSpan="1"> Lightweight Structures</td>{" "}
@@ -2035,9 +2035,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;170" className="class">
+							<p title="ENGRMAE&nbsp;170" className="class">
 								ENGRMAE&nbsp;170
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Introduction to Control Systems </td>{" "}
@@ -2047,9 +2047,9 @@ function MechEngPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGRMAE&nbsp;189" className="class">
+							<p title="ENGRMAE&nbsp;189" className="class">
 								ENGRMAE&nbsp;189
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Senior Project - Special Topics (minimum of 3 units) </td>{" "}
@@ -2077,17 +2077,17 @@ function MechEngPOS() {
 								may be used as a technical elective. At least 8 units of the
 								technical electives must come from ENGRMAE upper-division
 								courses other than project-based courses{" "}
-								<a title="ENGRMAE&nbsp;188" className="class">
+								<p title="ENGRMAE&nbsp;188" className="class">
 									ENGRMAE&nbsp;188
-								</a>
+								</p>
 								,{" "}
-								<a title="ENGRMAE&nbsp;189" className="class">
+								<p title="ENGRMAE&nbsp;189" className="class">
 									ENGRMAE&nbsp;189
-								</a>
+								</p>
 								, and{" "}
-								<a title="ENGRMAE&nbsp;199" className="class">
+								<p title="ENGRMAE&nbsp;199" className="class">
 									ENGRMAE&nbsp;199
-								</a>
+								</p>
 								. With approval of the Undergraduate Advisor, students may
 								choose any remaining technical elective units from other
 								departments’ upper-division courses that have primarily
@@ -2111,18 +2111,18 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="ECON&nbsp;20A" className="class">
+						<p title="ECON&nbsp;20A" className="class">
 							ECON&nbsp;20A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Basic Economics I </td>{" "}
 				</tr>{" "}
 				<tr className="odd orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a title="ECON&nbsp;23" className="class">
+						<p title="ECON&nbsp;23" className="class">
 							ECON&nbsp;23
-						</a>
+						</p>
 					</td>{" "}
 					<td colSpan="1"> Basic Economics for Engineers</td>{" "}
 				</tr>{" "}
@@ -2130,9 +2130,9 @@ function MechEngPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="ENGR&nbsp;190W" className="class">
+						<p title="ENGR&nbsp;190W" className="class">
 							ENGR&nbsp;190W
-						</a>
+						</p>
 					</td>
 					<td>Communications in the Professional World </td>
 				</tr>
@@ -2147,22 +2147,22 @@ function MechEngSample() {
 			<tbody>
 				<tr className="odd">
 					<td>
-						<a className="class">MATH 2E</a>
+						<p className="class">MATH 2E</p>
 					</td>
 				</tr>
 				<tr className="even">
 					<td>
-						<a className="class">ENGRMAE 91</a>
+						<p className="class">ENGRMAE 91</p>
 					</td>
 				</tr>
 				<tr className="odd">
 					<td>
-						<a className="class">ENGRMAE 130A</a>
+						<p className="class">ENGRMAE 130A</p>
 					</td>
 				</tr>
 				<tr className="even">
 					<td>
-						<a className="class">ECON 23</a> or <a className="class">20A</a>
+						<p className="class">ECON 23</p> or <p className="class">20A</p>
 					</td>
 				</tr>
 			</tbody>
@@ -2189,19 +2189,19 @@ function PsychPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="PSYCH&nbsp;9A" className="class">
+						<p title="PSYCH&nbsp;9A" className="class">
 							PSYCH&nbsp;9A
-						</a>
+						</p>
 						-
-						<a title="PSYCH&nbsp;9B" className="class">
+						<p title="PSYCH&nbsp;9B" className="class">
 							{" "}
 							9B
-						</a>
+						</p>
 						-
-						<a title="PSYCH&nbsp;9C" className="class">
+						<p title="PSYCH&nbsp;9C" className="class">
 							{" "}
 							9C
-						</a>
+						</p>
 					</td>{" "}
 					<td>
 						Psychology Fundamentals
@@ -2230,9 +2230,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ANTHRO&nbsp;2A" className="class">
+							<p title="ANTHRO&nbsp;2A" className="class">
 								ANTHRO&nbsp;2A
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Introduction to Sociocultural Anthropology </td>{" "}
@@ -2242,9 +2242,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ANTHRO&nbsp;2B" className="class">
+							<p title="ANTHRO&nbsp;2B" className="class">
 								ANTHRO&nbsp;2B
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Introduction to Biological Anthropology </td>{" "}
@@ -2254,9 +2254,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ANTHRO&nbsp;2D" className="class">
+							<p title="ANTHRO&nbsp;2D" className="class">
 								ANTHRO&nbsp;2D
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Introduction to Language and Culture </td>{" "}
@@ -2266,9 +2266,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ECON&nbsp;1" className="class">
+							<p title="ECON&nbsp;1" className="class">
 								ECON&nbsp;1
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Introduction to Economics </td>{" "}
@@ -2278,9 +2278,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="LSCI&nbsp;3" className="class">
+							<p title="LSCI&nbsp;3" className="class">
 								LSCI&nbsp;3
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Introduction to Linguistics </td>{" "}
@@ -2290,9 +2290,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="POL&nbsp;SCI&nbsp;11C" className="class">
+							<p title="POL&nbsp;SCI&nbsp;11C" className="class">
 								POL&nbsp;SCI&nbsp;11C
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Introduction to Political Science: Micropolitics </td>{" "}
@@ -2302,9 +2302,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="SOC&nbsp;SCI&nbsp;5A" className="class">
+							<p title="SOC&nbsp;SCI&nbsp;5A" className="class">
 								SOC&nbsp;SCI&nbsp;5A
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Introduction to Human Geography </td>{" "}
@@ -2314,9 +2314,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="SOCIOL&nbsp;1" className="class">
+							<p title="SOCIOL&nbsp;1" className="class">
 								SOCIOL&nbsp;1
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Introduction to Sociology </td>{" "}
@@ -2326,9 +2326,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="SOCIOL&nbsp;2" className="class">
+							<p title="SOCIOL&nbsp;2" className="class">
 								SOCIOL&nbsp;2
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Globalization </td>{" "}
@@ -2338,9 +2338,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="SOCIOL&nbsp;3" className="class">
+							<p title="SOCIOL&nbsp;3" className="class">
 								SOCIOL&nbsp;3
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Social Problems </td>{" "}
@@ -2362,19 +2362,19 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="SOC&nbsp;SCI&nbsp;H1E" className="class">
+							<p title="SOC&nbsp;SCI&nbsp;H1E" className="class">
 								SOC&nbsp;SCI&nbsp;H1E
-							</a>
+							</p>
 							-
-							<a title="SOC&nbsp;SCI&nbsp;H1F" className="class">
+							<p title="SOC&nbsp;SCI&nbsp;H1F" className="class">
 								{" "}
 								H1F
-							</a>
+							</p>
 							-
-							<a title="SOC&nbsp;SCI&nbsp;H1G" className="class">
+							<p title="SOC&nbsp;SCI&nbsp;H1G" className="class">
 								{" "}
 								H1G
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -2404,14 +2404,14 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PSYCH&nbsp;112A" className="class">
+							<p title="PSYCH&nbsp;112A" className="class">
 								PSYCH&nbsp;112A
-							</a>
+							</p>
 							-
-							<a title="PSYCH&nbsp;112LA" className="class">
+							<p title="PSYCH&nbsp;112LA" className="class">
 								{" "}
 								112LA
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -2427,14 +2427,14 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PSYCH&nbsp;112M" className="class">
+							<p title="PSYCH&nbsp;112M" className="class">
 								PSYCH&nbsp;112M
-							</a>
+							</p>
 							-
-							<a title="PSYCH&nbsp;112LM" className="class">
+							<p title="PSYCH&nbsp;112LM" className="class">
 								{" "}
 								112LM
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -2450,14 +2450,14 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PSYCH&nbsp;112R" className="class">
+							<p title="PSYCH&nbsp;112R" className="class">
 								PSYCH&nbsp;112R
-							</a>
+							</p>
 							-
-							<a title="PSYCH&nbsp;112LR" className="class">
+							<p title="PSYCH&nbsp;112LR" className="class">
 								{" "}
 								112LR
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -2475,26 +2475,26 @@ function PsychPOS() {
 						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								NOTE: These courses have as prerequisites{" "}
-								<a title="PSYCH&nbsp;9A" className="class">
+								<p title="PSYCH&nbsp;9A" className="class">
 									PSYCH&nbsp;9A
-								</a>
+								</p>
 								,{" "}
-								<a title="PSYCH&nbsp;9B" className="class">
+								<p title="PSYCH&nbsp;9B" className="class">
 									PSYCH&nbsp;9B
-								</a>
+								</p>
 								,{" "}
-								<a title="PSYCH&nbsp;9C" className="class">
+								<p title="PSYCH&nbsp;9C" className="class">
 									PSYCH&nbsp;9C
-								</a>{" "}
+								</p>{" "}
 								and one year of mathematics/statistics (see course listings).
 								These prerequisites are strictly enforced.{" "}
-								<a title="PSYCH&nbsp;112A" className="class">
+								<p title="PSYCH&nbsp;112A" className="class">
 									PSYCH&nbsp;112A
-								</a>
+								</p>
 								,{" "}
-								<a title="PSYCH&nbsp;112LA" className="class">
+								<p title="PSYCH&nbsp;112LA" className="class">
 									PSYCH&nbsp;112LA
-								</a>{" "}
+								</p>{" "}
 								are the first quarter of a multi-quarter sequence that satisfies
 								the upper-division writing requirement and allows students to
 								plan and conduct research projects. Students taking these
@@ -2502,21 +2502,21 @@ function PsychPOS() {
 								second quarter. Students who intend to fulfill the
 								upper-division writing requirement in some other way should
 								consider taking PSYCH 112D and PSYCH 112LD,{" "}
-								<a title="PSYCH&nbsp;112M" className="class">
+								<p title="PSYCH&nbsp;112M" className="class">
 									PSYCH&nbsp;112M
-								</a>{" "}
+								</p>{" "}
 								and{" "}
-								<a title="PSYCH&nbsp;112LM" className="class">
+								<p title="PSYCH&nbsp;112LM" className="class">
 									PSYCH&nbsp;112LM
-								</a>
+								</p>
 								, or{" "}
-								<a title="PSYCH&nbsp;112R" className="class">
+								<p title="PSYCH&nbsp;112R" className="class">
 									PSYCH&nbsp;112R
-								</a>{" "}
+								</p>{" "}
 								and{" "}
-								<a title="PSYCH&nbsp;112LR" className="class">
+								<p title="PSYCH&nbsp;112LR" className="class">
 									PSYCH&nbsp;112LR
-								</a>{" "}
+								</p>{" "}
 								to fulfill the laboratory requirement.
 							</span>{" "}
 						</div>{" "}
@@ -2538,9 +2538,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PSYCH&nbsp;120A" className="class">
+							<p title="PSYCH&nbsp;120A" className="class">
 								PSYCH&nbsp;120A
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Abnormal Psychology </td>{" "}
@@ -2550,9 +2550,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PSYCH&nbsp;120D" className="class">
+							<p title="PSYCH&nbsp;120D" className="class">
 								PSYCH&nbsp;120D
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Developmental Psychology </td>{" "}
@@ -2562,9 +2562,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PSYCH&nbsp;120H" className="class">
+							<p title="PSYCH&nbsp;120H" className="class">
 								PSYCH&nbsp;120H
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>History of Psychology </td>{" "}
@@ -2574,9 +2574,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PSYCH&nbsp;120P" className="class">
+							<p title="PSYCH&nbsp;120P" className="class">
 								PSYCH&nbsp;120P
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Personality Theories </td>{" "}
@@ -2586,9 +2586,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PSYCH&nbsp;130A" className="class">
+							<p title="PSYCH&nbsp;130A" className="class">
 								PSYCH&nbsp;130A
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Perception and Sensory Processes </td>{" "}
@@ -2598,9 +2598,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PSYCH&nbsp;140C" className="class">
+							<p title="PSYCH&nbsp;140C" className="class">
 								PSYCH&nbsp;140C
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Cognitive Science </td>{" "}
@@ -2610,9 +2610,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PSYCH&nbsp;140L" className="class">
+							<p title="PSYCH&nbsp;140L" className="class">
 								PSYCH&nbsp;140L
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Principles of Learning Theory </td>{" "}
@@ -2622,9 +2622,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PSYCH&nbsp;140M" className="class">
+							<p title="PSYCH&nbsp;140M" className="class">
 								PSYCH&nbsp;140M
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Human Memory </td>{" "}
@@ -2634,9 +2634,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PSYCH&nbsp;150" className="class">
+							<p title="PSYCH&nbsp;150" className="class">
 								PSYCH&nbsp;150
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Psychology of Language </td>{" "}
@@ -2646,9 +2646,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PSYCH&nbsp;160A" className="class">
+							<p title="PSYCH&nbsp;160A" className="class">
 								PSYCH&nbsp;160A
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Introduction to Cognitive Neuroscience </td>{" "}
@@ -2658,9 +2658,9 @@ function PsychPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PSYCH&nbsp;160D" className="class">
+							<p title="PSYCH&nbsp;160D" className="class">
 								PSYCH&nbsp;160D
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Brain Disorders and Behavior </td>{" "}
@@ -2682,9 +2682,9 @@ function PsychPOS() {
 						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
 								1. No more than one of the seven may be lower-division.{" "}
-								<a title="PSYCH&nbsp;7A" className="class">
+								<p title="PSYCH&nbsp;7A" className="class">
 									PSYCH&nbsp;7A
-								</a>{" "}
+								</p>{" "}
 								may not be used to fulfill this requirement.
 							</span>{" "}
 						</div>{" "}
@@ -2730,17 +2730,17 @@ function PsychPOS() {
 							<span className="courselistcomment commentindent">
 								Psychology and Social Behavior courses that do not overlap with
 								Psychology courses may be used along with PSY BEH 193E (same as{" "}
-								<a title="CRM/LAW&nbsp;C105" className="class">
+								<p title="CRM/LAW&nbsp;C105" className="class">
 									CRM/LAW&nbsp;C105
-								</a>
+								</p>
 								) and{" "}
-								<a title="BIO&nbsp;SCI&nbsp;D137" className="class">
+								<p title="BIO&nbsp;SCI&nbsp;D137" className="class">
 									BIO&nbsp;SCI&nbsp;D137
-								</a>
+								</p>
 								, BIO SCI E174,{" "}
-								<a title="BIO&nbsp;SCI&nbsp;N110" className="class">
+								<p title="BIO&nbsp;SCI&nbsp;N110" className="class">
 									BIO&nbsp;SCI&nbsp;N110
-								</a>
+								</p>
 								, and BIO SCI N159.
 							</span>{" "}
 						</div>{" "}
@@ -2769,7 +2769,7 @@ function PsychSample() {
 			<tbody>
 				<tr className="odd">
 					<td>
-						<a className="class">PSYCH 10C</a>
+						<p className="class">PSYCH 10C</p>
 					</td>
 				</tr>
 				<tr className="even">
@@ -2815,19 +2815,19 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="I&amp;C&nbsp;SCI&nbsp;31" className="class">
+							<p title="I&amp;C&nbsp;SCI&nbsp;31" className="class">
 								I&amp;C&nbsp;SCI&nbsp;31
-							</a>
+							</p>
 							-
-							<a title="I&amp;C&nbsp;SCI&nbsp;32" className="class">
+							<p title="I&amp;C&nbsp;SCI&nbsp;32" className="class">
 								{" "}
 								32
-							</a>
+							</p>
 							-
-							<a title="I&amp;C&nbsp;SCI&nbsp;33" className="class">
+							<p title="I&amp;C&nbsp;SCI&nbsp;33" className="class">
 								{" "}
 								33
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -2856,14 +2856,14 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="I&amp;C&nbsp;SCI&nbsp;32A" className="class">
+							<p title="I&amp;C&nbsp;SCI&nbsp;32A" className="class">
 								I&amp;C&nbsp;SCI&nbsp;32A
-							</a>
+							</p>
 							-
-							<a title="I&amp;C&nbsp;SCI&nbsp;33" className="class">
+							<p title="I&amp;C&nbsp;SCI&nbsp;33" className="class">
 								{" "}
 								33
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -2885,9 +2885,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="I&amp;C&nbsp;SCI&nbsp;45C" className="class">
+						<p title="I&amp;C&nbsp;SCI&nbsp;45C" className="class">
 							I&amp;C&nbsp;SCI&nbsp;45C
-						</a>
+						</p>
 					</td>{" "}
 					<td>Programming in C/C++ as a Second Language </td>{" "}
 				</tr>{" "}
@@ -2895,9 +2895,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="I&amp;C&nbsp;SCI&nbsp;46" className="class">
+						<p title="I&amp;C&nbsp;SCI&nbsp;46" className="class">
 							I&amp;C&nbsp;SCI&nbsp;46
-						</a>
+						</p>
 					</td>{" "}
 					<td>Data Structure Implementation and Analysis </td>{" "}
 				</tr>{" "}
@@ -2905,9 +2905,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="I&amp;C&nbsp;SCI&nbsp;51" className="class">
+						<p title="I&amp;C&nbsp;SCI&nbsp;51" className="class">
 							I&amp;C&nbsp;SCI&nbsp;51
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introductory Computer Organization </td>{" "}
 				</tr>{" "}
@@ -2915,9 +2915,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="I&amp;C&nbsp;SCI&nbsp;53" className="class">
+						<p title="I&amp;C&nbsp;SCI&nbsp;53" className="class">
 							I&amp;C&nbsp;SCI&nbsp;53
-						</a>
+						</p>
 					</td>{" "}
 					<td>Principles in System Design </td>{" "}
 				</tr>{" "}
@@ -2925,9 +2925,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="IN4MATX&nbsp;43" className="class">
+						<p title="IN4MATX&nbsp;43" className="class">
 							IN4MATX&nbsp;43
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Software Engineering </td>{" "}
 				</tr>{" "}
@@ -2935,14 +2935,14 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;2A" className="class">
+						<p title="MATH&nbsp;2A" className="class">
 							MATH&nbsp;2A
-						</a>
+						</p>
 						-
-						<a title="MATH&nbsp;2B" className="class">
+						<p title="MATH&nbsp;2B" className="class">
 							{" "}
 							2B
-						</a>
+						</p>
 					</td>{" "}
 					<td>
 						Single-Variable Calculus I<br />
@@ -2955,9 +2955,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="I&amp;C&nbsp;SCI&nbsp;6B" className="class">
+						<p title="I&amp;C&nbsp;SCI&nbsp;6B" className="class">
 							I&amp;C&nbsp;SCI&nbsp;6B
-						</a>
+						</p>
 					</td>{" "}
 					<td>Boolean Logic and Discrete Structures </td>{" "}
 				</tr>{" "}
@@ -2965,9 +2965,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="I&amp;C&nbsp;SCI&nbsp;6D" className="class">
+						<p title="I&amp;C&nbsp;SCI&nbsp;6D" className="class">
 							I&amp;C&nbsp;SCI&nbsp;6D
-						</a>
+						</p>
 					</td>{" "}
 					<td>Discrete Mathematics for Computer Science </td>{" "}
 				</tr>{" "}
@@ -2975,18 +2975,18 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="I&amp;C&nbsp;SCI&nbsp;6N" className="class">
+						<p title="I&amp;C&nbsp;SCI&nbsp;6N" className="class">
 							I&amp;C&nbsp;SCI&nbsp;6N
-						</a>
+						</p>
 					</td>{" "}
 					<td>Computational Linear Algebra </td>{" "}
 				</tr>{" "}
 				<tr className="even orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a title="MATH&nbsp;3A" className="class">
+						<p title="MATH&nbsp;3A" className="class">
 							MATH&nbsp;3A
-						</a>
+						</p>
 					</td>{" "}
 					<td colSpan="1"> Introduction to Linear Algebra</td>{" "}
 				</tr>{" "}
@@ -2994,9 +2994,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="STATS&nbsp;67" className="class">
+						<p title="STATS&nbsp;67" className="class">
 							STATS&nbsp;67
-						</a>
+						</p>
 					</td>{" "}
 					<td>
 						Introduction to Probability and Statistics for Computer Science{" "}
@@ -3034,9 +3034,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;161" className="class">
+						<p title="COMPSCI&nbsp;161" className="class">
 							COMPSCI&nbsp;161
-						</a>
+						</p>
 					</td>{" "}
 					<td>Design and Analysis of Algorithms </td>{" "}
 				</tr>{" "}
@@ -3044,9 +3044,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="I&amp;C&nbsp;SCI&nbsp;139W" className="class">
+						<p title="I&amp;C&nbsp;SCI&nbsp;139W" className="class">
 							I&amp;C&nbsp;SCI&nbsp;139W
-						</a>
+						</p>
 					</td>{" "}
 					<td>Critical Writing on Information Technology </td>{" "}
 				</tr>{" "}
@@ -3067,9 +3067,9 @@ function CompSciPOS() {
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
 							<span className="courselistcomment commentindent">
-								<a title="COMPSCI&nbsp;103" className="class">
+								<p title="COMPSCI&nbsp;103" className="class">
 									COMPSCI&nbsp;103
-								</a>
+								</p>
 								–160, 162-189
 							</span>{" "}
 						</div>{" "}
@@ -3080,9 +3080,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="IN4MATX&nbsp;102" className="class">
+							<p title="IN4MATX&nbsp;102" className="class">
 								IN4MATX&nbsp;102
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Concepts of Programming Language II </td>{" "}
@@ -3092,9 +3092,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="IN4MATX&nbsp;113" className="class">
+							<p title="IN4MATX&nbsp;113" className="class">
 								IN4MATX&nbsp;113
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Requirements Analysis and Engineering </td>{" "}
@@ -3104,9 +3104,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="IN4MATX&nbsp;115" className="class">
+							<p title="IN4MATX&nbsp;115" className="class">
 								IN4MATX&nbsp;115
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Software Testing, Analysis, and Quality Assurance </td>{" "}
@@ -3116,9 +3116,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="IN4MATX&nbsp;117" className="class">
+							<p title="IN4MATX&nbsp;117" className="class">
 								IN4MATX&nbsp;117
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Project in Software System Design </td>{" "}
@@ -3128,9 +3128,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="IN4MATX&nbsp;121" className="class">
+							<p title="IN4MATX&nbsp;121" className="class">
 								IN4MATX&nbsp;121
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Software Design: Applications </td>{" "}
@@ -3140,9 +3140,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="IN4MATX&nbsp;122" className="class">
+							<p title="IN4MATX&nbsp;122" className="class">
 								IN4MATX&nbsp;122
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Software Design: Structure and Implementation </td>{" "}
@@ -3152,9 +3152,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="IN4MATX&nbsp;124" className="class">
+							<p title="IN4MATX&nbsp;124" className="class">
 								IN4MATX&nbsp;124
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Internet Applications Engineering </td>{" "}
@@ -3164,9 +3164,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="IN4MATX&nbsp;131" className="class">
+							<p title="IN4MATX&nbsp;131" className="class">
 								IN4MATX&nbsp;131
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Human Computer Interaction </td>{" "}
@@ -3176,9 +3176,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="IN4MATX&nbsp;133" className="class">
+							<p title="IN4MATX&nbsp;133" className="class">
 								IN4MATX&nbsp;133
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>User Interaction Software </td>{" "}
@@ -3188,9 +3188,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="IN4MATX&nbsp;134" className="class">
+							<p title="IN4MATX&nbsp;134" className="class">
 								IN4MATX&nbsp;134
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Project in User Interaction Software </td>{" "}
@@ -3200,9 +3200,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="I&amp;C&nbsp;SCI&nbsp;161" className="class">
+							<p title="I&amp;C&nbsp;SCI&nbsp;161" className="class">
 								I&amp;C&nbsp;SCI&nbsp;161
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Game Engine Lab </td>{" "}
@@ -3212,9 +3212,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="I&amp;C&nbsp;SCI&nbsp;162" className="class">
+							<p title="I&amp;C&nbsp;SCI&nbsp;162" className="class">
 								I&amp;C&nbsp;SCI&nbsp;162
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Modeling and World Building </td>{" "}
@@ -3234,9 +3234,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;113" className="class">
+							<p title="COMPSCI&nbsp;113" className="class">
 								COMPSCI&nbsp;113
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Computer Game Development </td>{" "}
@@ -3246,9 +3246,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;114" className="class">
+							<p title="COMPSCI&nbsp;114" className="class">
 								COMPSCI&nbsp;114
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Projects in Advanced 3D Computer Graphics </td>{" "}
@@ -3258,9 +3258,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;117" className="class">
+							<p title="COMPSCI&nbsp;117" className="class">
 								COMPSCI&nbsp;117
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Project in Computer Vision </td>{" "}
@@ -3270,9 +3270,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;118" className="class">
+							<p title="COMPSCI&nbsp;118" className="class">
 								COMPSCI&nbsp;118
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Introduction to Virtual Reality </td>{" "}
@@ -3282,9 +3282,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;122B" className="class">
+							<p title="COMPSCI&nbsp;122B" className="class">
 								COMPSCI&nbsp;122B
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Project in Databases and Web Applications </td>{" "}
@@ -3294,9 +3294,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;122C" className="class">
+							<p title="COMPSCI&nbsp;122C" className="class">
 								COMPSCI&nbsp;122C
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Principles of Data Management </td>{" "}
@@ -3306,9 +3306,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;122D" className="class">
+							<p title="COMPSCI&nbsp;122D" className="class">
 								COMPSCI&nbsp;122D
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Beyond SQL Data Management </td>{" "}
@@ -3318,9 +3318,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;125" className="class">
+							<p title="COMPSCI&nbsp;125" className="class">
 								COMPSCI&nbsp;125
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Next Generation Search Systems </td>{" "}
@@ -3330,9 +3330,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;133" className="class">
+							<p title="COMPSCI&nbsp;133" className="class">
 								COMPSCI&nbsp;133
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Advanced Computer Networks </td>{" "}
@@ -3342,9 +3342,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;142B" className="class">
+							<p title="COMPSCI&nbsp;142B" className="class">
 								COMPSCI&nbsp;142B
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Language Processor Construction </td>{" "}
@@ -3354,9 +3354,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;143B" className="class">
+							<p title="COMPSCI&nbsp;143B" className="class">
 								COMPSCI&nbsp;143B
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Project in Operating System Organization </td>{" "}
@@ -3366,9 +3366,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;145" className="class">
+							<p title="COMPSCI&nbsp;145" className="class">
 								COMPSCI&nbsp;145
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Embedded Software </td>{" "}
@@ -3378,9 +3378,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;147" className="class">
+							<p title="COMPSCI&nbsp;147" className="class">
 								COMPSCI&nbsp;147
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Internet of Things (IoT) Software and Systems </td>{" "}
@@ -3390,9 +3390,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;153" className="class">
+							<p title="COMPSCI&nbsp;153" className="class">
 								COMPSCI&nbsp;153
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Logic Design Laboratory </td>{" "}
@@ -3402,9 +3402,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;154" className="class">
+							<p title="COMPSCI&nbsp;154" className="class">
 								COMPSCI&nbsp;154
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Computer Design Laboratory </td>{" "}
@@ -3414,9 +3414,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;165" className="class">
+							<p title="COMPSCI&nbsp;165" className="class">
 								COMPSCI&nbsp;165
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Project in Algorithms and Data Structures </td>{" "}
@@ -3426,9 +3426,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="COMPSCI&nbsp;175" className="class">
+							<p title="COMPSCI&nbsp;175" className="class">
 								COMPSCI&nbsp;175
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Project in Artificial Intelligence </td>{" "}
@@ -3438,9 +3438,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="IN4MATX&nbsp;117" className="class">
+							<p title="IN4MATX&nbsp;117" className="class">
 								IN4MATX&nbsp;117
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Project in Software System Design </td>{" "}
@@ -3450,9 +3450,9 @@ function CompSciPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="IN4MATX&nbsp;134" className="class">
+							<p title="IN4MATX&nbsp;134" className="class">
 								IN4MATX&nbsp;134
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Project in User Interaction Software </td>{" "}
@@ -3493,9 +3493,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;162" className="class">
+						<p title="COMPSCI&nbsp;162" className="class">
 							COMPSCI&nbsp;162
-						</a>
+						</p>
 					</td>{" "}
 					<td>Formal Languages and Automata </td>{" "}
 				</tr>{" "}
@@ -3503,9 +3503,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;163" className="class">
+						<p title="COMPSCI&nbsp;163" className="class">
 							COMPSCI&nbsp;163
-						</a>
+						</p>
 					</td>{" "}
 					<td>Graph Algorithms </td>{" "}
 				</tr>{" "}
@@ -3513,9 +3513,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;164" className="class">
+						<p title="COMPSCI&nbsp;164" className="class">
 							COMPSCI&nbsp;164
-						</a>
+						</p>
 					</td>{" "}
 					<td>Computational Geometry and Geometric Modeling </td>{" "}
 				</tr>{" "}
@@ -3523,9 +3523,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;165" className="class">
+						<p title="COMPSCI&nbsp;165" className="class">
 							COMPSCI&nbsp;165
-						</a>
+						</p>
 					</td>{" "}
 					<td>Project in Algorithms and Data Structures </td>{" "}
 				</tr>{" "}
@@ -3533,9 +3533,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;166" className="class">
+						<p title="COMPSCI&nbsp;166" className="class">
 							COMPSCI&nbsp;166
-						</a>
+						</p>
 					</td>{" "}
 					<td>Quantum Computation and Information </td>{" "}
 				</tr>{" "}
@@ -3543,9 +3543,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;167" className="class">
+						<p title="COMPSCI&nbsp;167" className="class">
 							COMPSCI&nbsp;167
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Applied Cryptography </td>{" "}
 				</tr>{" "}
@@ -3553,9 +3553,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;169" className="class">
+						<p title="COMPSCI&nbsp;169" className="class">
 							COMPSCI&nbsp;169
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Optimization </td>{" "}
 				</tr>{" "}
@@ -3573,9 +3573,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;145" className="class">
+						<p title="COMPSCI&nbsp;145" className="class">
 							COMPSCI&nbsp;145
-						</a>
+						</p>
 					</td>{" "}
 					<td>Embedded Software </td>{" "}
 				</tr>{" "}
@@ -3583,9 +3583,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;147" className="class">
+						<p title="COMPSCI&nbsp;147" className="class">
 							COMPSCI&nbsp;147
-						</a>
+						</p>
 					</td>{" "}
 					<td>Internet of Things (IoT) Software and Systems </td>{" "}
 				</tr>{" "}
@@ -3593,9 +3593,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;151" className="class">
+						<p title="COMPSCI&nbsp;151" className="class">
 							COMPSCI&nbsp;151
-						</a>
+						</p>
 					</td>{" "}
 					<td>Digital Logic Design </td>{" "}
 				</tr>{" "}
@@ -3603,9 +3603,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;152" className="class">
+						<p title="COMPSCI&nbsp;152" className="class">
 							COMPSCI&nbsp;152
-						</a>
+						</p>
 					</td>{" "}
 					<td>Computer Systems Architecture </td>{" "}
 				</tr>{" "}
@@ -3613,9 +3613,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;153" className="class">
+						<p title="COMPSCI&nbsp;153" className="class">
 							COMPSCI&nbsp;153
-						</a>
+						</p>
 					</td>{" "}
 					<td>Logic Design Laboratory </td>{" "}
 				</tr>{" "}
@@ -3623,9 +3623,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;154" className="class">
+						<p title="COMPSCI&nbsp;154" className="class">
 							COMPSCI&nbsp;154
-						</a>
+						</p>
 					</td>{" "}
 					<td>Computer Design Laboratory </td>{" "}
 				</tr>{" "}
@@ -3642,9 +3642,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;184A" className="class">
+						<p title="COMPSCI&nbsp;184A" className="class">
 							COMPSCI&nbsp;184A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Artificial Intelligence in Biology and Medicine </td>{" "}
 				</tr>{" "}
@@ -3659,9 +3659,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;172B" className="class">
+						<p title="COMPSCI&nbsp;172B" className="class">
 							COMPSCI&nbsp;172B
-						</a>
+						</p>
 					</td>{" "}
 					<td>Neural Networks and Deep Learning </td>{" "}
 				</tr>{" "}
@@ -3669,9 +3669,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;172C" className="class">
+						<p title="COMPSCI&nbsp;172C" className="class">
 							COMPSCI&nbsp;172C
-						</a>
+						</p>
 					</td>{" "}
 					<td>
 						Artificial Intelligence Frontiers: Technical, Ethical, and Societal{" "}
@@ -3681,9 +3681,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;184C" className="class">
+						<p title="COMPSCI&nbsp;184C" className="class">
 							COMPSCI&nbsp;184C
-						</a>
+						</p>
 					</td>{" "}
 					<td>Computational Systems Biology </td>{" "}
 				</tr>{" "}
@@ -3701,13 +3701,13 @@ function CompSciPOS() {
 					<td colSpan="2">
 						{" "}
 						<span className="courselistcomment">
-							<a title="COMPSCI&nbsp;103" className="class">
+							<p title="COMPSCI&nbsp;103" className="class">
 								COMPSCI&nbsp;103
-							</a>
+							</p>
 							-189, except{" "}
-							<a title="COMPSCI&nbsp;161" className="class">
+							<p title="COMPSCI&nbsp;161" className="class">
 								COMPSCI&nbsp;161
-							</a>
+							</p>
 						</span>{" "}
 					</td>{" "}
 				</tr>{" "}
@@ -3724,9 +3724,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;121" className="class">
+						<p title="COMPSCI&nbsp;121" className="class">
 							COMPSCI&nbsp;121
-						</a>
+						</p>
 					</td>{" "}
 					<td>Information Retrieval </td>{" "}
 				</tr>{" "}
@@ -3734,9 +3734,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;122A" className="class">
+						<p title="COMPSCI&nbsp;122A" className="class">
 							COMPSCI&nbsp;122A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Data Management </td>{" "}
 				</tr>{" "}
@@ -3744,9 +3744,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;178" className="class">
+						<p title="COMPSCI&nbsp;178" className="class">
 							COMPSCI&nbsp;178
-						</a>
+						</p>
 					</td>{" "}
 					<td>Machine Learning and Data-Mining </td>{" "}
 				</tr>{" "}
@@ -3763,9 +3763,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="I&amp;C&nbsp;SCI&nbsp;45J" className="class">
+						<p title="I&amp;C&nbsp;SCI&nbsp;45J" className="class">
 							I&amp;C&nbsp;SCI&nbsp;45J
-						</a>
+						</p>
 					</td>{" "}
 					<td>Programming in Java as a Second Language </td>{" "}
 				</tr>{" "}
@@ -3773,9 +3773,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;122B" className="class">
+						<p title="COMPSCI&nbsp;122B" className="class">
 							COMPSCI&nbsp;122B
-						</a>
+						</p>
 					</td>{" "}
 					<td>Project in Databases and Web Applications </td>{" "}
 				</tr>{" "}
@@ -3783,9 +3783,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;122C" className="class">
+						<p title="COMPSCI&nbsp;122C" className="class">
 							COMPSCI&nbsp;122C
-						</a>
+						</p>
 					</td>{" "}
 					<td>Principles of Data Management </td>{" "}
 				</tr>{" "}
@@ -3793,9 +3793,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;122D" className="class">
+						<p title="COMPSCI&nbsp;122D" className="class">
 							COMPSCI&nbsp;122D
-						</a>
+						</p>
 					</td>{" "}
 					<td>Beyond SQL Data Management </td>{" "}
 				</tr>{" "}
@@ -3803,9 +3803,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;125" className="class">
+						<p title="COMPSCI&nbsp;125" className="class">
 							COMPSCI&nbsp;125
-						</a>
+						</p>
 					</td>{" "}
 					<td>Next Generation Search Systems </td>{" "}
 				</tr>{" "}
@@ -3813,9 +3813,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;132" className="class">
+						<p title="COMPSCI&nbsp;132" className="class">
 							COMPSCI&nbsp;132
-						</a>
+						</p>
 					</td>{" "}
 					<td>Computer Networks </td>{" "}
 				</tr>{" "}
@@ -3823,9 +3823,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;134" className="class">
+						<p title="COMPSCI&nbsp;134" className="class">
 							COMPSCI&nbsp;134
-						</a>
+						</p>
 					</td>{" "}
 					<td>Computer and Network Security </td>{" "}
 				</tr>{" "}
@@ -3833,9 +3833,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;141" className="class">
+						<p title="COMPSCI&nbsp;141" className="class">
 							COMPSCI&nbsp;141
-						</a>
+						</p>
 					</td>{" "}
 					<td>Concepts in Programming Languages I </td>{" "}
 				</tr>{" "}
@@ -3843,9 +3843,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;142A" className="class">
+						<p title="COMPSCI&nbsp;142A" className="class">
 							COMPSCI&nbsp;142A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Compilers and Interpreters </td>{" "}
 				</tr>{" "}
@@ -3853,9 +3853,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;143A" className="class">
+						<p title="COMPSCI&nbsp;143A" className="class">
 							COMPSCI&nbsp;143A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Principles of Operating Systems </td>{" "}
 				</tr>{" "}
@@ -3863,9 +3863,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;163" className="class">
+						<p title="COMPSCI&nbsp;163" className="class">
 							COMPSCI&nbsp;163
-						</a>
+						</p>
 					</td>{" "}
 					<td>Graph Algorithms </td>{" "}
 				</tr>{" "}
@@ -3873,9 +3873,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;165" className="class">
+						<p title="COMPSCI&nbsp;165" className="class">
 							COMPSCI&nbsp;165
-						</a>
+						</p>
 					</td>{" "}
 					<td>Project in Algorithms and Data Structures </td>{" "}
 				</tr>{" "}
@@ -3883,9 +3883,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;167" className="class">
+						<p title="COMPSCI&nbsp;167" className="class">
 							COMPSCI&nbsp;167
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Applied Cryptography </td>{" "}
 				</tr>{" "}
@@ -3893,9 +3893,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;179" className="class">
+						<p title="COMPSCI&nbsp;179" className="class">
 							COMPSCI&nbsp;179
-						</a>
+						</p>
 					</td>{" "}
 					<td>
 						Algorithms for Probabilistic and Deterministic Graphical Models{" "}
@@ -3914,9 +3914,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;122B" className="class">
+						<p title="COMPSCI&nbsp;122B" className="class">
 							COMPSCI&nbsp;122B
-						</a>
+						</p>
 					</td>{" "}
 					<td>Project in Databases and Web Applications </td>{" "}
 				</tr>{" "}
@@ -3924,9 +3924,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;122C" className="class">
+						<p title="COMPSCI&nbsp;122C" className="class">
 							COMPSCI&nbsp;122C
-						</a>
+						</p>
 					</td>{" "}
 					<td>Principles of Data Management </td>{" "}
 				</tr>{" "}
@@ -3934,9 +3934,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;122D" className="class">
+						<p title="COMPSCI&nbsp;122D" className="class">
 							COMPSCI&nbsp;122D
-						</a>
+						</p>
 					</td>{" "}
 					<td>Beyond SQL Data Management </td>{" "}
 				</tr>{" "}
@@ -3944,9 +3944,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;125" className="class">
+						<p title="COMPSCI&nbsp;125" className="class">
 							COMPSCI&nbsp;125
-						</a>
+						</p>
 					</td>{" "}
 					<td>Next Generation Search Systems </td>{" "}
 				</tr>{" "}
@@ -3954,9 +3954,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;179" className="class">
+						<p title="COMPSCI&nbsp;179" className="class">
 							COMPSCI&nbsp;179
-						</a>
+						</p>
 					</td>{" "}
 					<td>
 						Algorithms for Probabilistic and Deterministic Graphical Models{" "}
@@ -3975,9 +3975,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;171" className="class">
+						<p title="COMPSCI&nbsp;171" className="class">
 							COMPSCI&nbsp;171
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Artificial Intelligence </td>{" "}
 				</tr>{" "}
@@ -3985,9 +3985,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;175" className="class">
+						<p title="COMPSCI&nbsp;175" className="class">
 							COMPSCI&nbsp;175
-						</a>
+						</p>
 					</td>{" "}
 					<td>Project in Artificial Intelligence </td>{" "}
 				</tr>{" "}
@@ -3995,9 +3995,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;178" className="class">
+						<p title="COMPSCI&nbsp;178" className="class">
 							COMPSCI&nbsp;178
-						</a>
+						</p>
 					</td>{" "}
 					<td>Machine Learning and Data-Mining </td>{" "}
 				</tr>{" "}
@@ -4014,9 +4014,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;116" className="class">
+						<p title="COMPSCI&nbsp;116" className="class">
 							COMPSCI&nbsp;116
-						</a>
+						</p>
 					</td>{" "}
 					<td>Computational Photography and Vision </td>{" "}
 				</tr>{" "}
@@ -4024,9 +4024,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;121" className="class">
+						<p title="COMPSCI&nbsp;121" className="class">
 							COMPSCI&nbsp;121
-						</a>
+						</p>
 					</td>{" "}
 					<td>Information Retrieval </td>{" "}
 				</tr>{" "}
@@ -4034,9 +4034,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;125" className="class">
+						<p title="COMPSCI&nbsp;125" className="class">
 							COMPSCI&nbsp;125
-						</a>
+						</p>
 					</td>{" "}
 					<td>Next Generation Search Systems </td>{" "}
 				</tr>{" "}
@@ -4044,9 +4044,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;162" className="class">
+						<p title="COMPSCI&nbsp;162" className="class">
 							COMPSCI&nbsp;162
-						</a>
+						</p>
 					</td>{" "}
 					<td>Formal Languages and Automata </td>{" "}
 				</tr>{" "}
@@ -4054,9 +4054,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;163" className="class">
+						<p title="COMPSCI&nbsp;163" className="class">
 							COMPSCI&nbsp;163
-						</a>
+						</p>
 					</td>{" "}
 					<td>Graph Algorithms </td>{" "}
 				</tr>{" "}
@@ -4064,9 +4064,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;164" className="class">
+						<p title="COMPSCI&nbsp;164" className="class">
 							COMPSCI&nbsp;164
-						</a>
+						</p>
 					</td>{" "}
 					<td>Computational Geometry and Geometric Modeling </td>{" "}
 				</tr>{" "}
@@ -4074,9 +4074,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;169" className="class">
+						<p title="COMPSCI&nbsp;169" className="class">
 							COMPSCI&nbsp;169
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Optimization </td>{" "}
 				</tr>{" "}
@@ -4084,9 +4084,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;177" className="class">
+						<p title="COMPSCI&nbsp;177" className="class">
 							COMPSCI&nbsp;177
-						</a>
+						</p>
 					</td>{" "}
 					<td>Applications of Probability in Computer Science </td>{" "}
 				</tr>{" "}
@@ -4094,9 +4094,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;179" className="class">
+						<p title="COMPSCI&nbsp;179" className="class">
 							COMPSCI&nbsp;179
-						</a>
+						</p>
 					</td>{" "}
 					<td>
 						Algorithms for Probabilistic and Deterministic Graphical Models{" "}
@@ -4115,9 +4115,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;132" className="class">
+						<p title="COMPSCI&nbsp;132" className="class">
 							COMPSCI&nbsp;132
-						</a>
+						</p>
 					</td>{" "}
 					<td>Computer Networks </td>{" "}
 				</tr>{" "}
@@ -4125,9 +4125,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;133" className="class">
+						<p title="COMPSCI&nbsp;133" className="class">
 							COMPSCI&nbsp;133
-						</a>
+						</p>
 					</td>{" "}
 					<td>Advanced Computer Networks </td>{" "}
 				</tr>{" "}
@@ -4135,9 +4135,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;134" className="class">
+						<p title="COMPSCI&nbsp;134" className="class">
 							COMPSCI&nbsp;134
-						</a>
+						</p>
 					</td>{" "}
 					<td>Computer and Network Security </td>{" "}
 				</tr>{" "}
@@ -4145,9 +4145,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;143A" className="class">
+						<p title="COMPSCI&nbsp;143A" className="class">
 							COMPSCI&nbsp;143A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Principles of Operating Systems </td>{" "}
 				</tr>{" "}
@@ -4164,9 +4164,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;131" className="class">
+						<p title="COMPSCI&nbsp;131" className="class">
 							COMPSCI&nbsp;131
-						</a>
+						</p>
 					</td>{" "}
 					<td>Parallel and Distributed Computing </td>{" "}
 				</tr>{" "}
@@ -4174,9 +4174,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;141" className="class">
+						<p title="COMPSCI&nbsp;141" className="class">
 							COMPSCI&nbsp;141
-						</a>
+						</p>
 					</td>{" "}
 					<td>Concepts in Programming Languages I </td>{" "}
 				</tr>{" "}
@@ -4184,9 +4184,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;142A" className="class">
+						<p title="COMPSCI&nbsp;142A" className="class">
 							COMPSCI&nbsp;142A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Compilers and Interpreters </td>{" "}
 				</tr>{" "}
@@ -4194,9 +4194,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;142B" className="class">
+						<p title="COMPSCI&nbsp;142B" className="class">
 							COMPSCI&nbsp;142B
-						</a>
+						</p>
 					</td>{" "}
 					<td>Language Processor Construction </td>{" "}
 				</tr>{" "}
@@ -4204,9 +4204,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;143A" className="class">
+						<p title="COMPSCI&nbsp;143A" className="class">
 							COMPSCI&nbsp;143A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Principles of Operating Systems </td>{" "}
 				</tr>{" "}
@@ -4214,9 +4214,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;143B" className="class">
+						<p title="COMPSCI&nbsp;143B" className="class">
 							COMPSCI&nbsp;143B
-						</a>
+						</p>
 					</td>{" "}
 					<td>Project in Operating System Organization </td>{" "}
 				</tr>{" "}
@@ -4233,9 +4233,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;111" className="class">
+						<p title="COMPSCI&nbsp;111" className="class">
 							COMPSCI&nbsp;111
-						</a>
+						</p>
 					</td>{" "}
 					<td>Digital Image Processing </td>{" "}
 				</tr>{" "}
@@ -4243,9 +4243,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;112" className="class">
+						<p title="COMPSCI&nbsp;112" className="class">
 							COMPSCI&nbsp;112
-						</a>
+						</p>
 					</td>{" "}
 					<td>Computer Graphics </td>{" "}
 				</tr>{" "}
@@ -4253,9 +4253,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;114" className="class">
+						<p title="COMPSCI&nbsp;114" className="class">
 							COMPSCI&nbsp;114
-						</a>
+						</p>
 					</td>{" "}
 					<td>Projects in Advanced 3D Computer Graphics </td>{" "}
 				</tr>{" "}
@@ -4263,9 +4263,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;116" className="class">
+						<p title="COMPSCI&nbsp;116" className="class">
 							COMPSCI&nbsp;116
-						</a>
+						</p>
 					</td>{" "}
 					<td>Computational Photography and Vision </td>{" "}
 				</tr>{" "}
@@ -4273,9 +4273,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;117" className="class">
+						<p title="COMPSCI&nbsp;117" className="class">
 							COMPSCI&nbsp;117
-						</a>
+						</p>
 					</td>{" "}
 					<td>Project in Computer Vision </td>{" "}
 				</tr>{" "}
@@ -4283,9 +4283,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="COMPSCI&nbsp;118" className="class">
+						<p title="COMPSCI&nbsp;118" className="class">
 							COMPSCI&nbsp;118
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Virtual Reality </td>{" "}
 				</tr>{" "}
@@ -4293,9 +4293,9 @@ function CompSciPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="I&amp;C&nbsp;SCI&nbsp;162" className="class">
+						<p title="I&amp;C&nbsp;SCI&nbsp;162" className="class">
 							I&amp;C&nbsp;SCI&nbsp;162
-						</a>
+						</p>
 					</td>{" "}
 					<td>Modeling and World Building </td>{" "}
 				</tr>{" "}
@@ -4310,12 +4310,12 @@ function CompSciSample() {
 			<tbody>
 				<tr className="odd">
 					<td>
-						<a className="class">I&C SCI 53</a>
+						<p className="class">I&C SCI 53</p>
 					</td>
 				</tr>
 				<tr className="even">
 					<td>
-						<a className="class">STATS 67</a>
+						<p className="class">STATS 67</p>
 					</td>
 				</tr>
 				<tr className="odd">
@@ -4354,14 +4354,14 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;2A" className="class">
+						<p title="MATH&nbsp;2A" className="class">
 							MATH&nbsp;2A
-						</a>
+						</p>
 						-
-						<a title="MATH&nbsp;2B" className="class">
+						<p title="MATH&nbsp;2B" className="class">
 							{" "}
 							2B
-						</a>
+						</p>
 					</td>{" "}
 					<td>
 						Single-Variable Calculus I<br />
@@ -4374,9 +4374,9 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;2D" className="class">
+						<p title="MATH&nbsp;2D" className="class">
 							MATH&nbsp;2D
-						</a>
+						</p>
 					</td>{" "}
 					<td>Multivariable Calculus I </td>{" "}
 				</tr>{" "}
@@ -4384,9 +4384,9 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;3A" className="class">
+						<p title="MATH&nbsp;3A" className="class">
 							MATH&nbsp;3A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Linear Algebra </td>{" "}
 				</tr>{" "}
@@ -4394,9 +4394,9 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;3D" className="class">
+						<p title="MATH&nbsp;3D" className="class">
 							MATH&nbsp;3D
-						</a>
+						</p>
 					</td>{" "}
 					<td>Elementary Differential Equations </td>{" "}
 				</tr>{" "}
@@ -4404,9 +4404,9 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;13" className="class">
+						<p title="MATH&nbsp;13" className="class">
 							MATH&nbsp;13
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Abstract Mathematics </td>{" "}
 				</tr>{" "}
@@ -4421,9 +4421,9 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;9" className="class">
+						<p title="MATH&nbsp;9" className="class">
 							MATH&nbsp;9
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Programming for Numerical Analysis </td>{" "}
 				</tr>{" "}
@@ -4442,19 +4442,19 @@ function MathPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="CHEM&nbsp;1A" className="class">
+							<p title="CHEM&nbsp;1A" className="class">
 								CHEM&nbsp;1A
-							</a>
+							</p>
 							-
-							<a title="CHEM&nbsp;1B" className="class">
+							<p title="CHEM&nbsp;1B" className="class">
 								{" "}
 								1B
-							</a>
+							</p>
 							-
-							<a title="CHEM&nbsp;1C" className="class">
+							<p title="CHEM&nbsp;1C" className="class">
 								{" "}
 								1C
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -4474,19 +4474,19 @@ function MathPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="PHYSICS&nbsp;7C" className="class">
+							<p title="PHYSICS&nbsp;7C" className="class">
 								PHYSICS&nbsp;7C
-							</a>
+							</p>
 							-
-							<a title="PHYSICS&nbsp;7D" className="class">
+							<p title="PHYSICS&nbsp;7D" className="class">
 								{" "}
 								7D
-							</a>
+							</p>
 							-
-							<a title="PHYSICS&nbsp;7E" className="class">
+							<p title="PHYSICS&nbsp;7E" className="class">
 								{" "}
 								7E
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -4506,17 +4506,17 @@ function MathPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="STATS&nbsp;7" className="class">
+							<p title="STATS&nbsp;7" className="class">
 								STATS&nbsp;7
-							</a>
+							</p>
 							-
-							<a title="MATH&nbsp;10" className="class">
+							<p title="MATH&nbsp;10" className="class">
 								MATH&nbsp;10
-							</a>
+							</p>
 							-
-							<a title="PHYSICS&nbsp;7C" className="class">
+							<p title="PHYSICS&nbsp;7C" className="class">
 								PHYSICS&nbsp;7C
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>
@@ -4551,9 +4551,9 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;120A" className="class">
+						<p title="MATH&nbsp;120A" className="class">
 							MATH&nbsp;120A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Abstract Algebra: Groups </td>{" "}
 				</tr>{" "}
@@ -4561,9 +4561,9 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;121A" className="class">
+						<p title="MATH&nbsp;121A" className="class">
 							MATH&nbsp;121A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Linear Algebra I </td>{" "}
 				</tr>{" "}
@@ -4571,9 +4571,9 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;130A" className="class">
+						<p title="MATH&nbsp;130A" className="class">
 							MATH&nbsp;130A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Probability I </td>{" "}
 				</tr>{" "}
@@ -4581,14 +4581,14 @@ function MathPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="MATH&nbsp;140A" className="class">
+						<p title="MATH&nbsp;140A" className="class">
 							MATH&nbsp;140A
-						</a>
+						</p>
 						-
-						<a title="MATH&nbsp;140B" className="class">
+						<p title="MATH&nbsp;140B" className="class">
 							{" "}
 							140B
-						</a>
+						</p>
 					</td>{" "}
 					<td>
 						Elementary Analysis I<br />
@@ -4608,7 +4608,7 @@ function MathSample() {
 			<tbody>
 				<tr className="odd">
 					<td>
-						<a className="class">MATH 3D</a>
+						<p className="class">MATH 3D</p>
 					</td>
 				</tr>
 			</tbody>
@@ -4635,9 +4635,9 @@ function SociologyPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="SOCIOL&nbsp;1" className="class">
+						<p title="SOCIOL&nbsp;1" className="class">
 							SOCIOL&nbsp;1
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Sociology </td>{" "}
 				</tr>{" "}
@@ -4645,18 +4645,18 @@ function SociologyPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="SOCIOL&nbsp;2" className="class">
+						<p title="SOCIOL&nbsp;2" className="class">
 							SOCIOL&nbsp;2
-						</a>
+						</p>
 					</td>{" "}
 					<td>Globalization and Transnational Sociology </td>{" "}
 				</tr>{" "}
 				<tr className="even orclass">
 					<td className="codecol orclass">
 						or&nbsp;
-						<a title="SOCIOL&nbsp;3" className="class">
+						<p title="SOCIOL&nbsp;3" className="class">
 							SOCIOL&nbsp;3
-						</a>
+						</p>
 					</td>{" "}
 					<td colSpan="1"> Social Problems</td>{" "}
 				</tr>{" "}
@@ -4673,9 +4673,9 @@ function SociologyPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="SOCIOL&nbsp;110" className="class">
+						<p title="SOCIOL&nbsp;110" className="class">
 							SOCIOL&nbsp;110
-						</a>
+						</p>
 					</td>{" "}
 					<td>Research Methods </td>{" "}
 				</tr>{" "}
@@ -4683,9 +4683,9 @@ function SociologyPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="SOCIOL&nbsp;120" className="class">
+						<p title="SOCIOL&nbsp;120" className="class">
 							SOCIOL&nbsp;120
-						</a>
+						</p>
 					</td>{" "}
 					<td>Sociological Theory </td>{" "}
 				</tr>{" "}
@@ -4702,9 +4702,9 @@ function SociologyPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="SOCIOL&nbsp;180A" className="class">
+						<p title="SOCIOL&nbsp;180A" className="class">
 							SOCIOL&nbsp;180A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Sociology Majors Seminar </td>{" "}
 				</tr>{" "}
@@ -4749,9 +4749,9 @@ function EnglishPOS() {
 						{" "}
 						<span className="courselistcomment">
 							A. Select three of the following, at least one of which must be{" "}
-							<a title="ENGLISH&nbsp;15" className="class">
+							<p title="ENGLISH&nbsp;15" className="class">
 								ENGLISH&nbsp;15
-							</a>
+							</p>
 						</span>{" "}
 						<sup>1</sup>{" "}
 					</td>{" "}
@@ -4761,9 +4761,9 @@ function EnglishPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGLISH&nbsp;8" className="class">
+							<p title="ENGLISH&nbsp;8" className="class">
 								ENGLISH&nbsp;8
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Multicultural American Literature </td>{" "}
@@ -4773,9 +4773,9 @@ function EnglishPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGLISH&nbsp;9" className="class">
+							<p title="ENGLISH&nbsp;9" className="class">
 								ENGLISH&nbsp;9
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Shakespeare </td>{" "}
@@ -4785,9 +4785,9 @@ function EnglishPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGLISH&nbsp;10" className="class">
+							<p title="ENGLISH&nbsp;10" className="class">
 								ENGLISH&nbsp;10
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Topics in English and American Literature </td>{" "}
@@ -4797,9 +4797,9 @@ function EnglishPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGLISH&nbsp;11" className="class">
+							<p title="ENGLISH&nbsp;11" className="class">
 								ENGLISH&nbsp;11
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Society, Law, and Literature </td>{" "}
@@ -4809,9 +4809,9 @@ function EnglishPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGLISH&nbsp;12" className="class">
+							<p title="ENGLISH&nbsp;12" className="class">
 								ENGLISH&nbsp;12
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Young Adult Fiction </td>{" "}
@@ -4821,9 +4821,9 @@ function EnglishPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGLISH&nbsp;15" className="class">
+							<p title="ENGLISH&nbsp;15" className="class">
 								ENGLISH&nbsp;15
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>Introductory Seminar in English: Topics in Literary Studies </td>{" "}
@@ -4833,9 +4833,9 @@ function EnglishPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGLISH&nbsp;16" className="class">
+							<p title="ENGLISH&nbsp;16" className="class">
 								ENGLISH&nbsp;16
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>The Craft of Poetry </td>{" "}
@@ -4845,9 +4845,9 @@ function EnglishPOS() {
 					<td className="codecol">
 						{" "}
 						<div style={{ marginLeft: "20px" }}>
-							<a title="ENGLISH&nbsp;17" className="class">
+							<p title="ENGLISH&nbsp;17" className="class">
 								ENGLISH&nbsp;17
-							</a>
+							</p>
 						</div>
 					</td>{" "}
 					<td>The Craft of Fiction </td>{" "}
@@ -4865,9 +4865,9 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="ENGLISH&nbsp;100" className="class">
+						<p title="ENGLISH&nbsp;100" className="class">
 							ENGLISH&nbsp;100
-						</a>
+						</p>
 					</td>{" "}
 					<td>Introduction to Literary Theory </td>{" "}
 				</tr>{" "}
@@ -4875,9 +4875,9 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="ENGLISH&nbsp;101W" className="class">
+						<p title="ENGLISH&nbsp;101W" className="class">
 							ENGLISH&nbsp;101W
-						</a>
+						</p>
 					</td>{" "}
 					<td>
 						Undergraduate Seminar in Critical Writing: Topics in Literary
@@ -4897,9 +4897,9 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="ENGLISH&nbsp;102A" className="class">
+						<p title="ENGLISH&nbsp;102A" className="class">
 							ENGLISH&nbsp;102A
-						</a>
+						</p>
 					</td>{" "}
 					<td>Topics in Medieval and Renaissance Literature </td>{" "}
 				</tr>{" "}
@@ -4907,9 +4907,9 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="ENGLISH&nbsp;102B" className="class">
+						<p title="ENGLISH&nbsp;102B" className="class">
 							ENGLISH&nbsp;102B
-						</a>
+						</p>
 					</td>{" "}
 					<td>Topics in Restoration and 18th-Century Literature </td>{" "}
 				</tr>{" "}
@@ -4917,9 +4917,9 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="ENGLISH&nbsp;102C" className="class">
+						<p title="ENGLISH&nbsp;102C" className="class">
 							ENGLISH&nbsp;102C
-						</a>
+						</p>
 					</td>{" "}
 					<td>Topics in Romantic and 19th-Century Literature </td>{" "}
 				</tr>{" "}
@@ -4927,9 +4927,9 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="ENGLISH&nbsp;102D" className="class">
+						<p title="ENGLISH&nbsp;102D" className="class">
 							ENGLISH&nbsp;102D
-						</a>
+						</p>
 					</td>{" "}
 					<td>Topics in 20th-Century Literature </td>{" "}
 				</tr>{" "}
@@ -4937,9 +4937,9 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="ENGLISH&nbsp;105" className="class">
+						<p title="ENGLISH&nbsp;105" className="class">
 							ENGLISH&nbsp;105
-						</a>
+						</p>
 					</td>{" "}
 					<td>Multicultural Topics in Literatures in English </td>{" "}
 				</tr>{" "}
@@ -4947,9 +4947,9 @@ function EnglishPOS() {
 					{" "}
 					<td className="codecol">
 						{" "}
-						<a title="ENGLISH&nbsp;106" className="class">
+						<p title="ENGLISH&nbsp;106" className="class">
 							ENGLISH&nbsp;106
-						</a>
+						</p>
 					</td>{" "}
 					<td>Advanced Seminar: Topics in English Literature </td>{" "}
 				</tr>{" "}
@@ -4960,29 +4960,29 @@ function EnglishPOS() {
 						<span className="courselistcomment">
 							D. Select at least three more Departmental (English, Literary
 							Journalism, Writing) courses numbered 102 or above, excluding{" "}
-							<a title="ENGLISH&nbsp;150" className="class">
+							<p title="ENGLISH&nbsp;150" className="class">
 								ENGLISH&nbsp;150
-							</a>
+							</p>
 							,{" "}
-							<a title="LIT&nbsp;JRN&nbsp;197" className="class">
+							<p title="LIT&nbsp;JRN&nbsp;197" className="class">
 								LIT&nbsp;JRN&nbsp;197
-							</a>
+							</p>
 							,{" "}
-							<a title="LIT&nbsp;JRN&nbsp;198" className="class">
+							<p title="LIT&nbsp;JRN&nbsp;198" className="class">
 								LIT&nbsp;JRN&nbsp;198
-							</a>
+							</p>
 							,{" "}
-							<a title="LIT&nbsp;JRN&nbsp;199" className="class">
+							<p title="LIT&nbsp;JRN&nbsp;199" className="class">
 								LIT&nbsp;JRN&nbsp;199
-							</a>
+							</p>
 							,{" "}
-							<a title="WRITING&nbsp;139W" className="class">
+							<p title="WRITING&nbsp;139W" className="class">
 								WRITING&nbsp;139W
-							</a>
+							</p>
 							, and{" "}
-							<a title="WRITING&nbsp;197" className="class">
+							<p title="WRITING&nbsp;197" className="class">
 								WRITING&nbsp;197
-							</a>
+							</p>
 							. An upper-division course in a foreign literature in the original
 							language or in translation may be substituted for one of the three
 							courses.

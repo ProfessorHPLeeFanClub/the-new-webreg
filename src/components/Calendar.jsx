@@ -2,7 +2,6 @@ import { Calendar, momentLocalizer, Views } from "react-big-calendar";
 import moment from "moment";
 import { useState, useEffect } from "react";
 
-import { View } from "react-big-calendar";
 // Setup the localizer by providing the moment (or globalize, or Luxon) Object
 // to the correct localizer.
 import "../css/Calendar.css";
@@ -112,8 +111,6 @@ function ScheduleCalendar(props) {
 
 	const handleCourseBoxSelect = () => {};
 
-	const culture = "";
-
 	//Monday is the 1st (3rd param)
 	// const events = [
 	//     {
@@ -155,7 +152,7 @@ function ScheduleCalendar(props) {
 						formats={{
 							dayFormat: "dddd",
 							timeGutterFormat: (date, culture, localizer) =>
-								date.getMinutes() == 0 ? localizer.format(date, "h A") : "",
+								date.getMinutes() === 0 ? localizer.format(date, "h A") : "",
 						}}
 						step={15}
 						timeslots={2}

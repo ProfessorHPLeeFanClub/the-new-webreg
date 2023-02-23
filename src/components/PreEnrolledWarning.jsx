@@ -1,10 +1,5 @@
-import "bootstrap/dist/js/bootstrap";
-import "bootstrap/dist/css/bootstrap.css";
-import caution from "../assets/caution.svg";
-import "bootstrap/js/dist/tooltip";
 import "../css/PreEnrolledWarning.css";
 import { Link } from "react-router-dom";
-import { Col, Row } from "react-bootstrap";
 
 function PreEnrolledWarning(props) {
 	return (

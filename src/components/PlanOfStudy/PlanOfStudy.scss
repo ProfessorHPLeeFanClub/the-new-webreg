@@ -34,4 +34,7 @@ td {
 .class,
 .class:hover {
 	color: $orange;
+	text-decoration: underline;
+	margin-bottom: 0;
+	cursor: pointer;
 }
