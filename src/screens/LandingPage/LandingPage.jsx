@@ -11,7 +11,7 @@ function Landing() {
 		<Container className="landing">
 			<h1 className="my-5 text-center">Welcome to WebReg</h1>
 			<Row className="mb-5 enrollment">
-				<Col md={4} className="m-auto text-center">
+				<Col lg={4} className="m-auto text-center">
 					<Card>
 						<div className="d-inline-block w-100 p-3 header">
 							<img
@@ -30,7 +30,7 @@ function Landing() {
 				</Col>
 			</Row>
 			<Row className="gx-5 justify-content-center align-items-center">
-				<Col md={4} className="my-2">
+				<Col lg={4} className="my-2">
 					<Link to="/enrollment">
 						<Card className="p-5">
 							<img
@@ -43,7 +43,7 @@ function Landing() {
 						</Card>
 					</Link>
 				</Col>
-				<Col md={4} className="my-2">
+				<Col lg={4} className="my-2">
 					<Link to="/fee-status">
 						<Card className="p-5">
 							<img
@@ -56,7 +56,7 @@ function Landing() {
 						</Card>
 					</Link>
 				</Col>
-				<Col md={4} className="my-2">
+				<Col lg={4} className="my-2">
 					<Link to="/help">
 						<Card className="p-5">
 							<img src={help} alt="Help icon" width="30" className="m-auto" />

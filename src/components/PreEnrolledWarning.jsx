@@ -4,13 +4,13 @@ import caution from "../assets/caution.svg";
 import "bootstrap/js/dist/tooltip";
 import "../css/PreEnrolledWarning.css";
 import { Link } from "react-router-dom";
-import Alert from "react-bootstrap/Alert";
+import { Col, Row } from "react-bootstrap";
 
 function PreEnrolledWarning(props) {
 	return (
 		<>
 			<Link
-				className="warningBox"
+				className="warningBox warningBoxContent d-flex p-3 my-3 justify-content-center"
 				to={{
 					pathname: "/saved-courses",
 					state: {
@@ -19,13 +19,9 @@ function PreEnrolledWarning(props) {
 					},
 				}}
 			>
-				<div className="warningBoxContent">
-					<div className="warningText">
-						There are saved courses you haven't enrolled in yet!{" "}
-					</div>
-
-					<a className="viewButton">View</a>
-				</div>
+				<span className="warningBoxContent warningText">
+					There are saved courses you have not enrolled in yet!
+				</span>
 			</Link>
 		</>
 	);

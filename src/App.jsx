@@ -7,7 +7,7 @@ import LandingPage from "./screens/LandingPage/LandingPage";
 import SavedCourses from "./components/SavedCourses";
 import NotFound from "./screens/notFound";
 import Schedule from "./components/Schedule";
-import WelcomePage from "./screens/WelcomePage";
+import WelcomePage from "./screens/WelcomePage/WelcomePage";
 
 function App() {
 	return (
@@ -16,7 +16,16 @@ function App() {
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={<Navigate to="/welcome" />} />
-					<Route path="/home" element={<LandingPage />} />
+					<Route
+						path="/home"
+						element={
+							localStorage.getItem("major") ? (
+								<LandingPage />
+							) : (
+								<Navigate to="/welcome" />
+							)
+						}
+					/>
 					<Route
 						path="/enrollment"
 						element={<MyEnrollment isSchedulePage={false} />}

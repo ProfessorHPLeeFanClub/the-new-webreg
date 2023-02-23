@@ -1,5 +1,4 @@
 import { Row, Col, Container, Nav, Navbar } from "react-bootstrap";
-import { useLocation } from "react-router-dom";
 import uci from "../../assets/uci.svg";
 import "./Navigation.scss";
 
@@ -9,7 +8,7 @@ function Navigation() {
 			{window.location.pathname === "/welcome" ? (
 				""
 			) : (
-				<Navbar id="navbar" variant="dark" expand="lg">
+				<Navbar id="navbar" variant="dark" expand="xl">
 					<Container fluid>
 						<Navbar.Brand href="/home">
 							<Row className="align-items-center">

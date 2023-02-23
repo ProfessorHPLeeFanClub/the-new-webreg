@@ -5,7 +5,6 @@ import SoCTable from "./SoCTable";
 import "react-bootstrap-typeahead/css/Typeahead.css";
 import "../css/Enroll.css";
 import { Col, FloatingLabel, Row } from "react-bootstrap";
-import { Button } from "react-bootstrap";
 
 const GE_CHECKBOXES = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii"].map(
 	(category, index) => (
@@ -71,8 +70,8 @@ function EnrollCourseCodeForm(props) {
 	return (
 		<>
 			<Form onSubmit={handleSubmit}>
-				<Row className="align-items-center">
-					<Col lg>
+				<Row className="align-items-center justify-content">
+					<Col xl>
 						<FloatingLabel
 							controlId="course-code"
 							label="Course Code"
@@ -98,7 +97,7 @@ function EnrollCourseCodeForm(props) {
 						</FloatingLabel>
 					</Col>
 
-					<Col lg>
+					<Col xl>
 						<FloatingLabel
 							controlId="auth-code"
 							label="Auth Code (Optional)"
@@ -111,7 +110,7 @@ function EnrollCourseCodeForm(props) {
 							/>
 						</FloatingLabel>
 					</Col>
-					<Col lg>
+					<Col xl>
 						<FloatingLabel
 							controlId="grading-option"
 							label="Grading Option"
@@ -127,7 +126,7 @@ function EnrollCourseCodeForm(props) {
 							</Form.Select>
 						</FloatingLabel>
 					</Col>
-					<Col lg>
+					<Col xl>
 						<FloatingLabel
 							controlId="units"
 							label="Units (Optional)"
@@ -140,8 +139,8 @@ function EnrollCourseCodeForm(props) {
 							/>
 						</FloatingLabel>
 					</Col>
-					<Col lg={1}>
-						<button type="submit" className="my-3 enrollButton">
+					<Col xl={1}>
+						<button type="submit" className="my-3 py-1 enrollClassButton w-100">
 							Enroll
 						</button>
 					</Col>
@@ -266,11 +265,11 @@ function EnrollSearchForm(props) {
 				</div>
 
 				<Row className="align-items-end">
-					<Col lg={7}>
+					<Col xl={7}>
 						<h5>Filter:</h5>
 						{GE_CHECKBOXES}
 					</Col>
-					<Col lg={5}>
+					<Col xl={5}>
 						<Typeahead
 							className="departmentFilter"
 							clearButton={true}
