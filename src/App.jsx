@@ -2,11 +2,12 @@
 import MyEnrollment from "./screens/myEnrollment";
 import ScheduleCalendar from "./components/Calendar";
 import Navigation from "./components/Navigation/Navigation";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import LandingPage from "./screens/LandingPage/LandingPage";
 import SavedCourses from "./components/SavedCourses";
 import NotFound from "./screens/notFound";
 import Schedule from "./components/Schedule";
+import WelcomePage from "./screens/WelcomePage";
 
 function App() {
 	return (
@@ -14,7 +15,8 @@ function App() {
 			<Navigation />
 			<BrowserRouter>
 				<Routes>
-					<Route path="/" element={<LandingPage />} />
+					<Route path="/" element={<Navigate to="/welcome" />} />
+					<Route path="/home" element={<LandingPage />} />
 					<Route
 						path="/enrollment"
 						element={<MyEnrollment isSchedulePage={false} />}
@@ -25,6 +27,7 @@ function App() {
 						path="/schedule"
 						element={<MyEnrollment isSchedulePage={true} />}
 					/>
+					<Route path="/welcome" element={<WelcomePage />}></Route>
 
 					<Route path="*" element={<NotFound />} />
 				</Routes>
