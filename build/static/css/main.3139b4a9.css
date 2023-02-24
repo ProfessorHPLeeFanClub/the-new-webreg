@@ -11910,6 +11910,17 @@ button.rbc-input::-moz-focus-inner {
 	background-color: #dceeff;
 	color: #000;
 }
+.help .modal-content {
+	background-color: #7ab5da;
+	color: #fff;
+	text-align: center;
+}
+.help .modal-content a,
+.help .modal-content a:hover,
+.help .modal-content a:visited {
+	color: #fff;
+	text-decoration: none;
+}
 .scheduleListSaved {
 	align-content: center;
 	align-self: center;
@@ -11938,4 +11949,4 @@ button.rbc-input::-moz-focus-inner {
 .card-row .card {
 	min-height: 400px;
 }
-/*# sourceMappingURL=main.b232823c.css.map*/
+/*# sourceMappingURL=main.3139b4a9.css.map*/

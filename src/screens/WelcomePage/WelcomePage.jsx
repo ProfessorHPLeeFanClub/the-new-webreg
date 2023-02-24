@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
 	Button,
 	Card,
@@ -7,6 +7,7 @@ import {
 	FloatingLabel,
 	Form,
 	Row,
+	Dropdown,
 } from "react-bootstrap";
 import emailFeature from "../../assets/email-feature.png";
 import enrollment from "../../assets/enrollment.png";
@@ -17,7 +18,12 @@ import zotpick from "../../assets/zotpick.png";
 import "./WelcomePage.scss";
 
 function WelcomePage(props) {
-	const [major, setMajor] = useState("");
+	const [major, setMajor] = useState("CSE");
+
+	useEffect(() => {
+		processMajor();
+		console.log(major);
+	}, [major]);
 
 	function processMajor(e) {
 		localStorage.setItem("major", major);
@@ -37,11 +43,25 @@ function WelcomePage(props) {
 							<Form onSubmit={processMajor} action="/home">
 								<FloatingLabel controlId="major" label="Major" className="mb-3">
 									<Form.Control
+										as="select"
 										placeholder="Major"
 										onChange={(e) => setMajor(e.target.value)}
 										required
-									/>
+									>
+										<option value="CSE">
+											Computer Science and Engineering
+										</option>
+										<option value="CompSci">Computer Science</option>
+										<option value="BioSci">Biological Sciences</option>
+										<option value="Business">Business</option>
+										<option value="MechEng">Mechanical Engineering</option>
+										<option value="Psych">Psychology</option>
+										<option value="Math">Math</option>
+										<option value="Sociology">Sociology</option>
+										<option value="English">English</option>
+									</Form.Control>
 								</FloatingLabel>
+
 								<Button type="submit" variant="success">
 									Submit
 								</Button>

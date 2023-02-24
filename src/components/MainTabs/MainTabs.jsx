@@ -19,7 +19,7 @@ function MainTabs(props) {
 				/>
 			</Tab>
 			<Tab eventKey="planofstudy" title="Plan of Study">
-				<PlanOfStudy />
+				<PlanOfStudy major={localStorage.major} />
 			</Tab>
 			<Tab eventKey="zotpick" title="ZotPick">
 				<ZotPick />
