@@ -1,0 +1,9 @@
+.zotpickButton {
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(43, 92, 226);
+	color: white;
+	font-weight: 600;
+	padding: 5px;
+	margin-left: 10px;
+}

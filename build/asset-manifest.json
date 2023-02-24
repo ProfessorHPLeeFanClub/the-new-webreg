@@ -1,13 +1,13 @@
 {
 	"files": {
-		"main.css": "/static/css/main.c167bb80.css",
-		"main.js": "/static/js/main.de23fe0f.js",
+		"main.css": "/static/css/main.f7357dee.css",
+		"main.js": "/static/js/main.0f12b99b.js",
 		"static/media/caution.svg": "/static/media/caution.02aa902ee9238ae2fed901fac7a7c9b2.svg",
 		"static/media/plan-of-study.png": "/static/media/plan-of-study.7b714d7a320fc3538d6f.png",
 		"static/media/saved-courses.png": "/static/media/saved-courses.048a2906f053398f2aeb.png",
+		"static/media/enrollment.png": "/static/media/enrollment.f5b17f9ea2ed11af4f37.png",
 		"static/media/schedule.png": "/static/media/schedule.3eb94bc163d941dc9f66.png",
 		"static/media/zotpick.png": "/static/media/zotpick.e7fb249732ae3f96d57e.png",
-		"static/media/enrollment.png": "/static/media/enrollment.86b9b5d903f6d5507c68.png",
 		"static/media/email-feature.png": "/static/media/email-feature.2eadec1c5a2492c448b7.png",
 		"static/media/uci.svg": "/static/media/uci.4844bd30e7f8b5c81f367c53009969de.svg",
 		"static/media/anteater.png": "/static/media/anteater.a1944323f6e0a985901c.png",
@@ -16,8 +16,8 @@
 		"static/media/messagequestion.svg": "/static/media/messagequestion.0f0128e1020d8f04c123b4334de7fa5e.svg",
 		"static/media/bill.svg": "/static/media/bill.b05e7c4a2b2044c0561dba74410af30c.svg",
 		"index.html": "/index.html",
-		"main.c167bb80.css.map": "/static/css/main.c167bb80.css.map",
-		"main.de23fe0f.js.map": "/static/js/main.de23fe0f.js.map"
+		"main.f7357dee.css.map": "/static/css/main.f7357dee.css.map",
+		"main.0f12b99b.js.map": "/static/js/main.0f12b99b.js.map"
 	},
-	"entrypoints": ["static/css/main.c167bb80.css", "static/js/main.de23fe0f.js"]
+	"entrypoints": ["static/css/main.f7357dee.css", "static/js/main.0f12b99b.js"]
 }

@@ -40,49 +40,59 @@ function getMajorPOS(major) {
 	}
 }
 
-function getMajorSample(major) {
+function getMajorSample(major, handleTabSelect) {
 	switch (major) {
-		case "BioSci":
-			return <Majors.BioSciSample />;
+		case "Biological Sciences":
+			return <Majors.BioSciSample handleTabSelect={handleTabSelect} />;
 		case "Business":
-			return <Majors.BusinessSample />;
-		case "MechEng":
-			return <Majors.MechEngSample />;
-		case "Psych":
-			return <Majors.PsychSample />;
-		case "CompSci":
-			return <Majors.CompSciSample />;
+			return <Majors.BusinessSample handleTabSelect={handleTabSelect} />;
+		case "Mechanical Engineering":
+			return <Majors.MechEngSample handleTabSelect={handleTabSelect} />;
+		case "Psychology":
+			return <Majors.PsychSample handleTabSelect={handleTabSelect} />;
+		case "Computer Science":
+			return <Majors.CompSciSample handleTabSelect={handleTabSelect} />;
 		case "Math":
-			return <Majors.MathSample />;
+			return <Majors.MathSample handleTabSelect={handleTabSelect} />;
 		case "Sociology":
-			return <Majors.SociologySample />;
+			return <Majors.SociologySample handleTabSelect={handleTabSelect} />;
 		case "English":
-			return <Majors.EnglishSample />;
-		case "CSE":
-			return <Majors.CSESample />;
+			return <Majors.EnglishSample handleTabSelect={handleTabSelect} />;
+		case "Computer Science and Engineering":
+			return <Majors.CSESample handleTabSelect={handleTabSelect} />;
 		default:
-			return <Majors.CSESample />;
+			return <Majors.CSESample handleTabSelect={handleTabSelect} />;
 	}
 }
 
 function PlanOfStudy(props) {
 	return (
-		<Accordion defaultActiveKey="0" flush alwaysOpen>
-			<Accordion.Item eventKey="0" aria-expanded="true">
-				<Accordion.Header>
-					<div className="section-header">
-						SUGGESTED CLASSES FOR CURRENT QUARTER (YEAR 2 FALL)
-					</div>
-				</Accordion.Header>
-				<Accordion.Body>{getMajorSample(props.major)}</Accordion.Body>
-			</Accordion.Item>
-			<Accordion.Item eventKey="1">
-				<Accordion.Header>
-					<div className="section-header">MAJOR REQUIREMENTS</div>
-				</Accordion.Header>
-				<Accordion.Body>{getMajorPOS(props.major)}</Accordion.Body>
-			</Accordion.Item>
-		</Accordion>
+		<>
+			<h4 style={{ marginBottom: "15px" }}>{localStorage.major}</h4>
+
+			<div className="posBox">
+				<Accordion defaultActiveKey="0" flush alwaysOpen>
+					<Accordion.Item eventKey="0" aria-expanded="true">
+						<Accordion.Header>
+							<div className="section-header">
+								SUGGESTED CLASSES FOR CURRENT QUARTER (YEAR 2 FALL)
+							</div>
+						</Accordion.Header>
+						<Accordion.Body>
+							{getMajorSample(props.major, props.handleTabSelect)}
+						</Accordion.Body>
+					</Accordion.Item>
+					<Accordion.Item eventKey="1">
+						<Accordion.Header>
+							<div className="section-header">MAJOR REQUIREMENTS</div>
+						</Accordion.Header>
+						<Accordion.Body className="posContainer">
+							{getMajorPOS(props.major)}
+						</Accordion.Body>
+					</Accordion.Item>
+				</Accordion>
+			</div>
+		</>
 	);
 }
 

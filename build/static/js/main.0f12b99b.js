@@ -1,4 +1,4 @@
-/*! For license information please see main.de23fe0f.js.LICENSE.txt */
+/*! For license information please see main.0f12b99b.js.LICENSE.txt */
 !(function () {
 	var e = {
 			761: function (e, t, n) {
@@ -22664,7 +22664,7 @@
 							y({ ref: n, onClick: d }, l),
 							{},
 							{
-								"aria-expanded": u === f,
+								"aria-expanded": Array.isArray(f) ? f.includes(u) : u === f,
 								className: N()(i, a, !Ae(f, u) && "collapsed"),
 							}
 						)
@@ -29798,7 +29798,7 @@
 					}),
 				});
 			}
-			function no() {
+			function no(e) {
 				return (0, H.jsx)(it, {
 					responsive: !0,
 					borderless: !0,
@@ -29854,7 +29854,18 @@
 							}),
 							(0, H.jsx)("tr", {
 								className: "even",
-								children: (0, H.jsx)("td", { children: "General Education" }),
+								children: (0, H.jsxs)("td", {
+									children: [
+										"General Education ",
+										(0, H.jsx)("button", {
+											className: "zotpickButton",
+											onClick: function () {
+												return e.handleTabSelect("zotpick");
+											},
+											children: "Enroll with ZotPick",
+										}),
+									],
+								}),
 							}),
 						],
 					}),
@@ -31326,7 +31337,7 @@
 					}),
 				});
 			}
-			function so() {
+			function so(e) {
 				return (0, H.jsx)(it, {
 					responsive: !0,
 					borderless: !0,
@@ -31341,7 +31352,18 @@
 							}),
 							(0, H.jsx)("tr", {
 								className: "even",
-								children: (0, H.jsx)("td", { children: "General Education" }),
+								children: (0, H.jsxs)("td", {
+									children: [
+										"General Education ",
+										(0, H.jsx)("button", {
+											className: "zotpickButton",
+											onClick: function () {
+												return e.handleTabSelect("zotpick");
+											},
+											children: "Enroll with ZotPick",
+										}),
+									],
+								}),
 							}),
 						],
 					}),
@@ -32555,7 +32577,7 @@
 					}),
 				});
 			}
-			function io() {
+			function io(e) {
 				return (0, H.jsx)(it, {
 					responsive: !0,
 					borderless: !0,
@@ -32600,6 +32622,23 @@
 										" or ",
 										(0, H.jsx)("p", { className: "class", children: "20A" }),
 									],
+								}),
+							}),
+							(0, H.jsx)("tr", {
+								className: "odd",
+								children: (0, H.jsx)("td", {
+									children: (0, H.jsxs)("p", {
+										children: [
+											"General Education ",
+											(0, H.jsx)("button", {
+												className: "zotpickButton",
+												onClick: function () {
+													return e.handleTabSelect("zotpick");
+												},
+												children: "Enroll with ZotPick",
+											}),
+										],
+									}),
 								}),
 							}),
 						],
@@ -33769,7 +33808,7 @@
 					],
 				});
 			}
-			function lo() {
+			function lo(e) {
 				return (0, H.jsx)(it, {
 					responsive: !0,
 					borderless: !0,
@@ -33791,11 +33830,33 @@
 							}),
 							(0, H.jsx)("tr", {
 								className: "odd",
-								children: (0, H.jsx)("td", { children: "General Education" }),
+								children: (0, H.jsxs)("td", {
+									children: [
+										"General Education ",
+										(0, H.jsx)("button", {
+											className: "zotpickButton",
+											onClick: function () {
+												return e.handleTabSelect("zotpick");
+											},
+											children: "Enroll with ZotPick",
+										}),
+									],
+								}),
 							}),
 							(0, H.jsx)("tr", {
 								className: "even",
-								children: (0, H.jsx)("td", { children: "General Education" }),
+								children: (0, H.jsxs)("td", {
+									children: [
+										"General Education ",
+										(0, H.jsx)("button", {
+											className: "zotpickButton",
+											onClick: function () {
+												return e.handleTabSelect("zotpick");
+											},
+											children: "Enroll with ZotPick",
+										}),
+									],
+								}),
 							}),
 						],
 					}),
@@ -37129,7 +37190,7 @@
 					],
 				});
 			}
-			function uo() {
+			function uo(e) {
 				return (0, H.jsx)(it, {
 					responsive: !0,
 					borderless: !0,
@@ -37162,7 +37223,18 @@
 							}),
 							(0, H.jsx)("tr", {
 								className: "even",
-								children: (0, H.jsx)("td", { children: "General Education" }),
+								children: (0, H.jsxs)("td", {
+									children: [
+										"General Education ",
+										(0, H.jsx)("button", {
+											className: "zotpickButton",
+											onClick: function () {
+												return e.handleTabSelect("zotpick");
+											},
+											children: "Enroll with ZotPick",
+										}),
+									],
+								}),
 							}),
 						],
 					}),
@@ -37720,7 +37792,7 @@
 					],
 				});
 			}
-			function ho() {
+			function ho(e) {
 				return (0, H.jsx)(it, {
 					responsive: !0,
 					borderless: !0,
@@ -37738,20 +37810,47 @@
 							}),
 							(0, H.jsx)("tr", {
 								className: "even",
-								children: (0, H.jsx)("td", {
-									children: "General Education/Elective",
+								children: (0, H.jsxs)("td", {
+									children: [
+										"General Education/Elective",
+										(0, H.jsx)("button", {
+											className: "zotpickButton",
+											onClick: function () {
+												return e.handleTabSelect("zotpick");
+											},
+											children: "Enroll with ZotPick",
+										}),
+									],
 								}),
 							}),
 							(0, H.jsx)("tr", {
 								className: "odd",
-								children: (0, H.jsx)("td", {
-									children: "General Education/Elective",
+								children: (0, H.jsxs)("td", {
+									children: [
+										"General Education/Elective",
+										(0, H.jsx)("button", {
+											className: "zotpickButton",
+											onClick: function () {
+												return e.handleTabSelect("zotpick");
+											},
+											children: "Enroll with ZotPick",
+										}),
+									],
 								}),
 							}),
 							(0, H.jsx)("tr", {
 								className: "even",
-								children: (0, H.jsx)("td", {
-									children: "General Education/Elective",
+								children: (0, H.jsxs)("td", {
+									children: [
+										"General Education/Elective",
+										(0, H.jsx)("button", {
+											className: "zotpickButton",
+											onClick: function () {
+												return e.handleTabSelect("zotpick");
+											},
+											children: "Enroll with ZotPick",
+										}),
+									],
 								}),
 							}),
 						],
@@ -38005,7 +38104,7 @@
 					],
 				});
 			}
-			function po() {
+			function po(e) {
 				return (0, H.jsx)(it, {
 					responsive: !0,
 					borderless: !0,
@@ -38020,7 +38119,18 @@
 							}),
 							(0, H.jsx)("tr", {
 								className: "even",
-								children: (0, H.jsx)("td", { children: "General Education" }),
+								children: (0, H.jsxs)("td", {
+									children: [
+										"General Education",
+										(0, H.jsx)("button", {
+											className: "zotpickButton",
+											onClick: function () {
+												return e.handleTabSelect("zotpick");
+											},
+											children: "Enroll with ZotPick",
+										}),
+									],
+								}),
 							}),
 						],
 					}),
@@ -38565,7 +38675,7 @@
 					],
 				});
 			}
-			function go() {
+			function go(e) {
 				return (0, H.jsx)(it, {
 					responsive: !0,
 					borderless: !0,
@@ -38580,7 +38690,18 @@
 							}),
 							(0, H.jsx)("tr", {
 								className: "even",
-								children: (0, H.jsx)("td", { children: "General Education" }),
+								children: (0, H.jsxs)("td", {
+									children: [
+										"General Education",
+										(0, H.jsx)("button", {
+											className: "zotpickButton",
+											onClick: function () {
+												return e.handleTabSelect("zotpick");
+											},
+											children: "Enroll with ZotPick",
+										}),
+									],
+								}),
 							}),
 						],
 					}),
@@ -39830,7 +39951,7 @@
 					],
 				});
 			}
-			function xo() {
+			function xo(e) {
 				return (0, H.jsx)(it, {
 					responsive: !0,
 					borderless: !0,
@@ -39875,7 +39996,18 @@
 							}),
 							(0, H.jsx)("tr", {
 								className: "odd",
-								children: (0, H.jsx)("td", { children: "General Education" }),
+								children: (0, H.jsxs)("td", {
+									children: [
+										"General Education ",
+										(0, H.jsx)("button", {
+											className: "zotpickButton",
+											onClick: function () {
+												return e.handleTabSelect("zotpick");
+											},
+											children: "Enroll with ZotPick",
+										}),
+									],
+								}),
 							}),
 						],
 					}),
@@ -39903,59 +40035,75 @@
 						return (0, H.jsx)(yo, {});
 				}
 			}
-			function jo(e) {
+			function jo(e, t) {
 				switch (e) {
-					case "BioSci":
-						return (0, H.jsx)(no, {});
+					case "Biological Sciences":
+						return (0, H.jsx)(no, { handleTabSelect: t });
 					case "Business":
-						return (0, H.jsx)(so, {});
-					case "MechEng":
-						return (0, H.jsx)(io, {});
-					case "Psych":
-						return (0, H.jsx)(lo, {});
-					case "CompSci":
-						return (0, H.jsx)(uo, {});
+						return (0, H.jsx)(so, { handleTabSelect: t });
+					case "Mechanical Engineering":
+						return (0, H.jsx)(io, { handleTabSelect: t });
+					case "Psychology":
+						return (0, H.jsx)(lo, { handleTabSelect: t });
+					case "Computer Science":
+						return (0, H.jsx)(uo, { handleTabSelect: t });
 					case "Math":
-						return (0, H.jsx)(ho, {});
+						return (0, H.jsx)(ho, { handleTabSelect: t });
 					case "Sociology":
-						return (0, H.jsx)(po, {});
+						return (0, H.jsx)(po, { handleTabSelect: t });
 					case "English":
-						return (0, H.jsx)(go, {});
+						return (0, H.jsx)(go, { handleTabSelect: t });
 					default:
-						return (0, H.jsx)(xo, {});
+						return (0, H.jsx)(xo, { handleTabSelect: t });
 				}
 			}
 			var No = function (e) {
-					return (0, H.jsxs)(rt, {
-						defaultActiveKey: "0",
-						flush: !0,
-						alwaysOpen: !0,
+					return (0, H.jsxs)(H.Fragment, {
 						children: [
-							(0, H.jsxs)(rt.Item, {
-								eventKey: "0",
-								"aria-expanded": "true",
-								children: [
-									(0, H.jsx)(rt.Header, {
-										children: (0, H.jsx)("div", {
-											className: "section-header",
-											children:
-												"SUGGESTED CLASSES FOR CURRENT QUARTER (YEAR 2 FALL)",
-										}),
-									}),
-									(0, H.jsx)(rt.Body, { children: jo(e.major) }),
-								],
+							(0, H.jsx)("h4", {
+								style: { marginBottom: "15px" },
+								children: localStorage.major,
 							}),
-							(0, H.jsxs)(rt.Item, {
-								eventKey: "1",
-								children: [
-									(0, H.jsx)(rt.Header, {
-										children: (0, H.jsx)("div", {
-											className: "section-header",
-											children: "MAJOR REQUIREMENTS",
+							(0, H.jsx)("div", {
+								className: "posBox",
+								children: (0, H.jsxs)(rt, {
+									defaultActiveKey: "0",
+									flush: !0,
+									alwaysOpen: !0,
+									children: [
+										(0, H.jsxs)(rt.Item, {
+											eventKey: "0",
+											"aria-expanded": "true",
+											children: [
+												(0, H.jsx)(rt.Header, {
+													children: (0, H.jsx)("div", {
+														className: "section-header",
+														children:
+															"SUGGESTED CLASSES FOR CURRENT QUARTER (YEAR 2 FALL)",
+													}),
+												}),
+												(0, H.jsx)(rt.Body, {
+													children: jo(e.major, e.handleTabSelect),
+												}),
+											],
 										}),
-									}),
-									(0, H.jsx)(rt.Body, { children: bo(e.major) }),
-								],
+										(0, H.jsxs)(rt.Item, {
+											eventKey: "1",
+											children: [
+												(0, H.jsx)(rt.Header, {
+													children: (0, H.jsx)("div", {
+														className: "section-header",
+														children: "MAJOR REQUIREMENTS",
+													}),
+												}),
+												(0, H.jsx)(rt.Body, {
+													className: "posContainer",
+													children: bo(e.major),
+												}),
+											],
+										}),
+									],
+								}),
 							}),
 						],
 					});
@@ -40030,7 +40178,15 @@
 							className: "text-center",
 							children: [
 								(0, H.jsx)("h5", {
-									children: "Can't decide what classes to take? Let us help!",
+									children: "Can't decide what GE to take? Let us help!",
+								}),
+								(0, H.jsxs)("p", {
+									style: { fontSize: "14px" },
+									children: [
+										"ZotPick searches for a random GE course for ",
+										(0, H.jsx)("br", {}),
+										"GE requirements you haven't completed.",
+									],
 								}),
 								(0, H.jsx)(Co, {
 									type: "button",
@@ -40039,7 +40195,7 @@
 										return s.apply(this, arguments);
 									},
 									className: "mb-5",
-									children: "Find a class!",
+									children: "Find a Class!",
 								}),
 							],
 						}),
@@ -40062,36 +40218,57 @@
 				});
 			};
 			var Mo,
-				Po = function (e) {
-					return (0, H.jsxs)(Dn, {
-						defaultActiveKey: "enroll",
-						className: "pos-tabs",
-						children: [
-							(0, H.jsx)(Yn, {
-								eventKey: "enroll",
-								title: "Enroll",
-								children: (0, H.jsx)(Qi, {
-									courseCodeEnroll: e.courseCodeEnroll,
-									courseCodeError: e.courseCodeError,
-									departmentList: e.departmentList,
-									fillCourseCode: e.fillCourseCode,
-									courseCodeData: e.courseCodeData,
-									highlightCourseCodeData: e.highlightCourseCodeData,
-									setHighlightCourseCodeData: e.setHighlightCourseCodeData,
+				Po = function (t) {
+					var n = m((0, e.useState)("enroll"), 2),
+						r = n[0],
+						s = n[1],
+						a = function (e) {
+							s(e);
+						};
+					return (
+						(0, e.useEffect)(
+							function () {
+								console.log(r + " is now selected");
+							},
+							[r]
+						),
+						(0, H.jsxs)(Dn, {
+							defaultActiveKey: "enroll",
+							activeKey: r,
+							className: "pos-tabs",
+							onSelect: function (e) {
+								return a(e);
+							},
+							children: [
+								(0, H.jsx)(Yn, {
+									eventKey: "enroll",
+									title: "Enroll",
+									children: (0, H.jsx)(Qi, {
+										courseCodeEnroll: t.courseCodeEnroll,
+										courseCodeError: t.courseCodeError,
+										departmentList: t.departmentList,
+										fillCourseCode: t.fillCourseCode,
+										courseCodeData: t.courseCodeData,
+										highlightCourseCodeData: t.highlightCourseCodeData,
+										setHighlightCourseCodeData: t.setHighlightCourseCodeData,
+									}),
 								}),
-							}),
-							(0, H.jsx)(Yn, {
-								eventKey: "planofstudy",
-								title: "Plan of Study",
-								children: (0, H.jsx)(No, { major: localStorage.major }),
-							}),
-							(0, H.jsx)(Yn, {
-								eventKey: "zotpick",
-								title: "ZotPick",
-								children: (0, H.jsx)(Oo, {}),
-							}),
-						],
-					});
+								(0, H.jsx)(Yn, {
+									eventKey: "planofstudy",
+									title: "Plan of Study",
+									children: (0, H.jsx)(No, {
+										major: localStorage.major,
+										handleTabSelect: a,
+									}),
+								}),
+								(0, H.jsx)(Yn, {
+									eventKey: "zotpick",
+									title: "ZotPick",
+									children: (0, H.jsx)(Oo, {}),
+								}),
+							],
+						})
+					);
 				};
 			function Io() {
 				if ("undefined" === typeof Reflect || !Reflect.construct) return !1;
@@ -41875,7 +42052,7 @@
 									setHighlightCourseCodeData: g,
 							  }),
 						(0, H.jsx)("h2", {
-							className: "mt-5 mb-3 text-center",
+							className: "mt-5 mb-3 text-center myScheduleTitle",
 							children: "My Schedule",
 						}),
 						(0, H.jsx)(
@@ -49548,23 +49725,27 @@
 						i = a[0],
 						o = a[1],
 						l = m((0, e.useState)([]), 2),
-						u = l[0],
-						d = l[1],
-						f = function (e) {
+						c = l[0],
+						u = l[1],
+						d = function (e) {
 							for (
 								var t = [],
-									n = function (n) {
-										e[n].classes.forEach(function (r) {
-											var s = r.name,
-												a = r.courseCode,
-												l = r.meetingDay,
-												u = r.meetingTime,
-												d = r.classType;
-											if ("" === l || "TBA" === u) {
-												var f = c(i);
-												f.push(e[n]), o(f);
+									n = [],
+									r = function (r) {
+										e[r].classes.forEach(function (s) {
+											var a = s.name,
+												i = s.courseCode,
+												o = s.meetingDay,
+												l = s.meetingTime,
+												c = s.classType;
+											if ("" === o || "TBA" === l) {
+												var u = e[r];
+												(u.classes = u.classes.filter(function (e) {
+													return "" === e.meetingDay || "TBA" === e.meetingTime;
+												})),
+													n.push(u);
 											} else {
-												var h = (function (e) {
+												var d = (function (e) {
 														var t = [];
 														return (
 															e.search("M") >= 0 && t.push(1),
@@ -49574,8 +49755,8 @@
 															e.search("F") >= 0 && t.push(5),
 															t
 														);
-													})(l),
-													m = (function (e) {
+													})(o),
+													f = (function (e) {
 														var t = e.split("-");
 														return (
 															(t[0] = t[0].trim()),
@@ -49590,43 +49771,45 @@
 																  (t[1][0] = Number(t[1][0]))),
 															t
 														);
-													})(u),
-													p = (0, H.jsxs)("div", {
+													})(l),
+													h = (0, H.jsxs)("div", {
 														children: [
-															(0, H.jsx)("div", { children: s }),
+															(0, H.jsx)("div", { children: a }),
 															(0, H.jsxs)("div", {
 																className: "eventTitleInfo",
 																children: [
-																	(0, H.jsx)("div", { children: d }),
-																	(0, H.jsx)("div", { children: a }),
+																	(0, H.jsx)("div", { children: c }),
+																	(0, H.jsx)("div", { children: i }),
 																],
 															}),
 														],
 													});
-												h.forEach(function (e) {
+												d.forEach(function (e) {
 													var n = {};
-													(n.title = p),
-														(n.start = new Date(2018, 0, e, m[0][0], m[0][1])),
-														(n.end = new Date(2018, 0, e, m[1][0], m[1][1])),
-														(n.sectionCode = a),
-														(n.sectionType = d),
+													(n.title = h),
+														(n.start = new Date(2018, 0, e, f[0][0], f[0][1])),
+														(n.end = new Date(2018, 0, e, f[1][0], f[1][1])),
+														(n.sectionCode = i),
+														(n.sectionType = c),
 														t.push(n);
 												});
 											}
 										});
 									},
-									r = 0;
-								r < e.length;
-								r++
+									s = 0;
+								s < e.length;
+								s++
 							)
-								n(r);
-							return t;
+								r(s);
+							return [t, n];
 						};
 					return (
 						(0, e.useEffect)(
 							function () {
-								var e = f(s);
-								console.log(e), d(e), console.log(s);
+								var e = d(s),
+									t = e[0],
+									n = e[1];
+								u(t), o(n);
 							},
 							[s]
 						),
@@ -49651,7 +49834,7 @@
 											children: (0, H.jsx)(_x, {
 												className: "calendar",
 												localizer: n,
-												events: u,
+												events: c,
 												formats: {
 													dayFormat: "dddd",
 													timeGutterFormat: function (e, t, n) {
@@ -51938,6 +52121,14 @@
 							className: "savedCoursesTitle",
 							children: "Saved Courses",
 						}),
+						(0, H.jsxs)("p", {
+							style: { textAlign: "center" },
+							children: [
+								'Before your enrollment window opens, instead of enrolling you can "save" courses.',
+								(0, H.jsx)("br", {}),
+								"Saved courses will appear here once your window opens.",
+							],
+						}),
 						(0, H.jsx)("div", {
 							className: "scheduleListSaved",
 							children:
@@ -51988,12 +52179,95 @@
 					});
 				},
 				Hj = n.p + "static/media/email-feature.2eadec1c5a2492c448b7.png",
-				Fj = n.p + "static/media/enrollment.86b9b5d903f6d5507c68.png",
+				Fj = n.p + "static/media/enrollment.f5b17f9ea2ed11af4f37.png",
 				Bj = n.p + "static/media/plan-of-study.7b714d7a320fc3538d6f.png",
 				zj = n.p + "static/media/saved-courses.048a2906f053398f2aeb.png",
 				Yj = n.p + "static/media/schedule.3eb94bc163d941dc9f66.png",
 				Wj = n.p + "static/media/zotpick.e7fb249732ae3f96d57e.png";
 			var Gj = function (t) {
+				localStorage.setItem(
+					"savedCourses",
+					JSON.stringify([
+						{
+							title: "SOCIOL 1",
+							titleDesc: "INTRO TO SOCIOLOGY",
+							units: "4",
+							grading: "GR",
+							finalDate: "TBA",
+							classes: [
+								{
+									courseCode: "69000",
+									classType: "Lec",
+									section: "A",
+									units: "4",
+									instructor: "WOSICK, K.",
+									time: " TBA",
+									meetingDay: "",
+									meetingTime: "TBA",
+									location: "ON LINE",
+									enrolled: "0",
+									max: "200",
+									waitlist: "0",
+									status: "OPEN",
+								},
+								{
+									courseCode: "69004",
+									classType: "Dis",
+									section: "4",
+									units: "0",
+									instructor: "STAFF\nWOSICK, K.",
+									time: "F  9:00- 9:50 ",
+									meetingDay: "F",
+									meetingTime: " 9:00- 9:50 ",
+									location: "ON LINE",
+									enrolled: "0",
+									max: "33",
+									waitlist: "0",
+									status: "OPEN",
+								},
+							],
+						},
+						{
+							title: "ECON 13",
+							titleDesc: "GLOBAL ECONOMY",
+							units: "4",
+							grading: "P/NP",
+							finalDate: "TBA",
+							classes: [
+								{
+									name: "ECON 13",
+									courseCode: "62000",
+									classType: "Lec",
+									section: "A",
+									units: "4",
+									instructor: "SARRAF, G.",
+									time: " TBA",
+									meetingDay: "",
+									meetingTime: "TBA",
+									location: "ON LINE",
+									enrolled: "0",
+									max: "448",
+									waitlist: "0",
+									status: "OPEN",
+								},
+								{
+									courseCode: "62002",
+									classType: "Dis",
+									section: "A2",
+									units: "0",
+									instructor: "STAFF\nSARRAF, G.",
+									time: "Tu  8:00- 8:50p",
+									location: "SST 220A",
+									enrolled: "0",
+									max: "50",
+									waitlist: "0",
+									status: "OPEN",
+								},
+							],
+						},
+					])
+				),
+					localStorage.setItem("courses", JSON.stringify([]));
 				var n = m((0, e.useState)("CSE"), 2),
 					r = n[0],
 					s = n[1];
@@ -52011,92 +52285,101 @@
 						children: [
 							(0, H.jsx)("div", {
 								style: { backgroundColor: "#eee" },
-								children: (0, H.jsx)(ko, {
-									children: (0, H.jsx)(qi, {
-										className: "justify-content-center align-items-center m-0",
-										style: { minHeight: "100vh", backgroundColor: "#eee" },
-										children: (0, H.jsxs)(pr, {
-											lg: 6,
-											children: [
-												(0, H.jsx)("h1", { children: "The New WebReg" }),
-												(0, H.jsxs)("p", {
-													style: { fontSize: "12px" },
-													children: [
-														"Designed by Professor HP Lee Fan Club: ",
-														(0, H.jsx)("br", {}),
-														" Akshay Kshipra, Antoine Nguyen, Gabriel Garcia, Sam Der, Wentao Chen",
-													],
-												}),
-												(0, H.jsx)("p", {
-													className: "mx-0",
-													children: "Please enter your major below:",
-												}),
-												(0, H.jsxs)(Lr, {
-													onSubmit: a,
-													action: "/home",
-													children: [
-														(0, H.jsx)(Ir, {
-															controlId: "major",
-															label: "Major",
-															className: "mb-3",
-															children: (0, H.jsxs)(Lr.Control, {
-																as: "select",
-																placeholder: "Major",
-																onChange: function (e) {
-																	return s(e.target.value);
-																},
-																required: !0,
-																children: [
-																	(0, H.jsx)("option", {
-																		value: "CSE",
-																		children:
-																			"Computer Science and Engineering",
-																	}),
-																	(0, H.jsx)("option", {
-																		value: "CompSci",
-																		children: "Computer Science",
-																	}),
-																	(0, H.jsx)("option", {
-																		value: "BioSci",
-																		children: "Biological Sciences",
-																	}),
-																	(0, H.jsx)("option", {
-																		value: "Business",
-																		children: "Business",
-																	}),
-																	(0, H.jsx)("option", {
-																		value: "MechEng",
-																		children: "Mechanical Engineering",
-																	}),
-																	(0, H.jsx)("option", {
-																		value: "Psych",
-																		children: "Psychology",
-																	}),
-																	(0, H.jsx)("option", {
-																		value: "Math",
-																		children: "Math",
-																	}),
-																	(0, H.jsx)("option", {
-																		value: "Sociology",
-																		children: "Sociology",
-																	}),
-																	(0, H.jsx)("option", {
-																		value: "English",
-																		children: "English",
-																	}),
-																],
+								children: (0, H.jsxs)(ko, {
+									children: [
+										(0, H.jsx)(qi, {
+											className:
+												"justify-content-center align-items-center m-0",
+											style: { minHeight: "90vh", backgroundColor: "#eee" },
+											children: (0, H.jsxs)(pr, {
+												lg: 6,
+												children: [
+													(0, H.jsx)("h1", { children: "The New WebReg" }),
+													(0, H.jsxs)("p", {
+														style: { fontSize: "12px" },
+														children: [
+															"Designed by Professor HP Lee Fan Club: ",
+															(0, H.jsx)("br", {}),
+															" Akshay Kshipra, Antoine Nguyen, Gabriel Garcia, Sam Der, Wentao Chen",
+														],
+													}),
+													(0, H.jsx)("p", {
+														className: "mx-0",
+														children: "Please enter your major below:",
+													}),
+													(0, H.jsxs)(Lr, {
+														onSubmit: a,
+														action: "/home",
+														children: [
+															(0, H.jsx)(Ir, {
+																controlId: "major",
+																label: "Major",
+																className: "mb-3",
+																children: (0, H.jsxs)(Lr.Control, {
+																	as: "select",
+																	placeholder: "Major",
+																	onChange: function (e) {
+																		return s(e.target.value);
+																	},
+																	required: !0,
+																	children: [
+																		(0, H.jsx)("option", {
+																			value: "Computer Science and Engineering",
+																			children:
+																				"Computer Science and Engineering",
+																		}),
+																		(0, H.jsx)("option", {
+																			value: "Computer Science",
+																			children: "Computer Science",
+																		}),
+																		(0, H.jsx)("option", {
+																			value: "Biological Sciences",
+																			children: "Biological Sciences",
+																		}),
+																		(0, H.jsx)("option", {
+																			value: "Business",
+																			children: "Business",
+																		}),
+																		(0, H.jsx)("option", {
+																			value: "Mechanical Engineering",
+																			children: "Mechanical Engineering",
+																		}),
+																		(0, H.jsx)("option", {
+																			value: "Psychology",
+																			children: "Psychology",
+																		}),
+																		(0, H.jsx)("option", {
+																			value: "Math",
+																			children: "Math",
+																		}),
+																		(0, H.jsx)("option", {
+																			value: "Sociology",
+																			children: "Sociology",
+																		}),
+																		(0, H.jsx)("option", {
+																			value: "English",
+																			children: "English",
+																		}),
+																	],
+																}),
 															}),
-														}),
-														(0, H.jsx)(Co, {
-															type: "submit",
-															variant: "success",
-															children: "Submit",
-														}),
-													],
-												}),
-											],
+															(0, H.jsx)(Co, {
+																type: "submit",
+																variant: "success",
+																children: "Submit",
+															}),
+														],
+													}),
+												],
+											}),
 										}),
-									}),
+										(0, H.jsx)(qi, {
+											children: (0, H.jsx)("p", {
+												style: { textAlign: "center", fontSize: "50px" },
+												children: "\u2b9f",
+											}),
+										}),
+									],
 								}),
 							}),
 							(0, H.jsxs)(ko, {
@@ -52136,11 +52419,13 @@
 															(0, H.jsxs)(dj.Body, {
 																children: [
 																	(0, H.jsx)(dj.Title, {
-																		children: "Enrollment",
+																		children: (0, H.jsx)("b", {
+																			children: "Search & Enroll",
+																		}),
 																	}),
 																	(0, H.jsx)(dj.Text, {
 																		children:
-																			"Similar to the old version of WebReg, students are be able to conveniently enroll in their classes through this new system.",
+																			"Similar to the old version of WebReg, students are be able to conveniently enroll in their classes through this new system. Students can now search and filter for courses with the integrated Schedule of Classes.",
 																	}),
 																],
 															}),
@@ -52162,11 +52447,13 @@
 															(0, H.jsxs)(dj.Body, {
 																children: [
 																	(0, H.jsx)(dj.Title, {
-																		children: "Plan of Study",
+																		children: (0, H.jsx)("b", {
+																			children: "Plan of Study",
+																		}),
 																	}),
 																	(0, H.jsx)(dj.Text, {
 																		children:
-																			"The New WebReg asks for your major before accessing the main website. This information is used to show the study plan specific to your major!",
+																			"The New WebReg displays the course requirements for your major. You can view the recommended courses based on your major's sample program.",
 																	}),
 																],
 															}),
@@ -52187,10 +52474,14 @@
 															}),
 															(0, H.jsxs)(dj.Body, {
 																children: [
-																	(0, H.jsx)(dj.Title, { children: "ZotPick" }),
+																	(0, H.jsx)(dj.Title, {
+																		children: (0, H.jsx)("b", {
+																			children: "ZotPick",
+																		}),
+																	}),
 																	(0, H.jsx)(dj.Text, {
 																		children:
-																			"Struggling to choose a class? Let ZotPick do the work for you! With a single click of a button, The New WebReg will generate a random class offered at UCI.",
+																			"Struggling to choose a class? Let ZotPick do the work for you! With a single click of a button, The New WebReg will generate a random GE offered at UCI.",
 																	}),
 																],
 															}),
@@ -52217,7 +52508,9 @@
 															(0, H.jsxs)(dj.Body, {
 																children: [
 																	(0, H.jsx)(dj.Title, {
-																		children: "Helpful Emails",
+																		children: (0, H.jsx)("b", {
+																			children: "Helpful Emails",
+																		}),
 																	}),
 																	(0, H.jsx)(dj.Text, {
 																		children:
@@ -52243,7 +52536,9 @@
 															(0, H.jsxs)(dj.Body, {
 																children: [
 																	(0, H.jsx)(dj.Title, {
-																		children: "Interactive Schedule",
+																		children: (0, H.jsx)("b", {
+																			children: "Interactive Schedule",
+																		}),
 																	}),
 																	(0, H.jsx)(dj.Text, {
 																		children:
@@ -52269,7 +52564,9 @@
 															(0, H.jsxs)(dj.Body, {
 																children: [
 																	(0, H.jsx)(dj.Title, {
-																		children: "Saved Courses",
+																		children: (0, H.jsx)("b", {
+																			children: "Saved Courses",
+																		}),
 																	}),
 																	(0, H.jsx)(dj.Text, {
 																		children:
@@ -52371,4 +52668,4 @@
 			);
 		})();
 })();
-//# sourceMappingURL=main.de23fe0f.js.map
+//# sourceMappingURL=main.0f12b99b.js.map

@@ -18,6 +18,89 @@ import zotpick from "../../assets/zotpick.png";
 import "./WelcomePage.scss";
 
 function WelcomePage(props) {
+	const seededSavedCourses = [
+		{
+			title: "SOCIOL 1",
+			titleDesc: "INTRO TO SOCIOLOGY",
+			units: "4",
+			grading: "GR",
+			finalDate: "TBA",
+			classes: [
+				{
+					courseCode: "69000",
+					classType: "Lec",
+					section: "A",
+					units: "4",
+					instructor: "WOSICK, K.",
+					time: " TBA",
+					meetingDay: "",
+					meetingTime: "TBA",
+					location: "ON LINE",
+					enrolled: "0",
+					max: "200",
+					waitlist: "0",
+					status: "OPEN",
+				},
+				{
+					courseCode: "69004",
+					classType: "Dis",
+					section: "4",
+					units: "0",
+					instructor: "STAFF\nWOSICK, K.",
+					time: "F  9:00- 9:50 ",
+					meetingDay: "F",
+					meetingTime: " 9:00- 9:50 ",
+					location: "ON LINE",
+					enrolled: "0",
+					max: "33",
+					waitlist: "0",
+					status: "OPEN",
+				},
+			],
+		},
+		{
+			title: "ECON 13",
+			titleDesc: "GLOBAL ECONOMY",
+			units: "4",
+			grading: "P/NP",
+			finalDate: "TBA",
+			classes: [
+				{
+					name: "ECON 13",
+					courseCode: "62000",
+					classType: "Lec",
+					section: "A",
+					units: "4",
+					instructor: "SARRAF, G.",
+					time: " TBA",
+					meetingDay: "",
+					meetingTime: "TBA",
+					location: "ON LINE",
+					enrolled: "0",
+					max: "448",
+					waitlist: "0",
+					status: "OPEN",
+				},
+				{
+					courseCode: "62002",
+					classType: "Dis",
+					section: "A2",
+					units: "0",
+					instructor: "STAFF\nSARRAF, G.",
+					time: "Tu  8:00- 8:50p",
+					location: "SST 220A",
+					enrolled: "0",
+					max: "50",
+					waitlist: "0",
+					status: "OPEN",
+				},
+			],
+		},
+	];
+
+	localStorage.setItem("savedCourses", JSON.stringify(seededSavedCourses));
+	localStorage.setItem("courses", JSON.stringify([]));
+
 	const [major, setMajor] = useState("CSE");
 
 	useEffect(() => {
@@ -35,7 +118,7 @@ function WelcomePage(props) {
 				<Container>
 					<Row
 						className="justify-content-center align-items-center m-0"
-						style={{ minHeight: "100vh", backgroundColor: "#eee" }}
+						style={{ minHeight: "90vh", backgroundColor: "#eee" }}
 					>
 						<Col lg={6}>
 							<h1>The New WebReg</h1>
@@ -52,14 +135,18 @@ function WelcomePage(props) {
 										onChange={(e) => setMajor(e.target.value)}
 										required
 									>
-										<option value="CSE">
+										<option value="Computer Science and Engineering">
 											Computer Science and Engineering
 										</option>
-										<option value="CompSci">Computer Science</option>
-										<option value="BioSci">Biological Sciences</option>
+										<option value="Computer Science">Computer Science</option>
+										<option value="Biological Sciences">
+											Biological Sciences
+										</option>
 										<option value="Business">Business</option>
-										<option value="MechEng">Mechanical Engineering</option>
-										<option value="Psych">Psychology</option>
+										<option value="Mechanical Engineering">
+											Mechanical Engineering
+										</option>
+										<option value="Psychology">Psychology</option>
 										<option value="Math">Math</option>
 										<option value="Sociology">Sociology</option>
 										<option value="English">English</option>
@@ -71,6 +158,9 @@ function WelcomePage(props) {
 								</Button>
 							</Form>
 						</Col>
+					</Row>
+					<Row>
+						<p style={{ textAlign: "center", fontSize: "50px" }}>⮟</p>
 					</Row>
 				</Container>
 			</div>
@@ -88,11 +178,14 @@ function WelcomePage(props) {
 									<Card.Img variant="top" src={enrollment} />
 								</div>
 								<Card.Body>
-									<Card.Title>Enrollment</Card.Title>
+									<Card.Title>
+										<b>Search & Enroll</b>
+									</Card.Title>
 									<Card.Text>
 										Similar to the old version of WebReg, students are be able
 										to conveniently enroll in their classes through this new
-										system.
+										system. Students can now search and filter for courses with
+										the integrated Schedule of Classes.
 									</Card.Text>
 								</Card.Body>
 							</Card>
@@ -103,11 +196,13 @@ function WelcomePage(props) {
 									<Card.Img variant="top" src={planOfStudy} />
 								</div>
 								<Card.Body>
-									<Card.Title>Plan of Study</Card.Title>
+									<Card.Title>
+										<b>Plan of Study</b>
+									</Card.Title>
 									<Card.Text>
-										The New WebReg asks for your major before accessing the main
-										website. This information is used to show the study plan
-										specific to your major!
+										The New WebReg displays the course requirements for your
+										major. You can view the recommended courses based on your
+										major's sample program.
 									</Card.Text>
 								</Card.Body>
 							</Card>
@@ -118,11 +213,13 @@ function WelcomePage(props) {
 									<Card.Img variant="top" src={zotpick} />
 								</div>
 								<Card.Body>
-									<Card.Title>ZotPick</Card.Title>
+									<Card.Title>
+										<b>ZotPick</b>
+									</Card.Title>
 									<Card.Text>
 										Struggling to choose a class? Let ZotPick do the work for
 										you! With a single click of a button, The New WebReg will
-										generate a random class offered at UCI.
+										generate a random GE offered at UCI.
 									</Card.Text>
 								</Card.Body>
 							</Card>
@@ -135,7 +232,9 @@ function WelcomePage(props) {
 									<Card.Img variant="top" src={emailFeature} />
 								</div>
 								<Card.Body>
-									<Card.Title>Helpful Emails</Card.Title>
+									<Card.Title>
+										<b>Helpful Emails</b>
+									</Card.Title>
 									<Card.Text>
 										The New WebReg sends automatic emails to users reminding
 										them of various important dates and deadlines, including
@@ -150,7 +249,9 @@ function WelcomePage(props) {
 									<Card.Img variant="top" src={schedule} />
 								</div>
 								<Card.Body>
-									<Card.Title>Interactive Schedule</Card.Title>
+									<Card.Title>
+										<b>Interactive Schedule</b>
+									</Card.Title>
 									<Card.Text>
 										The New WebReg displays the classes you signed up in a
 										concise, easy to read format that allows easy dropping and
@@ -165,7 +266,9 @@ function WelcomePage(props) {
 									<Card.Img variant="top" src={savedCourses} />
 								</div>
 								<Card.Body>
-									<Card.Title>Saved Courses</Card.Title>
+									<Card.Title>
+										<b>Saved Courses</b>
+									</Card.Title>
 									<Card.Text>
 										Interested in a course, but unable to enroll until later?
 										The New WebReg allows you to save specific lecture and

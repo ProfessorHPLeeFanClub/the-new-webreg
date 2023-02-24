@@ -164,6 +164,10 @@ function SavedCourses(props) {
 	return (
 		<>
 			<div className="savedCoursesTitle">Saved Courses</div>
+			<p style={{ textAlign: "center" }}>
+				Before your enrollment window opens, instead of enrolling you can "save"
+				courses.<br></br>Saved courses will appear here once your window opens.
+			</p>
 			<div className="scheduleListSaved">
 				{savedCourseList.length === 0 ? (
 					<div className="emptySchedule">No Courses</div>

@@ -351,7 +351,7 @@ function Enrollment(props) {
 				/>
 			)}
 
-			<h2 className="mt-5 mb-3 text-center">My Schedule</h2>
+			<h2 className="mt-5 mb-3 text-center myScheduleTitle">My Schedule</h2>
 			<div key={courseList}>
 				<Schedule
 					className="schedule"

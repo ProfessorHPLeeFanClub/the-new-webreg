@@ -10668,6 +10668,9 @@ fieldset:disabled .btn {
 	font-weight: 500;
 	line-height: 22px;
 }
+.scheduleList {
+	margin-bottom: 40px;
+}
 .scheduleItem {
 	margin-bottom: 15px;
 }
@@ -11085,6 +11088,23 @@ td {
 	margin-bottom: 0;
 	text-decoration: underline;
 }
+.posContainer {
+	height: 70vh;
+	overflow: scroll;
+}
+.posBox {
+	border: 2px solid #d1d1d1;
+	border-radius: 5px;
+}
+.zotpickButton {
+	background-color: #2b5ce2;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 600;
+	margin-left: 10px;
+	padding: 5px;
+}
 .pos-tabs button.nav-link {
 	background-color: #eee;
 	color: #000;
@@ -11117,6 +11137,12 @@ td {
 .myScheduleText {
 	font-weight: 600;
 	margin-bottom: 10px;
+}
+.myScheduleTitle {
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 30px;
+	text-align: center;
 }
 .warningBox {
 	background: #ffe2aa;
@@ -11170,7 +11196,7 @@ td {
 	border-radius: 5px;
 	border-width: 6px;
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.02), 0 0 0 5px rgba(27, 31, 35, 0.15);
-	margin: 20px auto auto;
+	margin: 20px auto 30px;
 	width: 900px;
 }
 .calendar {
@@ -11971,4 +11997,4 @@ button.rbc-input::-moz-focus-inner {
 .card-row .card {
 	min-height: 400px;
 }
-/*# sourceMappingURL=main.c167bb80.css.map*/
+/*# sourceMappingURL=main.f7357dee.css.map*/

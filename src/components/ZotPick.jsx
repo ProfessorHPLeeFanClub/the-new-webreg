@@ -16,14 +16,18 @@ function ZotPick() {
 	return (
 		<>
 			<div className="text-center">
-				<h5>Can&apos;t decide what classes to take? Let us help!</h5>
+				<h5>Can&apos;t decide what GE to take? Let us help!</h5>
+				<p style={{ fontSize: "14px" }}>
+					ZotPick searches for a random GE course for <br></br>GE requirements
+					you haven't completed.
+				</p>
 				<Button
 					type="button"
 					variant="warning"
 					onClick={getRandomClass}
 					className="mb-5"
 				>
-					Find a class!
+					Find a Class!
 				</Button>
 			</div>
 			{randomClass ? (

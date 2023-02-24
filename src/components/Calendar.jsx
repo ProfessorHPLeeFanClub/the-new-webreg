@@ -61,6 +61,7 @@ function ScheduleCalendar(props) {
 
 	const parseCourseList = (courseList) => {
 		let events = [];
+		let TBDCourses = [];
 
 		for (let i = 0; i < courseList.length; i++) {
 			const classes = courseList[i].classes;
@@ -71,9 +72,11 @@ function ScheduleCalendar(props) {
 				const meetingTime = classData.meetingTime;
 				const sectionType = classData.classType;
 				if (meetingDay === "" || meetingTime === "TBA") {
-					let newTBDCourseList = [...TBDCourseList];
-					newTBDCourseList.push(courseList[i]);
-					setTBDCourseList(newTBDCourseList);
+					var toFilter = courseList[i];
+					toFilter.classes = toFilter.classes.filter(
+						(cd) => cd.meetingDay === "" || cd.meetingTime === "TBA"
+					);
+					TBDCourses.push(toFilter);
 				} else {
 					const days = getMeetingDays(meetingDay);
 					const times = getMeetingTimes(meetingTime);
@@ -99,14 +102,17 @@ function ScheduleCalendar(props) {
 			});
 		}
 
-		return events;
+		return [events, TBDCourses];
 	};
 
 	useEffect(() => {
-		const eventList = parseCourseList(courseList);
-		console.log(eventList);
+		const data = parseCourseList(courseList);
+		const eventList = data[0];
+		const TBDList = data[1];
+		//console.log(eventList);
 		setParsedEvents(eventList);
-		console.log(courseList);
+		setTBDCourseList(TBDList);
+		//console.log(TBDCourseList);
 	}, [courseList]);
 
 	const handleCourseBoxSelect = () => {};

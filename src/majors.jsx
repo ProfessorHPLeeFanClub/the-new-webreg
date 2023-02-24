@@ -1,4 +1,5 @@
 import { Table } from "react-bootstrap";
+import "./css/majors.css";
 
 function BioSciPOS() {
 	return (
@@ -821,7 +822,7 @@ function BioSciPOS() {
 	);
 }
 
-function BioSciSample() {
+function BioSciSample(props) {
 	return (
 		<Table responsive borderless width="100%">
 			<tbody>
@@ -843,7 +844,15 @@ function BioSciSample() {
 					</td>
 				</tr>
 				<tr className="even">
-					<td>General Education</td>
+					<td>
+						General Education{" "}
+						<button
+							className="zotpickButton"
+							onClick={() => props.handleTabSelect("zotpick")}
+						>
+							Enroll with ZotPick
+						</button>
+					</td>
 				</tr>
 			</tbody>
 		</Table>
@@ -1556,7 +1565,7 @@ function BusinessPOS() {
 	);
 }
 
-function BusinessSample() {
+function BusinessSample(props) {
 	return (
 		<Table responsive borderless className="sc_courselist">
 			<tbody>
@@ -1564,7 +1573,15 @@ function BusinessSample() {
 					<td>No Sample Classes Available</td>
 				</tr>
 				<tr className="even">
-					<td>General Education</td>
+					<td>
+						General Education{" "}
+						<button
+							className="zotpickButton"
+							onClick={() => props.handleTabSelect("zotpick")}
+						>
+							Enroll with ZotPick
+						</button>
+					</td>
 				</tr>
 			</tbody>
 		</Table>
@@ -2155,7 +2172,7 @@ function MechEngPOS() {
 	);
 }
 
-function MechEngSample() {
+function MechEngSample(props) {
 	return (
 		<Table responsive borderless width="100%">
 			<tbody>
@@ -2177,6 +2194,19 @@ function MechEngSample() {
 				<tr className="even">
 					<td>
 						<p className="class">ECON 23</p> or <p className="class">20A</p>
+					</td>
+				</tr>
+				<tr className="odd">
+					<td>
+						<p>
+							General Education{" "}
+							<button
+								className="zotpickButton"
+								onClick={() => props.handleTabSelect("zotpick")}
+							>
+								Enroll with ZotPick
+							</button>
+						</p>
 					</td>
 				</tr>
 			</tbody>
@@ -2777,7 +2807,7 @@ function PsychPOS() {
 	);
 }
 
-function PsychSample() {
+function PsychSample(props) {
 	return (
 		<Table responsive borderless width="100%">
 			<tbody>
@@ -2790,10 +2820,26 @@ function PsychSample() {
 					<td>Psych. Core course</td>
 				</tr>
 				<tr className="odd">
-					<td>General Education</td>
+					<td>
+						General Education{" "}
+						<button
+							className="zotpickButton"
+							onClick={() => props.handleTabSelect("zotpick")}
+						>
+							Enroll with ZotPick
+						</button>
+					</td>
 				</tr>
 				<tr className="even">
-					<td>General Education</td>
+					<td>
+						General Education{" "}
+						<button
+							className="zotpickButton"
+							onClick={() => props.handleTabSelect("zotpick")}
+						>
+							Enroll with ZotPick
+						</button>
+					</td>
 				</tr>
 			</tbody>
 		</Table>
@@ -4318,7 +4364,7 @@ function CompSciPOS() {
 	);
 }
 
-function CompSciSample() {
+function CompSciSample(props) {
 	return (
 		<Table responsive borderless width="100%">
 			<tbody>
@@ -4336,7 +4382,15 @@ function CompSciSample() {
 					<td>Computer Science Spec./Elective</td>
 				</tr>
 				<tr className="even">
-					<td>General Education</td>
+					<td>
+						General Education{" "}
+						<button
+							className="zotpickButton"
+							onClick={() => props.handleTabSelect("zotpick")}
+						>
+							Enroll with ZotPick
+						</button>
+					</td>
 				</tr>
 			</tbody>
 		</Table>
@@ -4619,7 +4673,7 @@ function MathPOS() {
 	);
 }
 
-function MathSample() {
+function MathSample(props) {
 	return (
 		<Table responsive borderless width="100%">
 			<tbody>
@@ -4629,13 +4683,37 @@ function MathSample() {
 					</td>
 				</tr>
 				<tr className="even">
-					<td>General Education/Elective</td>
+					<td>
+						General Education/Elective
+						<button
+							className="zotpickButton"
+							onClick={() => props.handleTabSelect("zotpick")}
+						>
+							Enroll with ZotPick
+						</button>
+					</td>
 				</tr>
 				<tr className="odd">
-					<td>General Education/Elective</td>
+					<td>
+						General Education/Elective
+						<button
+							className="zotpickButton"
+							onClick={() => props.handleTabSelect("zotpick")}
+						>
+							Enroll with ZotPick
+						</button>
+					</td>
 				</tr>
 				<tr className="even">
-					<td>General Education/Elective</td>
+					<td>
+						General Education/Elective
+						<button
+							className="zotpickButton"
+							onClick={() => props.handleTabSelect("zotpick")}
+						>
+							Enroll with ZotPick
+						</button>
+					</td>
 				</tr>
 			</tbody>
 		</Table>
@@ -4759,7 +4837,7 @@ function SociologyPOS() {
 	);
 }
 
-function SociologySample() {
+function SociologySample(props) {
 	return (
 		<Table responsive borderless className="sc_courselist">
 			<tbody>
@@ -4767,7 +4845,15 @@ function SociologySample() {
 					<td>No Sample Classes Available</td>
 				</tr>
 				<tr className="even">
-					<td>General Education</td>
+					<td>
+						General Education
+						<button
+							className="zotpickButton"
+							onClick={() => props.handleTabSelect("zotpick")}
+						>
+							Enroll with ZotPick
+						</button>
+					</td>
 				</tr>
 			</tbody>
 		</Table>
@@ -5031,7 +5117,7 @@ function EnglishPOS() {
 	);
 }
 
-function EnglishSample() {
+function EnglishSample(props) {
 	return (
 		<Table responsive borderless className="sc_courselist">
 			<tbody>
@@ -5039,7 +5125,15 @@ function EnglishSample() {
 					<td>No Sample Classes Available</td>
 				</tr>
 				<tr className="even">
-					<td>General Education</td>
+					<td>
+						General Education
+						<button
+							className="zotpickButton"
+							onClick={() => props.handleTabSelect("zotpick")}
+						>
+							Enroll with ZotPick
+						</button>
+					</td>
 				</tr>
 			</tbody>
 		</Table>
@@ -5649,7 +5743,7 @@ function CSEPOS() {
 	);
 }
 
-function CSESample() {
+function CSESample(props) {
 	return (
 		<Table responsive borderless width="100%">
 			<tbody>
@@ -5674,7 +5768,15 @@ function CSESample() {
 					</td>
 				</tr>
 				<tr className="odd">
-					<td>General Education</td>
+					<td>
+						General Education{" "}
+						<button
+							className="zotpickButton"
+							onClick={() => props.handleTabSelect("zotpick")}
+						>
+							Enroll with ZotPick
+						</button>
+					</td>
 				</tr>
 			</tbody>
 		</Table>
