@@ -1,4 +1,4 @@
-/*! For license information please see main.5756d6b6.js.LICENSE.txt */
+/*! For license information please see main.85bd3dd9.js.LICENSE.txt */
 !(function () {
 	var e = {
 			761: function (e, t, n) {
@@ -52477,7 +52477,26 @@
 										className: "text-center mb-5",
 										children: "Demonstration Video",
 									}),
-									(0, H.jsx)("iframe", { className: "videoFrame" }),
+									(0, H.jsxs)("div", {
+										className: "text-center",
+										children: [
+											(0, H.jsx)("iframe", {
+												style: {
+													textAlign: "center",
+													width: "60vw",
+													height: "40vh",
+												},
+												allowFullScreen: !0,
+												className: "videoFrame",
+												src: "https://www.youtube.com/embed/I4xXb1eVN2E",
+											}),
+											(0, H.jsx)("a", {
+												style: { display: "block" },
+												href: "https://youtu.be/I4xXb1eVN2E",
+												children: "https://youtu.be/I4xXb1eVN2E",
+											}),
+										],
+									}),
 								],
 							}),
 							(0, H.jsx)("div", {
@@ -52756,4 +52775,4 @@
 			);
 		})();
 })();
-//# sourceMappingURL=main.5756d6b6.js.map
+//# sourceMappingURL=main.85bd3dd9.js.map

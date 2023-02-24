@@ -166,7 +166,17 @@ function WelcomePage(props) {
 			</div>
 			<Container className="videoContainer p-5">
 				<h2 className="text-center mb-5">Demonstration Video</h2>
-				<iframe className="videoFrame" />
+				<div className="text-center">
+					<iframe
+						style={{ textAlign: "center", width: "60vw", height: "40vh" }}
+						allowFullScreen={true}
+						className="videoFrame"
+						src="https://www.youtube.com/embed/I4xXb1eVN2E"
+					/>
+					<a style={{ display: "block" }} href="https://youtu.be/I4xXb1eVN2E">
+						https://youtu.be/I4xXb1eVN2E
+					</a>
+				</div>
 			</Container>
 			<div style={{ backgroundColor: "#eee" }}>
 				<Container className="key-features p-5">
