@@ -4,12 +4,23 @@
 	.keep-working {
 		background-color: $footer-blue;
 		color: $white;
-		border: 1px solid $footer-blue;
+		font-weight: 600;
+		border: 2px solid $footer-blue;
 	}
+	.keep-working:hover {
+		background-color: white;
+		color: $footer-blue;
+	}
+
 	.log-out {
 		background-color: $white;
-		color: $gray;
-		border: 1px solid $gray;
+		color: rgb(92, 92, 92);
+		font-weight: 600;
+		border: 2px solid rgb(146, 146, 146);
+	}
+	.log-out:hover {
+		background-color: rgb(146, 146, 146);
+		color: white;
 	}
 
 	.popup-header {

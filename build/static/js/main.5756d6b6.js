@@ -1,4 +1,4 @@
-/*! For license information please see main.0f12b99b.js.LICENSE.txt */
+/*! For license information please see main.5756d6b6.js.LICENSE.txt */
 !(function () {
 	var e = {
 			761: function (e, t, n) {
@@ -29856,7 +29856,8 @@
 								className: "even",
 								children: (0, H.jsxs)("td", {
 									children: [
-										"General Education ",
+										"General Education",
+										" ",
 										(0, H.jsx)("button", {
 											className: "zotpickButton",
 											onClick: function () {
@@ -31354,7 +31355,8 @@
 								className: "even",
 								children: (0, H.jsxs)("td", {
 									children: [
-										"General Education ",
+										"General Education",
+										" ",
 										(0, H.jsx)("button", {
 											className: "zotpickButton",
 											onClick: function () {
@@ -32629,7 +32631,8 @@
 								children: (0, H.jsx)("td", {
 									children: (0, H.jsxs)("p", {
 										children: [
-											"General Education ",
+											"General Education",
+											" ",
 											(0, H.jsx)("button", {
 												className: "zotpickButton",
 												onClick: function () {
@@ -33832,7 +33835,8 @@
 								className: "odd",
 								children: (0, H.jsxs)("td", {
 									children: [
-										"General Education ",
+										"General Education",
+										" ",
 										(0, H.jsx)("button", {
 											className: "zotpickButton",
 											onClick: function () {
@@ -33847,7 +33851,8 @@
 								className: "even",
 								children: (0, H.jsxs)("td", {
 									children: [
-										"General Education ",
+										"General Education",
+										" ",
 										(0, H.jsx)("button", {
 											className: "zotpickButton",
 											onClick: function () {
@@ -37225,7 +37230,8 @@
 								className: "even",
 								children: (0, H.jsxs)("td", {
 									children: [
-										"General Education ",
+										"General Education",
+										" ",
 										(0, H.jsx)("button", {
 											className: "zotpickButton",
 											onClick: function () {
@@ -39998,7 +40004,8 @@
 								className: "odd",
 								children: (0, H.jsxs)("td", {
 									children: [
-										"General Education ",
+										"General Education",
+										" ",
 										(0, H.jsx)("button", {
 											className: "zotpickButton",
 											onClick: function () {
@@ -51034,183 +51041,14 @@
 			}),
 				(Gb.displayName = "Navbar");
 			var Ub = Object.assign(Gb, {
-				Brand: Lx,
-				Collapse: Fx,
-				Offcanvas: zb,
-				Text: Wb,
-				Toggle: Yx,
-			});
-			var Vb = n.p + "static/media/uci.4844bd30e7f8b5c81f367c53009969de.svg";
-			var Kb = function () {
-					return (0, H.jsx)(H.Fragment, {
-						children:
-							"/welcome" === window.location.pathname
-								? ""
-								: (0, H.jsx)(Ub, {
-										id: "navbar",
-										variant: "dark",
-										expand: "xl",
-										children: (0, H.jsxs)(ko, {
-											fluid: !0,
-											children: [
-												(0, H.jsx)(Ub.Brand, {
-													href: "/home",
-													children: (0, H.jsxs)(qi, {
-														className: "align-items-center",
-														children: [
-															(0, H.jsx)(pr, {
-																children: (0, H.jsx)("img", {
-																	src: Vb,
-																	alt: "UCI logo",
-																}),
-															}),
-															(0, H.jsx)(pr, {
-																children: (0, H.jsxs)(Ub.Text, {
-																	children: [
-																		"University of California, Irvine ",
-																		(0, H.jsx)("br", {}),
-																		" WebReg",
-																	],
-																}),
-															}),
-														],
-													}),
-												}),
-												(0, H.jsx)(Ub.Toggle, {
-													"aria-controls": "basic-navbar-nav",
-												}),
-												(0, H.jsx)(Ub.Collapse, {
-													id: "basic-navbar-nav",
-													children: (0, H.jsxs)(yn, {
-														className: "ms-auto",
-														children: [
-															(0, H.jsx)("div", {
-																className: "",
-																children: (0, H.jsx)(yn.Link, {
-																	href: "/home",
-																	className: "navLink",
-																	children: "Home",
-																}),
-															}),
-															(0, H.jsx)("div", {
-																children: (0, H.jsx)(yn.Link, {
-																	href: "/enrollment",
-																	className: "navLink",
-																	children: "My Enrollment",
-																}),
-															}),
-															(0, H.jsx)("div", {
-																children: (0, H.jsx)(yn.Link, {
-																	href: "/schedule",
-																	className: "navLink",
-																	children: "My Schedule",
-																}),
-															}),
-															(0, H.jsx)("div", {
-																children: (0, H.jsx)(yn.Link, {
-																	href: "/calendar",
-																	className: "navLink",
-																	children: "My Calendar",
-																}),
-															}),
-															(0, H.jsx)("div", {
-																children: (0, H.jsx)(yn.Link, {
-																	href: "/welcome",
-																	className: "navLink logoutLink",
-																	children: "Logout",
-																}),
-															}),
-														],
-													}),
-												}),
-											],
-										}),
-								  }),
-					});
-				},
-				Zb = ["bsPrefix", "className", "variant", "as"],
-				$b = e.forwardRef(function (e, t) {
-					var n = e.bsPrefix,
-						r = e.className,
-						s = e.variant,
-						a = e.as,
-						i = void 0 === a ? "img" : a,
-						o = b(e, Zb),
-						l = Y(n, "card-img");
-					return (0,
-					H.jsx)(i, y({ ref: t, className: N()(s ? "".concat(l, "-").concat(s) : l, r) }, o));
-				});
-			$b.displayName = "CardImg";
-			var qb = $b,
-				Xb = ["bsPrefix", "className", "as"],
-				Qb = e.forwardRef(function (t, n) {
-					var r = t.bsPrefix,
-						s = t.className,
-						a = t.as,
-						i = void 0 === a ? "div" : a,
-						o = b(t, Xb),
-						l = Y(r, "card-header"),
-						c = (0, e.useMemo)(
-							function () {
-								return { cardHeaderBsPrefix: l };
-							},
-							[l]
-						);
-					return (0,
-					H.jsx)(Xt.Provider, { value: c, children: (0, H.jsx)(i, y(y({ ref: n }, o), {}, { className: N()(s, l) })) });
-				});
-			Qb.displayName = "CardHeader";
-			var Jb = Qb,
-				ej = [
-					"bsPrefix",
-					"className",
-					"bg",
-					"text",
-					"border",
-					"body",
-					"children",
-					"as",
-				],
-				tj = Cb("h5"),
-				nj = Cb("h6"),
-				rj = tn("card-body"),
-				sj = tn("card-title", { Component: tj }),
-				aj = tn("card-subtitle", { Component: nj }),
-				ij = tn("card-link", { Component: "a" }),
-				oj = tn("card-text", { Component: "p" }),
-				lj = tn("card-footer"),
-				cj = tn("card-img-overlay"),
-				uj = e.forwardRef(function (e, t) {
-					var n = e.bsPrefix,
-						r = e.className,
-						s = e.bg,
-						a = e.text,
-						i = e.border,
-						o = e.body,
-						l = e.children,
-						c = e.as,
-						u = void 0 === c ? "div" : c,
-						d = b(e, ej),
-						f = Y(n, "card");
-					return (0,
-					H.jsx)(u, y(y({ ref: t }, d), {}, { className: N()(r, f, s && "bg-".concat(s), a && "text-".concat(a), i && "border-".concat(i)), children: o ? (0, H.jsx)(rj, { children: l }) : l }));
-				});
-			(uj.displayName = "Card"), (uj.defaultProps = { body: !1 });
-			var dj = Object.assign(uj, {
-				Img: qb,
-				Title: sj,
-				Subtitle: aj,
-				Body: rj,
-				Link: ij,
-				Text: oj,
-				Header: Jb,
-				Footer: lj,
-				ImgOverlay: cj,
-			});
-			var fj = n.p + "static/media/book.fe52cfa51582f14ac10cce38fdd57d10.svg";
-			var hj = n.p + "static/media/bill.b05e7c4a2b2044c0561dba74410af30c.svg",
-				mj = tn("modal-body"),
-				pj = [
+					Brand: Lx,
+					Collapse: Fx,
+					Offcanvas: zb,
+					Text: Wb,
+					Toggle: Yx,
+				}),
+				Vb = tn("modal-body"),
+				Kb = [
 					"bsPrefix",
 					"className",
 					"contentClassName",
@@ -51220,7 +51058,7 @@
 					"children",
 					"scrollable",
 				],
-				vj = e.forwardRef(function (e, t) {
+				Zb = e.forwardRef(function (e, t) {
 					var n = e.bsPrefix,
 						r = e.className,
 						s = e.contentClassName,
@@ -51229,7 +51067,7 @@
 						o = e.fullscreen,
 						l = e.children,
 						c = e.scrollable,
-						u = b(e, pj);
+						u = b(e, Kb);
 					n = Y(n, "modal");
 					var d = "".concat(n, "-dialog"),
 						f =
@@ -51239,24 +51077,24 @@
 					return (0,
 					H.jsx)("div", y(y({}, u), {}, { ref: t, className: N()(d, r, i && "".concat(n, "-").concat(i), a && "".concat(d, "-centered"), c && "".concat(d, "-scrollable"), o && f), children: (0, H.jsx)("div", { className: N()("".concat(n, "-content"), s), children: l }) }));
 				});
-			vj.displayName = "ModalDialog";
-			var gj = vj,
-				yj = tn("modal-footer"),
-				xj = ["bsPrefix", "className"],
-				bj = e.forwardRef(function (e, t) {
+			Zb.displayName = "ModalDialog";
+			var $b = Zb,
+				qb = tn("modal-footer"),
+				Xb = ["bsPrefix", "className"],
+				Qb = e.forwardRef(function (e, t) {
 					var n = e.bsPrefix,
 						r = e.className,
-						s = b(e, xj);
+						s = b(e, Xb);
 					return (
 						(n = Y(n, "modal-header")),
 						(0, H.jsx)(jb, y(y({ ref: t }, s), {}, { className: N()(r, n) }))
 					);
 				});
-			(bj.displayName = "ModalHeader"),
-				(bj.defaultProps = { closeLabel: "Close", closeButton: !1 });
-			var jj = bj,
-				Nj = tn("modal-title", { Component: Cb("h4") }),
-				wj = [
+			(Qb.displayName = "ModalHeader"),
+				(Qb.defaultProps = { closeLabel: "Close", closeButton: !1 });
+			var Jb = Qb,
+				ej = tn("modal-title", { Component: Cb("h4") }),
+				tj = [
 					"bsPrefix",
 					"className",
 					"style",
@@ -51288,7 +51126,7 @@
 					"backdropClassName",
 					"manager",
 				],
-				Sj = {
+				nj = {
 					show: !1,
 					backdrop: !0,
 					keyboard: !0,
@@ -51296,15 +51134,15 @@
 					enforceFocus: !0,
 					restoreFocus: !0,
 					animation: !0,
-					dialogAs: gj,
+					dialogAs: $b,
 				};
-			function Cj(e) {
+			function rj(e) {
 				return (0, H.jsx)(wn, y(y({}, e), {}, { timeout: null }));
 			}
-			function _j(e) {
+			function sj(e) {
 				return (0, H.jsx)(wn, y(y({}, e), {}, { timeout: null }));
 			}
-			var Ej = e.forwardRef(function (t, n) {
+			var aj = e.forwardRef(function (t, n) {
 				var r = t.bsPrefix,
 					s = t.className,
 					a = t.style,
@@ -51335,7 +51173,7 @@
 					D = t.onExited,
 					A = t.backdropClassName,
 					L = t.manager,
-					R = b(t, wj),
+					R = b(t, tj),
 					F = m((0, e.useState)({}), 2),
 					B = F[0],
 					W = F[1],
@@ -51450,8 +51288,8 @@
 								me(window, "resize", ie);
 						},
 						manager: se(),
-						transition: p ? Cj : void 0,
-						backdropTransition: p ? _j : void 0,
+						transition: p ? rj : void 0,
+						backdropTransition: p ? sj : void 0,
 						renderBackdrop: fe,
 						renderDialog: function (e) {
 							return (0, H.jsx)(
@@ -51492,21 +51330,273 @@
 					}),
 				});
 			});
-			(Ej.displayName = "Modal"), (Ej.defaultProps = Sj);
-			var kj = Object.assign(Ej, {
-				Body: mj,
-				Header: jj,
-				Title: Nj,
-				Footer: yj,
-				Dialog: gj,
+			(aj.displayName = "Modal"), (aj.defaultProps = nj);
+			var ij = Object.assign(aj, {
+				Body: Vb,
+				Header: Jb,
+				Title: ej,
+				Footer: qb,
+				Dialog: $b,
 				TRANSITION_DURATION: 300,
 				BACKDROP_TRANSITION_DURATION: 150,
 			});
-			var Oj =
+			var oj =
+				n.p + "static/media/caution.02aa902ee9238ae2fed901fac7a7c9b2.svg";
+			var lj = function (t) {
+				var n = m((0, e.useState)(!1), 2),
+					r = n[0],
+					s = n[1],
+					a = function () {
+						return s(!1);
+					};
+				return (0, H.jsxs)(H.Fragment, {
+					children: [
+						(0, H.jsx)("div", {
+							onClick: function () {
+								return s(!0);
+							},
+							children: t.component,
+						}),
+						(0, H.jsxs)(ij, {
+							className: "popup",
+							show: r,
+							onHide: a,
+							backdrop: "static",
+							keyboard: !1,
+							centered: !0,
+							children: [
+								(0, H.jsx)(ij.Header, {
+									className: "popup-header",
+									children: (0, H.jsx)(ij.Title, {
+										className: "mx-auto",
+										children: "Logout?",
+									}),
+								}),
+								(0, H.jsx)(ij.Body, {
+									className: "px-3",
+									id: "popup-body",
+									children: (0, H.jsx)(ko, {
+										children: (0, H.jsxs)(qi, {
+											children: [
+												(0, H.jsx)(pr, {
+													md: "auto",
+													children: (0, H.jsx)("img", { src: oj, width: "70" }),
+												}),
+												(0, H.jsx)(pr, {
+													children: (0, H.jsxs)("div", {
+														children: [
+															(0, H.jsx)("p", {
+																children: "Logging out will log you out!",
+															}),
+															(0, H.jsx)("small", {
+																children: "Are you sure you want to log out?",
+															}),
+														],
+													}),
+												}),
+											],
+										}),
+									}),
+								}),
+								(0, H.jsxs)(ij.Footer, {
+									className: "popup-footer",
+									children: [
+										(0, H.jsx)(Co, {
+											className: "keep-working",
+											onClick: a,
+											children: "Keep Working",
+										}),
+										(0, H.jsx)(Co, {
+											className: "log-out",
+											onClick: t.action,
+											children: "Log Out",
+										}),
+									],
+								}),
+							],
+						}),
+					],
+				});
+			};
+			var cj = n.p + "static/media/uci.4844bd30e7f8b5c81f367c53009969de.svg";
+			var uj = function () {
+					var e = (0, H.jsx)(yn.Link, {
+						className: "navLink logoutLink",
+						children: "Logout",
+					});
+					return (0, H.jsx)(H.Fragment, {
+						children:
+							"/welcome" === window.location.pathname
+								? ""
+								: (0, H.jsx)(Ub, {
+										id: "navbar",
+										variant: "dark",
+										expand: "xl",
+										children: (0, H.jsxs)(ko, {
+											fluid: !0,
+											children: [
+												(0, H.jsx)(Ub.Brand, {
+													href: "/home",
+													children: (0, H.jsxs)(qi, {
+														className: "align-items-center",
+														children: [
+															(0, H.jsx)(pr, {
+																children: (0, H.jsx)("img", {
+																	src: cj,
+																	alt: "UCI logo",
+																}),
+															}),
+															(0, H.jsx)(pr, {
+																children: (0, H.jsxs)(Ub.Text, {
+																	children: [
+																		"University of California, Irvine ",
+																		(0, H.jsx)("br", {}),
+																		" WebReg",
+																	],
+																}),
+															}),
+														],
+													}),
+												}),
+												(0, H.jsx)(Ub.Toggle, {
+													"aria-controls": "basic-navbar-nav",
+												}),
+												(0, H.jsx)(Ub.Collapse, {
+													id: "basic-navbar-nav",
+													children: (0, H.jsxs)(yn, {
+														className: "ms-auto",
+														children: [
+															(0, H.jsx)("div", {
+																className: "",
+																children: (0, H.jsx)(yn.Link, {
+																	href: "/home",
+																	className: "navLink",
+																	children: "Home",
+																}),
+															}),
+															(0, H.jsx)("div", {
+																children: (0, H.jsx)(yn.Link, {
+																	href: "/enrollment",
+																	className: "navLink",
+																	children: "My Enrollment",
+																}),
+															}),
+															(0, H.jsx)("div", {
+																children: (0, H.jsx)(yn.Link, {
+																	href: "/schedule",
+																	className: "navLink",
+																	children: "My Schedule",
+																}),
+															}),
+															(0, H.jsx)("div", {
+																children: (0, H.jsx)(yn.Link, {
+																	href: "/calendar",
+																	className: "navLink",
+																	children: "My Calendar",
+																}),
+															}),
+															(0, H.jsx)("div", {
+																children: (0, H.jsx)(lj, {
+																	component: e,
+																	action: function () {
+																		window.location.pathname = "/";
+																	},
+																}),
+															}),
+														],
+													}),
+												}),
+											],
+										}),
+								  }),
+					});
+				},
+				dj = ["bsPrefix", "className", "variant", "as"],
+				fj = e.forwardRef(function (e, t) {
+					var n = e.bsPrefix,
+						r = e.className,
+						s = e.variant,
+						a = e.as,
+						i = void 0 === a ? "img" : a,
+						o = b(e, dj),
+						l = Y(n, "card-img");
+					return (0,
+					H.jsx)(i, y({ ref: t, className: N()(s ? "".concat(l, "-").concat(s) : l, r) }, o));
+				});
+			fj.displayName = "CardImg";
+			var hj = fj,
+				mj = ["bsPrefix", "className", "as"],
+				pj = e.forwardRef(function (t, n) {
+					var r = t.bsPrefix,
+						s = t.className,
+						a = t.as,
+						i = void 0 === a ? "div" : a,
+						o = b(t, mj),
+						l = Y(r, "card-header"),
+						c = (0, e.useMemo)(
+							function () {
+								return { cardHeaderBsPrefix: l };
+							},
+							[l]
+						);
+					return (0,
+					H.jsx)(Xt.Provider, { value: c, children: (0, H.jsx)(i, y(y({ ref: n }, o), {}, { className: N()(s, l) })) });
+				});
+			pj.displayName = "CardHeader";
+			var vj = pj,
+				gj = [
+					"bsPrefix",
+					"className",
+					"bg",
+					"text",
+					"border",
+					"body",
+					"children",
+					"as",
+				],
+				yj = Cb("h5"),
+				xj = Cb("h6"),
+				bj = tn("card-body"),
+				jj = tn("card-title", { Component: yj }),
+				Nj = tn("card-subtitle", { Component: xj }),
+				wj = tn("card-link", { Component: "a" }),
+				Sj = tn("card-text", { Component: "p" }),
+				Cj = tn("card-footer"),
+				_j = tn("card-img-overlay"),
+				Ej = e.forwardRef(function (e, t) {
+					var n = e.bsPrefix,
+						r = e.className,
+						s = e.bg,
+						a = e.text,
+						i = e.border,
+						o = e.body,
+						l = e.children,
+						c = e.as,
+						u = void 0 === c ? "div" : c,
+						d = b(e, gj),
+						f = Y(n, "card");
+					return (0,
+					H.jsx)(u, y(y({ ref: t }, d), {}, { className: N()(r, f, s && "bg-".concat(s), a && "text-".concat(a), i && "border-".concat(i)), children: o ? (0, H.jsx)(bj, { children: l }) : l }));
+				});
+			(Ej.displayName = "Card"), (Ej.defaultProps = { body: !1 });
+			var kj = Object.assign(Ej, {
+				Img: hj,
+				Title: jj,
+				Subtitle: Nj,
+				Body: bj,
+				Link: wj,
+				Text: Sj,
+				Header: vj,
+				Footer: Cj,
+				ImgOverlay: _j,
+			});
+			var Oj = n.p + "static/media/book.fe52cfa51582f14ac10cce38fdd57d10.svg";
+			var Mj = n.p + "static/media/bill.b05e7c4a2b2044c0561dba74410af30c.svg";
+			var Pj =
 					n.p +
 					"static/media/messagequestion.0f0128e1020d8f04c123b4334de7fa5e.svg",
-				Mj = n.p + "static/media/anteater.a1944323f6e0a985901c.png";
-			var Pj = function () {
+				Ij = n.p + "static/media/anteater.a1944323f6e0a985901c.png";
+			var Tj = function () {
 				var t = m((0, e.useState)(!1), 2),
 					n = t[0],
 					r = t[1],
@@ -51515,14 +51605,14 @@
 					};
 				return (0, H.jsxs)(H.Fragment, {
 					children: [
-						(0, H.jsxs)(dj, {
+						(0, H.jsxs)(kj, {
 							onClick: function () {
 								return r(!0);
 							},
 							className: "p-5",
 							children: [
 								(0, H.jsx)("img", {
-									src: Oj,
+									src: Pj,
 									alt: "Help icon",
 									width: "30",
 									className: "m-auto",
@@ -51533,14 +51623,14 @@
 								}),
 							],
 						}),
-						(0, H.jsx)(kj, {
+						(0, H.jsx)(ij, {
 							className: "help",
 							show: n,
 							onHide: s,
 							backdrop: "static",
 							keyboard: !1,
 							centered: !0,
-							children: (0, H.jsx)(kj.Body, {
+							children: (0, H.jsx)(ij.Body, {
 								className: "px-3",
 								id: "popup-body",
 								children: (0, H.jsxs)(ko, {
@@ -51554,14 +51644,14 @@
 										}),
 										(0, H.jsx)(qi, {
 											children: (0, H.jsx)(pr, {
-												children: (0, H.jsxs)(kj.Title, {
+												children: (0, H.jsxs)(ij.Title, {
 													className: "mx-auto",
 													children: [
 														(0, H.jsx)("h2", {
 															children: "I would like help with...",
 														}),
 														(0, H.jsx)("img", {
-															src: Mj,
+															src: Ij,
 															alt: "UCI Anteater",
 															width: "100",
 														}),
@@ -51789,11 +51879,9 @@
 					],
 				});
 			};
-			var Ij =
+			var Dj =
 				n.p + "static/media/dollarcircle.985347893fbb74ad0618ee9cc8c3cc37.svg";
-			var Tj =
-				n.p + "static/media/caution.02aa902ee9238ae2fed901fac7a7c9b2.svg";
-			var Dj = function () {
+			var Aj = function () {
 				var t = m((0, e.useState)(!1), 2),
 					n = t[0],
 					r = t[1],
@@ -51802,14 +51890,14 @@
 					};
 				return (0, H.jsxs)(H.Fragment, {
 					children: [
-						(0, H.jsxs)(dj, {
+						(0, H.jsxs)(kj, {
 							onClick: function () {
 								return r(!0);
 							},
 							className: "p-5",
 							children: [
 								(0, H.jsx)("img", {
-									src: Ij,
+									src: Dj,
 									alt: "Fee status icon",
 									width: "30",
 									className: "m-auto",
@@ -51820,7 +51908,7 @@
 								}),
 							],
 						}),
-						(0, H.jsxs)(kj, {
+						(0, H.jsxs)(ij, {
 							className: "help",
 							show: n,
 							onHide: s,
@@ -51828,10 +51916,10 @@
 							keyboard: !1,
 							centered: !0,
 							children: [
-								(0, H.jsx)(kj.Header, {
+								(0, H.jsx)(ij.Header, {
 									children: (0, H.jsx)(yb, { onClick: s }),
 								}),
-								(0, H.jsx)(kj.Body, {
+								(0, H.jsx)(ij.Body, {
 									className: "px-3",
 									id: "popup-body",
 									children: (0, H.jsxs)(ko, {
@@ -51842,13 +51930,13 @@
 													(0, H.jsx)(pr, {
 														md: "auto",
 														children: (0, H.jsx)("img", {
-															src: Tj,
+															src: oj,
 															width: "70",
 															alt: "Warning Sign",
 														}),
 													}),
 													(0, H.jsx)(pr, {
-														children: (0, H.jsx)(kj.Title, {
+														children: (0, H.jsx)(ij.Title, {
 															className: "mx-auto my-auto",
 															children: (0, H.jsx)("h2", {
 																children: "Your fees are: Not Paid",
@@ -51879,7 +51967,7 @@
 					],
 				});
 			};
-			var Aj = function () {
+			var Lj = function () {
 				return (0, H.jsxs)(ko, {
 					className: "landing",
 					children: [
@@ -51892,13 +51980,13 @@
 							children: (0, H.jsx)(pr, {
 								lg: 4,
 								className: "m-auto text-center",
-								children: (0, H.jsxs)(dj, {
+								children: (0, H.jsxs)(kj, {
 									children: [
 										(0, H.jsxs)("div", {
 											className: "d-inline-block w-100 p-3 header",
 											children: [
 												(0, H.jsx)("img", {
-													src: hj,
+													src: Mj,
 													alt: "Enrollment window icon",
 													width: "30",
 													className: "d-inline",
@@ -51930,11 +52018,11 @@
 									className: "my-2",
 									children: (0, H.jsx)(rc, {
 										to: "/enrollment",
-										children: (0, H.jsxs)(dj, {
+										children: (0, H.jsxs)(kj, {
 											className: "p-5",
 											children: [
 												(0, H.jsx)("img", {
-													src: fj,
+													src: Oj,
 													alt: "Enrollment book icon",
 													width: "30",
 													className: "m-auto",
@@ -51950,19 +52038,19 @@
 								(0, H.jsx)(pr, {
 									lg: 4,
 									className: "my-2",
-									children: (0, H.jsx)(Dj, {}),
+									children: (0, H.jsx)(Aj, {}),
 								}),
 								(0, H.jsx)(pr, {
 									lg: 4,
 									className: "my-2",
-									children: (0, H.jsx)(Pj, {}),
+									children: (0, H.jsx)(Tj, {}),
 								}),
 							],
 						}),
 					],
 				});
 			};
-			var Lj = function (t) {
+			var Rj = function (t) {
 				var n = [
 						{
 							title: "SOCIOL 1",
@@ -52161,7 +52249,7 @@
 					],
 				});
 			};
-			var Rj = function () {
+			var Hj = function () {
 					return (0, H.jsxs)(ko, {
 						style: {
 							height: "80vh",
@@ -52178,13 +52266,13 @@
 						],
 					});
 				},
-				Hj = n.p + "static/media/email-feature.2eadec1c5a2492c448b7.png",
-				Fj = n.p + "static/media/enrollment.f5b17f9ea2ed11af4f37.png",
-				Bj = n.p + "static/media/plan-of-study.7b714d7a320fc3538d6f.png",
-				zj = n.p + "static/media/saved-courses.048a2906f053398f2aeb.png",
-				Yj = n.p + "static/media/schedule.3eb94bc163d941dc9f66.png",
-				Wj = n.p + "static/media/zotpick.e7fb249732ae3f96d57e.png";
-			var Gj = function (t) {
+				Fj = n.p + "static/media/email-feature.2eadec1c5a2492c448b7.png",
+				Bj = n.p + "static/media/enrollment.f5b17f9ea2ed11af4f37.png",
+				zj = n.p + "static/media/plan-of-study.7b714d7a320fc3538d6f.png",
+				Yj = n.p + "static/media/saved-courses.048a2906f053398f2aeb.png",
+				Wj = n.p + "static/media/schedule.3eb94bc163d941dc9f66.png",
+				Gj = n.p + "static/media/zotpick.e7fb249732ae3f96d57e.png";
+			var Uj = function (t) {
 				localStorage.setItem(
 					"savedCourses",
 					JSON.stringify([
@@ -52407,23 +52495,23 @@
 												(0, H.jsx)(pr, {
 													lg: !0,
 													className: "mb-3",
-													children: (0, H.jsxs)(dj, {
+													children: (0, H.jsxs)(kj, {
 														children: [
 															(0, H.jsx)("div", {
 																className: "img-container",
-																children: (0, H.jsx)(dj.Img, {
+																children: (0, H.jsx)(kj.Img, {
 																	variant: "top",
-																	src: Fj,
+																	src: Bj,
 																}),
 															}),
-															(0, H.jsxs)(dj.Body, {
+															(0, H.jsxs)(kj.Body, {
 																children: [
-																	(0, H.jsx)(dj.Title, {
+																	(0, H.jsx)(kj.Title, {
 																		children: (0, H.jsx)("b", {
 																			children: "Search & Enroll",
 																		}),
 																	}),
-																	(0, H.jsx)(dj.Text, {
+																	(0, H.jsx)(kj.Text, {
 																		children:
 																			"Similar to the old version of WebReg, students are be able to conveniently enroll in their classes through this new system. Students can now search and filter for courses with the integrated Schedule of Classes.",
 																	}),
@@ -52435,23 +52523,23 @@
 												(0, H.jsx)(pr, {
 													lg: !0,
 													className: "mb-3",
-													children: (0, H.jsxs)(dj, {
+													children: (0, H.jsxs)(kj, {
 														children: [
 															(0, H.jsx)("div", {
 																className: "img-container",
-																children: (0, H.jsx)(dj.Img, {
+																children: (0, H.jsx)(kj.Img, {
 																	variant: "top",
-																	src: Bj,
+																	src: zj,
 																}),
 															}),
-															(0, H.jsxs)(dj.Body, {
+															(0, H.jsxs)(kj.Body, {
 																children: [
-																	(0, H.jsx)(dj.Title, {
+																	(0, H.jsx)(kj.Title, {
 																		children: (0, H.jsx)("b", {
 																			children: "Plan of Study",
 																		}),
 																	}),
-																	(0, H.jsx)(dj.Text, {
+																	(0, H.jsx)(kj.Text, {
 																		children:
 																			"The New WebReg displays the course requirements for your major. You can view the recommended courses based on your major's sample program.",
 																	}),
@@ -52463,23 +52551,23 @@
 												(0, H.jsx)(pr, {
 													lg: !0,
 													className: "mb-3",
-													children: (0, H.jsxs)(dj, {
+													children: (0, H.jsxs)(kj, {
 														children: [
 															(0, H.jsx)("div", {
 																className: "img-container",
-																children: (0, H.jsx)(dj.Img, {
+																children: (0, H.jsx)(kj.Img, {
 																	variant: "top",
-																	src: Wj,
+																	src: Gj,
 																}),
 															}),
-															(0, H.jsxs)(dj.Body, {
+															(0, H.jsxs)(kj.Body, {
 																children: [
-																	(0, H.jsx)(dj.Title, {
+																	(0, H.jsx)(kj.Title, {
 																		children: (0, H.jsx)("b", {
 																			children: "ZotPick",
 																		}),
 																	}),
-																	(0, H.jsx)(dj.Text, {
+																	(0, H.jsx)(kj.Text, {
 																		children:
 																			"Struggling to choose a class? Let ZotPick do the work for you! With a single click of a button, The New WebReg will generate a random GE offered at UCI.",
 																	}),
@@ -52496,23 +52584,23 @@
 												(0, H.jsx)(pr, {
 													lg: !0,
 													className: "mb-3",
-													children: (0, H.jsxs)(dj, {
+													children: (0, H.jsxs)(kj, {
 														children: [
 															(0, H.jsx)("div", {
 																className: "img-container",
-																children: (0, H.jsx)(dj.Img, {
+																children: (0, H.jsx)(kj.Img, {
 																	variant: "top",
-																	src: Hj,
+																	src: Fj,
 																}),
 															}),
-															(0, H.jsxs)(dj.Body, {
+															(0, H.jsxs)(kj.Body, {
 																children: [
-																	(0, H.jsx)(dj.Title, {
+																	(0, H.jsx)(kj.Title, {
 																		children: (0, H.jsx)("b", {
 																			children: "Helpful Emails",
 																		}),
 																	}),
-																	(0, H.jsx)(dj.Text, {
+																	(0, H.jsx)(kj.Text, {
 																		children:
 																			"The New WebReg sends automatic emails to users reminding them of various important dates and deadlines, including open enrollment.",
 																	}),
@@ -52524,23 +52612,23 @@
 												(0, H.jsx)(pr, {
 													lg: !0,
 													className: "mb-3",
-													children: (0, H.jsxs)(dj, {
+													children: (0, H.jsxs)(kj, {
 														children: [
 															(0, H.jsx)("div", {
 																className: "img-container",
-																children: (0, H.jsx)(dj.Img, {
+																children: (0, H.jsx)(kj.Img, {
 																	variant: "top",
-																	src: Yj,
+																	src: Wj,
 																}),
 															}),
-															(0, H.jsxs)(dj.Body, {
+															(0, H.jsxs)(kj.Body, {
 																children: [
-																	(0, H.jsx)(dj.Title, {
+																	(0, H.jsx)(kj.Title, {
 																		children: (0, H.jsx)("b", {
 																			children: "Interactive Schedule",
 																		}),
 																	}),
-																	(0, H.jsx)(dj.Text, {
+																	(0, H.jsx)(kj.Text, {
 																		children:
 																			"The New WebReg displays the classes you signed up in a concise, easy to read format that allows easy dropping and grading option changes.",
 																	}),
@@ -52552,23 +52640,23 @@
 												(0, H.jsx)(pr, {
 													lg: !0,
 													className: "mb-3",
-													children: (0, H.jsxs)(dj, {
+													children: (0, H.jsxs)(kj, {
 														children: [
 															(0, H.jsx)("div", {
 																className: "img-container",
-																children: (0, H.jsx)(dj.Img, {
+																children: (0, H.jsx)(kj.Img, {
 																	variant: "top",
-																	src: zj,
+																	src: Yj,
 																}),
 															}),
-															(0, H.jsxs)(dj.Body, {
+															(0, H.jsxs)(kj.Body, {
 																children: [
-																	(0, H.jsx)(dj.Title, {
+																	(0, H.jsx)(kj.Title, {
 																		children: (0, H.jsx)("b", {
 																			children: "Saved Courses",
 																		}),
 																	}),
-																	(0, H.jsx)(dj.Text, {
+																	(0, H.jsx)(kj.Text, {
 																		children:
 																			"Interested in a course, but unable to enroll until later? The New WebReg allows you to save specific lecture and discussion times so that you can enroll in them later with a click of a button!",
 																	}),
@@ -52586,7 +52674,7 @@
 					})
 				);
 			};
-			var Uj = function () {
+			var Vj = function () {
 				return (0, H.jsx)(H.Fragment, {
 					children: (0, H.jsx)(tc, {
 						children: (0, H.jsxs)($l, {
@@ -52603,8 +52691,8 @@
 													element: localStorage.getItem("major")
 														? (0, H.jsxs)(H.Fragment, {
 																children: [
-																	(0, H.jsx)(Kb, {}),
-																	(0, H.jsx)(Aj, {}),
+																	(0, H.jsx)(uj, {}),
+																	(0, H.jsx)(Lj, {}),
 																],
 														  })
 														: (0, H.jsx)(Vl, { to: "/welcome" }),
@@ -52613,7 +52701,7 @@
 													path: "/enrollment",
 													element: (0, H.jsxs)(H.Fragment, {
 														children: [
-															(0, H.jsx)(Kb, {}),
+															(0, H.jsx)(uj, {}),
 															(0, H.jsx)(fc, { isSchedulePage: !1 }),
 														],
 													}),
@@ -52622,7 +52710,7 @@
 													path: "/calendar",
 													element: (0, H.jsxs)(H.Fragment, {
 														children: [
-															(0, H.jsx)(Kb, {}),
+															(0, H.jsx)(uj, {}),
 															(0, H.jsx)(Tx, {}),
 															" ",
 														],
@@ -52631,28 +52719,28 @@
 												(0, H.jsx)(Kl, {
 													path: "/saved-courses",
 													element: (0, H.jsxs)(H.Fragment, {
-														children: [(0, H.jsx)(Kb, {}), (0, H.jsx)(Lj, {})],
+														children: [(0, H.jsx)(uj, {}), (0, H.jsx)(Rj, {})],
 													}),
 												}),
 												(0, H.jsx)(Kl, {
 													path: "/schedule",
 													element: (0, H.jsxs)(H.Fragment, {
 														children: [
-															(0, H.jsx)(Kb, {}),
+															(0, H.jsx)(uj, {}),
 															(0, H.jsx)(fc, { isSchedulePage: !0 }),
 														],
 													}),
 												}),
 												(0, H.jsx)(Kl, {
 													path: "*",
-													element: (0, H.jsx)(Rj, {}),
+													element: (0, H.jsx)(Hj, {}),
 												}),
 											],
 									  })
 									: null,
 								(0, H.jsx)(Kl, {
 									path: "/welcome",
-									element: (0, H.jsx)(Gj, {}),
+									element: (0, H.jsx)(Uj, {}),
 								}),
 								(0, H.jsx)(Kl, {
 									path: "*",
@@ -52664,8 +52752,8 @@
 				});
 			};
 			r.createRoot(document.getElementById("root")).render(
-				(0, H.jsx)(e.StrictMode, { children: (0, H.jsx)(Uj, {}) })
+				(0, H.jsx)(e.StrictMode, { children: (0, H.jsx)(Vj, {}) })
 			);
 		})();
 })();
-//# sourceMappingURL=main.0f12b99b.js.map
+//# sourceMappingURL=main.5756d6b6.js.map

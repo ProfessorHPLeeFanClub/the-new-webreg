@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 import caution from "../assets/caution.svg";
 import "./Popup.scss";
 
-function Popup() {
+function Popup(props) {
 	const [show, setShow] = useState(false);
 
 	const handleClose = () => setShow(false);
@@ -15,7 +15,7 @@ function Popup() {
 
 	return (
 		<>
-			<Button onClick={handleShow}>Test Popup</Button>
+			<div onClick={handleShow}>{props.component}</div>
 
 			<Modal
 				className="popup"
@@ -26,7 +26,7 @@ function Popup() {
 				centered
 			>
 				<Modal.Header className="popup-header">
-					<Modal.Title className="mx-auto">Popup title?</Modal.Title>
+					<Modal.Title className="mx-auto">Logout?</Modal.Title>
 				</Modal.Header>
 				<Modal.Body className="px-3" id="popup-body">
 					<Container>
@@ -36,8 +36,8 @@ function Popup() {
 							</Col>
 							<Col>
 								<div>
-									<p>Body text!</p>
-									<small>More body text!</small>
+									<p>Logging out will log you out!</p>
+									<small>Are you sure you want to log out?</small>
 								</div>
 							</Col>
 						</Row>
@@ -47,7 +47,9 @@ function Popup() {
 					<Button className="keep-working" onClick={handleClose}>
 						Keep Working
 					</Button>
-					<Button className="log-out">Log Out</Button>
+					<Button className="log-out" onClick={props.action}>
+						Log Out
+					</Button>
 				</Modal.Footer>
 			</Modal>
 		</>

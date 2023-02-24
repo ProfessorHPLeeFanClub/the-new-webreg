@@ -1,8 +1,15 @@
 import { Row, Col, Container, Nav, Navbar } from "react-bootstrap";
+import Popup from "../Popup";
 import uci from "../../assets/uci.svg";
 import "./Navigation.scss";
 
 function Navigation() {
+	const logoutFunction = () => {
+		window.location.pathname = "/";
+	};
+
+	var logoutLink = <Nav.Link className="navLink logoutLink">Logout</Nav.Link>;
+
 	return (
 		<>
 			{window.location.pathname === "/welcome" ? (
@@ -46,9 +53,7 @@ function Navigation() {
 									</Nav.Link>
 								</div>
 								<div>
-									<Nav.Link href="/welcome" className="navLink logoutLink">
-										Logout
-									</Nav.Link>
+									<Popup component={logoutLink} action={logoutFunction}></Popup>
 								</div>
 							</Nav>
 						</Navbar.Collapse>
