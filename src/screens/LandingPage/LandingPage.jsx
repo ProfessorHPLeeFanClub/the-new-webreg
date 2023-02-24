@@ -2,9 +2,9 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import book from "../../assets/book.svg";
 import feeStatus from "../../assets/dollarcircle.svg";
-import help from "../../assets/messagequestion.svg";
 import enrollment from "../../assets/bill.svg";
 import "./LandingPage.scss";
+import Help from "../../components/Help";
 
 function Landing() {
 	return (
@@ -57,12 +57,7 @@ function Landing() {
 					</Link>
 				</Col>
 				<Col lg={4} className="my-2">
-					<Link to="/help">
-						<Card className="p-5">
-							<img src={help} alt="Help icon" width="30" className="m-auto" />
-							<p className="mt-2 text-center">Help</p>
-						</Card>
-					</Link>
+					<Help />
 				</Col>
 			</Row>
 		</Container>

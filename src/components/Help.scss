@@ -1,0 +1,14 @@
+@import "/src/styles/_theme";
+
+.help .modal-content {
+	background-color: $help-blue;
+	color: $white;
+	text-align: center;
+
+	a,
+	a:hover,
+	a:visited {
+		color: $white;
+		text-decoration: none;
+	}
+}
