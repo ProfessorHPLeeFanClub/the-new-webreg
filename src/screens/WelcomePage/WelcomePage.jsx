@@ -39,6 +39,10 @@ function WelcomePage(props) {
 					>
 						<Col lg={6}>
 							<h1>The New WebReg</h1>
+							<p style={{ fontSize: "12px" }}>
+								Designed by Professor HP Lee Fan Club: <br /> Akshay Kshipra,
+								Antoine Nguyen, Gabriel Garcia, Sam Der, Wentao Chen
+							</p>
 							<p className="mx-0">Please enter your major below:</p>
 							<Form onSubmit={processMajor} action="/home">
 								<FloatingLabel controlId="major" label="Major" className="mb-3">

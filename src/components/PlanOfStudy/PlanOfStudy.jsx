@@ -33,8 +33,10 @@ function getMajorPOS(major) {
 			return <Majors.SociologyPOS />;
 		case "English":
 			return <Majors.EnglishPOS />;
+		case "CSE":
+			return <Majors.CSEPOS />;
 		default:
-			return <Majors.CompSciPOS />;
+			return <Majors.CSEPOS />;
 	}
 }
 
@@ -56,8 +58,10 @@ function getMajorSample(major) {
 			return <Majors.SociologySample />;
 		case "English":
 			return <Majors.EnglishSample />;
+		case "CSE":
+			return <Majors.CSESample />;
 		default:
-			return <Majors.CompSciSample />;
+			return <Majors.CSESample />;
 	}
 }
 

@@ -842,6 +842,9 @@ function BioSciSample() {
 						<p className="class">MATH 3A</p>
 					</td>
 				</tr>
+				<tr className="even">
+					<td>General Education</td>
+				</tr>
 			</tbody>
 		</Table>
 	);
@@ -1554,7 +1557,18 @@ function BusinessPOS() {
 }
 
 function BusinessSample() {
-	return;
+	return (
+		<Table responsive borderless className="sc_courselist">
+			<tbody>
+				<tr className="odd">
+					<td>No Sample Classes Available</td>
+				</tr>
+				<tr className="even">
+					<td>General Education</td>
+				</tr>
+			</tbody>
+		</Table>
+	);
 }
 
 function MechEngPOS() {
@@ -4321,6 +4335,9 @@ function CompSciSample() {
 				<tr className="odd">
 					<td>Computer Science Spec./Elective</td>
 				</tr>
+				<tr className="even">
+					<td>General Education</td>
+				</tr>
 			</tbody>
 		</Table>
 	);
@@ -4611,6 +4628,15 @@ function MathSample() {
 						<p className="class">MATH 3D</p>
 					</td>
 				</tr>
+				<tr className="even">
+					<td>General Education/Elective</td>
+				</tr>
+				<tr className="odd">
+					<td>General Education/Elective</td>
+				</tr>
+				<tr className="even">
+					<td>General Education/Elective</td>
+				</tr>
 			</tbody>
 		</Table>
 	);
@@ -4734,7 +4760,18 @@ function SociologyPOS() {
 }
 
 function SociologySample() {
-	return;
+	return (
+		<Table responsive borderless className="sc_courselist">
+			<tbody>
+				<tr className="odd">
+					<td>No Sample Classes Available</td>
+				</tr>
+				<tr className="even">
+					<td>General Education</td>
+				</tr>
+			</tbody>
+		</Table>
+	);
 }
 
 function EnglishPOS() {
@@ -4995,7 +5032,653 @@ function EnglishPOS() {
 }
 
 function EnglishSample() {
-	return;
+	return (
+		<Table responsive borderless className="sc_courselist">
+			<tbody>
+				<tr className="odd">
+					<td>No Sample Classes Available</td>
+				</tr>
+				<tr className="even">
+					<td>General Education</td>
+				</tr>
+			</tbody>
+		</Table>
+	);
+}
+
+function CSEPOS() {
+	return (
+		<Table responsive borderless className="sc_courselist">
+			{" "}
+			<tbody>
+				{" "}
+				<tr className="even areaheader firstrow">
+					{" "}
+					<td colspan="2">
+						{" "}
+						<span className="courselistcomment areaheader">
+							Mathematics and Basic Science Courses
+						</span>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td colspan="2">
+						{" "}
+						<span className="courselistcomment">
+							Mathematics Courses: Students must complete a minimum of 32 units
+							of mathematics including:
+						</span>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<div style={{ marginLeft: "20px" }}>
+							<p title="I&amp;C&nbsp;SCI&nbsp;6B" className="class">
+								I&amp;C&nbsp;SCI&nbsp;6B
+							</p>
+						</div>
+					</td>{" "}
+					<td>Boolean Logic and Discrete Structures </td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<div style={{ marginLeft: "20px" }}>
+							<p title="I&amp;C&nbsp;SCI&nbsp;6D" className="class">
+								I&amp;C&nbsp;SCI&nbsp;6D
+							</p>
+						</div>
+					</td>{" "}
+					<td>Discrete Mathematics for Computer Science </td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<div style={{ marginLeft: "20px" }}>
+							<p title="MATH&nbsp;2A" className="class">
+								MATH&nbsp;2A
+							</p>
+							-
+							<p title="MATH&nbsp;2B" className="class">
+								{" "}
+								2B
+							</p>
+						</div>
+					</td>{" "}
+					<td>
+						Single-Variable Calculus I<br />
+						<span style={{ marginLeft: "20px" }}>
+							and Single-Variable Calculus II
+						</span>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<div style={{ marginLeft: "20px" }}>
+							<p title="MATH&nbsp;2D" className="class">
+								MATH&nbsp;2D
+							</p>
+						</div>
+					</td>{" "}
+					<td>Multivariable Calculus I </td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<div style={{ marginLeft: "20px" }}>
+							<p title="MATH&nbsp;3A" className="class">
+								MATH&nbsp;3A
+							</p>
+						</div>
+					</td>{" "}
+					<td>Introduction to Linear Algebra </td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<div style={{ marginLeft: "20px" }}>
+							<p title="MATH&nbsp;3D" className="class">
+								MATH&nbsp;3D
+							</p>
+						</div>
+					</td>{" "}
+					<td>Elementary Differential Equations </td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<div style={{ marginLeft: "20px" }}>
+							<p title="STATS&nbsp;67" className="class">
+								STATS&nbsp;67
+							</p>
+						</div>
+					</td>{" "}
+					<td>
+						Introduction to Probability and Statistics for Computer Science{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td colspan="2">
+						{" "}
+						<span className="courselistcomment">
+							Basic Science Courses: Students must complete a minimum of 18
+							units of basic science courses including:
+						</span>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<div style={{ marginLeft: "20px" }}>
+							<p title="PHYSICS&nbsp;7C" className="class">
+								PHYSICS&nbsp;7C
+							</p>
+							-
+							<p title="PHYSICS&nbsp;7LC" className="class">
+								{" "}
+								7LC
+							</p>
+						</div>
+					</td>{" "}
+					<td>
+						Classical Physics
+						<br />
+						<span style={{ marginLeft: "20px" }}>
+							and Classical Physics Laboratory
+						</span>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<div style={{ marginLeft: "20px" }}>
+							<p title="PHYSICS&nbsp;7D" className="class">
+								PHYSICS&nbsp;7D
+							</p>
+							-
+							<p title="PHYSICS&nbsp;7LD" className="class">
+								{" "}
+								7LD
+							</p>
+						</div>
+					</td>{" "}
+					<td>
+						Classical Physics
+						<br />
+						<span style={{ marginLeft: "20px" }}>
+							and Classical Physics Laboratory
+						</span>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td colspan="2">
+						{" "}
+						<div style={{ marginLeft: "20px" }}>
+							<span className="courselistcomment commentindent">
+								Students select, with the approval of a faculty advisor, two
+								additional basic science courses needed to satisfy school and
+								department requirements from two courses in General Education
+								II, except those offered by Computer Science and Engineering,
+								Economics, Engineering, Information and Computer Sciences, or
+								Math.
+							</span>{" "}
+						</div>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd areaheader">
+					{" "}
+					<td colspan="2">
+						{" "}
+						<span className="courselistcomment areaheader">
+							Engineering and Computing Topics Courses
+						</span>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td colspan="2">
+						{" "}
+						<span className="courselistcomment">
+							Students must complete a minimum of 72 units of engineering
+							topics, 24 units of engineering design, and 63 units of computing
+							topics. All courses below qualify as engineering topics; those
+							marked with an asterisk (*) qualify as computing topics also. The
+							following courses must be completed:
+						</span>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td colspan="2">
+						{" "}
+						<span className="courselistcomment">
+							A. Select one of the following course groups:
+						</span>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<div style={{ marginLeft: "20px" }}>
+							<p title="I&amp;C&nbsp;SCI&nbsp;31" className="class">
+								I&amp;C&nbsp;SCI&nbsp;31
+							</p>
+							-
+							<p title="I&amp;C&nbsp;SCI&nbsp;32" className="class">
+								{" "}
+								32
+							</p>
+							-
+							<p title="I&amp;C&nbsp;SCI&nbsp;33" className="class">
+								{" "}
+								33
+							</p>
+						</div>
+					</td>{" "}
+					<td>
+						Introduction to Programming
+						<br />
+						<span style={{ marginLeft: "20px" }}>
+							and Programming with Software Libraries
+						</span>
+						<br />
+						<span style={{ marginLeft: "20px" }}>
+							and Intermediate Programming
+						</span>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td colspan="2">
+						{" "}
+						<div style={{ marginLeft: "20px" }}>
+							<span className="courselistcomment commentindent">or</span>{" "}
+						</div>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<div style={{ marginLeft: "20px" }}>
+							<p title="I&amp;C&nbsp;SCI&nbsp;32A" className="class">
+								I&amp;C&nbsp;SCI&nbsp;32A
+							</p>
+							-
+							<p title="I&amp;C&nbsp;SCI&nbsp;33" className="class">
+								{" "}
+								33
+							</p>
+						</div>
+					</td>{" "}
+					<td>
+						Python Programming and Libraries (Accelerated)
+						<br />
+						<span style={{ marginLeft: "20px" }}>
+							and Intermediate Programming
+						</span>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td colspan="2">
+						{" "}
+						<span className="courselistcomment">B. Complete:</span>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="COMPSCI 132/EECS&nbsp;148" className="class">
+							COMPSCI 132/EECS&nbsp;148
+						</p>
+					</td>{" "}
+					<td>
+						Computer Networks <sup>*</sup>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="COMPSCI&nbsp;143A" className="class">
+							COMPSCI&nbsp;143A
+						</p>
+					</td>{" "}
+					<td>
+						Principles of Operating Systems <sup>*</sup>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd orclass">
+					<td className="codecol orclass">
+						or&nbsp;
+						<p title="EECS&nbsp;111" className="class">
+							EECS&nbsp;111
+						</p>
+					</td>{" "}
+					<td colspan="1"> System Software</td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="EECS&nbsp;31" className="class">
+							EECS&nbsp;31
+						</p>
+					</td>{" "}
+					<td>
+						Introduction to Digital Systems <sup>*</sup>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="EECS&nbsp;31L" className="class">
+							EECS&nbsp;31L
+						</p>
+					</td>{" "}
+					<td>
+						Introduction to Digital Logic Laboratory <sup>*</sup>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="I&amp;C&nbsp;SCI&nbsp;45C" className="class">
+							I&amp;C&nbsp;SCI&nbsp;45C
+						</p>
+					</td>{" "}
+					<td>
+						Programming in C/C++ as a Second Language <sup>*</sup>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="I&amp;C&nbsp;SCI&nbsp;46" className="class">
+							I&amp;C&nbsp;SCI&nbsp;46
+						</p>
+					</td>{" "}
+					<td>
+						Data Structure Implementation and Analysis <sup>*</sup>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="EECS&nbsp;50" className="class">
+							EECS&nbsp;50
+						</p>
+					</td>{" "}
+					<td>Discrete-Time Signals and Systems </td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="EECS&nbsp;70A" className="class">
+							EECS&nbsp;70A
+						</p>
+					</td>{" "}
+					<td>Network Analysis I </td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="CSE&nbsp;90" className="class">
+							CSE&nbsp;90
+						</p>
+					</td>{" "}
+					<td>Systems Engineering and Technical Communications </td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="CSE&nbsp;112" className="class">
+							CSE&nbsp;112
+						</p>
+					</td>{" "}
+					<td>Electronic Devices and Circuits </td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="EECS&nbsp;112" className="class">
+							EECS&nbsp;112
+						</p>
+					</td>{" "}
+					<td>
+						Organization of Digital Computers <sup>*</sup>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="EECS&nbsp;112L" className="class">
+							EECS&nbsp;112L
+						</p>
+					</td>{" "}
+					<td>
+						Organization of Digital Computers Laboratory <sup>*</sup>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="COMPSCI&nbsp;141" className="class">
+							COMPSCI&nbsp;141
+						</p>
+					</td>{" "}
+					<td>
+						Concepts in Programming Languages I <sup>*</sup>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="COMPSCI&nbsp;142A" className="class">
+							COMPSCI&nbsp;142A
+						</p>
+					</td>{" "}
+					<td>
+						Compilers and Interpreters <sup>*</sup>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="COMPSCI&nbsp;145" className="class">
+							COMPSCI&nbsp;145
+						</p>
+					</td>{" "}
+					<td>Embedded Software </td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="COMPSCI&nbsp;161" className="class">
+							COMPSCI&nbsp;161
+						</p>
+					</td>{" "}
+					<td>
+						Design and Analysis of Algorithms <sup>*</sup>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="EECS&nbsp;159A" className="class">
+							EECS&nbsp;159A
+						</p>
+						-
+						<p title="EECS&nbsp;159B" className="class">
+							{" "}
+							159B
+						</p>
+					</td>{" "}
+					<td>
+						Senior Design Project I<br />
+						<span style={{ marginLeft: "20px" }}>
+							and Senior Design Project II
+						</span>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="ENGR&nbsp;190W" className="class">
+							ENGR&nbsp;190W
+						</p>
+					</td>{" "}
+					<td>Communications in the Professional World </td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td className="codecol">
+						{" "}
+						<p title="IN4MATX&nbsp;43" className="class">
+							IN4MATX&nbsp;43
+						</p>
+					</td>{" "}
+					<td>
+						Introduction to Software Engineering <sup>*</sup>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td colspan="2">
+						{" "}
+						<span className="courselistcomment">
+							Students select, with the approval of a faculty advisor, any
+							additional engineering and computer topics courses needed to
+							satisfy school and department requirements.
+						</span>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="even areaheader">
+					{" "}
+					<td colspan="2">
+						{" "}
+						<span className="courselistcomment areaheader">
+							Technical Elective Courses:
+						</span>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td colspan="2">
+						{" "}
+						<span className="courselistcomment">
+							Students must complete a minimum of two courses (with 3 or more
+							units each) of technical electives. A technical elective may be
+							any upper-division course from the Departments of Computer
+							Science, Electrical Engineering and Computer Science, or
+							Informatics, not otherwise used for the CSE degree, chosen from
+							the following ranges:
+						</span>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="even">
+					{" "}
+					<td colspan="2">
+						{" "}
+						<div style={{ marginLeft: "20px" }}>
+							<span className="courselistcomment commentindent">
+								Computer Science: 100–189, except{" "}
+								<p title="COMPSCI&nbsp;121" className="class">
+									COMPSCI&nbsp;121
+								</p>
+							</span>{" "}
+						</div>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="odd">
+					{" "}
+					<td colspan="2">
+						{" "}
+						<div style={{ marginLeft: "20px" }}>
+							<span className="courselistcomment commentindent">
+								Electrical Engineering and Computing Science: 100–189
+							</span>{" "}
+						</div>{" "}
+					</td>{" "}
+				</tr>{" "}
+				<tr className="even lastrow">
+					{" "}
+					<td colspan="2">
+						{" "}
+						<div style={{ marginLeft: "20px" }}>
+							<span className="courselistcomment commentindent">
+								Informatics: 100–139
+							</span>{" "}
+						</div>{" "}
+					</td>{" "}
+				</tr>{" "}
+			</tbody>{" "}
+		</Table>
+	);
+}
+
+function CSESample() {
+	return (
+		<Table responsive borderless width="100%">
+			<tbody>
+				<tr className="odd">
+					<td>
+						<p className="class">IN4MATX 43</p>
+					</td>
+				</tr>
+				<tr className="even">
+					<td>
+						<p className="class">CSE 112</p>
+					</td>
+				</tr>
+				<tr className="odd">
+					<td>
+						<p className="class">EECS 112</p>
+					</td>
+				</tr>
+				<tr className="even">
+					<td>
+						<p className="class">COMPSCI 161</p>
+					</td>
+				</tr>
+				<tr className="odd">
+					<td>General Education</td>
+				</tr>
+			</tbody>
+		</Table>
+	);
 }
 
 export {
@@ -5015,4 +5698,6 @@ export {
 	SociologySample,
 	EnglishPOS,
 	EnglishSample,
+	CSEPOS,
+	CSESample,
 };

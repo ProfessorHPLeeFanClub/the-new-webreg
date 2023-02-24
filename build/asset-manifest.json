@@ -1,7 +1,8 @@
 {
 	"files": {
-		"main.css": "/static/css/main.3139b4a9.css",
-		"main.js": "/static/js/main.ad2fd748.js",
+		"main.css": "/static/css/main.c167bb80.css",
+		"main.js": "/static/js/main.de23fe0f.js",
+		"static/media/caution.svg": "/static/media/caution.02aa902ee9238ae2fed901fac7a7c9b2.svg",
 		"static/media/plan-of-study.png": "/static/media/plan-of-study.7b714d7a320fc3538d6f.png",
 		"static/media/saved-courses.png": "/static/media/saved-courses.048a2906f053398f2aeb.png",
 		"static/media/schedule.png": "/static/media/schedule.3eb94bc163d941dc9f66.png",
@@ -15,8 +16,8 @@
 		"static/media/messagequestion.svg": "/static/media/messagequestion.0f0128e1020d8f04c123b4334de7fa5e.svg",
 		"static/media/bill.svg": "/static/media/bill.b05e7c4a2b2044c0561dba74410af30c.svg",
 		"index.html": "/index.html",
-		"main.3139b4a9.css.map": "/static/css/main.3139b4a9.css.map",
-		"main.ad2fd748.js.map": "/static/js/main.ad2fd748.js.map"
+		"main.c167bb80.css.map": "/static/css/main.c167bb80.css.map",
+		"main.de23fe0f.js.map": "/static/js/main.de23fe0f.js.map"
 	},
-	"entrypoints": ["static/css/main.3139b4a9.css", "static/js/main.ad2fd748.js"]
+	"entrypoints": ["static/css/main.c167bb80.css", "static/js/main.de23fe0f.js"]
 }

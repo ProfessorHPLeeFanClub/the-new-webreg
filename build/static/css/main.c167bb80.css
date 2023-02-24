@@ -10702,7 +10702,7 @@ fieldset:disabled .btn {
 	line-height: 14px;
 	text-align: center;
 }
-p {
+.socTableContainer p {
 	margin: 10px;
 }
 .className,
@@ -11081,6 +11081,7 @@ td {
 .class:hover {
 	color: #f78d2d;
 	cursor: pointer;
+	display: inline;
 	margin-bottom: 0;
 	text-decoration: underline;
 }
@@ -11964,4 +11965,10 @@ button.rbc-input::-moz-focus-inner {
 	justify-content: center;
 	min-height: 100vh;
 }
-/*# sourceMappingURL=main.cd888a0b.css.map*/
+.card-row .img-container {
+	min-height: 200px;
+}
+.card-row .card {
+	min-height: 400px;
+}
+/*# sourceMappingURL=main.c167bb80.css.map*/
