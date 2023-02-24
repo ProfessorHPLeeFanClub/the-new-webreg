@@ -4,3 +4,12 @@
 	min-height: 100vh;
 	flex-direction: column;
 }
+
+.card-row {
+	.img-container {
+		min-height: 200px;
+	}
+	.card {
+		min-height: 400px;
+	}
+}
