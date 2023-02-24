@@ -40,9 +40,6 @@ function ZotPick() {
 					<p>
 						{randomClass.ge_text ? "Satisfies GE " + randomClass.ge_text : ""}
 					</p>
-					<Button type="button" variant="success">
-						Go Enroll!
-					</Button>
 				</Container>
 			) : null}
 		</>
