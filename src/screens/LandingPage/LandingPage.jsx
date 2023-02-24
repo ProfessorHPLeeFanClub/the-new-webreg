@@ -1,10 +1,10 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import book from "../../assets/book.svg";
-import feeStatus from "../../assets/dollarcircle.svg";
 import enrollment from "../../assets/bill.svg";
 import "./LandingPage.scss";
 import Help from "../../components/Help";
+import FeeStatus from "../../components/FeeStatus";
 
 function Landing() {
 	return (
@@ -44,17 +44,7 @@ function Landing() {
 					</Link>
 				</Col>
 				<Col lg={4} className="my-2">
-					<Link to="/fee-status">
-						<Card className="p-5">
-							<img
-								src={feeStatus}
-								alt="Fee status icon"
-								width="30"
-								className="m-auto"
-							/>
-							<p className="mt-2 text-center">View Fee Status</p>
-						</Card>
-					</Link>
+					<FeeStatus />
 				</Col>
 				<Col lg={4} className="my-2">
 					<Help />
