@@ -1,4 +1,4 @@
-/*! For license information please see main.85bd3dd9.js.LICENSE.txt */
+/*! For license information please see main.4a3ada0b.js.LICENSE.txt */
 !(function () {
 	var e = {
 			761: function (e, t, n) {
@@ -52386,7 +52386,7 @@
 													(0, H.jsxs)("p", {
 														style: { fontSize: "12px" },
 														children: [
-															"Designed by Professor HP Lee Fan Club: ",
+															"Designed by the Professor HP Lee Fan Club: ",
 															(0, H.jsx)("br", {}),
 															" Akshay Kshipra, Antoine Nguyen, Gabriel Garcia, Sam Der, Wentao Chen",
 														],
@@ -52483,8 +52483,8 @@
 											(0, H.jsx)("iframe", {
 												style: {
 													textAlign: "center",
-													width: "60vw",
-													height: "40vh",
+													width: "50vw",
+													height: "60vh",
 												},
 												allowFullScreen: !0,
 												className: "videoFrame",
@@ -52524,6 +52524,7 @@
 																}),
 															}),
 															(0, H.jsxs)(kj.Body, {
+																classname: "card-body",
 																children: [
 																	(0, H.jsx)(kj.Title, {
 																		children: (0, H.jsx)("b", {
@@ -52552,6 +52553,7 @@
 																}),
 															}),
 															(0, H.jsxs)(kj.Body, {
+																classname: "card-body",
 																children: [
 																	(0, H.jsx)(kj.Title, {
 																		children: (0, H.jsx)("b", {
@@ -52580,6 +52582,7 @@
 																}),
 															}),
 															(0, H.jsxs)(kj.Body, {
+																classname: "card-body",
 																children: [
 																	(0, H.jsx)(kj.Title, {
 																		children: (0, H.jsx)("b", {
@@ -52613,6 +52616,7 @@
 																}),
 															}),
 															(0, H.jsxs)(kj.Body, {
+																classname: "card-body",
 																children: [
 																	(0, H.jsx)(kj.Title, {
 																		children: (0, H.jsx)("b", {
@@ -52641,6 +52645,7 @@
 																}),
 															}),
 															(0, H.jsxs)(kj.Body, {
+																classname: "card-body",
 																children: [
 																	(0, H.jsx)(kj.Title, {
 																		children: (0, H.jsx)("b", {
@@ -52669,6 +52674,7 @@
 																}),
 															}),
 															(0, H.jsxs)(kj.Body, {
+																classname: "card-body",
 																children: [
 																	(0, H.jsx)(kj.Title, {
 																		children: (0, H.jsx)("b", {
@@ -52775,4 +52781,4 @@
 			);
 		})();
 })();
-//# sourceMappingURL=main.85bd3dd9.js.map
+//# sourceMappingURL=main.4a3ada0b.js.map

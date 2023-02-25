@@ -12002,9 +12002,15 @@ button.rbc-input::-moz-focus-inner {
 	min-height: 100vh;
 }
 .card-row .img-container {
-	min-height: 200px;
+	border-bottom: 2px solid #f9f9f9;
+	max-height: 220px;
+	min-height: 220px;
 }
 .card-row .card {
-	min-height: 400px;
+	max-height: 410px;
+	min-height: 410px;
 }
-/*# sourceMappingURL=main.5cd62589.css.map*/
+.card-row .card-body {
+	background-color: #fff;
+}
+/*# sourceMappingURL=main.9eb1b1fa.css.map*/

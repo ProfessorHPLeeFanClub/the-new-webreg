@@ -123,8 +123,8 @@ function WelcomePage(props) {
 						<Col lg={6}>
 							<h1>The New WebReg</h1>
 							<p style={{ fontSize: "12px" }}>
-								Designed by Professor HP Lee Fan Club: <br /> Akshay Kshipra,
-								Antoine Nguyen, Gabriel Garcia, Sam Der, Wentao Chen
+								Designed by the Professor HP Lee Fan Club: <br /> Akshay
+								Kshipra, Antoine Nguyen, Gabriel Garcia, Sam Der, Wentao Chen
 							</p>
 							<p className="mx-0">Please enter your major below:</p>
 							<Form onSubmit={processMajor} action="/home">
@@ -168,7 +168,7 @@ function WelcomePage(props) {
 				<h2 className="text-center mb-5">Demonstration Video</h2>
 				<div className="text-center">
 					<iframe
-						style={{ textAlign: "center", width: "60vw", height: "40vh" }}
+						style={{ textAlign: "center", width: "50vw", height: "60vh" }}
 						allowFullScreen={true}
 						className="videoFrame"
 						src="https://www.youtube.com/embed/I4xXb1eVN2E"
@@ -187,7 +187,7 @@ function WelcomePage(props) {
 								<div className="img-container">
 									<Card.Img variant="top" src={enrollment} />
 								</div>
-								<Card.Body>
+								<Card.Body classname="card-body">
 									<Card.Title>
 										<b>Search & Enroll</b>
 									</Card.Title>
@@ -205,7 +205,7 @@ function WelcomePage(props) {
 								<div className="img-container">
 									<Card.Img variant="top" src={planOfStudy} />
 								</div>
-								<Card.Body>
+								<Card.Body classname="card-body">
 									<Card.Title>
 										<b>Plan of Study</b>
 									</Card.Title>
@@ -222,7 +222,7 @@ function WelcomePage(props) {
 								<div className="img-container">
 									<Card.Img variant="top" src={zotpick} />
 								</div>
-								<Card.Body>
+								<Card.Body classname="card-body">
 									<Card.Title>
 										<b>ZotPick</b>
 									</Card.Title>
@@ -241,7 +241,7 @@ function WelcomePage(props) {
 								<div className="img-container">
 									<Card.Img variant="top" src={emailFeature} />
 								</div>
-								<Card.Body>
+								<Card.Body classname="card-body">
 									<Card.Title>
 										<b>Helpful Emails</b>
 									</Card.Title>
@@ -258,7 +258,7 @@ function WelcomePage(props) {
 								<div className="img-container">
 									<Card.Img variant="top" src={schedule} />
 								</div>
-								<Card.Body>
+								<Card.Body classname="card-body">
 									<Card.Title>
 										<b>Interactive Schedule</b>
 									</Card.Title>
@@ -275,7 +275,7 @@ function WelcomePage(props) {
 								<div className="img-container">
 									<Card.Img variant="top" src={savedCourses} />
 								</div>
-								<Card.Body>
+								<Card.Body classname="card-body">
 									<Card.Title>
 										<b>Saved Courses</b>
 									</Card.Title>
