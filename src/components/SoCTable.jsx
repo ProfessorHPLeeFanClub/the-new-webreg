@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "../css/SoCTable.css";
+import "./SoCTable.scss";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
 

@@ -1,5 +1,5 @@
 import { Table } from "react-bootstrap";
-import "./css/majors.css";
+import "./majors.scss";
 
 function BioSciPOS() {
 	return (

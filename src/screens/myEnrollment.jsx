@@ -1,6 +1,6 @@
 import Schedule from "../components/Schedule";
 import MainTabs from "../components/MainTabs/MainTabs";
-import "../css/MyEnrollment.css";
+import "./MyEnrollment.scss";
 import PreEnrolledWarning from "../components/PreEnrolledWarning";
 import {
 	fetchCourseCodeData,
@@ -8,7 +8,7 @@ import {
 	combineParsedCourses,
 } from "../api/fetchData";
 import { useEffect, useState } from "react";
-import "../css/Overlay.css";
+import "../components/Overlay.scss";
 import { ErrorOverlay } from "../components/Overlay";
 import { Container } from "react-bootstrap";
 

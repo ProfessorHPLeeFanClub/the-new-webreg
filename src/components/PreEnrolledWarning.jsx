@@ -1,4 +1,4 @@
-import "../css/PreEnrolledWarning.css";
+import "./PreEnrolledWarning.scss";
 import { Link } from "react-router-dom";
 
 function PreEnrolledWarning(props) {

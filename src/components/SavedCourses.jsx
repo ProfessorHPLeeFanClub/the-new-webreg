@@ -5,7 +5,7 @@ import {
 	combineParsedCourses,
 	parseCourseData,
 } from "../api/fetchData";
-import "../css/SavedCourses.css";
+import "./SavedCourses.scss";
 
 function SavedCourses(props) {
 	// const [courseList, setCourseList] = useState([]);

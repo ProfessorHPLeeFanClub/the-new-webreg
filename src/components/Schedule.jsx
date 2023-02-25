@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import CustomCourseBox from "./CustomCourseBox";
-import "../css/Schedule.css";
+import "./Schedule.scss";
 
 function Schedule(props) {
 	// const [courseList, setCourseList] = useState([]);

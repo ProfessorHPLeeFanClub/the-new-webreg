@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 // Setup the localizer by providing the moment (or globalize, or Luxon) Object
 // to the correct localizer.
-import "../css/Calendar.css";
+import "./Calendar.scss";
 import Schedule from "./Schedule";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 

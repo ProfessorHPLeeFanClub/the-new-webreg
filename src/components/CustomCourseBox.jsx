@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Accordion, Table } from "react-bootstrap";
 
 // import "../css/CourseBox";
-import "../css/CourseBox.css";
+import "./CourseBox.scss";
 //import "../../public/js/CourseBox"
 
 const TABLE_COLS = [

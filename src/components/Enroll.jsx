@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 import { AsyncTypeahead, Typeahead } from "react-bootstrap-typeahead";
 import SoCTable from "./SoCTable";
 import "react-bootstrap-typeahead/css/Typeahead.css";
-import "../css/Enroll.css";
+import "./Enroll.scss";
 import { Col, FloatingLabel, Row } from "react-bootstrap";
 
 const GE_CHECKBOXES = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii"].map(

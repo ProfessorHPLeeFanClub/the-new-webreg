@@ -1,4 +1,4 @@
-import "../css/Overlay.css";
+import "./Overlay.scss";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
 

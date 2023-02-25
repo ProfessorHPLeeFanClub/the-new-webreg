@@ -1,0 +1,13 @@
+.errorAlert {
+	opacity: 95%;
+	position: absolute;
+
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 18px;
+
+	border: 5px;
+	background-color: rgb(255, 189, 189);
+	color: rgb(133, 0, 0);
+	border: 3px solid rgb(255, 156, 156);
+}

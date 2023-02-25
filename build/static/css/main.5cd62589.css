@@ -11236,7 +11236,7 @@ td {
 	border: 0;
 }
 .rbc-timeslot-group {
-	border-color: #80808080;
+	border-color: hsla(0, 0%, 50%, 0.502);
 	height: 25px;
 }
 .exportCalendarButton {
@@ -12007,4 +12007,4 @@ button.rbc-input::-moz-focus-inner {
 .card-row .card {
 	min-height: 400px;
 }
-/*# sourceMappingURL=main.bc43167e.css.map*/
+/*# sourceMappingURL=main.5cd62589.css.map*/
